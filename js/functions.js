@@ -30,10 +30,14 @@ function init() {
     var file = loadFile("resources/mii_questions.txt");
     file = file.split("\n")
     
+    var questionNumber;
+    var questionText;
     for (i = 0; i < file.length; ++i) {
         if (file[i][0] === '(')
-            alert(file[i]);
+            questionNumber = file[i][1];
+            questionText = file[i].substr(3);
     }
+    alert(questionNumber + "   " + questionText);
 
     var questionP = document.getElementById("question");
 }
