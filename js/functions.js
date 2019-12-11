@@ -72,6 +72,7 @@ function init() {
     for (i = 0; i < g_questions[0].answers.length; ++i) {
         button = document.createElement("button");
         button.innerText = g_questions[0].answers[i].text;
+        button.className = "answer_button";
         answer_buttons.appendChild(button);
     }
 }
