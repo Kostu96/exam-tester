@@ -6,12 +6,27 @@
 body {
     background-color: #303030;
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 28px;
 }
 
-#wrapper {
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #252525;
+    font-size: 36px;
+}
+
+main {
     width: 1000px;
     margin: 0px auto;
+    min-height: 83vh;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #252525;
+    font-size: 16px;
 }
 
 #question {
