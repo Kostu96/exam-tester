@@ -1,5 +1,5 @@
 (1)Multimedia to:
-X|wszystkie powyzsze
+X|wszystkie odpowiedzi są poprawne.
 modelowanie tekstu na tekst
 rozpoznawanie obrazów
 generowanie obrazu z opisu (grafika)
