@@ -66,5 +66,5 @@ function init() {
     }
 
     g_questions = shuffle(g_questions);
-    document.getElementById("question").innerText(g_questions[0].text);
+    document.getElementById("question").innerText = g_questions[0].text;
 }
