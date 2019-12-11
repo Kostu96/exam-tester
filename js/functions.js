@@ -80,7 +80,7 @@ function init() {
     var button;
     for (i = 0; i < g_questions[0].answers.length; ++i) {
 
-        button = document.createElement("button");
+        button = document.createElement("div");
         button.innerText = String.fromCharCode('A'.charCodeAt(0) + i) + ") " + g_questions[0].answers[i].text;
         button.className = "answer_button";
 
