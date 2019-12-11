@@ -34,7 +34,7 @@ function init() {
     var questionText;
     for (i = 0; i < file.length; ++i) {
         if (file[i][0] === '(')
-            questionNumber = file[i][1];
+            questionNumber = parseInt(file[i].substr(1, file[i].indexOf(')') - 1));
             questionText = file[i].substr(3);
     }
     alert(questionNumber + "   " + questionText);
