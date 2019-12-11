@@ -28,16 +28,16 @@ class Question {
 
 function init() {
     var file = loadFile("resources/mii_questions.txt");
-    file = file.split("\n")
+    file = file.split('(');
     
     var questionNumber;
     var questionText;
+    var questionAnswers = [];
     for (i = 0; i < file.length; ++i) {
-        if (file[i][0] === '(')
-            questionNumber = parseInt(file[i].substr(1, file[i].indexOf(')') - 1));
-            questionText = file[i].substr(3);
+        questionNumber = parseInt(file[i].substr(0, file[i].indexOf(')') - 1));
+        alert(file[i]);
+        file[i] = file[i].substr(file[i].indexOf('\n') + 1);
+        alert(file[i]);
     }
-    alert(questionNumber + "   " + questionText);
 
-    var questionP = document.getElementById("question");
 }
