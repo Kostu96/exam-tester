@@ -6,7 +6,7 @@
 body {
     background-color: #303030;
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #wrapper {
@@ -14,7 +14,12 @@ body {
     margin: 0px auto;
 }
 
+#question {
+    margin: 20px;
+}
+
 .answer_button {
     display: block;
-    background-color: yellow;
+    font-size: 20px;
+    margin: 10px 0;
 }
