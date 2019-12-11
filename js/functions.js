@@ -47,7 +47,11 @@ var questionIndex = 0;
 
 function loadQuestion(index) {
     document.getElementById("question").innerText = g_questions[index].number + ". " + g_questions[index].text;
+
     var answer_buttons = document.getElementById("answer_buttons");
+    while (answer_buttons.firstChild)
+        answer_buttons.removeChild(answer_buttons.firstChild);
+
     var button;
     for (i = 0; i < g_questions[index].answers.length; ++i) {
 
