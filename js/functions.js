@@ -67,7 +67,7 @@ function init() {
 
     g_questions = shuffle(g_questions);
     document.getElementById("question").innerText = g_questions[0].text;
-    var answer_buttons = getElementById("answer_buttons");
+    var answer_buttons = document.getElementById("answer_buttons");
     var button;
     for (i = 0; i < g_questions[0].answers.length; ++i) {
         button = document.createElement("button");
