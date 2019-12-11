@@ -43,13 +43,35 @@ class Question {
 }
 
 var g_questions = [];
+var questionIndex = 0;
+
+function loadQuestion(index) {
+    document.getElementById("question").innerText = g_questions[index].number + ". " + g_questions[index].text;
+    var answer_buttons = document.getElementById("answer_buttons");
+    var button;
+    for (i = 0; i < g_questions[index].answers.length; ++i) {
+
+        button = document.createElement("div");
+        button.innerText = String.fromCharCode('A'.charCodeAt(0) + i) + ") " + g_questions[index].answers[i].text;
+        button.className = "answer_button";
+
+        if (g_questions[index].answers[i].isCorrect)
+            button.onclick = goodAnswer;
+        else
+            button.onclick = badAnswer;
+
+        answer_buttons.appendChild(button);
+    }
+}
 
 function goodAnswer() {
     alert("Dobra odpowiedź!");
+    loadQuestion(++questionIndex);
 }
 
 function badAnswer() {
     alert("Niestety, Twoja odpowiedź nie jest prawidłowa...");
+    loadQuestion(++questionIndex);
 }
 
 function init() {
@@ -75,20 +97,5 @@ function init() {
     }
 
     g_questions = shuffle(g_questions);
-    document.getElementById("question").innerText = g_questions[0].number + ". " + g_questions[0].text;
-    var answer_buttons = document.getElementById("answer_buttons");
-    var button;
-    for (i = 0; i < g_questions[0].answers.length; ++i) {
-
-        button = document.createElement("div");
-        button.innerText = String.fromCharCode('A'.charCodeAt(0) + i) + ") " + g_questions[0].answers[i].text;
-        button.className = "answer_button";
-
-        if (g_questions[0].answers[i].isCorrect)
-            button.onclick = goodAnswer;
-        else
-            button.onclick = badAnswer;
-
-        answer_buttons.appendChild(button);
-    }
+    loadQuestion(0);   
 }
