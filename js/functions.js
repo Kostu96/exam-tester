@@ -43,6 +43,14 @@ class Question {
 
 var g_questions = [];
 
+function goodAnswer() {
+    alert("Dobra odpowiedź!");
+}
+
+function badAnswer() {
+    alert("Niestety, Twoja odpowiedź nie jest prawidłowa...");
+}
+
 function init() {
     var file = loadFile("resources/mii_questions.txt");
     file = file.split('\n');
@@ -66,13 +74,20 @@ function init() {
     }
 
     g_questions = shuffle(g_questions);
-    document.getElementById("question").innerText = g_questions[0].text;
+    document.getElementById("question").innerText = g_questions[0].number + ". " + g_questions[0].text;
     var answer_buttons = document.getElementById("answer_buttons");
     var button;
     for (i = 0; i < g_questions[0].answers.length; ++i) {
+
         button = document.createElement("button");
         button.innerText = g_questions[0].answers[i].text;
         button.className = "answer_button";
+        
+        if (g_questions[0].answers[i].isCorrect)
+            button.onclick = goodAnswer;
+        else
+            button.onclick = badAnswer;
+
         answer_buttons.appendChild(button);
     }
 }
