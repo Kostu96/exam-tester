@@ -4,64 +4,64 @@ rozpoznawanie obrazów
 generowanie obrazu z opisu (grafika)
 przetwarzanie obrazow
 X|wszystkie powyzsze
-(2)Który czynnik utrudnia cz³owiekowi s³yszenie przestrzenne:
+(2)Który czynnik utrudnia człowiekowi słyszenie przestrzenne:
 efekt doplera
 X|odbicie dŸwiêków
 para uszu
-t³umienie dŸwiêków docieraj¹cych z ty³u
+tłumienie dŸwiêków docieraj¹cych z tyłu
 (3)Mechanizm animacji w VRML
-X|nie ma wp³ywu na parametry odtwarzanego dŸwiêku
-korzysta wy³¹cznie z jednego interpolatora dla danego obiektu
+X|nie ma wpływu na parametry odtwarzanego dŸwiêku
+korzysta wył¹cznie z jednego interpolatora dla danego obiektu
 nie pozwala na wielokrotne wykorzystanie timerów
-samodzielnie interpoluje w³aœciwoœci animowanego obiektu we wszystkich klatkach poœrednich
+samodzielnie interpoluje właœciwoœci animowanego obiektu we wszystkich klatkach poœrednich
 (4)Spójnoœæ i u¿ywanie standardów nie oznacza, ¿e:
 X|system dostarcza skrótów
 u¿ytkownik mo¿e wykorzystaæ doœwiadczenie zdobyte przy u¿ywaniu innych programów
-poszczególne czêœci interfejsu programu wygl¹daj¹ i s¹ obs³ugiwane w podobny sposób jak inne programy
-poszczególne czêœci interfejsu wygl¹daj¹ i s¹ obs³ugiwane w podobny sposób
-(5)Wska¿ zdanie fa³szywe:
+poszczególne czêœci interfejsu programu wygl¹daj¹ i s¹ obsługiwane w podobny sposób jak inne programy
+poszczególne czêœci interfejsu wygl¹daj¹ i s¹ obsługiwane w podobny sposób
+(5)Wska¿ zdanie fałszywe:
 X|za widzenie koloru odpowiedzialne s¹ prêciki
 za widzenie nocne odpowiedzialne s¹ prêciki
 prêciki umo¿liwiaj¹ dobre wykrywanie krawêdzi
-wzrok cz³owieka jest bardziej wra¿liwy na jasnoœæ ni¿ na kolor
+wzrok człowieka jest bardziej wra¿liwy na jasnoœæ ni¿ na kolor
 (6)Histogram obrazu:
 pozwala na wykrywnanie krawêdzi w obrazie
 pozwala na odszumianie obrazu
 X|pozwala na redukcjê liczby barw wystêpuj¹cych w obrazie
-pe³ny H(RGB) dla wszystystkich kana³ów jest wykorzystywany w aparatach cyfrowych
+pełny H(RGB) dla wszystystkich kanałów jest wykorzystywany w aparatach cyfrowych
 (7)Prostota dialogu nie oznacza, ¿e:
 brak jest zbêdnych elementów na ekranie
 elementy multimedialne s¹ oszczêdnie wykorzystywane w szczególnoœci filmy
 X|interfejs zawiera tylko te elemeny które s¹ niezbêdne
 uwaga u¿ytkownika nie jest odci¹gana przez dodatkowe obrazki napisy itp.
-(8)Wska¿ zdanie fa³szywe: kompresja stratna ...
-X|zawsze obni¿a jakoœæ sygna³u
-mo¿e wykorzystywaæ informacjê o ograniczeniach percepcji cz³owieka
-mo¿e wykorzystywaæ w³aœciwoœci sygna³u
+(8)Wska¿ zdanie fałszywe: kompresja stratna ...
+X|zawsze obni¿a jakoœæ sygnału
+mo¿e wykorzystywaæ informacjê o ograniczeniach percepcji człowieka
+mo¿e wykorzystywaæ właœciwoœci sygnału
 mo¿e wykorzystywaæ kompresje bezstratn¹
-(9)Efektem dzia³ania filtru uœredniaj¹cego o masce poziomej o wymiarze 3x1 dla wiersza obrazu o jasnoœciach pikseli 1 2 3 4 0 4 3 2 1 mo¿e byæ nastêpuj¹cy wiersz
+(9)Efektem działania filtru uœredniaj¹cego o masce poziomej o wymiarze 3x1 dla wiersza obrazu o jasnoœciach pikseli 1 2 3 4 0 4 3 2 1 mo¿e byæ nastêpuj¹cy wiersz
 X|1 2 3 2 3 2 3 2 1
 1 2 3 2,33 2,67 2,33 3 2
 2 3 2 3 2 3 2
 2 2 2 2 2 2 2 2 2
-(10)Zapobieganie b³êdom oznacza, ¿e:
+(10)Zapobieganie błêdom oznacza, ¿e:
 brak jest zbêdnych elementów na ekranie
-interfejs jest prosty w obs³udze
-X|zamiast dostarczac komunikat o b³êdzie po wyjœciu poza dozwolony zakres czyni siê niedostêpnymi odpowiedni klawisz lub opcjê w menu
+interfejs jest prosty w obsłudze
+X|zamiast dostarczac komunikat o błêdzie po wyjœciu poza dozwolony zakres czyni siê niedostêpnymi odpowiedni klawisz lub opcjê w menu
 system dostarcza skrótów
 (11)Widoczny stan interfejsu oznacza, ¿e:
-zawsze mo¿na siê wycofaæ z b³êdnych dzia³añ
-komunikaty o b³êdach s¹ dobrze dobrane
+zawsze mo¿na siê wycofaæ z błêdnych działañ
+komunikaty o błêdach s¹ dobrze dobrane
 X|u¿ytkownik zna bie¿¹cy tryb interfejsu
 brak jest zbêdnych elementów na ekranie
-(12)Oblicz rozmiar kolorowej bitmapy w formacie TrueColor RGB powsta³ej w wyniku skanowania w rozdzielczoœci 300dpi obrazu o wymiarach 1 na 5 cali:
+(12)Oblicz rozmiar kolorowej bitmapy w formacie TrueColor RGB powstałej w wyniku skanowania w rozdzielczoœci 300dpi obrazu o wymiarach 1 na 5 cali:
 1 800 000
 4 500
 450 000
 X|1 350 000
 (13)U¿ywanie jêzyka u¿ytkownika oznacza, ¿e: 
 brak jest zbêdnych elementów na ekranie
-interfejs jest prosty w obs³udze
+interfejs jest prosty w obsłudze
 interfejs mo¿e u¿ywaæ ¿argonu z dziedziny z której pochodza zadania wykonywane przez uzytkownika
 X|komunikaty o bledach sa dobrze opisane
 (14)Które z podanych miar oceny sa obiektywne:
@@ -70,81 +70,81 @@ stosunek
 motywacja
 X|zachowanie niewerbalne
 (15)Jaka jest czêstotliwoœæ próbkowania muzyki jakoœci CD i z czego ona wynika?
-X|44100 Hz.Ponad 2 razy wiêksza od górnej granicy s³yszalnoœci cz³owieka.
-40000 Hz. 2 razy wiêksza od górnej granicy s³yszalnoœci cz³owieka.
+X|44100 Hz.Ponad 2 razy wiêksza od górnej granicy słyszalnoœci człowieka.
+40000 Hz. 2 razy wiêksza od górnej granicy słyszalnoœci człowieka.
 1,5 Mbit/s .Prêdkoœæ odtwarzania CD …
-8 kHZ.Ograniczenia pasma w kana³ach transmisji.
+8 kHZ.Ograniczenia pasma w kanałach transmisji.
 (16)W pozyskiwaniu wiedzy stategia:
-to uporz¹dkowanie czasowe dzia³añ
-X|okreœla krok po kroku jakie dzia³ania realizuj¹ dany cel
-odpowiada regu³om  wyboru metod GOMS
+to uporz¹dkowanie czasowe działañ
+X|okreœla krok po kroku jakie działania realizuj¹ dany cel
+odpowiada regułom  wyboru metod GOMS
 umo¿liwia okreœlenie czasu nauki interfejsu
 (17)W pozyskiwaniu wiedzy plan nie:
-okreœla krok po kroku, jakie dzia³ania realizuj¹ dany cel
+okreœla krok po kroku, jakie działania realizuj¹ dany cel
 to uporz¹dkowanie czasowe czynnoœci
-poznaje siê szukaj¹c w wywiadach i protoko³ach sformu³owañ typu "teraz przystêpujê do…"
+poznaje siê szukaj¹c w wywiadach i protokołach sformułowañ typu "teraz przystêpujê do…"
 X|umo¿liwia wyznaczenie najkrótszego czasu realizacji zadania
 (18)W wyniku wykonania algorytmu RLE(run length encoding) dla ci¹gu 1111222334 nie mo¿na uzyskaæ nastêpuj¹cego kodu:
 1(4) 2(3) 3(2) 4
 X|11 11 11 11 10 10 10 01 01 00
 1(4) 2(3) 3(2) 4(1)
 1(4) 2(3) 3 3 4
-(19)Efektem dzia³ania filtru wartoœci œrodkowej (medianowego) o masce poziomej w wymiarze 3 x 1 dla wiersza obrazu o jasnoœciach pixeli 1 2 3 4 0 4 3 2 1 mo¿e byæ nastêpuj¹cy wiersz : 
+(19)Efektem działania filtru wartoœci œrodkowej (medianowego) o masce poziomej w wymiarze 3 x 1 dla wiersza obrazu o jasnoœciach pixeli 1 2 3 4 0 4 3 2 1 mo¿e byæ nastêpuj¹cy wiersz : 
 2 2 2 2 2 2 2 2 2
 2 3 2 3 2 3 2 3 2
 3 3 3 3 3 3 3 3 3
 X|1 2 3 3 4 3 3 2 1
 (20)W ocenie heurystycznej widoczny stan interfejsu nie oznacza,¿e : 
-X|zawsze mo¿na siê wycofaæ z b³êdnych dzia³añ
+X|zawsze mo¿na siê wycofaæ z błêdnych działañ
 u¿ytkownik zawsze wie ,w którym miejscu siê znajduje
-u¿ytkownik zna bie¿¹ce wartoœci parametrów interfejsu np. podkreœlenie/wyt³uszczenie w edytorze tekstu
+u¿ytkownik zna bie¿¹ce wartoœci parametrów interfejsu np. podkreœlenie/wytłuszczenie w edytorze tekstu
 u¿ytkownik zna bie¿¹cy tryb interfejsu
 (21)W ocenie heurystycznej minimalizowanie obci¹¿ania pamiêci oznacza,¿e :
 system dostarcza skrótów
-interfejs jest prosty w obs³udze
+interfejs jest prosty w obsłudze
 X|u¿ytkownik nie musi pamiêtaæ nazw poleceñ
-komunikaty o b³êdach s¹ dobrze opisane
-(22)Oblicz rozmiar kolorowej bitmapy (w formacie TrueColorRGB) powsta³ej w wyniku skanowania o rozdzielczoœci 200 dpi obrazu o wymiarach 3 na 5 cale(i).
+komunikaty o błêdach s¹ dobrze opisane
+(22)Oblicz rozmiar kolorowej bitmapy (w formacie TrueColorRGB) powstałej w wyniku skanowania o rozdzielczoœci 200 dpi obrazu o wymiarach 3 na 5 cale(i).
 X|1 800 000
 2 400 000
 9 000
 600 000
-(23)Wska¿ zdanie fa³szywe. Format MIDI:
+(23)Wska¿ zdanie fałszywe. Format MIDI:
 X|umo¿liwia dobr¹ kompresjê muzyki instrumentalnej
-s³u¿y do zapisu muzyki, która zawsze brzmi identycznie niezale¿nie od komputera
+słu¿y do zapisu muzyki, która zawsze brzmi identycznie niezale¿nie od komputera
 jest standardem komunikacji cfrowych urz¹dzeñ muzycznych
 mo¿na traktowaæ jako odmianê zapisu nutowego
-(24)Wska¿ zdanie fa³szywe:
+(24)Wska¿ zdanie fałszywe:
 prêciki umo¿liwiaj¹ dobre wykrywanie krawêdzi
 X|za widzenie koloru odpowiedzialne s¹ prêciki
 za widzenie nocne odpowiedzialne s¹ prêciki
 za widzenie koloru odpowiedzialne s¹ czopki
-(25)W ocenie heurystycznej dobre diagnozowanie b³êdów oznacza,¿e:
-komunikaty o b³êdzie pisane s¹ inn¹ czcionk¹ i s¹ innej barwy ni¿ pozosta³e komunikaty
-X|komunikat o b³êdzie umo¿liwia usuniêcie przyczyny b³êdu
-komunikat o b³êdzie obejmuje zawartoœæ rejestrów procesora
-komunikat o b³êdzie wyœwietlany jest na œrodku ekranu
+(25)W ocenie heurystycznej dobre diagnozowanie błêdów oznacza,¿e:
+komunikaty o błêdzie pisane s¹ inn¹ czcionk¹ i s¹ innej barwy ni¿ pozostałe komunikaty
+X|komunikat o błêdzie umo¿liwia usuniêcie przyczyny błêdu
+komunikat o błêdzie obejmuje zawartoœæ rejestrów procesora
+komunikat o błêdzie wyœwietlany jest na œrodku ekranu
 (26)Celami kompresji MPEG 1 i 2 nie s¹:
 szybkie przeszukiwanie w przód i wstecz
-X|ma³e opóŸnienia kodowania i dekodowania
+X|małe opóŸnienia kodowania i dekodowania
 elastycznoœæ formatu obrazu
-skuteczna korekcja b³êdów
+skuteczna korekcja błêdów
 (27)W ocenie heurystycznej elastycznoœæ i wydajnoœæ nie oznacza,¿e:
-niektóre dzia³ania interfejsu u¿ytkownik mo¿e wywo³aæ w mniejszej liczbie kroków(klikniêæ,uderzeñ w klawiaturê)
-zaawansowanym u¿ytkownikom umo¿liwia siê szybsz¹ obs³ugê interfejsu
+niektóre działania interfejsu u¿ytkownik mo¿e wywołaæ w mniejszej liczbie kroków(klikniêæ,uderzeñ w klawiaturê)
+zaawansowanym u¿ytkownikom umo¿liwia siê szybsz¹ obsługê interfejsu
 system dostarcza skrótów
-X|interfejs jest prosty w obs³udze
-(28)Wska¿ zdanie fa³szywe.P³yty DVD...
-X|s¹ trwalsze od analogicznych ( t³oczonych lub nagrywanych ) p³yt CD
-zawieraj¹ informacjê zapisan¹ w postaci zag³êbieñ i p³askich powierzchni
-musz¹ byæ odczytywane laserem o krótszej d³ugoœci fali ni¿ p³yty CD
+X|interfejs jest prosty w obsłudze
+(28)Wska¿ zdanie fałszywe.Płyty DVD...
+X|s¹ trwalsze od analogicznych ( tłoczonych lub nagrywanych ) płyt CD
+zawieraj¹ informacjê zapisan¹ w postaci zagłêbieñ i płaskich powierzchni
+musz¹ byæ odczytywane laserem o krótszej długoœci fali ni¿ płyty CD
 mog¹ wystêpowaæ w wersji jedno- lub dwuwarstwowej
-(29)Wska¿ zdanie fa³szywe. Czêstotliwoœæ próbkowania DVDaudio...
-jest stosowana aby zmniejszyæ sk³adowe harmoniczne
+(29)Wska¿ zdanie fałszywe. Czêstotliwoœæ próbkowania DVDaudio...
+jest stosowana aby zmniejszyæ składowe harmoniczne
 jest stosowana aby uzyskaæ dŸwiêk o wierniejszym brzmieniu
-mo¿e nie wp³ywaæ na odbiór muzyki przez melomanów o gorszym s³uchu (w porównaniu z Cdaudio)
+mo¿e nie wpływaæ na odbiór muzyki przez melomanów o gorszym słuchu (w porównaniu z Cdaudio)
 X|wynosi 48 lub 96 kHz
-(30)Je¿eli trzy barwy tworz¹ uk³ad niezale¿nych liniowo barw to s¹ to:
+(30)Je¿eli trzy barwy tworz¹ układ niezale¿nych liniowo barw to s¹ to:
 barwy achromatyczne
 X|barwy podstawowe
 barwy proste
@@ -180,23 +180,23 @@ X|rzutnik
 (37)W model CMY(K) kolor K jest potrzebny ze wzglêdu na:
 problem w odzwierciedlaniu czarnego
 X|oszczêdnoœæ
-model nie móg³by istnieæ bez niego
-(38)Fala akustyczna(wska¿ nieprawid³ow¹ odpowiedŸ):
-w cieczach mo¿e byæ fal¹ pod³u¿n¹
-w gazach mo¿e byæ fal¹ pod³u¿n¹
-w cia³ach sta³ych mo¿e byæ fal¹ pod³u¿n¹
+model nie mógłby istnieæ bez niego
+(38)Fala akustyczna(wska¿ nieprawidłow¹ odpowiedŸ):
+w cieczach mo¿e byæ fal¹ podłu¿n¹
+w gazach mo¿e byæ fal¹ podłu¿n¹
+w ciałach stałych mo¿e byæ fal¹ podłu¿n¹
 X|w cieczach mo¿e byæ fal¹ poprzeczn¹
-w cia³ach sta³ych mo¿e byæ fal¹ poprzeczn¹
+w ciałach stałych mo¿e byæ fal¹ poprzeczn¹
 (39)Co pasuje do szumu:
-X|dŸwiêk o ci¹g³ym widmie
+X|dŸwiêk o ci¹głym widmie
 nieskorelowane czêstotliwoœci
 wieloton harmoniczny
 harmoniczne drganie o jednej czêstotliwoœci
-(40)Wybierz prawid³owe:
+(40)Wybierz prawidłowe:
 X|prêcików jest wiêcej ni¿ czopków
 czopków jest wiêcej ni¿ prêcików
 liczba prêcików jest równa ilosci czopków
-(41)Jaka liczba klatek na sekundê wystarcza, ¿eby uznaæ, ¿e jest p³ynny
+(41)Jaka liczba klatek na sekundê wystarcza, ¿eby uznaæ, ¿e jest płynny
 100fps
 60fps
 30fps
@@ -212,36 +212,36 @@ zgodnoœæ z powszechnie przyjêtymi zasadami
 X|ta sama czynnoœæ mo¿na wykonaæ na wiele ro¿nych sposobów w ro¿nych miejscach inaterfejsu
 interfejs programu jest jasny i szybki do opanowania
 minimalizowanie obci¹¿enia pamiêci u¿ytkownika 
-(44)Granice slyszalnosci cz³owieka
+(44)Granice slyszalnosci człowieka
 15Hz-20kHz
 X|20Hz-20kHz
 10Hz-20kHz
 20kHz-20Hz
 (45)ITD to:
-inteligentny system rozpoznawania mowy dla niepe³nosprawnych 
+inteligentny system rozpoznawania mowy dla niepełnosprawnych 
 ró¿nica intensywnoœci dŸwiêku odbierana miedzy uszami
 X|ró¿nica czasu w jakim dociera dŸwiêk 
 czas w jakim dŸwiêk odbierany jest przez mózg 
 (46)IID to:
-inteligentny system rozpoznawania mowy dla niepe³nosprawnych 
+inteligentny system rozpoznawania mowy dla niepełnosprawnych 
 X|ró¿nica intensywnoœci dŸwiêku odbierana miedzy uszami
 ró¿nica czasu w jakim dociera dŸwiêk 
 czas w jakim dŸwiêk odbierany jest przez mózg 
 (47)HRTF to:
 system sterowania komputerem falami mozgowymi
 ró¿nica czasu w jakim dociera dzwiek
-X|efekt tlumienia/wzmacniania dŸwiêku przez malzowine uszna i g³owê 
+X|efekt tlumienia/wzmacniania dŸwiêku przez malzowine uszna i głowê 
 stosunek ciœnienia akustycznego do natê¿enia dŸwiêku
 (48)Formy pomocy jakie nale¿y zapewniæ w programie, to:
-obszerna dokumentacja do³¹czana w formie elektronicznej, b¹dŸ drukowanej
+obszerna dokumentacja doł¹czana w formie elektronicznej, b¹dŸ drukowanej
 X|podpowiedzi, jako wyœwietlane dymki po najechaniu na przycisk
 samouczek
 oficjalne forum internetowe
 (49)W metodzie heurystycznej oceny interfejsu:
 u¿ytkownik wykonuje pojedyncze, nieznane mu zadanie w programie
-u¿ytkownik stara siê opisaæ b³êdy, które wyst¹pi³y w czasie u¿ytkowania programu
-X|grupa specjalistów ocenia takie elementy jak zapobieganie b³êdów, prostota dialogu, szybkoœæ uczenia siê, widoczny stan systemu, u¿ywanie jêzyka u¿ytkownika 
-wszystkie powy¿sze odpowiedzi s¹ b³êdne 
+u¿ytkownik stara siê opisaæ błêdy, które wyst¹piły w czasie u¿ytkowania programu
+X|grupa specjalistów ocenia takie elementy jak zapobieganie błêdów, prostota dialogu, szybkoœæ uczenia siê, widoczny stan systemu, u¿ywanie jêzyka u¿ytkownika 
+wszystkie powy¿sze odpowiedzi s¹ błêdne 
 (50)Który model barw nie jest ukierunkowany na sprzêt:
 RGB
 CMYK
@@ -250,7 +250,7 @@ RGBA
 (51)Wada metody projektowania interfejsu WIMP jest:
 wystêpowanie tylko w wersji tekstowej
 X|zawodzenie w przypadku u¿ytkowników z wada wzroku
-zawodzenie w przypadku u¿ytkowników z wada s³uchu
+zawodzenie w przypadku u¿ytkowników z wada słuchu
 nie otwarta licencja nale¿¹ca do amerykañskiej firmy produkuj¹cej okna
 (52)Opisowymi metodami oceny interfejsu nie jest:
 UAN
@@ -258,30 +258,30 @@ drzewo menu
 direct manipulation sketch
 X|GOMS
 (53)Do czego nie wykorzystuje siê histogramu?
-poprawa kontrastu (sp³aszczenie histogramu)
+poprawa kontrastu (spłaszczenie histogramu)
 progowanie obrazów
 porównywanie obrazów
 X|odszumianie obrazów
 (54)Jakie s¹ wady metod roznicowych stratnej kompresji dŸwiêku: 
-X|nawarstwianie siê b³êdów 
+X|nawarstwianie siê błêdów 
 nie nad¹¿aj¹ za zmianami wartoœci bitowych
 wystêpuje efekt echa
-wszystkie odpowiedzi s¹ prawid³owe 
+wszystkie odpowiedzi s¹ prawidłowe 
 (55)Domowy odtwarzacz wideo nie potrzebuje:
 elastycznego formatu obrazu 
 skutecznej korekcji dŸwiêków 
 zsynchronizowanego odtwarzania obrazu i dŸwiêku 
 X|kompresji w czasie rzeczywistym
 (56)Nowoœci¹ w MPEG-2 w stosunku do poprzednika jest
-obs³uga trybu z przeplotem
+obsługa trybu z przeplotem
 wykorzystywanie dwóch, oddzielnych wektorow ruchu dla makroblokow
-X|wszystkie powy¿sze odpowiedzi s¹ prawid³owe
-obs³uga rozdzielczoœci full hd
+X|wszystkie powy¿sze odpowiedzi s¹ prawidłowe
+obsługa rozdzielczoœci full hd
 (57)Do artystycznego przetwarzania obrazu nie zaliczamy
 retuszu
 redukcji efektu czerwonych oczu
 zmiany parametrów obrazka
-X|wszystkie powy¿sze odpowiedzi s¹ b³êdne 
+X|wszystkie powy¿sze odpowiedzi s¹ błêdne 
 (58)Metod¹ zabezpieczenia obrazu nie jest
 X|zapisanie sygnatury autora na najbardziej znacz¹cych bitach wybranych pikseli
 umieszczenie elementów o bardzo du¿ej rozdzielczoœci optycznej
@@ -297,13 +297,13 @@ OMR
 MVC
 X|OCR
 ORM
-(61)Jakiej platformy nigdy nie obs³ugiwa³ Unreal Engine 3
+(61)Jakiej platformy nigdy nie obsługiwał Unreal Engine 3
 Linux 
 Android
 X|Windows (directx 8)
 Stage3D (Flash Player 11)
 (62)SCUMM to:
-jêzyk skryptowy u¿ywany do obs³ugi zdarzeñ w UDK
+jêzyk skryptowy u¿ywany do obsługi zdarzeñ w UDK
 X|jêzyk skryptowy wspomagaj¹cy programowanie gier typu point&click
 heurystyczna ocena interfejsu gry komputerowej
 biblioteka wspomagaj¹ce programowanie gier komputerowych przeznaczona na systemy unix
@@ -315,50 +315,50 @@ zmuszanie u¿ytkownika do aktualizacji oprogramowania
 (64)Za co odpowiadaj¹ w postrzeganiu preciki oczne
 X|za postrzeganie jasnoœci
 za postrzeganie barwy
-za stabilizacjê obrazu (z³udzenia optyczne powodowane s¹ przez b³êdne ich dzia³anie)
+za stabilizacjê obrazu (złudzenia optyczne powodowane s¹ przez błêdne ich działanie)
 a+c
 (65)Za co odpowiadaj¹ w postrzeganiu czopki oczne
 za postrzeganie jasnoœci
 X|za postrzeganie barwy
-za stabilizacjê obrazu (z³udzenia optyczne powodowane s¹ przez b³êdne ich dzia³anie)
+za stabilizacjê obrazu (złudzenia optyczne powodowane s¹ przez błêdne ich działanie)
 b+c
 (66)Ktore zdania s¹ prawdziwe? W postrzeganiu czopki oczne odpowiadaj¹ za:
 postrzeganie barwy
-postrzeganie kszta³tów 
+postrzeganie kształtów 
 widzenie dzienne
 X|a+c
 (67)Ktore zdania s¹ prawdziwe? W postrzeganiu preciki oczne odpowiadaj¹ za:
 postrzeganie jasnoœci 
-postrzeganie kszta³tów 
+postrzeganie kształtów 
 widzenie nocne
 X|wszystkie powy¿sze zdania s¹ prawdziwe
 (68)Mowiac o VRML prawda jest, ¿e
 jest standardem zintegrowanym z HTML
-s³u¿y tylko do zapisywania modelow 2D
+słu¿y tylko do zapisywania modelow 2D
 X|wspiera lightmapy
 obecnie kontynuowany jest pod nazwa WebGL
-(69)Czym nie s¹ spowodowane z³udzenia optyczne
+(69)Czym nie s¹ spowodowane złudzenia optyczne
 ograniczeniami w budowie oczu
 X|wertykalnym rozpoznawaniem obrazów 
 wyobraŸni¹
 przyzwyczajeniami
-(70)OGRE i JMonkey s¹ przyk³adami
+(70)OGRE i JMonkey s¹ przykładami
 interfejsami graficznymi systemów unix
 programami pozwalaj¹cymi oceniæ interfejs
-przyk³adami jêzyków modelowania rzeczywistoœci wirtualnej
+przykładami jêzyków modelowania rzeczywistoœci wirtualnej
 X|game engines
 (71)VRML to:
 X|jêzyk postrzegania rzeczywistoœci wirtualnej
-standard opisuj¹cy bry³y trójwymiarowe w formacie xml
+standard opisuj¹cy bryły trójwymiarowe w formacie xml
 jêzyk modelowania rzeczywistoœci wirtualnej
-standard opisuj¹cy bry³y trójwymiarowe w formacie yaml
+standard opisuj¹cy bryły trójwymiarowe w formacie yaml
 (72)Do metod opisowych interfejsu mo¿emy zaliczyæ
 GOMS
 TAG
 RTD
 X|UAN
 (73)W dobrze zaprojektowanym interfejsie:
-strona do wydruku nie powinna zawieraæ adresu strony, z której powsta³a
+strona do wydruku nie powinna zawieraæ adresu strony, z której powstała
 X|w stronach internetowych powinna byæ oddzielona forma od treœci
 u¿ytkowanie niestandardowych czcionek jest dowzwolone
 na stronach www grafika powinna byæ wyswietlana w oryginalnych rozmiarach

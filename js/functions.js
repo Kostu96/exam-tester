@@ -6,15 +6,14 @@ function loadFile(filePath) {
 
     if (xmlhttp.status == 200) {
         result = xmlhttp.responseText;
-        alert(result);
     }
-    else alert("error");
 
     return result;
 }
 
 function init() {
     var file = loadFile("resources/mii_questions.txt");
+    file = file.split("\n")
     alert(file);
 
     var questionP = document.getElementById("question");
