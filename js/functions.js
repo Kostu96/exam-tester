@@ -80,9 +80,9 @@ function init() {
     for (i = 0; i < g_questions[0].answers.length; ++i) {
 
         button = document.createElement("button");
-        button.innerText = g_questions[0].answers[i].text;
+        button.innerText = toString('a'.charCodeAt(0) + i) + g_questions[0].answers[i].text;
         button.className = "answer_button";
-        
+
         if (g_questions[0].answers[i].isCorrect)
             button.onclick = goodAnswer;
         else
