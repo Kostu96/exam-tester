@@ -110,7 +110,7 @@ function badAnswer() {
     g_questions[g_questionIndex].correntAttempts = 0;
     updateStatistics();
 
-    var wchichWasGood;
+    var wchichWasGood = 0;
     for (i = 0; i < g_questions[g_questionIndex].answers.length; ++i)
         if (g_questions[g_questionIndex].answers[i].isCorrect)
             wchichWasGood = i;
