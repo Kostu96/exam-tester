@@ -89,19 +89,24 @@ function init() {
     var numberOfQuestions, numberOfAnswers, questionText, questionAnswers = [];
     numberOfQuestions = parseInt(file[0]);
     file.shift();
+    alert(file[0]);
     for (i = 0; i < numberOfQuestions; ++i) {
         questionText = file[0].substr(file[i].indexOf(')') + 1);
         file.shift();
+        alert(file[0]);
         numberOfAnswers = parseInt(file[0]);
         file.shift();
+        alert(file[0]);
 
         for (j = 0; j < numberOfAnswers; ++j) {
             questionAnswers.push(new Answer(file[0]));
             file.shift();
+            alert(file[0]);
         }
 
         questionAnswers[parseInt(file[0]) + 1].makeCorrect();
         file.shift();
+        alert(file[0]);
 
         g_questions.push(new Question(i + 1, questionText, questionAnswers));
         questionAnswers = [];
