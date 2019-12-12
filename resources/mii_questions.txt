@@ -72,7 +72,7 @@ system dostarcza skrótów
 3
 (11)Widoczny stan interfejsu oznacza, że: 
 4
-zawsze można się wycofać z błędnych działañ
+zawsze można się wycofać z błędnych działań
 komunikaty o błędach są dobrze dobrane
 użytkownik zna bieżący tryb interfejsu
 brak jest zbędnych elementów na ekranie
@@ -107,7 +107,7 @@ zachowanie niewerbalne
 1
 (16)W pozyskiwaniu wiedzy stategia:
 4
-to uporządkowanie czasowe działañ
+to uporządkowanie czasowe działań
 określa krok po kroku jakie działania realizują dany cel
 odpowiada regułom  wyboru metod GOMS
 umożliwia określenie czasu nauki interfejsu
@@ -116,7 +116,7 @@ umożliwia określenie czasu nauki interfejsu
 4
 określa krok po kroku, jakie działania realizują dany cel
 to uporządkowanie czasowe czynności
-poznaje się szukając w wywiadach i protokołach sformułowañ typu "teraz przystępuję do..."
+poznaje się szukając w wywiadach i protokołach sformułowań typu "teraz przystępuję do..."
 umożliwia wyznaczenie najkrótszego czasu realizacji zadania
 4
 (18)W wyniku wykonania algorytmu RLE(run length encoding) dla ciągu 1111222334 nie można uzyskać następującego kodu: 
@@ -135,7 +135,7 @@ umożliwia wyznaczenie najkrótszego czasu realizacji zadania
 4
 (20)W ocenie heurystycznej widoczny stan interfejsu nie oznacza,że : 
 4
-zawsze można się wycofać z błędnych działañ
+zawsze można się wycofać z błędnych działań
 użytkownik zawsze wie ,w którym miejscu się znajduje
 użytkownik zna bieżące wartości parametrów interfejsu np. podkreślenie/wytłuszczenie w edytorze tekstu
 użytkownik zna bieżący tryb interfejsu
@@ -144,7 +144,7 @@ użytkownik zna bieżący tryb interfejsu
 4
 system dostarcza skrótów
 interfejs jest prosty w obsłudze
-użytkownik nie musi pamiętać nazw poleceñ
+użytkownik nie musi pamiętać nazw poleceń
 komunikaty o błędach są dobrze opisane
 3
 (22)Oblicz rozmiar kolorowej bitmapy (w formacie TrueColorRGB) powstałej w wyniku skanowania o rozdzielczości 200 dpi obrazu o wymiarach 3 na 5 cale(i). 
@@ -158,7 +158,7 @@ komunikaty o błędach są dobrze opisane
 4
 umożliwia dobrą kompresję muzyki instrumentalnej
 służy do zapisu muzyki, która zawsze brzmi identycznie niezależnie od komputera
-jest standardem komunikacji cfrowych urządzeñ muzycznych
+jest standardem komunikacji cfrowych urządzeń muzycznych
 można traktować jako odmianę zapisu nutowego
 2
 (24)Wskaż zdanie fałszywe: 
@@ -184,7 +184,7 @@ skuteczna korekcja błędów
 4
 (27)W ocenie heurystycznej elastyczność i wydajność nie oznacza,że: 
 4
-niektóre działania interfejsu użytkownik może wywołać w mniejszej liczbie kroków(kliknięć,uderzeñ w klawiaturę)
+niektóre działania interfejsu użytkownik może wywołać w mniejszej liczbie kroków(kliknięć,uderzeń w klawiaturę)
 zaawansowanym użytkownikom umożliwia się szybszą obsługę interfejsu
 system dostarcza skrótów
 interfejs jest prosty w obsłudze
@@ -192,7 +192,7 @@ interfejs jest prosty w obsłudze
 (28)Wskaż zdanie fałszywe.Płyty DVD... 
 4
 są trwalsze od analogicznych ( tłoczonych lub nagrywanych ) płyt CD
-zawierają informację zapisaną w postaci zagłębieñ i płaskich powierzchni
+zawierają informację zapisaną w postaci zagłębień i płaskich powierzchni
 muszą być odczytywane laserem o krótszej długości fali niż płyty CD
 mogą występować w wersji jedno- lub dwuwarstwowej
 1
@@ -353,7 +353,7 @@ RGBA
 występowanie tylko w wersji tekstowej
 zawodzenie w przypadku użytkowników z wada wzroku
 zawodzenie w przypadku użytkowników z wada słuchu
-nie otwarta licencja należąca do amerykañskiej firmy produkującej okna
+nie otwarta licencja należąca do amerykańskiej firmy produkującej okna
 2
 (52)Opisowymi metodami oceny interfejsu nie jest: 
 4
@@ -427,7 +427,7 @@ Stage3D (Flash Player 11)
 3
 (62)SCUMM to: 
 4
-język skryptowy używany do obsługi zdarzeñ w UDK
+język skryptowy używany do obsługi zdarzeń w UDK
 język skryptowy wspomagający programowanie gier typu point&click
 heurystyczna ocena interfejsu gry komputerowej
 biblioteka wspomagające programowanie gier komputerowych przeznaczona na systemy unix
@@ -535,7 +535,7 @@ format OGG pozwala zapisac wiecej niż 2 kanały
 format OGG ma lepsza jakość niż mp3 przy porownywalnej wielkości
 format MP3 pozwala na zapisanie dodatkowych informacji (ID Tags)
 1
-(78)Którego z założeñ nie spełnia VRML:
+(78)Którego z założeń nie spełnia VRML:
 4
 łączenie z innymi światami 3D 
 rozbudowa w oparciu o XML 

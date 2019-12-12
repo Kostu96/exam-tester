@@ -47,7 +47,7 @@ class Question {
 }
 
 var g_questions = [];
-var questionIndex = 0;
+var g_questionIndex = 0;
 
 function loadQuestion(index) {
     document.getElementById("question").innerText = g_questions[index].number + ". " + g_questions[index].text;
@@ -57,6 +57,7 @@ function loadQuestion(index) {
         answer_buttons.removeChild(answer_buttons.firstChild);
 
     var button;
+    g_questions[index].answers = shuffle(g_questions[index].answers);
     for (i = 0; i < g_questions[index].answers.length; ++i) {
 
         button = document.createElement("div");
@@ -72,14 +73,23 @@ function loadQuestion(index) {
     }
 }
 
+function nextQuestion() {
+    ++g_questionIndex;
+    if (g_questionIndex >= g_questions.length) {
+        g_questionIndex = 0;
+        g_questions = shuffle(g_questions);
+    }
+    loadQuestion(g_questionIndex);
+}
+
 function goodAnswer() {
     alert("Dobra odpowiedź!");
-    loadQuestion(++questionIndex);
+    nextQuestion();
 }
 
 function badAnswer() {
     alert("Niestety, Twoja odpowiedź nie jest prawidłowa...");
-    loadQuestion(++questionIndex);
+    nextQuestion();
 }
 
 function init() {
