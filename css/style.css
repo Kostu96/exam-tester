@@ -16,8 +16,22 @@ header {
     font-size: 36px;
 }
 
+aside {
+    padding: 20px;
+    float: left;
+    font-size: 24px;
+}
+
+aside::after {
+    clear: both;
+}
+
+aside p {
+    margin: 10px 0 20px 0;
+}
+
 main {
-    width: 1000px;
+    width: 900px;
     margin: 0px auto;
     min-height: 83vh;
 }
@@ -26,7 +40,7 @@ footer {
     text-align: center;
     padding: 5px;
     background-color: #252525;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #question {

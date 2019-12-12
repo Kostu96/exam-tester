@@ -189,7 +189,7 @@ zaawansowanym użytkownikom umożliwia się szybszą obsługę interfejsu
 system dostarcza skrótów
 interfejs jest prosty w obsłudze
 4
-(28)Wskaż zdanie fałszywe.Płyty DVD... 
+(28)Wskaż zdanie fałszywe. Płyty DVD... 
 4
 są trwalsze od analogicznych ( tłoczonych lub nagrywanych ) płyt CD
 zawierają informację zapisaną w postaci zagłębień i płaskich powierzchni
@@ -432,7 +432,7 @@ język skryptowy wspomagający programowanie gier typu point&click
 heurystyczna ocena interfejsu gry komputerowej
 biblioteka wspomagające programowanie gier komputerowych przeznaczona na systemy unix
 2
-(63)Rola interfejsu jest: 
+(63)Rolą interfejsu jest:
 4
 żadna z poniższych odpowiedzi nie jest prawidlowa
 demonstracja najnowszych technologii i talentu graficznego autora

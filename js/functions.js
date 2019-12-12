@@ -48,6 +48,8 @@ class Question {
 
 var g_questions = [];
 var g_questionIndex = 0;
+var g_answers = 0;
+var g_goodAnswers = 0;
 
 function loadQuestion(index) {
     document.getElementById("question").innerText = g_questions[index].number + ". " + g_questions[index].text;
@@ -73,6 +75,12 @@ function loadQuestion(index) {
     }
 }
 
+function updateStatistics() {
+    document.getElementById("answers_count").innerText = g_answers;
+    document.getElementById("good_answers_count").innerText = g_goodAnswers;
+    document.getElementById("percent").innerText = g_goodAnswers / g_answers;
+}
+
 function nextQuestion() {
     ++g_questionIndex;
     if (g_questionIndex >= g_questions.length) {
@@ -83,11 +91,16 @@ function nextQuestion() {
 }
 
 function goodAnswer() {
+    ++g_goodAnswers;
+    ++g_answers;
+    updateStatistics();
     alert("Dobra odpowiedź!");
     nextQuestion();
 }
 
 function badAnswer() {
+    ++g_answers;
+    updateStatistics();
     alert("Niestety, Twoja odpowiedź nie jest prawidłowa...");
     nextQuestion();
 }
