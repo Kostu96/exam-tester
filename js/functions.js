@@ -90,7 +90,7 @@ function init() {
     numberOfQuestions = parseInt(file[0]);
     file.shift();
     for (i = 0; i < numberOfQuestions; ++i) {
-        questionText = file[0].substr(file[i].indexOf(')') + 1);
+        questionText = file[0].substr(file[0].indexOf(')') + 1);
         file.shift();
         numberOfAnswers = parseInt(file[0]);
         file.shift();
