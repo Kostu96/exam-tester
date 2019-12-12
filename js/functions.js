@@ -100,9 +100,7 @@ function init() {
             file.shift();
         }
 
-        alert(file[0]);
         var num = parseInt(file[0]);
-        alert(num);
         questionAnswers[num - 1].makeCorrect();
         file.shift();
 

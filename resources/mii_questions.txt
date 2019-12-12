@@ -209,7 +209,6 @@ barwy achromatyczne
 barwy podstawowe
 barwy proste
 2
-
 (31)Barwa prosta to nie barwa: 
 4
 monochromatyczna
@@ -217,7 +216,6 @@ widmowa
 spektralna
 achromatyczna
 4
-
 (32)Addytywne mieszanie kolor?w nie jest wykorzystywane przez: 
 4
 monitory CRT
@@ -225,7 +223,6 @@ monitory TV
 rzutniki
 plotery
 4
-
 (33)Substraktywne uzyskiwanie kolor?w jest wykorzystywane przez: 
 4
 monitory CRT
@@ -233,7 +230,6 @@ rzutniki
 monitory TV
 drukarki
 4
-
 (34)Model CMY(K) jest wykorzystywany przez: 
 4
 monitory CRT
@@ -241,7 +237,6 @@ rzutniki
 skanery
 maszyny offsetowe
 4
-
 (35)Modelu RGB nie wykorzystuje: 
 4
 aparat fotograficzny
@@ -249,21 +244,18 @@ monitor
 rzutnik
 skaner
 4
-
 (36)Modelu CMY(K) nie wykorzystuje: 
 3
 drukarka
 ploter
 rzutnik
 3
-
 (37)W model CMY(K) kolor K jest potrzebny ze wzgl?du na: 
 3
 problem w odzwierciedlaniu czarnego
 oszcz?dno??
 model nie m?g?by istnie? bez niego
 2
-
 (38)Fala akustyczna(wska? nieprawid?ow? odpowied?): 
 5
 w cieczach mo?e by? fal? pod?u?n?
@@ -272,7 +264,6 @@ w cia?ach sta?ych mo?e by? fal? pod?u?n?
 w cieczach mo?e by? fal? poprzeczn?
 w cia?ach sta?ych mo?e by? fal? poprzeczn?
 4
-
 (39)Co pasuje do szumu: 
 4
 d?wi?k o ci?g?ym widmie
@@ -280,14 +271,12 @@ nieskorelowane cz?stotliwo?ci
 wieloton harmoniczny
 harmoniczne drganie o jednej cz?stotliwo?ci
 1
-
 (40)Wybierz prawid?owe: 
 3
 pr?cik?w jest wi?cej ni? czopk?w
 czopk?w jest wi?cej ni? pr?cik?w
 liczba pr?cik?w jest r?wna ilosci czopk?w
 1
-
 (41)Jaka liczba klatek na sekund? wystarcza, ?eby uzna?, ?e jest p?ynny 
 4
 100fps
@@ -295,7 +284,6 @@ liczba pr?cik?w jest r?wna ilosci czopk?w
 30fps
 15fps
 4
-
 (42)Kt?ra metoda nie dotyczy bezpo?rednio kompresji stratnej 
 5
 redukcja rozdzielczo?ci
@@ -381,7 +369,6 @@ progowanie obraz?w
 por?wnywanie obraz?w
 odszumianie obraz?w
 4
-
 (54)Jakie s? wady metod roznicowych stratnej kompresji d?wi?ku: 
 4
 nawarstwianie si? b??d?w 
