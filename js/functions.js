@@ -115,7 +115,7 @@ function badAnswer() {
         if (g_questions[g_questionIndex].answers[i].isCorrect)
             wchichWasGood = i;
     
-    alert("Niestety, Twoja odpowiedź nie jest prawidłowa...\nPrawidłowa odpowiedź to " + String.fromCharCode('A'.charCodeAt(0) + i));
+    alert("Niestety, Twoja odpowiedź nie jest prawidłowa...\nPrawidłowa odpowiedź to " + String.fromCharCode('A'.charCodeAt(0) + wchichWasGood));
     nextQuestion();
 }
 
