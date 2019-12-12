@@ -104,7 +104,7 @@ function init() {
             alert(file[0]);
         }
 
-        questionAnswers[parseInt(file[0]) + 1].makeCorrect();
+        questionAnswers[parseInt(file[0]) - 1].makeCorrect();
         file.shift();
         alert(file[0]);
 
