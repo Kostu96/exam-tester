@@ -96,7 +96,7 @@ function nextQuestion() {
 function goodAnswer() {
     ++g_goodAnswers;
     ++g_answers;
-    if (++g_questions[g_questionIndex].correntAttempts > 5) {
+    if (++g_questions[g_questionIndex].correntAttempts > 4) {
         g_leartQuestions.push(g_questions[g_questionIndex]);
         g_questions.splice(g_questionIndex, 1);
     }
