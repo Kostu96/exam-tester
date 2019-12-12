@@ -444,21 +444,21 @@ zmuszanie użytkownika do aktualizacji oprogramowania
 za postrzeganie jasności
 za postrzeganie barwy
 za stabilizację obrazu (złudzenia optyczne powodowane są przez błędne ich działanie)
-a+c
+za postrzeganie jasności oraz za stabilizację obrazu
 1
 (65)Za co odpowiadają w postrzeganiu czopki oczne 
 4
 za postrzeganie jasności
 za postrzeganie barwy
 za stabilizację obrazu (złudzenia optyczne powodowane są przez błędne ich działanie)
-b+c
+za postrzeganie barwy oraz za stabilizację obrazu
 2
 (66)Ktore zdania są prawdziwe? W postrzeganiu czopki oczne odpowiadają za: 
 4
 postrzeganie barwy
 postrzeganie kształtów 
 widzenie dzienne
-a+c
+postrzeganie barwy oraz widzenie dzienne
 4
 (67)Ktore zdania są prawdziwe? W postrzeganiu preciki oczne odpowiadają za: 
 4
