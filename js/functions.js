@@ -43,10 +43,12 @@ class Question {
         this.number = number;
         this.text = text;
         this.answers = answers;
+        this.correntAttempts = 0;
     }
 }
 
 var g_questions = [];
+var g_leartQuestions = [];
 var g_questionIndex = 0;
 var g_answers = 0;
 var g_goodAnswers = 0;
@@ -79,6 +81,7 @@ function updateStatistics() {
     document.getElementById("answers_count").innerText = g_answers;
     document.getElementById("good_answers_count").innerText = g_goodAnswers;
     document.getElementById("percent").innerText = (Math.round((g_goodAnswers / g_answers) * 100)) + "%";
+    document.getElementById("learnt_count").innerHTML = g_leartQuestions.length;
 }
 
 function nextQuestion() {
@@ -93,6 +96,10 @@ function nextQuestion() {
 function goodAnswer() {
     ++g_goodAnswers;
     ++g_answers;
+    if (++g_questions[g_questionIndex].correntAttempts > 5) {
+        g_leartQuestions.push(g_questions[g_questionIndex]);
+        g_questions.splice(g_questionIndex, 1);
+    }
     updateStatistics();
     alert("Dobra odpowiedź!");
     nextQuestion();
@@ -100,6 +107,7 @@ function goodAnswer() {
 
 function badAnswer() {
     ++g_answers;
+    g_questions[g_questionIndex].correntAttempts = 0;
     updateStatistics();
     alert("Niestety, Twoja odpowiedź nie jest prawidłowa...");
     nextQuestion();
@@ -111,6 +119,7 @@ function init() {
     
     var numberOfQuestions, numberOfAnswers, questionText, questionAnswers = [];
     numberOfQuestions = parseInt(file[0]);
+    document.getElementById("question_count").innerText = numberOfQuestions;
     file.shift();
     for (i = 0; i < numberOfQuestions; ++i) {
         questionText = file[0].substr(file[0].indexOf(')') + 1);
