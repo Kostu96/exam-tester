@@ -1,364 +1,557 @@
-(1)Multimedia to:
-X|wszystkie odpowiedzi są poprawne.
+78
+(1)Multimedia to: 
+5
 modelowanie tekstu na tekst
-rozpoznawanie obrazów
+rozpoznawanie obraz?w
 generowanie obrazu z opisu (grafika)
 przetwarzanie obrazow
-(2)Który czynnik utrudnia człowiekowi słyszenie przestrzenne:
-X|odbicie dźwięków
+wszystkie odpowiedzi są prawidłowe
+5
+(2)Kt?ry czynnik utrudnia cz?owiekowi s?yszenie przestrzenne:
+4
 efekt doplera
+odbicie d?wi?k?w
 para uszu
-tłumienie dźwięków docierających z tyłu
-(3)Mechanizm animacji w VRML
-X|nie ma wpływu na parametry odtwarzanego dźwięku
-korzysta wyłącznie z jednego interpolatora dla danego obiektu
-nie pozwala na wielokrotne wykorzystanie timerów
-samodzielnie interpoluje właściwości animowanego obiektu we wszystkich klatkach pośrednich
-(4)Spójność i używanie standardów nie oznacza, że:
-X|system dostarcza skrótów
-użytkownik może wykorzystać doświadczenie zdobyte przy używaniu innych programów
-poszczególne części interfejsu programu wyglądają i są obsługiwane w podobny sposób jak inne programy
-poszczególne części interfejsu wyglądają i są obsługiwane w podobny sposób
-(5)Wskaż zdanie fałszywe:
-X|za widzenie koloru odpowiedzialne są pręciki
-za widzenie nocne odpowiedzialne są pręciki
-pręciki umożliwiają dobre wykrywanie krawędzi
-wzrok człowieka jest bardziej wrażliwy na jasność niż na kolor
-(6)Histogram obrazu:
-pozwala na wykrywnanie krawędzi w obrazie
+t?umienie d?wi?k?w docieraj?cych z ty?u
+2
+(3)Mechanizm animacji w VRML 
+4
+nie ma wp?ywu na parametry odtwarzanego d?wi?ku
+korzysta wy??cznie z jednego interpolatora dla danego obiektu
+nie pozwala na wielokrotne wykorzystanie timer?w
+samodzielnie interpoluje w?a?ciwo?ci animowanego obiektu we wszystkich klatkach po?rednich
+1
+(4)Sp?jno?? i u?ywanie standard?w nie oznacza, ?e: 
+4
+system dostarcza skr?t?w
+u?ytkownik mo?e wykorzysta? do?wiadczenie zdobyte przy u?ywaniu innych program?w
+poszczeg?lne cz?ci interfejsu programu wygl?daj? i s? obs?ugiwane w podobny spos?b jak inne programy
+poszczeg?lne cz?ci interfejsu wygl?daj? i s? obs?ugiwane w podobny spos?b
+1
+(5)Wska? zdanie fa?szywe: 
+4
+za widzenie koloru odpowiedzialne s? pr?ciki
+za widzenie nocne odpowiedzialne s? pr?ciki
+pr?ciki umo?liwiaj? dobre wykrywanie kraw?dzi
+wzrok cz?owieka jest bardziej wra?liwy na jasno?? ni? na kolor
+1
+(6)Histogram obrazu: 
+4
+pozwala na wykrywnanie kraw?dzi w obrazie
 pozwala na odszumianie obrazu
-X|pozwala na redukcję liczby barw występujących w obrazie
-pełny H(RGB) dla wszystystkich kanałów jest wykorzystywany w aparatach cyfrowych
-(7)Prostota dialogu nie oznacza, że:
-brak jest zbędnych elementów na ekranie
-elementy multimedialne są oszczędnie wykorzystywane w szczególności filmy
-X|interfejs zawiera tylko te elemeny które są niezbędne
-uwaga użytkownika nie jest odciągana przez dodatkowe obrazki napisy itp.
-(8)Wskaż zdanie fałszywe: kompresja stratna ...
-X|zawsze obniża jakość sygnału
-może wykorzystywać informację o ograniczeniach percepcji człowieka
-może wykorzystywać właściwości sygnału
-może wykorzystywać kompresje bezstratną
-(9)Efektem działania filtru uśredniającego o masce poziomej o wymiarze 3x1 dla wiersza obrazu o jasnościach pikseli 1 2 3 4 0 4 3 2 1 może być następujący wiersz
-X|1 2 3 2 3 2 3 2 1
+pozwala na redukcj? liczby barw wyst?puj?cych w obrazie
+pe?ny H(RGB) dla wszystystkich kana??w jest wykorzystywany w aparatach cyfrowych
+3
+(7)Prostota dialogu nie oznacza, ?e: 
+4
+brak jest zb?dnych element?w na ekranie
+elementy multimedialne s? oszcz?dnie wykorzystywane w szczeg?lno?ci filmy
+interfejs zawiera tylko te elemeny kt?re s? niezb?dne
+uwaga u?ytkownika nie jest odci?gana przez dodatkowe obrazki napisy itp.
+2
+(8)Wska? zdanie fa?szywe: kompresja stratna ... 
+4
+zawsze obni?a jako?? sygna?u
+mo?e wykorzystywa? informacj? o ograniczeniach percepcji cz?owieka
+mo?e wykorzystywa? w?a?ciwo?ci sygna?u
+mo?e wykorzystywa? kompresje bezstratn?
+1
+(9)Efektem dzia?ania filtru u?redniaj?cego o masce poziomej o wymiarze 3x1 dla wiersza obrazu o jasno?ciach pikseli 1 2 3 4 0 4 3 2 1 mo?e by? nast?puj?cy wiersz 
+4
+1 2 3 2 3 2 3 2 1
 1 2 3 2,33 2,67 2,33 3 2
 2 3 2 3 2 3 2
 2 2 2 2 2 2 2 2 2
-(10)Zapobieganie błędom oznacza, że:
-brak jest zbędnych elementów na ekranie
-interfejs jest prosty w obsłudze
-X|zamiast dostarczac komunikat o błędzie po wyjściu poza dozwolony zakres czyni się niedostępnymi odpowiedni klawisz lub opcję w menu
-system dostarcza skrótów
-(11)Widoczny stan interfejsu oznacza, że:
-zawsze można się wycofać z błędnych działań
-komunikaty o błędach są dobrze dobrane
-X|użytkownik zna bieżący tryb interfejsu
-brak jest zbędnych elementów na ekranie
-(12)Oblicz rozmiar kolorowej bitmapy w formacie TrueColor RGB powstałej w wyniku skanowania w rozdzielczości 300dpi obrazu o wymiarach 1 na 5 cali:
+1
+(10)Zapobieganie b??dom oznacza, ?e: 
+4
+brak jest zb?dnych element?w na ekranie
+interfejs jest prosty w obs?udze
+zamiast dostarczac komunikat o b??dzie po wyj?ciu poza dozwolony zakres czyni si? niedost?pnymi odpowiedni klawisz lub opcj? w menu
+system dostarcza skr?t?w
+3
+(11)Widoczny stan interfejsu oznacza, ?e: 
+4
+zawsze mo?na si? wycofa? z b??dnych dzia?a?
+komunikaty o b??dach s? dobrze dobrane
+u?ytkownik zna bie??cy tryb interfejsu
+brak jest zb?dnych element?w na ekranie
+3
+(12)Oblicz rozmiar kolorowej bitmapy w formacie TrueColor RGB powsta?ej w wyniku skanowania w rozdzielczo?ci 300dpi obrazu o wymiarach 1 na 5 cali: 
+4
 1 800 000
-4 500
-450 000
-X|1 350 000
-(13)Używanie języka użytkownika oznacza, że: 
-brak jest zbędnych elementów na ekranie
-interfejs jest prosty w obsłudze
-interfejs może używać żargonu z dziedziny z której pochodza zadania wykonywane przez uzytkownika
-X|komunikaty o bledach sa dobrze opisane
-(14)Które z podanych miar oceny sa obiektywne:
+    4 500
+  450 000
+1 350 000
+4
+(13)U?ywanie j?zyka u?ytkownika oznacza, ?e: 
+4
+brak jest zb?dnych element?w na ekranie
+interfejs jest prosty w obs?udze
+interfejs mo?e u?ywa? ?argonu z dziedziny z kt?rej pochodza zadania wykonywane przez uzytkownika
+komunikaty o bledach sa dobrze opisane
+4
+(14)Kt?re z podanych miar oceny sa obiektywne: 
+4
 postawa
 stosunek
 motywacja
-X|zachowanie niewerbalne
-(15)Jaka jest częstotliwość próbkowania muzyki jakości CD i z czego ona wynika?
-X|44100 Hz.Ponad 2 razy większa od górnej granicy słyszalności człowieka.
-40000 Hz. 2 razy większa od górnej granicy słyszalności człowieka.
-1,5 Mbit/s .Prędkość odtwarzania CD …
-8 kHZ.Ograniczenia pasma w kanałach transmisji.
+zachowanie niewerbalne
+4
+(15)Jaka jest cz?stotliwo?? pr?bkowania muzyki jako?ci CD i z czego ona wynika? 
+4
+44100 Hz.Ponad 2 razy wi?ksza od g?rnej granicy s?yszalno?ci cz?owieka.
+40000 Hz. 2 razy wi?ksza od g?rnej granicy s?yszalno?ci cz?owieka.
+1,5 Mbit/s .Pr?dko?? odtwarzania CD ?
+8 kHZ.Ograniczenia pasma w kana?ach transmisji.
+1
 (16)W pozyskiwaniu wiedzy stategia:
-to uporządkowanie czasowe działań
-X|określa krok po kroku jakie działania realizują dany cel
-odpowiada regułom  wyboru metod GOMS
-umożliwia określenie czasu nauki interfejsu
+4
+to uporz?dkowanie czasowe dzia?a?
+okre?la krok po kroku jakie dzia?ania realizuj? dany cel
+odpowiada regu?om  wyboru metod GOMS
+umo?liwia okre?lenie czasu nauki interfejsu
+2
 (17)W pozyskiwaniu wiedzy plan nie:
-określa krok po kroku, jakie działania realizują dany cel
-to uporządkowanie czasowe czynności
-poznaje się szukając w wywiadach i protokołach sformułowań typu "teraz przystępuję do…"
-X|umożliwia wyznaczenie najkrótszego czasu realizacji zadania
-(18)W wyniku wykonania algorytmu RLE(run length encoding) dla ciągu 1111222334 nie można uzyskać następującego kodu:
+4
+okre?la krok po kroku, jakie dzia?ania realizuj? dany cel
+to uporz?dkowanie czasowe czynno?ci
+poznaje si? szukaj?c w wywiadach i protoko?ach sformu?owa? typu "teraz przyst?puj? do..."
+umo?liwia wyznaczenie najkr?tszego czasu realizacji zadania
+4
+(18)W wyniku wykonania algorytmu RLE(run length encoding) dla ci?gu 1111222334 nie mo?na uzyska? nast?puj?cego kodu: 
+4
 1(4) 2(3) 3(2) 4
-X|11 11 11 11 10 10 10 01 01 00
+11 11 11 11 10 10 10 01 01 00
 1(4) 2(3) 3(2) 4(1)
 1(4) 2(3) 3 3 4
-(19)Efektem działania filtru wartości środkowej (medianowego) o masce poziomej w wymiarze 3 x 1 dla wiersza obrazu o jasnościach pixeli 1 2 3 4 0 4 3 2 1 może być następujący wiersz : 
+2
+(19)Efektem dzia?ania filtru warto?ci ?rodkowej (medianowego) o masce poziomej w wymiarze 3 x 1 dla wiersza obrazu o jasno?ciach pixeli 1 2 3 4 0 4 3 2 1 mo?e by? nast?puj?cy wiersz :
+4
 2 2 2 2 2 2 2 2 2
 2 3 2 3 2 3 2 3 2
 3 3 3 3 3 3 3 3 3
-X|1 2 3 3 4 3 3 2 1
-(20)W ocenie heurystycznej widoczny stan interfejsu nie oznacza,że : 
-X|zawsze można się wycofać z błędnych działań
-użytkownik zawsze wie ,w którym miejscu się znajduje
-użytkownik zna bieżące wartości parametrów interfejsu np. podkreślenie/wytłuszczenie w edytorze tekstu
-użytkownik zna bieżący tryb interfejsu
-(21)W ocenie heurystycznej minimalizowanie obciążania pamięci oznacza,że :
-system dostarcza skrótów
-interfejs jest prosty w obsłudze
-X|użytkownik nie musi pamiętać nazw poleceń
-komunikaty o błędach są dobrze opisane
-(22)Oblicz rozmiar kolorowej bitmapy (w formacie TrueColorRGB) powstałej w wyniku skanowania o rozdzielczości 200 dpi obrazu o wymiarach 3 na 5 cale(i).
-X|1 800 000
+1 2 3 3 4 3 3 2 1
+4
+(20)W ocenie heurystycznej widoczny stan interfejsu nie oznacza,?e : 
+4
+zawsze mo?na si? wycofa? z b??dnych dzia?a?
+u?ytkownik zawsze wie ,w kt?rym miejscu si? znajduje
+u?ytkownik zna bie??ce warto?ci parametr?w interfejsu np. podkre?lenie/wyt?uszczenie w edytorze tekstu
+u?ytkownik zna bie??cy tryb interfejsu
+1
+(21)W ocenie heurystycznej minimalizowanie obci??ania pami?ci oznacza,?e : 
+4
+system dostarcza skr?t?w
+interfejs jest prosty w obs?udze
+u?ytkownik nie musi pami?ta? nazw polece?
+komunikaty o b??dach s? dobrze opisane
+3
+(22)Oblicz rozmiar kolorowej bitmapy (w formacie TrueColorRGB) powsta?ej w wyniku skanowania o rozdzielczo?ci 200 dpi obrazu o wymiarach 3 na 5 cale(i). 
+4
+1 800 000
 2 400 000
 9 000
 600 000
-(23)Wskaż zdanie fałszywe. Format MIDI:
-X|umożliwia dobrą kompresję muzyki instrumentalnej
-służy do zapisu muzyki, która zawsze brzmi identycznie niezależnie od komputera
-jest standardem komunikacji cfrowych urządzeń muzycznych
-można traktować jako odmianę zapisu nutowego
-(24)Wskaż zdanie fałszywe:
-pręciki umożliwiają dobre wykrywanie krawędzi
-X|za widzenie koloru odpowiedzialne są pręciki
-za widzenie nocne odpowiedzialne są pręciki
-za widzenie koloru odpowiedzialne są czopki
-(25)W ocenie heurystycznej dobre diagnozowanie błędów oznacza,że:
-komunikaty o błędzie pisane są inną czcionką i są innej barwy niż pozostałe komunikaty
-X|komunikat o błędzie umożliwia usunięcie przyczyny błędu
-komunikat o błędzie obejmuje zawartość rejestrów procesora
-komunikat o błędzie wyświetlany jest na środku ekranu
-(26)Celami kompresji MPEG 1 i 2 nie są:
-szybkie przeszukiwanie w przód i wstecz
-X|małe opóźnienia kodowania i dekodowania
-elastyczność formatu obrazu
-skuteczna korekcja błędów
-(27)W ocenie heurystycznej elastyczność i wydajność nie oznacza,że:
-niektóre działania interfejsu użytkownik może wywołać w mniejszej liczbie kroków(kliknięć,uderzeń w klawiaturę)
-zaawansowanym użytkownikom umożliwia się szybszą obsługę interfejsu
-system dostarcza skrótów
-X|interfejs jest prosty w obsłudze
-(28)Wskaż zdanie fałszywe. Płyty DVD...
-X|są trwalsze od analogicznych ( tłoczonych lub nagrywanych ) płyt CD
-zawierają informację zapisaną w postaci zagłębień i płaskich powierzchni
-muszą być odczytywane laserem o krótszej długości fali niż płyty CD
-mogą występować w wersji jedno- lub dwuwarstwowej
-(29)Wskaż zdanie fałszywe. Częstotliwość próbkowania DVDaudio...
-jest stosowana aby zmniejszyć składowe harmoniczne
-jest stosowana aby uzyskać dźwięk o wierniejszym brzmieniu
-może nie wpływać na odbiór muzyki przez melomanów o gorszym słuchu (w porównaniu z Cdaudio)
-X|wynosi 48 lub 96 kHz
-(30)Jeżeli trzy barwy tworzą układ niezależnych liniowo barw to są to:
+1
+(23)Wska? zdanie fa?szywe. Format MIDI: 
+4
+umo?liwia dobr? kompresj? muzyki instrumentalnej
+s?u?y do zapisu muzyki, kt?ra zawsze brzmi identycznie niezale?nie od komputera
+jest standardem komunikacji cfrowych urz?dze? muzycznych
+mo?na traktowa? jako odmian? zapisu nutowego
+2
+(24)Wska? zdanie fa?szywe: 
+4
+pr?ciki umo?liwiaj? dobre wykrywanie kraw?dzi
+za widzenie koloru odpowiedzialne s? pr?ciki
+za widzenie nocne odpowiedzialne s? pr?ciki
+za widzenie koloru odpowiedzialne s? czopki
+2
+(25)W ocenie heurystycznej dobre diagnozowanie b??d?w oznacza,?e: 
+4
+komunikaty o b??dzie pisane s? inn? czcionk? i s? innej barwy ni? pozosta?e komunikaty
+komunikat o b??dzie umo?liwia usuni?cie przyczyny b??du
+komunikat o b??dzie obejmuje zawarto?? rejestr?w procesora
+komunikat o b??dzie wy?wietlany jest na ?rodku ekranu
+2
+(26)Celami kompresji MPEG 1 i 2 nie s?:
+4
+szybkie przeszukiwanie w prz?d i wstecz
+ma?e op?nienia kodowania i dekodowania
+elastyczno?? formatu obrazu
+skuteczna korekcja b??d?w
+4
+(27)W ocenie heurystycznej elastyczno?? i wydajno?? nie oznacza,?e: 
+4
+niekt?re dzia?ania interfejsu u?ytkownik mo?e wywo?a? w mniejszej liczbie krok?w(klikni??,uderze? w klawiatur?)
+zaawansowanym u?ytkownikom umo?liwia si? szybsz? obs?ug? interfejsu
+system dostarcza skr?t?w
+interfejs jest prosty w obs?udze
+4
+(28)Wska? zdanie fa?szywe.P?yty DVD... 
+4
+s? trwalsze od analogicznych ( t?oczonych lub nagrywanych ) p?yt CD
+zawieraj? informacj? zapisan? w postaci zag??bie? i p?askich powierzchni
+musz? by? odczytywane laserem o kr?tszej d?ugo?ci fali ni? p?yty CD
+mog? wyst?powa? w wersji jedno- lub dwuwarstwowej
+1
+(29)Wska? zdanie fa?szywe. Cz?stotliwo?? pr?bkowania DVDaudio... 
+4
+jest stosowana aby zmniejszy? sk?adowe harmoniczne
+jest stosowana aby uzyska? d?wi?k o wierniejszym brzmieniu
+mo?e nie wp?ywa? na odbi?r muzyki przez meloman?w o gorszym s?uchu (w por?wnaniu z Cdaudio)
+wynosi 48 lub 96 kHz
+4
+(30)Je?eli trzy barwy tworz? uk?ad niezale?nych liniowo barw to s? to: 
+3
 barwy achromatyczne
-X|barwy podstawowe
+barwy podstawowe
 barwy proste
-(31)Barwa prosta to nie barwa:
+2
+
+(31)Barwa prosta to nie barwa: 
+4
 monochromatyczna
 widmowa
 spektralna
-X|achromatyczna
-(32)Addytywne mieszanie kolorów nie jest wykorzystywane przez:
+achromatyczna
+4
+
+(32)Addytywne mieszanie kolor?w nie jest wykorzystywane przez: 
+4
 monitory CRT
 monitory TV
 rzutniki
-X|plotery
-(33)Substraktywne uzyskiwanie kolorów jest wykorzystywane przez:
+plotery
+4
+
+(33)Substraktywne uzyskiwanie kolor?w jest wykorzystywane przez: 
+4
 monitory CRT
 rzutniki
 monitory TV
-X|drukarki
-(34)Model CMY(K) jest wykorzystywany przez:
+drukarki
+4
+
+(34)Model CMY(K) jest wykorzystywany przez: 
+4
 monitory CRT
 rzutniki
 skanery
-X|maszyny offsetowe
-(35)Modelu RGB nie wykorzystuje:
+maszyny offsetowe
+4
+
+(35)Modelu RGB nie wykorzystuje: 
+4
 aparat fotograficzny
 monitor
 rzutnik
-X|skaner
-(36)Modelu CMY(K) nie wykorzystuje:
+skaner
+4
+
+(36)Modelu CMY(K) nie wykorzystuje: 
+3
 drukarka
 ploter
-X|rzutnik
-(37)W model CMY(K) kolor K jest potrzebny ze względu na:
+rzutnik
+3
+
+(37)W model CMY(K) kolor K jest potrzebny ze wzgl?du na: 
+3
 problem w odzwierciedlaniu czarnego
-X|oszczędność
-model nie mógłby istnieć bez niego
-(38)Fala akustyczna(wskaż nieprawidłową odpowiedź):
-w cieczach może być falą podłużną
-w gazach może być falą podłużną
-w ciałach stałych może być falą podłużną
-X|w cieczach może być falą poprzeczną
-w ciałach stałych może być falą poprzeczną
-(39)Co pasuje do szumu:
-X|dźwięk o ciągłym widmie
-nieskorelowane częstotliwości
+oszcz?dno??
+model nie m?g?by istnie? bez niego
+2
+
+(38)Fala akustyczna(wska? nieprawid?ow? odpowied?): 
+5
+w cieczach mo?e by? fal? pod?u?n?
+w gazach mo?e by? fal? pod?u?n?
+w cia?ach sta?ych mo?e by? fal? pod?u?n?
+w cieczach mo?e by? fal? poprzeczn?
+w cia?ach sta?ych mo?e by? fal? poprzeczn?
+4
+
+(39)Co pasuje do szumu: 
+4
+d?wi?k o ci?g?ym widmie
+nieskorelowane cz?stotliwo?ci
 wieloton harmoniczny
-harmoniczne drganie o jednej częstotliwości
-(40)Wybierz prawidłowe:
-X|pręcików jest więcej niż czopków
-czopków jest więcej niż pręcików
-liczba pręcików jest równa ilosci czopków
-(41)Jaka liczba klatek na sekundę wystarcza, żeby uznać, że jest płynny
+harmoniczne drganie o jednej cz?stotliwo?ci
+1
+
+(40)Wybierz prawid?owe: 
+3
+pr?cik?w jest wi?cej ni? czopk?w
+czopk?w jest wi?cej ni? pr?cik?w
+liczba pr?cik?w jest r?wna ilosci czopk?w
+1
+
+(41)Jaka liczba klatek na sekund? wystarcza, ?eby uzna?, ?e jest p?ynny 
+4
 100fps
 60fps
 30fps
-X|15fps
-(42)Która metoda nie dotyczy bezpośrednio kompresji stratnej
-redukcja rozdzielczości
+15fps
+4
+
+(42)Kt?ra metoda nie dotyczy bezpo?rednio kompresji stratnej 
+5
+redukcja rozdzielczo?ci
 prunning
 wprowadzanie palety barw
-X|np. grupowanie pikseli o tej samej barwie
+np. grupowanie pikseli o tej samej barwie
 redukcja chrominancji
-(43)Spójność interfejsu oznacza:
-zgodność z powszechnie przyjętymi zasadami
-X|ta sama czynność można wykonać na wiele rożnych sposobów w rożnych miejscach inaterfejsu
+4
+(43)Sp?jno?? interfejsu oznacza: 
+4
+zgodno?? z powszechnie przyj?tymi zasadami
+ta sama czynno?? mo?na wykona? na wiele ro?nych sposob?w w ro?nych miejscach inaterfejsu
 interfejs programu jest jasny i szybki do opanowania
-minimalizowanie obciążenia pamięci użytkownika 
-(44)Granice slyszalnosci człowieka
+minimalizowanie obci??enia pami?ci u?ytkownika 
+1
+(44)Granice slyszalnosci cz?owieka 
+4
 15Hz-20kHz
-X|20Hz-20kHz
+20Hz-20kHz
 10Hz-20kHz
 20kHz-20Hz
-(45)ITD to:
-inteligentny system rozpoznawania mowy dla niepełnosprawnych 
-różnica intensywności dźwięku odbierana miedzy uszami
-X|różnica czasu w jakim dociera dźwięk 
-czas w jakim dźwięk odbierany jest przez mózg 
-(46)IID to:
-inteligentny system rozpoznawania mowy dla niepełnosprawnych 
-X|różnica intensywności dźwięku odbierana miedzy uszami
-różnica czasu w jakim dociera dźwięk 
-czas w jakim dźwięk odbierany jest przez mózg 
-(47)HRTF to:
+2
+(45)ITD to: 
+4
+inteligentny system rozpoznawania mowy dla niepe?nosprawnych 
+r?nica intensywno?ci d?wi?ku odbierana miedzy uszami
+r?nica czasu w jakim dociera d?wi?k 
+czas w jakim d?wi?k odbierany jest przez m?zg 
+3
+(46)IID to: 
+4
+inteligentny system rozpoznawania mowy dla niepe?nosprawnych 
+r?nica intensywno?ci d?wi?ku odbierana miedzy uszami
+r?nica czasu w jakim dociera d?wi?k 
+czas w jakim d?wi?k odbierany jest przez m?zg 
+2
+(47)HRTF to: 
+4
 system sterowania komputerem falami mozgowymi
-różnica czasu w jakim dociera dzwiek
-X|efekt tlumienia/wzmacniania dźwięku przez malzowine uszna i głowę 
-stosunek ciśnienia akustycznego do natężenia dźwięku
-(48)Formy pomocy jakie należy zapewnić w programie, to:
-obszerna dokumentacja dołączana w formie elektronicznej, bądź drukowanej
-X|podpowiedzi, jako wyświetlane dymki po najechaniu na przycisk
+r?nica czasu w jakim dociera dzwiek
+efekt tlumienia/wzmacniania d?wi?ku przez malzowine uszna i g?ow? 
+stosunek ci?nienia akustycznego do nat?enia d?wi?ku
+3
+(48)Formy pomocy jakie nale?y zapewni? w programie, to: 
+4
+obszerna dokumentacja do??czana w formie elektronicznej, b?d? drukowanej
+podpowiedzi, jako wy?wietlane dymki po najechaniu na przycisk
 samouczek
 oficjalne forum internetowe
-(49)W metodzie heurystycznej oceny interfejsu:
-użytkownik wykonuje pojedyncze, nieznane mu zadanie w programie
-użytkownik stara się opisać błędy, które wystąpiły w czasie użytkowania programu
-X|grupa specjalistów ocenia takie elementy jak zapobieganie błędów, prostota dialogu, szybkość uczenia się, widoczny stan systemu, używanie języka użytkownika 
-wszystkie powyższe odpowiedzi są błędne 
-(50)Który model barw nie jest ukierunkowany na sprzęt:
+2
+(49)W metodzie heurystycznej oceny interfejsu: 
+4
+u?ytkownik wykonuje pojedyncze, nieznane mu zadanie w programie
+u?ytkownik stara si? opisa? b??dy, kt?re wyst?pi?y w czasie u?ytkowania programu
+grupa specjalist?w ocenia takie elementy jak zapobieganie b??d?w, prostota dialogu, szybko?? uczenia si?, widoczny stan systemu, u?ywanie j?zyka u?ytkownika 
+wszystkie powy?sze odpowiedzi s? b??dne 
+3
+(50)Kt?ry model barw nie jest ukierunkowany na sprz?t:
+4
 RGB
 CMYK
-X|HSV
+HSV
 RGBA
-(51)Wada metody projektowania interfejsu WIMP jest:
-występowanie tylko w wersji tekstowej
-X|zawodzenie w przypadku użytkowników z wada wzroku
-zawodzenie w przypadku użytkowników z wada słuchu
-nie otwarta licencja należąca do amerykańskiej firmy produkującej okna
-(52)Opisowymi metodami oceny interfejsu nie jest:
+3
+(51)Wada metody projektowania interfejsu WIMP jest: 
+4
+wyst?powanie tylko w wersji tekstowej
+zawodzenie w przypadku u?ytkownik?w z wada wzroku
+zawodzenie w przypadku u?ytkownik?w z wada s?uchu
+nie otwarta licencja nale??ca do ameryka?skiej firmy produkuj?cej okna
+2
+(52)Opisowymi metodami oceny interfejsu nie jest: 
+4
 UAN
 drzewo menu
 direct manipulation sketch
-X|GOMS
-(53)Do czego nie wykorzystuje się histogramu?
-poprawa kontrastu (spłaszczenie histogramu)
-progowanie obrazów
-porównywanie obrazów
-X|odszumianie obrazów
-(54)Jakie są wady metod roznicowych stratnej kompresji dźwięku: 
-X|nawarstwianie się błędów 
-nie nadążają za zmianami wartości bitowych
-występuje efekt echa
-wszystkie odpowiedzi są prawidłowe 
-(55)Domowy odtwarzacz wideo nie potrzebuje:
+GOMS
+4
+(53)Do czego nie wykorzystuje si? histogramu? 
+4
+poprawa kontrastu (sp?aszczenie histogramu)
+progowanie obraz?w
+por?wnywanie obraz?w
+odszumianie obraz?w
+4
+
+(54)Jakie s? wady metod roznicowych stratnej kompresji d?wi?ku: 
+4
+nawarstwianie si? b??d?w 
+nie nad??aj? za zmianami warto?ci bitowych
+wyst?puje efekt echa
+wszystkie odpowiedzi s? prawid?owe 
+1
+(55)Domowy odtwarzacz wideo nie potrzebuje: 
+4
 elastycznego formatu obrazu 
-skutecznej korekcji dźwięków 
-zsynchronizowanego odtwarzania obrazu i dźwięku 
-X|kompresji w czasie rzeczywistym
-(56)Nowością w MPEG-2 w stosunku do poprzednika jest
-obsługa trybu z przeplotem
-wykorzystywanie dwóch, oddzielnych wektorow ruchu dla makroblokow
-X|wszystkie powyższe odpowiedzi są prawidłowe
-obsługa rozdzielczości full hd
-(57)Do artystycznego przetwarzania obrazu nie zaliczamy
+skutecznej korekcji d?wi?k?w 
+zsynchronizowanego odtwarzania obrazu i d?wi?ku 
+kompresji w czasie rzeczywistym
+4
+(56)Nowo?ci? w MPEG-2 w stosunku do poprzednika jest 
+4
+obs?uga trybu z przeplotem
+wykorzystywanie dw?ch, oddzielnych wektorow ruchu dla makroblokow
+wszystkie powy?sze odpowiedzi s? prawid?owe
+obs?uga rozdzielczo?ci full hd
+1
+(57)Do artystycznego przetwarzania obrazu nie zaliczamy 
+4
 retuszu
 redukcji efektu czerwonych oczu
-zmiany parametrów obrazka
-X|wszystkie powyższe odpowiedzi są błędne 
-(58)Metodą zabezpieczenia obrazu nie jest
-X|zapisanie sygnatury autora na najbardziej znaczących bitach wybranych pikseli
-umieszczenie elementów o bardzo dużej rozdzielczości optycznej
-zapisanie sygnatury autora na najmniej znaczących bitach wybranych pikseli
+zmiany parametr?w obrazka
+wszystkie powy?sze odpowiedzi s? b??dne 
+4
+(58)Metod? zabezpieczenia obrazu nie jest 
+4
+zapisanie sygnatury autora na najbardziej znacz?cych bitach pikseli
+umieszczenie element?w o bardzo du?ej rozdzielczo?ci optycznej
+zapisanie sygnatury autora na najmniej znacz?cych bitach wybranych pikseli
 znak wodny
-(59)Rozpoznawanie obrazów to:
-X|OMR
+1
+(59)Rozpoznawanie obraz?w to: 
+4
+OMR
 MVC
 OCR
 ORM
-(60)Rozpoznawanie tekstu to:
+1
+(60)Rozpoznawanie tekstu to: 
+4
 OMR
 MVC
-X|OCR
+OCR
 ORM
-(61)Jakiej platformy nigdy nie obsługiwał Unreal Engine 3
+3
+(61)Jakiej platformy nigdy nie obs?ugiwa? Unreal Engine 3 
+4
 Linux 
 Android
-X|Windows (directx 8)
+Windows (directx 8)
 Stage3D (Flash Player 11)
-(62)SCUMM to:
-język skryptowy używany do obsługi zdarzeń w UDK
-X|język skryptowy wspomagający programowanie gier typu point&click
+3
+(62)SCUMM to: 
+4
+j?zyk skryptowy u?ywany do obs?ugi zdarze? w UDK
+j?zyk skryptowy wspomagaj?cy programowanie gier typu point&click
 heurystyczna ocena interfejsu gry komputerowej
-biblioteka wspomagające programowanie gier komputerowych przeznaczona na systemy unix
-(63)Rola interfejsu jest:
-X|żadna z poniższych odpowiedzi nie jest prawidlowa
+biblioteka wspomagaj?ce programowanie gier komputerowych przeznaczona na systemy unix
+2
+(63)Rola interfejsu jest: 
+4
+?adna z poni?szych odpowiedzi nie jest prawidlowa
 demonstracja najnowszych technologii i talentu graficznego autora
-zmuszanie użytkownika do wymiany sprzętu 
-zmuszanie użytkownika do aktualizacji oprogramowania
-(64)Za co odpowiadają w postrzeganiu preciki oczne
-X|za postrzeganie jasności
+zmuszanie u?ytkownika do wymiany sprz?tu 
+zmuszanie u?ytkownika do aktualizacji oprogramowania
+1
+(64)Za co odpowiadaj? w postrzeganiu preciki oczne 
+4
+za postrzeganie jasno?ci
 za postrzeganie barwy
-za stabilizację obrazu (złudzenia optyczne powodowane są przez błędne ich działanie)
+za stabilizacj? obrazu (z?udzenia optyczne powodowane s? przez b??dne ich dzia?anie)
 a+c
-(65)Za co odpowiadają w postrzeganiu czopki oczne
-za postrzeganie jasności
-X|za postrzeganie barwy
-za stabilizację obrazu (złudzenia optyczne powodowane są przez błędne ich działanie)
+1
+(65)Za co odpowiadaj? w postrzeganiu czopki oczne 
+4
+za postrzeganie jasno?ci
+za postrzeganie barwy
+za stabilizacj? obrazu (z?udzenia optyczne powodowane s? przez b??dne ich dzia?anie)
 b+c
-(66)Ktore zdania są prawdziwe? W postrzeganiu czopki oczne odpowiadają za:
+2
+(66)Ktore zdania s? prawdziwe? W postrzeganiu czopki oczne odpowiadaj? za: 
+4
 postrzeganie barwy
-postrzeganie kształtów 
+postrzeganie kszta?t?w 
 widzenie dzienne
-X|a+c
-(67)Ktore zdania są prawdziwe? W postrzeganiu preciki oczne odpowiadają za:
-postrzeganie jasności 
-postrzeganie kształtów 
+a+c
+4
+(67)Ktore zdania s? prawdziwe? W postrzeganiu preciki oczne odpowiadaj? za: 
+4
+postrzeganie jasno?ci 
+postrzeganie kszta?t?w 
 widzenie nocne
-X|wszystkie powyższe zdania są prawdziwe
-(68)Mowiac o VRML prawda jest, że
+wszystkie powy?sze zdania s? prawdziwe 
+4
+(68)Mowiac o VRML prawda jest, ?e 
+4
 jest standardem zintegrowanym z HTML
-służy tylko do zapisywania modelow 2D
-X|wspiera lightmapy
+s?u?y tylko do zapisywania modelow 2D
+wspiera lightmapy
 obecnie kontynuowany jest pod nazwa WebGL
-(69)Czym nie są spowodowane złudzenia optyczne
+3
+(69)Czym nie s? spowodowane z?udzenia optyczne 
+4
 ograniczeniami w budowie oczu
-X|wertykalnym rozpoznawaniem obrazów 
-wyobraźnią
+wertykalnym rozpoznawaniem obraz?w 
+wyobra?ni?
 przyzwyczajeniami
-(70)OGRE i JMonkey są przykładami
-interfejsami graficznymi systemów unix
-programami pozwalającymi ocenić interfejs
-przykładami języków modelowania rzeczywistości wirtualnej
-X|game engines
-(71)VRML to:
-X|język postrzegania rzeczywistości wirtualnej
-standard opisujący bryły trójwymiarowe w formacie xml
-język modelowania rzeczywistości wirtualnej
-standard opisujący bryły trójwymiarowe w formacie yaml
-(72)Do metod opisowych interfejsu możemy zaliczyć
+2
+(70)OGRE i JMonkey s? przyk?adami 
+4
+interfejsami graficznymi system?w unix
+programami pozwalaj?cymi oceni? interfejs
+przyk?adami j?zyk?w modelowania rzeczywisto?ci wirtualnej
+game engines
+4
+(71)VRML to: 
+4
+j?zyk postrzegania rzeczywisto?ci wirtualnej
+standard opisuj?cy bry?y tr?jwymiarowe w formacie xml
+j?zyk modelowania rzeczywisto?ci wirtualnej
+standard opisuj?cy bry?y tr?jwymiarowe w formacie yaml
+3
+(72)Do metod opisowych interfejsu mo?emy zaliczy? 
+4
 GOMS
 TAG
 RTD
-X|UAN
+UAN
+4
 (73)W dobrze zaprojektowanym interfejsie:
-strona do wydruku nie powinna zawierać adresu strony, z której powstała
-X|w stronach internetowych powinna być oddzielona forma od treści
-użytkowanie niestandardowych czcionek jest dowzwolone
-na stronach www grafika powinna być wyswietlana w oryginalnych rozmiarach
+4
+strona do wydruku nie powinna zawiera? adresu strony, z kt?rej powsta?a
+w stronach internetowych powinna by? oddzielona forma od tre?ci
+u?ytkowanie niestandardowych czcionek jest dowzwolone
+na stronach www grafika powinna by? wyswietlana w oryginalnych rozmiarach
+2
+(74)Twierdzenie Shannona m?wi, ?e cz?stotliwo?? pr?bkowania powinna by? ... kt?r? chcemy potem odtworzy?.
+3
+r?wna cz?stotliwo?ci najwy?szej w pr?bkowanym sygnale
+dwa razy wy?sza od najwy?szej cz?stotliwo?ci w pr?bkowanym sygnale
+wy?sza ni? cz?stotliwo?? najwy?sza w pr?kowanym sygnale
+2
+(75)Dynamika sygna?u to:
+3
+pr?dko?? zmian wysoko?ci d?wi?ku
+warto?? entropi poszczeg?lnych cz?stotliwo?ci w sygnale
+odst?p pomi?dzy najni?szym i najwy?szym poziomem przenoszonego d?wi?ku
+3
+(76)Jaki rozmiar ma minuta nagrania stereo o cz?stotliwo?ci 44.1kHz (pr?bka = 16bit)
+4
+10336kB
+10584kB
+1754kB
+17640kB
+1
+(77)Wska? fa?szywe zdanie:
+4
+format mp3 stosuje kodowanie stratne (niska jako??) i bezstratne (wysoka jako??)
+format OGG pozwala zapisac wiecej ni? 2 kana?y
+format OGG ma lepsza jako?? ni? mp3 przy porownywalnej wielko?ci
+format MP3 pozwala na zapisanie dodatkowych informacji (ID Tags)
+1
+(78)Kt?rego z za?o?e? nie spe?nia VRML:
+4
+??czenie z innymi ?wiatami 3D 
+rozbudowa w oparciu o XML 
+niezale?no?? od systemu op. 
+generowanie w czasie rzeczywistym
+2

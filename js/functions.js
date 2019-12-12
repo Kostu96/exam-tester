@@ -28,9 +28,13 @@ function shuffle(array) {
 }
 
 class Answer {
-    constructor(text, isCorrect) {
+    constructor(text) {
         this.text = text;
-        this.isCorrect = isCorrect;
+        this.isCorrect = false;
+    }
+
+    makeCorrect() {
+        this.isCorrect = true;
     }
 }
 
@@ -82,22 +86,25 @@ function init() {
     var file = loadFile("resources/mii_questions.txt");
     file = file.split('\n');
     
-    var questionNumber, questionText, questionAnswers = [];
-    for (i = 0; i < file.length; ++i) {
-        if (file[i][0] === '(') {
+    var numberOfQuestions, numberOfAnswers, questionText, questionAnswers = [];
+    numberOfQuestions = parseInt(file[0]);
+    file.shift();
+    for (i = 0; i < numberOfQuestions; ++i) {
+        questionText = file[0].substr(file[i].indexOf(')') + 1);
+        file.shift();
+        numberOfAnswers = parseInt(file[0]);
+        file.shift();
 
-            if (questionAnswers.length > 0) {
-                g_questions.push(new Question(questionNumber, questionText, questionAnswers));
-                questionAnswers = [];
-            }
-
-            questionNumber = parseInt(file[i].substr(1, file[i].indexOf(')') - 1));
-            questionText = file[i].substr(file[i].indexOf(')') + 1);
+        for (j = 0; j < numberOfAnswers; ++j) {
+            questionAnswers.push(new Answer(file[0]));
+            file.shift();
         }
-        else if (file[i][0] === 'X')
-            questionAnswers.push(new Answer(file[i].substr(2), true));
-        else
-            questionAnswers.push(new Answer(file[i], false));
+
+        questionAnswers[parseInt(file[0]) + 1].makeCorrect();
+        file.shift();
+
+        g_questions.push(new Question(i + 1, questionText, questionAnswers));
+        questionAnswers = [];
     }
 
     g_questions = shuffle(g_questions);
