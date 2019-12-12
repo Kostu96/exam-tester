@@ -78,7 +78,7 @@ function loadQuestion(index) {
 function updateStatistics() {
     document.getElementById("answers_count").innerText = g_answers;
     document.getElementById("good_answers_count").innerText = g_goodAnswers;
-    document.getElementById("percent").innerText = g_goodAnswers / g_answers;
+    document.getElementById("percent").innerText = (Math.round((g_goodAnswers / g_answers) * 100) / 100) + "%";
 }
 
 function nextQuestion() {
