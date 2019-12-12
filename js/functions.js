@@ -100,7 +100,10 @@ function init() {
             file.shift();
         }
 
-        questionAnswers[parseInt(file[0]) - 1].makeCorrect();
+        alert(file[0]);
+        var num = parseInt(file[0]);
+        alert(num);
+        questionAnswers[num - 1].makeCorrect();
         file.shift();
 
         g_questions.push(new Question(i + 1, questionText, questionAnswers));
