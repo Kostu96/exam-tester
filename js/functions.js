@@ -109,7 +109,13 @@ function badAnswer() {
     ++g_answers;
     g_questions[g_questionIndex].correntAttempts = 0;
     updateStatistics();
-    alert("Niestety, Twoja odpowiedź nie jest prawidłowa...");
+
+    var wchichWasGood;
+    for (i = 0; i < g_questions[g_questionIndex].answers.length; ++i)
+        if (g_questions[g_questionIndex].answers[i].isCorrect)
+            wchichWasGood = i;
+    
+    alert("Niestety, Twoja odpowiedź nie jest prawidłowa...\nPrawidłowa odpowiedź to " + String.fromCharCode('A'.charCodeAt(0) + i));
     nextQuestion();
 }
 
