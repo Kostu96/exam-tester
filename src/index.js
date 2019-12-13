@@ -9,7 +9,9 @@ function App() {
         <>
             <GlobalStyle />
             <Header />
-            <h2>Exam Tester v2.0 is comming...</h2>
+            <main>
+                <h2>Exam Tester v2.0 is comming...</h2>
+            </main>
             <Footer />
         </>
     );
