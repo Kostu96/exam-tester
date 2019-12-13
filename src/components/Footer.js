@@ -7,6 +7,10 @@ const PageFooter = styled.footer`
     margin-top: 10px;
     background-color: #222628;
     font-size: 16px;
+
+    @media (max-width: 600px) {
+        font-size: 13px;
+    }
 `;
 
 class Footer extends Component {

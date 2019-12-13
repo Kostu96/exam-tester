@@ -10,9 +10,9 @@ const PageHeader = styled.header`
     font-weight: 700;
     letter-spacing: 3px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         padding: 8px;
-        font-size: 30px;
+        font-size: 28px;
         letter-spacing: 2px;
     }
 `;
