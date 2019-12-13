@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import styled from 'styled-components';
 import GlobalStyle from './GlobalStyle.js';
 import Header from './components/Header.js';
 import NavBar from './components/NavBar.js';
@@ -9,6 +10,15 @@ import Question from './components/Question.js';
 import Ad from './components/Ad.js';
 import Footer from './components/Footer.js';
 
+const Wrapper = styled.main`
+    width: 1000px;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+`;
+
 class App extends Component {
     render() {
         return (
@@ -16,11 +26,11 @@ class App extends Component {
             <GlobalStyle />
             <Header />
             <NavBar />
-            <main>
+            <Wrapper>
                 <Statistics />
                 <Settings />
                 <Question />
-            </main>
+            </Wrapper>
             <Ad />
             <Footer />
         </>
