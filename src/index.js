@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import GlobalStyle from './GlobalStyle.js';
 import Header from './components/Header.js';
+import NavBar from './components/NavBar.js';
 import Footer from './components/Footer.js';
 import Question from './components/Question.js';
 import Settings from './components/Settings.js';
@@ -13,6 +14,7 @@ class App extends Component {
         <>
             <GlobalStyle />
             <Header />
+            <NavBar />
             <main>
                 <Settings />
                 <Question />
