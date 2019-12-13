@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import GlobalStyle from './GlobalStyle.js';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 
-function App() {
-    return (
+class App extends Component {
+    render() {
+        return (
         <>
             <GlobalStyle />
             <Header />
@@ -14,7 +15,8 @@ function App() {
             </main>
             <Footer />
         </>
-    );
+        );
+    }
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
