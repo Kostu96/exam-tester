@@ -9,6 +9,12 @@ const PageHeader = styled.header`
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 3px;
+
+    @media (max-width: 768px) {
+        padding: 8px;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
 `;
 
 class Header extends Component {
