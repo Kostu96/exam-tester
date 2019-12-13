@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-class Question extends Component {
+class Settings extends Component {
     render() {
         return(
             <div>
@@ -11,4 +11,4 @@ class Question extends Component {
     }
 }
 
-export default Question;
+export default Settings;
