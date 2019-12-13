@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const PageFooter = styled.footer`
@@ -9,10 +9,12 @@ const PageFooter = styled.footer`
     font-size: 16px;
 `;
 
-function Footer() {
-    return(
-        <PageFooter>Konstanty Misiak &copy; 2019</PageFooter>
-    );
+class Footer extends Component {
+    render() {
+        return(
+            <PageFooter>Konstanty Misiak &copy; 2019</PageFooter>
+        );
+    }
 }
 
 export default Footer;

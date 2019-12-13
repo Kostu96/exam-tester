@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 
-function Question() {
-    return(
-        
-    );
+class Question extends Component {
+    render() {
+        return(
+            
+        );
+    }
 }
 
 export default Question;

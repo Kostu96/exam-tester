@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const PageHeader = styled.header`
@@ -11,10 +11,12 @@ const PageHeader = styled.header`
     letter-spacing: 3px;
 `;
 
-function Header() {
-    return(
-        <PageHeader>EXAM TESTER</PageHeader>
-    );
+class Header extends Component {
+    render() {
+        return(
+            <PageHeader>EXAM TESTER</PageHeader>
+        );
+    }
 }
 
 export default Header;
