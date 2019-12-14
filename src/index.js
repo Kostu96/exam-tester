@@ -19,38 +19,7 @@ const Wrapper = styled.main`
     }
 `;
 
-class Answer {
-    constructor(text) {
-        this.text = text;
-        this.isCorrect = false;
-    }
-
-    makeCorrect() {
-        this.isCorrect = true;
-    }
-}
-
-class Question {
-    constructor(number, text, answers) {
-        this.number = number;
-        this.text = text;
-        this.answers = answers;
-        this.correntAttempts = 0;
-    }
-}
-
 class App extends Component {
-    state = {
-        questions: [],
-        questionCount: 0,
-        currentQuestionIndex: 0
-    }
-
-    constructor() {
-        super();
-        this.loadQuestionsData('/resources/mii_questions.txt');
-    }
-
     render() {
         return (
         <>
@@ -66,41 +35,6 @@ class App extends Component {
             <Footer />
         </>
         );
-    }
-
-    loadQuestionsData(filePath) {
-        var file = null;
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.open("GET", filePath, false);
-        xmlhttp.send();
-
-        if (xmlhttp.status === 200)
-            file = xmlhttp.responseText;
-        else alert("Error while loading questions database!");
-
-        file = file.split('\n');
-
-        var numberOfAnswers, questionText, questionAnswers = [];
-        this.state.questionCount = parseInt(file[0]);
-        file.shift();
-        for (var i = 0; i < this.state.questionCount; ++i) {
-            questionText = file[0].substr(file[0].indexOf(')') + 1);
-            file.shift();
-            numberOfAnswers = parseInt(file[0]);
-            file.shift();
-
-            for (var j = 0; j < numberOfAnswers; ++j) {
-                questionAnswers.push(new Answer(file[0]));
-                file.shift();
-            }
-
-            var num = parseInt(file[0]);
-            questionAnswers[num - 1].makeCorrect();
-            file.shift();
-
-            this.state.questions.push(new Question(i + 1, questionText, questionAnswers));
-            questionAnswers = [];
-        }
     }
 }
 
