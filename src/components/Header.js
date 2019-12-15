@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const PageHeader = styled.header`
-    text-align: center;
     padding: 20px;
     margin-bottom: 10px;
     background-color: #222628;

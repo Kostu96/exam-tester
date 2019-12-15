@@ -9,11 +9,13 @@ import Settings from './components/Settings.js';
 import QuestionWrapper from './components/QuestionWrapper.js';
 import Ad from './components/Ad.js';
 import Footer from './components/Footer.js';
+import questionDataBase from './database.js';
 
 const Wrapper = styled.main`
     width: 1000px;
     margin: 0 auto;
     font-size: 16px;
+    min-height: 84vh;
 
     @media (max-width: 600px) {
         width: 100%;
@@ -23,7 +25,7 @@ const Wrapper = styled.main`
 
 class App extends Component {
     state = {
-        currentQuestionIndex: 0;
+        currentQuestionIndex: 0
     };
 
     render() {
@@ -33,9 +35,9 @@ class App extends Component {
             <Header />
             <NavBar />
             <Wrapper>
-                <Statistics />
+                <Statistics numberOfQuestions={ questionDataBase.multimediaAndInterfaces.length } />
                 <Settings />
-                <QuestionWrapper questionIndex={ this.state.currentQuestionIndex } />
+                <QuestionWrapper question={ questionDataBase.multimediaAndInterfaces[this.state.currentQuestionIndex] } />
             </Wrapper>
             <Ad />
             <Footer />

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const PageFooter = styled.footer`
-    text-align: center;
     padding: 5px;
     margin-top: 10px;
     background-color: #222628;

@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import questionDataBase from './../database.js';
 
 const Wrapper = styled.div`
     display: flex;
     margin: 0 auto;
+    padding: 0 3px;
 `;
 
 const Stat = styled.span`
     flex-grow: 1;
-    text-align: center;
 `;
 
 class Statistics extends Component {
@@ -24,7 +23,7 @@ class Statistics extends Component {
             <Wrapper>
                 <Stat>
                     <div>Liczba pytań:</div>
-                    <div>{ questionDataBase.multimediaAndInterfaces.length }</div>
+                    <div>{ this.props.numberOfQuestions }</div>
                 </Stat>
                 <Stat>
                     <div>Nauczonych pytań:</div>
