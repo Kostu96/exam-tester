@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const QuestionText = styled.p`
     margin: 16px 4px;
+    font-size: 16px;
 `;
 
 const AnswersWrapper = styled.div`
@@ -21,7 +22,7 @@ const AnswerButton = styled.div`
             cursor: pointer;
         }
     }
-    
+
     @media (max-width: 600px) {
         font-size: 12px;
     }

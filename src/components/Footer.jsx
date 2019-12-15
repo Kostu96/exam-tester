@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const PageFooter = styled.footer`
     padding: 5px;
     margin-top: 10px;
-    background-color: #222628;
+    background-color: #202426;
     font-size: 16px;
 
     @media (max-width: 600px) {
