@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+const QuestionText = styled.p`
+    margin: 16px 4px;
+`;
+
 const AnswersWrapper = styled.div`
     display: flex;
     flex-flow: column;
@@ -26,14 +30,17 @@ class QuestionWrapper extends Component {
         return(
             <div>
                 <hr />
-                <p>
+                <QuestionText>
                     { this.props.question.questionID + ". " }
                     { this.props.question.questionText }
-                </p>
+                </QuestionText>
                 <AnswersWrapper>
                     { this.props.question.questionAnswers.map(
                         (answer, index) =>
-                        <AnswerButton key={ answer.id }>
+                        <AnswerButton
+                            key={ answer.id }
+                            onClick={ () => this.props.answerHandler(answer.isCorrect) }
+                        >
                             { String.fromCharCode('A'.charCodeAt(0) + index) + ") " }
                             { answer.text }
                         </AnswerButton>

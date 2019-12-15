@@ -12,12 +12,6 @@ const Stat = styled.span`
 `;
 
 class Statistics extends Component {
-    state = {
-        learntQuestions: 0,
-        answers: 0,
-        goodAnswers: 0
-    };
-
     render() {
         return(
             <Wrapper>
@@ -27,19 +21,19 @@ class Statistics extends Component {
                 </Stat>
                 <Stat>
                     <div>Nauczonych pytań:</div>
-                    <div>{ this.state.learntQuestions }</div>
+                    <div>{ this.props.learntQuestionsCount }</div>
                 </Stat>
                 <Stat>
                     <div>Udzielonych odpowiedzi:</div>
-                    <div>{ this.state.answers }</div>
+                    <div>{ this.props.answersCount }</div>
                 </Stat>
                 <Stat>
                     <div>Dobrych odpowiedzi:</div>
-                    <div>{ this.state.goodAnswers }</div>
+                    <div>{ this.props.goodAnswersCount }</div>
                 </Stat>
                 <Stat>
                     <div>Wynik:</div>
-                    <div>{ Math.round(this.state.goodAnswers / this.state.answers * 100) }%</div>
+                    <div>{ Math.round(this.props.goodAnswersCount / this.props.answersCount * 100) }%</div>
                 </Stat>
             </Wrapper>
         );
