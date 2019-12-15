@@ -28,7 +28,8 @@ class App extends Component {
         currentQuestionIndex: 0,
         learntQuestionsCount: 0,
         answersCount: 0,
-        goodAnswersCount: 0
+        goodAnswersCount: 0,
+        answered : false
     };
 
     shuffleArray(array) {
@@ -47,24 +48,35 @@ class App extends Component {
     }
 
     handleAnswer = (isCorrect) => {
-        var addToGood = 0;
-        if (isCorrect) addToGood = 1;
+        if (!this.state.answered) {
+            var addToGood = 0;
+            if (isCorrect) addToGood = 1;
 
-        var newQuestionIndex;
-        var shouldShuffle = false;
-        if (this.state.currentQuestionIndex < questionDataBase.multimediaAndInterfaces.length - 1)
-            newQuestionIndex = this.state.currentQuestionIndex + 1;
-        else {
-            newQuestionIndex = 0;
-            shouldShuffle = true;
+            this.setState({
+                answersCount: this.state.answersCount + 1,
+                goodAnswersCount: this.state.goodAnswersCount + addToGood,
+                answered: true
+            });
         }
+    }
 
-        this.setState({
-            questionIndexes: shouldShuffle ? this.shuffleArray(this.state.questionIndexes) : this.state.questionIndexes,
-            currentQuestionIndex: newQuestionIndex,
-            answersCount: this.state.answersCount + 1,
-            goodAnswersCount: this.state.goodAnswersCount + addToGood
-        });
+    handleNextQuestion = () => {
+        if (this.state.answered) {
+            var newQuestionIndex;
+            var shouldShuffle = false;
+            if (this.state.currentQuestionIndex < questionDataBase.multimediaAndInterfaces.length - 1)
+                newQuestionIndex = this.state.currentQuestionIndex + 1;
+            else {
+                newQuestionIndex = 0;
+                shouldShuffle = true;
+            }
+    
+            this.setState({
+                questionIndexes: shouldShuffle ? this.shuffleArray(this.state.questionIndexes) : this.state.questionIndexes,
+                currentQuestionIndex: newQuestionIndex,
+                answered: false
+            });
+        }
     }
 
     render() {
@@ -82,8 +94,10 @@ class App extends Component {
                 />
                 <Settings />
                 <QuestionWrapper
+                    onClick={ this.handleNextQuestion }
                     question={ questionDataBase.multimediaAndInterfaces[this.state.questionIndexes[this.state.currentQuestionIndex]] }
                     answerHandler={ this.handleAnswer }
+                    answered={ this.state.answered }
                 />
             </Wrapper>
             <Ad />
