@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+const Wrapper = styled.div`
+    min-height: 75vh;
+`;
+
 const QuestionText = styled.p`
     margin: 16px 4px;
     font-size: 16px;
@@ -67,7 +71,7 @@ class AnswerButton extends Component {
 class QuestionWrapper extends Component {
     render() {
         return(
-            <div onClick={ this.props.onClick }>
+            <Wrapper onClick={ this.props.onClick }>
                 <hr />
                 <QuestionText>
                     { this.props.question.questionID + ". " }
@@ -85,7 +89,7 @@ class QuestionWrapper extends Component {
                         />
                     ) }
                 </AnswersWrapper>
-            </div>
+            </Wrapper>
         );
     }
 }

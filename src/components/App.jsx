@@ -14,7 +14,6 @@ const Wrapper = styled.main`
     width: 1000px;
     margin: 0 auto;
     font-size: 16px;
-    min-height: 84vh;
 
     @media (max-width: 600px) {
         width: 100%;
