@@ -15,11 +15,13 @@ const AnswerButton = styled.div`
     padding: 10px;
     font-size: 14px;
 
-    &:hover {
-        background-color: #403846;
-        cursor: pointer;
+    @media (hover: hover) {
+        &:hover {
+            background-color: #403846;
+            cursor: pointer;
+        }
     }
-
+    
     @media (max-width: 600px) {
         font-size: 12px;
     }
