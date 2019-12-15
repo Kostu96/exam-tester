@@ -452,7 +452,7 @@ const questionDataBase = {
                 },
                 {
                     id: 2,
-                    text: "użytkownik zawsze wie ,w którym miejscu się znajduje"
+                    text: "użytkownik zawsze wie, w którym miejscu się znajduje"
                 },
                 {
                     id: 3,
