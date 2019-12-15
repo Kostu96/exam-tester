@@ -13,13 +13,19 @@ import Footer from './components/Footer.js';
 const Wrapper = styled.main`
     width: 1000px;
     margin: 0 auto;
+    font-size: 16px;
 
     @media (max-width: 600px) {
         width: 100%;
+        font-size: 12px;
     }
 `;
 
 class App extends Component {
+    state = {
+        currentQuestionIndex: 0;
+    };
+
     render() {
         return (
         <>
@@ -29,7 +35,7 @@ class App extends Component {
             <Wrapper>
                 <Statistics />
                 <Settings />
-                <QuestionWrapper />
+                <QuestionWrapper questionIndex={ this.state.currentQuestionIndex } />
             </Wrapper>
             <Ad />
             <Footer />

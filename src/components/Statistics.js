@@ -3,6 +3,12 @@ import styled from 'styled-components';
 import questionDataBase from './../database.js';
 
 const Wrapper = styled.div`
+    display: flex;
+    margin: 0 auto;
+`;
+
+const Stat = styled.span`
+    flex-grow: 1;
     text-align: center;
 `;
 
@@ -16,11 +22,26 @@ class Statistics extends Component {
     render() {
         return(
             <Wrapper>
-                <span>Liczba pytań: { questionDataBase.multimediaAndInterfaces.length }</span>
-                <span>Nauczonych pytań: { this.state.learntQuestions }</span>
-                <span>Udzielonych odpowiedzi: { this.state.answers }</span>
-                <span>Dobrych odpowiedzi: { this.state.goodAnswers }</span>
-                <span>Wynik: { Math.round(this.state.goodAnswers / this.state.answers * 100) }%</span>
+                <Stat>
+                    <div>Liczba pytań:</div>
+                    <div>{ questionDataBase.multimediaAndInterfaces.length }</div>
+                </Stat>
+                <Stat>
+                    <div>Nauczonych pytań:</div>
+                    <div>{ this.state.learntQuestions }</div>
+                </Stat>
+                <Stat>
+                    <div>Udzielonych odpowiedzi:</div>
+                    <div>{ this.state.answers }</div>
+                </Stat>
+                <Stat>
+                    <div>Dobrych odpowiedzi:</div>
+                    <div>{ this.state.goodAnswers }</div>
+                </Stat>
+                <Stat>
+                    <div>Wynik:</div>
+                    <div>{ Math.round(this.state.goodAnswers / this.state.answers * 100) }%</div>
+                </Stat>
             </Wrapper>
         );
     }
