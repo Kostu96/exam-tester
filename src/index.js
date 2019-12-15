@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components';
-import GlobalStyle from './GlobalStyle.js';
-import Header from './components/Header.js';
-import NavBar from './components/NavBar.js';
-import Statistics from './components/Statistics.js';
-import Settings from './components/Settings.js';
-import QuestionWrapper from './components/QuestionWrapper.js';
-import Ad from './components/Ad.js';
-import Footer from './components/Footer.js';
+import GlobalStyle from './GlobalStyle';
+import Header from './components/Header';
+import NavBar from './components/NavBar';
+import Statistics from './components/Statistics';
+import Settings from './components/Settings';
+import QuestionWrapper from './components/QuestionWrapper';
+import Ad from './components/Ad';
+import Footer from './components/Footer';
 import questionDataBase from './database.js';
 
 const Wrapper = styled.main`
