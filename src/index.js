@@ -53,7 +53,7 @@ class App extends Component {
 
         var newQuestionIndex;
         var shouldShuffle = false;
-        if (this.state.currentQuestionIndex < questionDataBase.multimediaAndInterfaces.length)
+        if (this.state.currentQuestionIndex < questionDataBase.multimediaAndInterfaces.length - 1)
             newQuestionIndex = this.state.currentQuestionIndex + 1;
         else {
             newQuestionIndex = 0;
