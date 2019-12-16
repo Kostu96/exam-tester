@@ -19,7 +19,13 @@ const AnswerButtonWrapper = styled.div`
     margin: 1px auto;
     padding: 10px;
     font-size: 14px;
-    ${ props => props.wasClicked ? props.isCorrect ? "background-color: green;" : "background-color: red;" : "" }
+    ${ props => props.answered ?
+        props.wasClicked ?
+            props.isCorrect ?
+                "background-color: green;" : "background-color: red;" :
+            props.isCorrect ? "background-color: green;" : "" :
+        ""
+    }
 
     ${ props => props.answered ? "" : `
         @media (hover: hover) {
