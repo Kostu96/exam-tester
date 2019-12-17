@@ -1473,6 +1473,28 @@ const questionDataBase = {
                 }
             ]
         }
+    ],
+
+    physics: [
+        {
+            questionID: 2,
+            questionText: "Przyspieszenie punktu materialnego o masie m zdefiniowane jest jako:",
+            questionAnswers: [
+                {
+                    text: "iloraz prędkości punktu materialnego i czasu trwania jego ruchu"
+                },
+                {
+                    text: "jest to wielkość niedefiniowalna"
+                },
+                {
+                    text: "iloczyn prędkości punktu materialnego i czasu trwania jego ruchu"
+                },
+                {
+                    text: "druga pochodna funkcji opisującej położenie punktu materialnego względem czasu",
+                    isCorrect: true
+                }
+            ]
+        }
     ]
 };
 
