@@ -1522,10 +1522,10 @@ const questionDataBase = {
             questionText: "Energia potencjalna ładnuku q znajdującego się w odległości r od ładunku punktowego Q wynosi:",
             questionAnswers: [
                 {
-                    text: "kQq/r^2"
+                    text: "kQq/r²"
                 },
                 {
-                    text: "kQ/r^2"
+                    text: "kQ/r²"
                 },
                 {
                     text: "kQq/r",
@@ -1551,7 +1551,7 @@ const questionDataBase = {
                     text: "za mało danych"
                 },
                 {
-                    text: "ES^2"
+                    text: "ES²"
                 }
             ]
         },
@@ -1571,6 +1571,101 @@ const questionDataBase = {
                 {
                     text: "Wszystkie powyższe odpowiedzi są poprawne",
                     isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 5,
+            questionText: "Natężenie pola elektrycznego w próżni wynosi E[wektor]. Jeśli w polu tym umieścimy dielektryk o względnej przenikalności elektrycznej εᵣ, to wektor indukcji pola elektrycznego w tym materiale wyniesie:",
+            questionAnswers: [
+                {
+                    text: "D[wektor] = ε₀εᵣE[wektor]",
+                    isCorrect: true
+                },
+                {
+                    text: "D[wektor] = E[wektor]/(ε₀εᵣ)"
+                },
+                {
+                    text: "D[wektor] = E[wektor]/εᵣ"
+                },
+                {
+                    text: "D[wektor] = εᵣE[wektor]"
+                }
+            ]
+        },
+        {
+            questionID: 6,
+            questionText: "Energia potencjalna ładunku q poruszającego się polu ładunku punktu Q wynosi:",
+            questionAnswers: [
+                {
+                    text: "Eₚ = kqQ/r²"
+                },
+                {
+                    text: "Eₚ = kqQ/r",
+                    isCorrect: true
+                },
+                {
+                    text: "Eₚ = kQ/r"
+                },
+                {
+                    text: "Eₚ = kQ/r²"
+                }
+            ]
+        },
+        {
+            questionID: 7,
+            questionText: "Według prawa Gaussa strumień wektora natężenia pola elektrycznego przez zamkniętą powierzchnię S jest równy (czyli ∮E[wektor]*dS[wektor] = ...)",
+            questionAnswers: [
+                {
+                    text: "0"
+                },
+                {
+                    text: "sumie ładunków w obszarze zamkniętym powierzchnią S"
+                },
+                {
+                    text: "sumie ładunków w obszarze zamkniętym powierzchnią S podzielonej przez ε₀",
+                    isCorrect: true
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 8,
+            questionText: "W pewnym punkcie umieszczony jest ładunek dodatni o wartości 2C. W odległości 0,4 m od tego ładunku umieszczony jest ładunek ujemny -2C. Ładunki te tworzą dipol. Jaka jest wartość elektrycznego momentu dipolowego tego dipola?",
+            questionAnswers: [
+                {
+                    text: "1,6 Cm"
+                },
+                {
+                    text: "0,8 Cm",
+                    isCorrect: true
+                },
+                {
+                    text: "0,4 Cm"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 9,
+            questionText: "Jeśli dipol znajduje się w jednorodnym polu elektrycznym, działają na niego siły które...",
+            questionAnswers: [
+                {
+                    text: "dążą do ustawienia wektora momentu dipolowego prostopadle do linii pola"
+                },
+                {
+                    text: "dążą do ustawienia wektora momentu dipolowego tak, aby jego zwrot był równoległy do wektora natężenia pola elektrycznego",
+                    isCorrect: true
+                },
+                {
+                    text: "nie zmienią ani położenia ani ustawienia dipola, bo siła wypadkowa będzie zerowa"
+                },
+                {
+                    text: "będą przesuwać dipol wzdłuż linii pola"
                 }
             ]
         }
