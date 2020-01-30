@@ -2202,103 +2202,215 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 0,
-            questionText: "",
+            questionID: 38,
+            questionText: "Aby poprawnie wyjaśnić zjawisko Comptona, należy",
             questionAnswers: [
                 {
-                    text: "",
+                    text: "założyć, że światło jest falą i dokonać bilansu energii w układzie"
+                },
+                {
+                    text: "założyć, że światło wykazuje naturę cząsteczkową i zastosować zasady zachowania energii i pędu",
                     isCorrect: true
                 },
                 {
-                    text: ""
+                    text: "współczesna fizyka nadal nie potrafi wyjaśnić zjawiska Comptona"
                 },
                 {
-                    text: ""
-                },
-                {
-                    text: ""
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
                 }
             ]
         },
+        {
+            questionID: 39,
+            questionText: "Pierwszy postulat Bohra zakłada skwantowanie",
+            questionAnswers: [
+                {
+                    text: "pędu elektronu"
+                },
+                {
+                    text: "orbitalnego momentu pędu elektronu",
+                    isCorrect: true
+                },
+                {
+                    text: "energii elektronu"
+                },
+                {
+                    text: "promienia orbity elektronu"
+                }
+            ]
+        },
+        {
+            questionID: 40,
+            questionText: "Drugi postulat Bohra zakłada, że",
+            questionAnswers: [
+                {
+                    text: "elektron posiada tzw. spin"
+                },
+                {
+                    text: "elektron ma skwantowany promień orbity"
+                },
+                {
+                    text: "elektron ma skwantowany orbitalny moment pędu"
+                },
+                {
+                    text: "przejściu elektronu pomiędzy dwoma poziomami odpowiada emisja lub absorpcja fotonu o energii odpowiadającej różnicy energii między poziomami",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 41,
+            questionText: "Pierwszemu poziomowi energetycznemu w atomie wodoru odpowiada energia E₁. Energia n-tego poziomu wynosi:",
+            questionAnswers: [
+                {
+                    text: "Rₙ = nE₁"
+                },
+                {
+                    text: "Rₙ = E₁/n"
+                },
+                {
+                    text: "Rₙ = n²*E₁"
+                },
+                {
+                    text: "Rₙ = E₁/n²",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 42,
+            questionText: "Eksperyment Davissona i Germera polega na...",
+            questionAnswers: [
+                {
+                    text: "obserwacji falowej natury elektronów (zgodność z warunkiem na konstruktywną interferencję)",
+                    isCorrect: true
+                },
+                {
+                    text: "wytwarzaniu wirowego pola magnetycznego wokół przewodnika z prądem"
+                },
+                {
+                    text: "\"wygaszeniu\" światła przechodzącego przez układ dwóch polaryzatorów o wzajemnie prostopadłych kierunkach polaryzacji"
+                },
+                {
+                    text: "rozpraszaniu promieniowania rentgenowskiego na elektronach, co prowadzi zmiany długości fali promieniowania (zależnej od kąta rozproszenia)"
+                }
+            ]
+        },
+        {
+            questionID: 43,
+            questionText: "W precyzyjnie wykonanym eksperymencie badającym falową naturę materii wiązka elektronów pada prostopadle na płytę zawierającą dwie szczeliny. Obraz powstający na ekranie za płytą będzie zawierał:",
+            questionAnswers: [
+                {
+                    text: "dokładnie jedno maksimum",
+                    isCorrect: true
+                },
+                {
+                    text: "dokładnie dwa maksima"
+                },
+                {
+                    text: "jedno lub dwa maksima"
+                },
+                {
+                    text: "co najmniej kilka wyraźnych maksimów"
+                }
+            ]
+        },
+        {
+            questionID: 44,
+            questionText: "Ciało o masie 1 kg porusza się z prędkością 1 m/s. Jaka długość fali materii odpowiada temu ciału (wartość stałej Plancka: h =6,6*10^-34 Js)?",
+            questionAnswers: [
+                {
+                    text: "6,6*10^-34 m",
+                    isCorrect: true
+                },
+                {
+                    text: "3,3*10^-34 m"
+                },
+                {
+                    text: "6,6*10^-19 m"
+                },
+                {
+                    text: "3,3*10^-19 m"
+                }
+            ]
+        },
+        {
+            questionID: 45,
+            questionText: "Które stwierdzenie jest prawdziwe?",
+            questionAnswers: [
+                {
+                    text: "Funkcja falowa może być nieskończona"
+                },
+                {
+                    text: "funkcja falowa może być nieciągła"
+                },
+                {
+                    text: "funkcja falowa może zależeć od czasu",
+                    isCorrect: true
+                },
+                {
+                    text: "funkcja falowa może być równa zeru w całej swojej dziedzinie (w całym obszarze)"
+                }
+            ]
+        },
+        {
+            questionID: 46,
+            questionText: "Zgodnie z zasadą odpowiedniości Bohra, gdy rozpatruje się np. energię cząstki,...",
+            questionAnswers: [
+                {
+                    text: "nie ma możliwości porównywania wyników uzyskanych mechaniką klasyczną i kwantową"
+                },
+                {
+                    text: "Wyniki kwantowe uzyskane dla najniższych poziomów zgadzają się z klasycznymi"
+                },
+                {
+                    text: "wyniki kwantowe uzyskane dla bardzo wysokich poziomów zgadzają się z klasycznymi",
+                    isCorrect: true
+                },
+                {
+                    text: "wszystkie wyniki uzyskane mechaniką kwantową w pełni pokrywają się z wynikami klasycznymi"
+                }
+            ]
+        },
+        {
+            questionID: 47,
+            questionText: "Absorpcja wymuszona to",
+            questionAnswers: [
+                {
+                    text: "sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym"
+                },
+                {
+                    text: "Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów",
+                    isCorrect: true
+                },
+                {
+                    text: "Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 48,
+            questionText: "Inwersja obsadzeń to",
+            questionAnswers: [
+                {
+                    text: "sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym",
+                    isCorrect: true
+                },
+                {
+                    text: "Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów"
+                },
+                {
+                    text: "Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        }
     ]
 };
 
 export default questionDataBase;
-/*
-Aby poprawnie wyjaśnić zjawisko Comptona, należy
-4
-a) założyć, że światło jest falą i dokonać bilansu energii w układzie
-b) założyć, że światło wykazuje naturę cząsteczkową i zastosować zasady zachowania energii i pędu
-c) współczesna fizyka nadal nie potrafi wyjaśnić zjawiska Comptona
-D) żadna z odpowiedzi A, B i C nie jest prawidłowa.
-2
-Pierwszy postulat Bohra zakłada skwantowanie
-4
-A) pędu elektronu
-B) orbitalnego momentu pędu elektronu
-C) energii elektronu 
-D) promienia orbity elektronu
-2
-Drugi postulat Bohra zakłada, że
-4
-A) elektron posiada tzw. spin
-B) elektron ma skwantowany promień orbity
-C) elektron ma skwantowany orbitalny moment pędu
-D) przejściu elektronu pomiędzy dwoma poziomami odpowiada emisja lub absorpcja fotonu o energii odpowiadającej różnicy energii między poziomami
-4
-Pierwszemu poziomowi energetycznemu w atomie wodoru odpowiada energia E1. Energia n-tego poziomu wynosi:
-4
-Rn=nE1
-Rn=E1/n
-Rn=n²*E1
-Rn=E1/n²
-4
-Eksperyment Davissona i Germera polega na...
-4
-A) obserwacji falowej natury elektronów (zgodność z warunkiem na konstruktywną interferencję)
-B) wytwarzaniu wirowego pola magnetycznego wokół przewodnika z prądem
-C) „wygaszeniu” światła przechodzącego przez układ dwóch polaryzatorów o wzajemnie prostopadłych kierunkach polaryzacji
-D) rozpraszaniu promieniowania rentgenowskiego na elektronach, co prowadzi zmiany długości fali promieniowania (zależnej od kąta rozproszenia)
-1
-W precyzyjnie wykonanym eksperymencie badającym falową naturę materii wiązka elektronów pada prostopadle na płytę zawierającą dwie szczeliny. Obraz powstający na ekranie za płytą będzie zawierał:
-4
-A) dokładnie jedno maksimum 
-B) dokładnie dwa maksima
-C) jedno lub dwa maksima 
-D) co najmniej kilka wyraźnych maksimów
-1
-Ciało o masie 1 kg porusza się z prędkością 1 m/s. Jaka długość fali materii odpowiada temu ciału (wartość stałej Plancka: h =6,6*10^-34 Js)?
-4
-6,6*10^-34 m
-3,3*10^-34 m
-6,6*10^-19 m
-3,3*10^-19 m
-1
-Które stwierdzenie jest prawdziwe?
-4
-A) Funkcja falowa może być nieskończona
-B) funkcja falowa może być nieciągła
-C) funkcja falowa może zależeć od czasu
-D) funkcja falowa może być równa zeru w całej swojej dziedzinie (w całym obszarze)
-3
-Zgodnie z zasadą odpowiedniości Bohra, gdy rozpatruje się np. energię cząstki,...
-4
-A) nie ma możliwości porównywania wyników uzyskanych mechaniką klasyczną i kwantową
-B) Wyniki kwantowe uzyskane dla najniższych poziomów zgadzają się z klasycznymi
-C) wyniki kwantowe uzyskane dla bardzo wysokich poziomów zgadzają się z klasycznymi
-D) wszystkie wyniki uzyskane mechaniką kwantową w pełni pokrywają się z wynikami klasycznymi.
-3
-Absorpcja wymuszona to
-4
-A) sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym
-B) Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów
-C) Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu
-D) w żadnym z punktów A, B i C nie pojawiła się prawidłowa odpowiedź
-2
-Inwersja obsadzeń to
-4
-A) sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym
-B) Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów
-C) Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu
-D) w żadnym z punktów A, B i C nie pojawiła się prawidłowa odpowiedź
-1*/
