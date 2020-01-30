@@ -1940,7 +1940,7 @@ const questionDataBase = {
             questionText: "Magnes oddala się od metalowej obręczy wzdłuż osi przechodzącej przez jej środek. W obręczy tej...",
             questionAnswers: [
                 {
-                    text: "popłynie prąd w kierunku zgodnym z ruchem wskazówek zegara (patrząc od strony magnesu) . / indukcja musi być w lewo",
+                    text: "popłynie prąd w kierunku zgodnym z ruchem wskazówek zegara (patrząc od strony magnesu)",
                     isCorrect: true
                 },
                 {
@@ -2088,6 +2088,44 @@ const questionDataBase = {
             ]
         },
         {
+            questionID: 32,
+            questionText: "Każda powierzchnia o temperaturze T wyższej niż 0K wypromieniowuje energię. Ilość energii wypromieniowywanej z jednostkowej powierzchni w jednostce czasu jest proporcjonalna do...",
+            questionAnswers: [
+                {
+                    text: "T"
+                },
+                {
+                    text: "T²"
+                },
+                {
+                    text: "T³"
+                },
+                {
+                    text: "T⁴",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 33,
+            questionText: "Długość fali przy której widmowa zdolność emisyjna ciała doskonale czarnego ma maksimum, ...",
+            questionAnswers: [
+                {
+                    text: "nie zależy od temperatury"
+                },
+                {
+                    text: "rośnie liniowo wraz z temperaturą"
+                },
+                {
+                    text: "jest proporcjonalna do kwadratu temperatury"
+                },
+                {
+                    text: "jest odwrotnie proporcjonalna do temperatury",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
             questionID: 0,
             questionText: "",
             questionAnswers: [
@@ -2111,20 +2149,6 @@ const questionDataBase = {
 
 export default questionDataBase;
 /*
-Każda powierzchnia o temperaturze T wyższej niż 0K wypromieniowuje energię. Ilość energii wypromieniowywanej z jednostkowej powierzchni w jednostce czasu jest proporcjonalna do...
-4
-a) T 
-B) T²
-C) T^3
-D) T^4
-4
-Długość fali przy której widmowa zdolność emisyjna ciała doskonale czarnego ma maksimum, ...
-4
-a) nie zależy od temperatury
-b) rośnie liniowo wraz z temperaturą
-c) jest proporcjonalna do kwadratu temperatury
-d) jest odwrotnie proporcjonalna do temperatury
-4
 Podczas obserwacji zjawiska fotoelektrycznego przyłożenie napięcia hamującego pozwala na
 4
 a) ocenę maksymalnej energii kinetycznej uzyskiwanej przez elektrony
