@@ -23,7 +23,7 @@ const Wrapper = styled.main`
 
 class App extends Component {
     state = {
-        questionIndexes: this.shuffleArray([...Array(questionDataBase.multimediaAndInterfaces.length).keys()]),
+        questionIndexes: this.shuffleArray([...Array(questionDataBase.modernPhysics.length).keys()]),
         currentQuestionIndex: 0,
         learntQuestionsCount: 0,
         answersCount: 0,
@@ -63,7 +63,7 @@ class App extends Component {
         if (this.state.answered) {
             var newQuestionIndex;
             var shouldShuffle = false;
-            if (this.state.currentQuestionIndex < questionDataBase.multimediaAndInterfaces.length - 1)
+            if (this.state.currentQuestionIndex < questionDataBase.modernPhysics.length - 1)
                 newQuestionIndex = this.state.currentQuestionIndex + 1;
             else {
                 newQuestionIndex = 0;
@@ -86,7 +86,7 @@ class App extends Component {
             <NavBar />
             <Wrapper>
                 <Statistics
-                    numberOfQuestions={ questionDataBase.multimediaAndInterfaces.length }
+                    numberOfQuestions={ questionDataBase.modernPhysics.length }
                     learntQuestionsCount={ this.state.learntQuestionsCount }
                     answersCount={ this.state.answersCount }
                     goodAnswersCount={ this.state.goodAnswersCount }
@@ -94,7 +94,7 @@ class App extends Component {
                 <Settings />
                 <QuestionWrapper
                     onClick={ this.handleNextQuestion }
-                    question={ questionDataBase.multimediaAndInterfaces[this.state.questionIndexes[this.state.currentQuestionIndex]] }
+                    question={ questionDataBase.modernPhysics[this.state.questionIndexes[this.state.currentQuestionIndex]] }
                     answerHandler={ this.handleAnswer }
                     answered={ this.state.answered }
                 />

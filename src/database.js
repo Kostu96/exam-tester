@@ -1495,6 +1495,85 @@ const questionDataBase = {
                 }
             ]
         }
+    ],
+
+    modernPhysics: [
+        {
+            questionID: 1,
+            questionText: "Według prawa Gaussa (dla pola elektryczengo) strumień wektora natężenia pola elektrycznego przez dowolną powierzchnię zamkniętą S...",
+            questionAnswers: [
+                {
+                    text: "jest zawsze zerowy, niezależnie od rozmieszczenia źródeł pola"
+                },
+                {
+                    text: "zależy tylko od ładunków zawartych w obszarze ograniczonym powierzchnią S",
+                    isCorrect: true
+                },
+                {
+                    text: "zależy tylko od ładunków zawartych w obszarze na zewnątrz powierzchni S"
+                },
+                {
+                    text: "zależy zarówno od ładunków zawartych wewnątrz jak i na zewnątrz powierzchni S"
+                }
+            ]
+        },
+        {
+            questionID: 2,
+            questionText: "Energia potencjalna ładnuku q znajdującego się w odległości r od ładunku punktowego Q wynosi:",
+            questionAnswers: [
+                {
+                    text: "kQq/r^2"
+                },
+                {
+                    text: "kQ/r^2"
+                },
+                {
+                    text: "kQq/r",
+                    isCorrect: true
+                },
+                {
+                    "text": "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 3,
+            questionText: "Strumień jednorodnego pola elektrycznego o wartości E przez ustawioną prostopadle do linii pola prostokątną powierzchnię o polu S wynosi:",
+            questionAnswers: [
+                {
+                    text: "0"
+                },
+                {
+                    text: "ES",
+                    isCorrect: true
+                },
+                {
+                    text: "za mało danych"
+                },
+                {
+                    text: "ES^2"
+                }
+            ]
+        },
+        {
+            questionID: 4,
+            questionText: "Pracę siły pola elektrycznego przy przemieszczaniu ładunku q z punktu 1 do punktu 2 można obliczyć na podstawie wyrażenia:",
+            questionAnswers: [
+                {
+                    text: "∫F*ds, gdzie F - siła elektrostatyczna [całka oznaczona od 1 do 2, F i s to wektory]"
+                },
+                {
+                    text: "q(V₁ - V₂), gdzie V₁ i V₂ - potencjały w punktach 1 i 2"
+                },
+                {
+                    text: "q∫E*ds, gdzie E - natężenie pola [całka oznaczona od 1 do 2, E i s to wektory]"
+                },
+                {
+                    text: "Wszystkie powyższe odpowiedzi są poprawne",
+                    isCorrect: true
+                }
+            ]
+        }
     ]
 };
 
