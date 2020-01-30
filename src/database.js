@@ -1668,6 +1668,82 @@ const questionDataBase = {
                     text: "będą przesuwać dipol wzdłuż linii pola"
                 }
             ]
+        },
+        {
+            questionID: 10,
+            questionText: "Siły działające na dipol elektryczny umieszczony w jednorodnym polu elektrycznym mogą...",
+            questionAnswers: [
+                {
+                    text: "tylko obracać dipol, bez przesuwania jego środka ciężkości"
+                },
+                {
+                    text: "tylko przesuwać dipol (jego środek ciężkości), bez obracania"
+                },
+                {
+                    text: "mogą zarówno obracać jak i przesuwać dipol",
+                    isCorrect: true
+                },
+                {
+                    text: "nie mogą ani obracać ani przesuwać dipola, bo siła wypadkowa będzie równa zeru"
+                }
+            ]
+        },
+        {
+            questionID: 11,
+            questionText: "Jak zależy moduł wektora natężenia pola elektrycznego, wytwarzanego przez nieskończoną płaszczyznę naładowaną ładunkiem o gęstości σ, od odległości od tej płaszczyzny:",
+            questionAnswers: [
+                {
+                    text: "jest proporcjonalny do odległości"
+                },
+                {
+                    text: "jest odwrotnie proporcjonalny do odległości"
+                },
+                {
+                    text: "nie zależy od odległości, jest stały i wynosi σ/(2ε₀)",
+                    isCorrect: true
+                },
+                {
+                    text: "nie zależy od odległości, jest równy 0"
+                }
+            ]
+        },
+        {
+            questionID: 12,
+            questionText: "Gęstość energii pola elektrycznego jest proporcjonalna do:",
+            questionAnswers: [
+                {
+                    text: "kwadratu natężenia pola elektrycznego"
+                },
+                {
+                    text: "kwadratu indukcji pola elektrycznego"
+                },
+                {
+                    text: "iloczynu natężenia i indukcji pola elektrycznego"
+                },
+                {
+                    text: "wszystkie odpowiedzi są poprawne",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 13,
+            questionText: "Cyrkulacja wektora natężenia pola elektrycznego wzdłuż zamkniętego konturu L (czyli ∮E[wektor]*dl[wektor]) w przypadku braku zmiennego pola magnetycznego wynosi",
+            questionAnswers: [
+                {
+                    text: "0",
+                    isCorrect: true
+                },
+                {
+                    text: "q"
+                },
+                {
+                    text: "q/ε₀"
+                },
+                {
+                    text: "ρ/ε₀"
+                }
+            ]
         }
     ]
 };
