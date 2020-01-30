@@ -1744,6 +1744,44 @@ const questionDataBase = {
                     text: "ρ/ε₀"
                 }
             ]
+        },
+        {
+            questionID: 14,
+            questionText: "Rotacja wektora natężenia pola elektrycznego (czyli ∇[wektor]xE[wektor]) w przypadku braku zmiennego pola magnetycznego wynosi:",
+            questionAnswers: [
+                {
+                    text: "ρ/ε₀"
+                },
+                {
+                    text: "q"
+                },
+                {
+                    text: "q/ε₀"
+                },
+                {
+                    text: "0",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 15,
+            questionText: "Elektron porusza się z pewną prędkością v (skierowaną wzdłuż osi x) w polu magnetycznym o indukcji B (wektor skierowany wzdłuż osi y). Jak będzie skierowana siła Lorentza?",
+            questionAnswers: [
+                {
+                    text: "w lewo (do -x)"
+                },
+                {
+                    text: "w dół (do -y)"
+                },
+                {
+                    text: "w głąb (do -z)",
+                    isCorrect: true
+                },
+                {
+                    text: "przed \"kartkę\" (do z)"
+                }
+            ]
         }
     ]
 };
