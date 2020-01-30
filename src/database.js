@@ -1671,7 +1671,7 @@ const questionDataBase = {
         },
         {
             questionID: 10,
-            questionText: "Siły działające na dipol elektryczny umieszczony w jednorodnym polu elektrycznym mogą...",
+            questionText: "Siły działające na dipol elektryczny umieszczony w niejednorodnym polu elektrycznym mogą...",
             questionAnswers: [
                 {
                     text: "tylko obracać dipol, bez przesuwania jego środka ciężkości"
@@ -1780,6 +1780,63 @@ const questionDataBase = {
                 },
                 {
                     text: "przed \"kartkę\" (do z)"
+                }
+            ]
+        },
+        {
+            questionID: 16,
+            questionText: "Czy pole magnetyczne, działając na poruszający się ładunek, zmienia jego energię kinetyczną?",
+            questionAnswers: [
+                {
+                    text: "tak, niezależnie od kąta pomiędzy wektorami B i v"
+                },
+                {
+                    text: "tak, ale tylko jeśli wektory B i v są równoległe"
+                },
+                {
+                    text: "tak, ale tylko jeśli wektory B i v są prostopadłe"
+                },
+                {
+                    text: "nie, niezaleznie od kąta pomiędzy wektorami B i v",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 17,
+            questionText: "Zgodnie z prawem Biota-Savarta, pole magnetyczne wytwarzane przez odcinek przednika ds, przez który płynie prąd o natężeniu I (zwrot jest zgodny z kierunkiem prądu), w punkcie, którego połozenie względem odcinka opisuje wektor r, wynosi:",
+            questionAnswers: [
+                {
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(r[wektor] x ds[wektor])/r²"
+                },
+                {
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(r[wektor] x ds[wektor])/r³"
+                },
+                {
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/r²"
+                },
+                {
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/r³",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 18,
+            questionText: "Przez przewód s (ułożony wzdłuż osi x) płynie prąd o natężeniu I (wektor wzdłuż osi x). Jaki będzie kierunek i zwrot wektora indukcji pola magnetycznego pochodzącego od tego przewodnika w punkcie wskazywanym wektorem r (kierunek wzdłuż osi y)?",
+            questionAnswers: [
+                {
+                    text: "w lewo (do -x)"
+                },
+                {
+                    text: "w dół (do -y)"
+                },
+                {
+                    text: "w głąb (do -z)"
+                },
+                {
+                    text: "przed \"kartkę\" (do z)",
+                    isCorrect: true
                 }
             ]
         }
