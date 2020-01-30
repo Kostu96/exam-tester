@@ -1839,6 +1839,63 @@ const questionDataBase = {
                     isCorrect: true
                 }
             ]
+        },
+        {
+            questionID: 19,
+            questionText: "Które z poniższych stwierdzeń jest prawdą?",
+            questionAnswers: [
+                {
+                    text: "Istnieją pojedyncze ładunki magnetyczne (odpowiedniki ładunków elektrycznych)"
+                },
+                {
+                    text: "Linie pola magnetycznego mają swoje początki i konce"
+                },
+                {
+                    text: "linie pola magnetycznego są krzywymi zamkniętymi",
+                    isCorrect: true
+                },
+                {
+                    text: "linie pola magnetyczengo mogą być zarówno krzywymi zamkniętymi jak i otwartymi"
+                }
+            ]
+        },
+        {
+            questionID: 20,
+            questionText: "Zgodnie z prawem Gaussa dla magnetyzmu, dywergencja wektora indukcji pola magnetycznego, czyli ∇[wektor]*B[wektor], jest ...",
+            questionAnswers: [
+                {
+                    text: "zawsze równa zeru",
+                    isCorrect: true
+                },
+                {
+                    text: "zależna od położenia; w pobliżu biegunów magnetycznych jest niezerowa"
+                },
+                {
+                    text: "zależna od odległości od przewodników z prądem"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 21,
+            questionText: "Przez fragment przewodu o długości ds, umieszczony w polu o indukcji B, płynie prąd o natężeniu I. Siła działająca na ten przewód wynosi:",
+            questionAnswers: [
+                {
+                    text: "0"
+                },
+                {
+                    text: "Ids∇[wektor]*B[wektor]"
+                },
+                {
+                    text: "Ids[wektor]xB[wektor]",
+                    isCorrect: true
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
         }
     ]
 };
