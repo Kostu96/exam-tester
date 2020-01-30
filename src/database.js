@@ -1810,13 +1810,13 @@ const questionDataBase = {
                     text: "dB[wektor] = (μ₀μᵣI)/(4π)*(r[wektor] x ds[wektor])/r²"
                 },
                 {
-                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(r[wektor] x ds[wektor])/r³"
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(r[wektor] x ds[wektor])/rł"
                 },
                 {
                     text: "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/r²"
                 },
                 {
-                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/r³",
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/rł",
                     isCorrect: true
                 }
             ]
@@ -1896,8 +1896,265 @@ const questionDataBase = {
                     text: "żadna z odpowiedzi nie jest prawidłowa"
                 }
             ]
-        }
+        },
+        {
+            questionID: 22,
+            questionText: "Przez fragment przewodu o długości ds (wzdłuż osi x), umieszczony w polu o indukcji B (wektor w kierunku -y), płynie prąd o natężeniu I (wektor w kierunkku x). Siła działająca na ten przeówd jest skierowana:",
+            questionAnswers: [
+                {
+                    text: "przed \"kartkę\" (do z)"
+                },
+                {
+                    text: "w dół (do -y)"
+                },
+                {
+                    text: "w głąb (do -z)",
+                    isCorrect: true
+                },
+                {
+                    text: "w tym przypadku siła będzie wektorem zerowym"
+                }
+            ]
+        },
+        {
+            questionID: 23,
+            questionText: "W próżni mamy wybrany pewnien zamknięty kontur L, powierzchnia ograniczona tym konturem to S. Cyrkulacja wektora indukcji pola magnetycznego wzdłuż konturu L, czyli ∮B ⃗ ⋅​d ⃗ l wynosi:",
+            questionAnswers: [
+                {
+                    text: "zero, niezależnie od prądów płynących przez powierzchnię S"
+                },
+                {
+                    text: "suma prądów przecinających powierzchnię S, niezależnie od ich kierunków, przemnożona przez μ₀"
+                },
+                {
+                    text: "suma prądów przecinających powierzchnię S, z uwzględnieniem ich kierunków (znaków), przemnożona przez μ₀",
+                    isCorrect: true
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 24,
+            questionText: "Magnes oddala się od metalowej obręczy wzdłuż osi przechodzącej przez jej środek. W obręczy tej...",
+            questionAnswers: [
+                {
+                    text: "popłynie prąd w kierunku zgodnym z ruchem wskazówek zegara (patrząc od strony magnesu) . / indukcja musi być w lewo",
+                    isCorrect: true
+                },
+                {
+                    text: "popłynie prąd w kierunku przeciwnym do ruchu wskazówek zegara"
+                },
+                {
+                    text: "nie będzie płynąć prąd"
+                },
+                {
+                    text: "za mało informacji, by stwierdzić możliwy efekt"
+                }
+            ]
+        },
+        {
+            questionID: 25,
+            questionText: "Zgodnie z regułą Lenza...",
+            questionAnswers: [
+                {
+                    text: "linie pola magnetycznego w pobliżu przewodnika z prądem są okręgami"
+                },
+                {
+                    text: "linie pola magnetycznego w pobliżu przewodnika z prądem są prostymi"
+                },
+                {
+                    text: "prąd indukowany w przewodniku w wyniku zmian pola magnetycznego przeciwdziała zmianom tego pola",
+                    isCorrect: true
+                },
+                {
+                    text: "prąd indukowany w przewodniku w wyniku zmian pola magnetycznego wzmacnia zmiany tego pola"
+                }
+            ]
+        },
+        {
+            questionID: 0,
+            questionText: "",
+            questionAnswers: [
+                {
+                    text: "",
+                    isCorrect: true
+                },
+                {
+                    text: ""
+                },
+                {
+                    text: ""
+                },
+                {
+                    text: ""
+                }
+            ]
+        },
     ]
 };
 
 export default questionDataBase;
+/*
+Okreœlając zależnoœć między współczynnikiem samoindukcji L solenoidu a koncentracją zwojów n można powiedzieć, że L jest proporcjonalne do
+4
+a) n 
+B) 1/n 
+C) n^2 
+D) 1/n^2
+3
+Gęstoœć energii pola magnetycznego jest proporcjonalna do
+4
+A) kwadratu natężenia pola magnetycznego 
+B) kwadratu indukcji pola magnetycznego
+C) iloczynu natężenia i indukcji pola magn. 
+D) wszystkie z odpowiedzi A, B i C są poprawne
+4
+Zgodnie z prawem Faradaya Ÿródłem wirowego pola elektrycznego może być
+4
+a) tylko zmienne pole magnetyczne
+b) tylko elektryczny ładunek punktowy lub układ ładunków punktowych
+c) zarówno zmienne pole magnetyczne jak i elektryczne ładunki punktowe
+d) żadna z powyższych odpowiedzi nie jest prawidłowa
+1
+Astronauta twierdzi, że rakieta, którą leci, ma długoœć 100m (chodzi o długoœć mierzoną w kierunku ruchu). Jaką długoœć będzie miała ta rakieta dla obserwatora, od którego rakieta oddala się prędkoœcią 0,8c?
+4
+a) 100m 
+B) 80m 
+C) 60m 
+D) 40m
+3
+Astronauta leci rakietą z prędkoœcią 0,6c względem obserwatora na Ziemi. Jakiemu przedziałowi czasu dla obserwatora na Ziemi odpowiada rok dla astronauty?
+4
+a) 1 rok 
+B) 1,25 roku 
+C) 1,6 roku 
+D) 0,6 roku
+2
+Z rakiety oddalającej się od Ziemi z prędkoœcią 0,8c wystrzelono do przodu pocisk z prędkoœcią 0,625c względem rakiety. Jaka jest prędkoœć pocisku względem Ziemi?
+4
+a) 0,95c 
+B) 1c 
+C) 1,425c 
+D) 0,86c
+1
+Każda powierzchnia o temperaturze T wyższej niż 0K wypromieniowuje energię. Iloœć energii wypromieniowywanej z jednostkowej powierzchni w jednostce czasu jest proporcjonalna do...
+4
+a) T 
+B) T^2
+C) T^3
+D) T^4
+4
+Długoœć fali przy której widmowa zdolnoœć emisyjna ciała doskonale czarnego ma maksimum, ...
+4
+a) nie zależy od temperatury
+b) roœnie liniowo wraz z temperaturą
+c) jest proporcjonalna do kwadratu temperatury
+d) jest odwrotnie proporcjonalna do temperatury
+4
+Podczas obserwacji zjawiska fotoelektrycznego przyłożenie napięcia hamującego pozwala na
+4
+a) ocenę maksymalnej energii kinetycznej uzyskiwanej przez elektrony
+b) ocenę energii fotonów będących przyczyną zjawiska fotoelektrycznego
+c) żadna z odpowiedzi A i B nie jest poprawna
+d) obie odpowiedzi A i B są poprawne
+1
+Na materiał pada œwiatło. Aby z materiału mógł wydostać się elektron (zjawisko fotoelektryczne) niezbędne jest...
+4
+a) odpowiednio duże natężenie œwiatła
+b) aby do powierzchni materiału dotarło tyle fotonów, by ich łączna energia była większa od pracy wyjœcia
+c) aby do powierzchni materiału dotarł foton, którego energia będzie większa lub równa pracy wyjœcia
+d) żadna z powyższych odpowiedzi nie jest prawidłowa
+3
+38)Jak zależy maksymalna energia kinetyczna Ek od częstotliwoœci fali elektromagnetycznej padającej na materiał (zakładamy, że energia fotonów jest większa od pracy wyjœcia)?
+4
+a) Ek jest stała, nie zależy od
+b) Ek roœnie liniowo ze wzrostem
+c) Ek maleje liniowo ze wzrostem
+d) za mało danych, trzeba uwzględnić wpływ innych czynników
+2
+Przesunięcie comptonowskie przy rozpraszaniu promieniowania X na elektronach zależy
+4
+a) tylko od kąta rozproszenia i długoœci fali promieniowania X
+b) tylko od długoœci fali promieniowania X
+c) tylko od kąta rozproszenia
+d) tylko od długoœci fali promieniowania X i polaryzacji
+3
+Aby poprawnie wyjaœnić zjawisko Comptona, należy
+4
+a) założyć, że œwiatło jest falą i dokonać bilansu energii w układzie
+b) założyć, że œwiatło wykazuje naturę cząsteczkową i zastosować zasady zachowania energii i pędu
+c) współczesna fizyka nadal nie potrafi wyjaœnić zjawiska Comptona
+D) żadna z odpowiedzi A, B i C nie jest prawidłowa.
+2
+Pierwszy postulat Bohra zakłada skwantowanie
+4
+A) pędu elektronu
+B) orbitalnego momentu pędu elektronu
+C) energii elektronu 
+D) promienia orbity elektronu
+2
+Drugi postulat Bohra zakłada, że
+4
+A) elektron posiada tzw. spin
+B) elektron ma skwantowany promieñ orbity
+C) elektron ma skwantowany orbitalny moment pędu
+D) przejœciu elektronu pomiędzy dwoma poziomami odpowiada emisja lub absorpcja fotonu o energii odpowiadającej różnicy energii między poziomami
+4
+Pierwszemu poziomowi energetycznemu w atomie wodoru odpowiada energia E1. Energia n-tego poziomu wynosi:
+4
+Rn=nE1
+Rn=E1/n
+Rn=n^2*E1
+Rn=E1/n^2
+4
+Eksperyment Davissona i Germera polega na...
+4
+A) obserwacji falowej natury elektronów (zgodnoœć z warunkiem na konstruktywną interferencję)
+B) wytwarzaniu wirowego pola magnetycznego wokół przewodnika z prądem
+C) „wygaszeniu” œwiatła przechodzącego przez układ dwóch polaryzatorów o wzajemnie prostopadłych kierunkach polaryzacji
+D) rozpraszaniu promieniowania rentgenowskiego na elektronach, co prowadzi zmiany długoœci fali promieniowania (zależnej od kąta rozproszenia)
+1
+W precyzyjnie wykonanym eksperymencie badającym falową naturę materii wiązka elektronów pada prostopadle na płytę zawierającą dwie szczeliny. Obraz powstający na ekranie za płytą będzie zawierał:
+4
+A) dokładnie jedno maksimum 
+B) dokładnie dwa maksima
+C) jedno lub dwa maksima 
+D) co najmniej kilka wyraŸnych maksimów
+1
+Ciało o masie 1 kg porusza się z prędkoœcią 1 m/s. Jaka długoœć fali materii odpowiada temu ciału (wartoœć stałej Plancka: h =6,6*10^-34 Js)?
+4
+6,6*10^-34 m
+3,3*10^-34 m
+6,6*10^-19 m
+3,3*10^-19 m
+1
+Które stwierdzenie jest prawdziwe?
+4
+A) Funkcja falowa może być nieskoñczona
+B) funkcja falowa może być nieciągła
+C) funkcja falowa może zależeć od czasu
+D) funkcja falowa może być równa zeru w całej swojej dziedzinie (w całym obszarze)
+3
+Zgodnie z zasadą odpowiednioœci Bohra, gdy rozpatruje się np. energię cząstki,...
+4
+A) nie ma możliwoœci porównywania wyników uzyskanych mechaniką klasyczną i kwantową
+B) Wyniki kwantowe uzyskane dla najniższych poziomów zgadzają się z klasycznymi
+C) wyniki kwantowe uzyskane dla bardzo wysokich poziomów zgadzają się z klasycznymi
+D) wszystkie wyniki uzyskane mechaniką kwantową w pełni pokrywają się z wynikami klasycznymi.
+3
+Absorpcja wymuszona to
+4
+A) sytuacja, w której w oœrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym
+B) Przejœcie atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów
+C) Przejœcie atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu
+D) w żadnym z punktów A, B i C nie pojawiła się prawidłowa odpowiedŸ
+2
+Inwersja obsadzeñ to
+4
+A) sytuacja, w której w oœrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym
+B) Przejœcie atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów
+C) Przejœcie atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu
+D) w żadnym z punktów A, B i C nie pojawiła się prawidłowa odpowiedŸ
+1*/
