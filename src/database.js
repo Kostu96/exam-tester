@@ -2126,6 +2126,82 @@ const questionDataBase = {
             ]
         },
         {
+            questionID: 34,
+            questionText: "Podczas obserwacji zjawiska fotoelektrycznego przyłożenie napięcia hamującego pozwala na",
+            questionAnswers: [
+                {
+                    text: "ocenę maksymalnej energii kinetycznej uzyskiwanej przez elektrony",
+                    isCorrect: true
+                },
+                {
+                    text: "ocenę energii fotonów będących przyczyną zjawiska fotoelektrycznego"
+                },
+                {
+                    text: "żadna z odpowiedzi (tych dwóch z normalną treścią) nie jest poprawna"
+                },
+                {
+                    text: "obie odpowiedzi (te dwie z normalną treścią) są poprawne"
+                }
+            ]
+        },
+        {
+            questionID: 35,
+            questionText: "Na materiał pada światło. Aby z materiału mógł wydostać się elektron (zjawisko fotoelektryczne) niezbędne jest...",
+            questionAnswers: [
+                {
+                    text: "odpowiednio duże natężenie światła"
+                },
+                {
+                    text: "aby do powierzchni materiału dotarło tyle fotonów, by ich łączna energia była większa od pracy wyjścia"
+                },
+                {
+                    text: "aby do powierzchni materiału dotarł foton, którego energia będzie większa lub równa pracy wyjścia",
+                    isCorrect: true
+                },
+                {
+                    text: "żadna z powyższych odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 36,
+            questionText: "Jak zależy maksymalna energia kinetyczna Ek od częstotliwości fali elektromagnetycznej padającej na materiał (zakładamy, że energia fotonów jest większa od pracy wyjścia)?",
+            questionAnswers: [
+                {
+                    text: "Ek jest stała, nie zależy od częstotliwości fali"
+                },
+                {
+                    text: "Ek rośnie liniowo ze wzrostem częstotliwości fali",
+                    isCorrect: true
+                },
+                {
+                    text: "Ek maleje liniowo ze wzrostem częstotliwości fali"
+                },
+                {
+                    text: "za mało danych, trzeba uwzględnić wpływ innych czynników"
+                }
+            ]
+        },
+        {
+            questionID: 37,
+            questionText: "Przesunięcie comptonowskie przy rozpraszaniu promieniowania X na elektronach zależy",
+            questionAnswers: [
+                {
+                    text: "tylko od kąta rozproszenia i długości fali promieniowania X"
+                },
+                {
+                    text: "tylko od długości fali promieniowania X"
+                },
+                {
+                    text: "tylko od kąta rozproszenia",
+                    isCorrect: true
+                },
+                {
+                    text: "tylko od długości fali promieniowania X i polaryzacji"
+                }
+            ]
+        },
+        {
             questionID: 0,
             questionText: "",
             questionAnswers: [
@@ -2149,34 +2225,6 @@ const questionDataBase = {
 
 export default questionDataBase;
 /*
-Podczas obserwacji zjawiska fotoelektrycznego przyłożenie napięcia hamującego pozwala na
-4
-a) ocenę maksymalnej energii kinetycznej uzyskiwanej przez elektrony
-b) ocenę energii fotonów będących przyczyną zjawiska fotoelektrycznego
-c) żadna z odpowiedzi A i B nie jest poprawna
-d) obie odpowiedzi A i B są poprawne
-1
-Na materiał pada światło. Aby z materiału mógł wydostać się elektron (zjawisko fotoelektryczne) niezbędne jest...
-4
-a) odpowiednio duże natężenie światła
-b) aby do powierzchni materiału dotarło tyle fotonów, by ich łączna energia była większa od pracy wyjścia
-c) aby do powierzchni materiału dotarł foton, którego energia będzie większa lub równa pracy wyjścia
-d) żadna z powyższych odpowiedzi nie jest prawidłowa
-3
-38)Jak zależy maksymalna energia kinetyczna Ek od częstotliwości fali elektromagnetycznej padającej na materiał (zakładamy, że energia fotonów jest większa od pracy wyjścia)?
-4
-a) Ek jest stała, nie zależy od
-b) Ek rośnie liniowo ze wzrostem
-c) Ek maleje liniowo ze wzrostem
-d) za mało danych, trzeba uwzględnić wpływ innych czynników
-2
-Przesunięcie comptonowskie przy rozpraszaniu promieniowania X na elektronach zależy
-4
-a) tylko od kąta rozproszenia i długości fali promieniowania X
-b) tylko od długości fali promieniowania X
-c) tylko od kąta rozproszenia
-d) tylko od długości fali promieniowania X i polaryzacji
-3
 Aby poprawnie wyjaśnić zjawisko Comptona, należy
 4
 a) założyć, że światło jest falą i dokonać bilansu energii w układzie
