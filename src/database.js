@@ -1974,6 +1974,120 @@ const questionDataBase = {
             ]
         },
         {
+            questionID: 26,
+            questionText: "Określając zależność między współczynnikiem samoindukcji L solenoidu a koncentracją zwojów n można powiedzieć, że L jest proporcjonalne do",
+            questionAnswers: [
+                {
+                    text: "n"
+                },
+                {
+                    text: "1/n"
+                },
+                {
+                    text: "n²",
+                    isCorrect: true
+                },
+                {
+                    text: "1/n²"
+                }
+            ]
+        },
+        {
+            questionID: 27,
+            questionText: "Gęstość energii pola magnetycznego jest proporcjonalna do",
+            questionAnswers: [
+                {
+                    text: "kwadratu natężenia pola magnetycznego"
+                },
+                {
+                    text: "kwadratu indukcji pola magnetycznego"
+                },
+                {
+                    text: "iloczynu natężenia i indukcji pola magnego"
+                },
+                {
+                    text: "wszystkie z odpowiedzi są poprawne",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 28,
+            questionText: "Zgodnie z prawem Faradaya źródłem wirowego pola elektrycznego może być",
+            questionAnswers: [
+                {
+                    text: "tylko zmienne pole magnetyczne",
+                    isCorrect: true
+                },
+                {
+                    text: "tylko elektryczny ładunek punktowy lub układ ładunków punktowych"
+                },
+                {
+                    text: "zarówno zmienne pole magnetyczne jak i elektryczne ładunki punktowe"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 29,
+            questionText: "Astronauta twierdzi, że rakieta, którą leci, ma długość 100m (chodzi o długość mierzoną w kierunku ruchu). Jaką długość będzie miała ta rakieta dla obserwatora, od którego rakieta oddala się prędkością 0,8c?",
+            questionAnswers: [
+                {
+                    text: "100m"
+                },
+                {
+                    text: "80m"
+                },
+                {
+                    text: "60m",
+                    isCorrect: true
+                },
+                {
+                    text: "40m"
+                }
+            ]
+        },
+        {
+            questionID: 30,
+            questionText: "Astronauta leci rakietą z prędkością 0,6c względem obserwatora na Ziemi. Jakiemu przedziałowi czasu dla obserwatora na Ziemi odpowiada rok dla astronauty?",
+            questionAnswers: [
+                {
+                    text: "1 rok"
+                },
+                {
+                    text: "1,25 roku",
+                    isCorrect: true
+                },
+                {
+                    text: "1,6 roku"
+                },
+                {
+                    text: "0,6 roku"
+                }
+            ]
+        },
+        {
+            questionID: 31,
+            questionText: "Z rakiety oddalającej się od Ziemi z prędkością 0,8c wystrzelono do przodu pocisk z prędkością 0,625c względem rakiety. Jaka jest prędkość pocisku względem Ziemi?",
+            questionAnswers: [
+                {
+                    text: "0,95c",
+                    isCorrect: true
+                },
+                {
+                    text: "1c"
+                },
+                {
+                    text: "1,425c"
+                },
+                {
+                    text: "0,86c"
+                }
+            ]
+        },
+        {
             questionID: 0,
             questionText: "",
             questionAnswers: [
@@ -1997,59 +2111,17 @@ const questionDataBase = {
 
 export default questionDataBase;
 /*
-Okreœlając zależnoœć między współczynnikiem samoindukcji L solenoidu a koncentracją zwojów n można powiedzieć, że L jest proporcjonalne do
-4
-a) n 
-B) 1/n 
-C) n^2 
-D) 1/n^2
-3
-Gęstoœć energii pola magnetycznego jest proporcjonalna do
-4
-A) kwadratu natężenia pola magnetycznego 
-B) kwadratu indukcji pola magnetycznego
-C) iloczynu natężenia i indukcji pola magn. 
-D) wszystkie z odpowiedzi A, B i C są poprawne
-4
-Zgodnie z prawem Faradaya Ÿródłem wirowego pola elektrycznego może być
-4
-a) tylko zmienne pole magnetyczne
-b) tylko elektryczny ładunek punktowy lub układ ładunków punktowych
-c) zarówno zmienne pole magnetyczne jak i elektryczne ładunki punktowe
-d) żadna z powyższych odpowiedzi nie jest prawidłowa
-1
-Astronauta twierdzi, że rakieta, którą leci, ma długoœć 100m (chodzi o długoœć mierzoną w kierunku ruchu). Jaką długoœć będzie miała ta rakieta dla obserwatora, od którego rakieta oddala się prędkoœcią 0,8c?
-4
-a) 100m 
-B) 80m 
-C) 60m 
-D) 40m
-3
-Astronauta leci rakietą z prędkoœcią 0,6c względem obserwatora na Ziemi. Jakiemu przedziałowi czasu dla obserwatora na Ziemi odpowiada rok dla astronauty?
-4
-a) 1 rok 
-B) 1,25 roku 
-C) 1,6 roku 
-D) 0,6 roku
-2
-Z rakiety oddalającej się od Ziemi z prędkoœcią 0,8c wystrzelono do przodu pocisk z prędkoœcią 0,625c względem rakiety. Jaka jest prędkoœć pocisku względem Ziemi?
-4
-a) 0,95c 
-B) 1c 
-C) 1,425c 
-D) 0,86c
-1
-Każda powierzchnia o temperaturze T wyższej niż 0K wypromieniowuje energię. Iloœć energii wypromieniowywanej z jednostkowej powierzchni w jednostce czasu jest proporcjonalna do...
+Każda powierzchnia o temperaturze T wyższej niż 0K wypromieniowuje energię. Ilość energii wypromieniowywanej z jednostkowej powierzchni w jednostce czasu jest proporcjonalna do...
 4
 a) T 
-B) T^2
+B) T²
 C) T^3
 D) T^4
 4
-Długoœć fali przy której widmowa zdolnoœć emisyjna ciała doskonale czarnego ma maksimum, ...
+Długość fali przy której widmowa zdolność emisyjna ciała doskonale czarnego ma maksimum, ...
 4
 a) nie zależy od temperatury
-b) roœnie liniowo wraz z temperaturą
+b) rośnie liniowo wraz z temperaturą
 c) jest proporcjonalna do kwadratu temperatury
 d) jest odwrotnie proporcjonalna do temperatury
 4
@@ -2060,32 +2132,32 @@ b) ocenę energii fotonów będących przyczyną zjawiska fotoelektrycznego
 c) żadna z odpowiedzi A i B nie jest poprawna
 d) obie odpowiedzi A i B są poprawne
 1
-Na materiał pada œwiatło. Aby z materiału mógł wydostać się elektron (zjawisko fotoelektryczne) niezbędne jest...
+Na materiał pada światło. Aby z materiału mógł wydostać się elektron (zjawisko fotoelektryczne) niezbędne jest...
 4
-a) odpowiednio duże natężenie œwiatła
-b) aby do powierzchni materiału dotarło tyle fotonów, by ich łączna energia była większa od pracy wyjœcia
-c) aby do powierzchni materiału dotarł foton, którego energia będzie większa lub równa pracy wyjœcia
+a) odpowiednio duże natężenie światła
+b) aby do powierzchni materiału dotarło tyle fotonów, by ich łączna energia była większa od pracy wyjścia
+c) aby do powierzchni materiału dotarł foton, którego energia będzie większa lub równa pracy wyjścia
 d) żadna z powyższych odpowiedzi nie jest prawidłowa
 3
-38)Jak zależy maksymalna energia kinetyczna Ek od częstotliwoœci fali elektromagnetycznej padającej na materiał (zakładamy, że energia fotonów jest większa od pracy wyjœcia)?
+38)Jak zależy maksymalna energia kinetyczna Ek od częstotliwości fali elektromagnetycznej padającej na materiał (zakładamy, że energia fotonów jest większa od pracy wyjścia)?
 4
 a) Ek jest stała, nie zależy od
-b) Ek roœnie liniowo ze wzrostem
+b) Ek rośnie liniowo ze wzrostem
 c) Ek maleje liniowo ze wzrostem
 d) za mało danych, trzeba uwzględnić wpływ innych czynników
 2
 Przesunięcie comptonowskie przy rozpraszaniu promieniowania X na elektronach zależy
 4
-a) tylko od kąta rozproszenia i długoœci fali promieniowania X
-b) tylko od długoœci fali promieniowania X
+a) tylko od kąta rozproszenia i długości fali promieniowania X
+b) tylko od długości fali promieniowania X
 c) tylko od kąta rozproszenia
-d) tylko od długoœci fali promieniowania X i polaryzacji
+d) tylko od długości fali promieniowania X i polaryzacji
 3
-Aby poprawnie wyjaœnić zjawisko Comptona, należy
+Aby poprawnie wyjaśnić zjawisko Comptona, należy
 4
-a) założyć, że œwiatło jest falą i dokonać bilansu energii w układzie
-b) założyć, że œwiatło wykazuje naturę cząsteczkową i zastosować zasady zachowania energii i pędu
-c) współczesna fizyka nadal nie potrafi wyjaœnić zjawiska Comptona
+a) założyć, że światło jest falą i dokonać bilansu energii w układzie
+b) założyć, że światło wykazuje naturę cząsteczkową i zastosować zasady zachowania energii i pędu
+c) współczesna fizyka nadal nie potrafi wyjaśnić zjawiska Comptona
 D) żadna z odpowiedzi A, B i C nie jest prawidłowa.
 2
 Pierwszy postulat Bohra zakłada skwantowanie
@@ -2098,32 +2170,32 @@ D) promienia orbity elektronu
 Drugi postulat Bohra zakłada, że
 4
 A) elektron posiada tzw. spin
-B) elektron ma skwantowany promieñ orbity
+B) elektron ma skwantowany promień orbity
 C) elektron ma skwantowany orbitalny moment pędu
-D) przejœciu elektronu pomiędzy dwoma poziomami odpowiada emisja lub absorpcja fotonu o energii odpowiadającej różnicy energii między poziomami
+D) przejściu elektronu pomiędzy dwoma poziomami odpowiada emisja lub absorpcja fotonu o energii odpowiadającej różnicy energii między poziomami
 4
 Pierwszemu poziomowi energetycznemu w atomie wodoru odpowiada energia E1. Energia n-tego poziomu wynosi:
 4
 Rn=nE1
 Rn=E1/n
-Rn=n^2*E1
-Rn=E1/n^2
+Rn=n²*E1
+Rn=E1/n²
 4
 Eksperyment Davissona i Germera polega na...
 4
-A) obserwacji falowej natury elektronów (zgodnoœć z warunkiem na konstruktywną interferencję)
+A) obserwacji falowej natury elektronów (zgodność z warunkiem na konstruktywną interferencję)
 B) wytwarzaniu wirowego pola magnetycznego wokół przewodnika z prądem
-C) „wygaszeniu” œwiatła przechodzącego przez układ dwóch polaryzatorów o wzajemnie prostopadłych kierunkach polaryzacji
-D) rozpraszaniu promieniowania rentgenowskiego na elektronach, co prowadzi zmiany długoœci fali promieniowania (zależnej od kąta rozproszenia)
+C) „wygaszeniu” światła przechodzącego przez układ dwóch polaryzatorów o wzajemnie prostopadłych kierunkach polaryzacji
+D) rozpraszaniu promieniowania rentgenowskiego na elektronach, co prowadzi zmiany długości fali promieniowania (zależnej od kąta rozproszenia)
 1
 W precyzyjnie wykonanym eksperymencie badającym falową naturę materii wiązka elektronów pada prostopadle na płytę zawierającą dwie szczeliny. Obraz powstający na ekranie za płytą będzie zawierał:
 4
 A) dokładnie jedno maksimum 
 B) dokładnie dwa maksima
 C) jedno lub dwa maksima 
-D) co najmniej kilka wyraŸnych maksimów
+D) co najmniej kilka wyraźnych maksimów
 1
-Ciało o masie 1 kg porusza się z prędkoœcią 1 m/s. Jaka długoœć fali materii odpowiada temu ciału (wartoœć stałej Plancka: h =6,6*10^-34 Js)?
+Ciało o masie 1 kg porusza się z prędkością 1 m/s. Jaka długość fali materii odpowiada temu ciału (wartość stałej Plancka: h =6,6*10^-34 Js)?
 4
 6,6*10^-34 m
 3,3*10^-34 m
@@ -2132,29 +2204,29 @@ Ciało o masie 1 kg porusza się z prędkoœcią 1 m/s. Jaka długoœć fali mat
 1
 Które stwierdzenie jest prawdziwe?
 4
-A) Funkcja falowa może być nieskoñczona
+A) Funkcja falowa może być nieskończona
 B) funkcja falowa może być nieciągła
 C) funkcja falowa może zależeć od czasu
 D) funkcja falowa może być równa zeru w całej swojej dziedzinie (w całym obszarze)
 3
-Zgodnie z zasadą odpowiednioœci Bohra, gdy rozpatruje się np. energię cząstki,...
+Zgodnie z zasadą odpowiedniości Bohra, gdy rozpatruje się np. energię cząstki,...
 4
-A) nie ma możliwoœci porównywania wyników uzyskanych mechaniką klasyczną i kwantową
+A) nie ma możliwości porównywania wyników uzyskanych mechaniką klasyczną i kwantową
 B) Wyniki kwantowe uzyskane dla najniższych poziomów zgadzają się z klasycznymi
 C) wyniki kwantowe uzyskane dla bardzo wysokich poziomów zgadzają się z klasycznymi
 D) wszystkie wyniki uzyskane mechaniką kwantową w pełni pokrywają się z wynikami klasycznymi.
 3
 Absorpcja wymuszona to
 4
-A) sytuacja, w której w oœrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym
-B) Przejœcie atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów
-C) Przejœcie atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu
-D) w żadnym z punktów A, B i C nie pojawiła się prawidłowa odpowiedŸ
+A) sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym
+B) Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów
+C) Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu
+D) w żadnym z punktów A, B i C nie pojawiła się prawidłowa odpowiedź
 2
-Inwersja obsadzeñ to
+Inwersja obsadzeń to
 4
-A) sytuacja, w której w oœrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym
-B) Przejœcie atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów
-C) Przejœcie atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu
-D) w żadnym z punktów A, B i C nie pojawiła się prawidłowa odpowiedŸ
+A) sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym
+B) Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów
+C) Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu
+D) w żadnym z punktów A, B i C nie pojawiła się prawidłowa odpowiedź
 1*/
