@@ -1937,7 +1937,7 @@ const questionDataBase = {
         },
         {
             questionID: 24,
-            questionText: "Magnes oddala się od metalowej obręczy wzdłuż osi przechodzącej przez jej środek. W obręczy tej...",
+            questionText: "Magnes (S w kierunku oddalania się, N w kierunku obręczy) oddala się od metalowej obręczy wzdłuż osi przechodzącej przez jej środek. W obręczy tej...",
             questionAnswers: [
                 {
                     text: "popłynie prąd w kierunku zgodnym z ruchem wskazówek zegara (patrząc od strony magnesu)",
