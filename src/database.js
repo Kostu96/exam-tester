@@ -2301,8 +2301,7 @@ const questionDataBase = {
             questionText: "W precyzyjnie wykonanym eksperymencie badającym falową naturę materii wiązka elektronów pada prostopadle na płytę zawierającą dwie szczeliny. Obraz powstający na ekranie za płytą będzie zawierał:",
             questionAnswers: [
                 {
-                    text: "dokładnie jedno maksimum",
-                    isCorrect: true
+                    text: "dokładnie jedno maksimum"
                 },
                 {
                     text: "dokładnie dwa maksima"
@@ -2311,7 +2310,8 @@ const questionDataBase = {
                     text: "jedno lub dwa maksima"
                 },
                 {
-                    text: "co najmniej kilka wyraźnych maksimów"
+                    text: "co najmniej kilka wyraźnych maksimów",
+                    isCorrect: true
                 }
             ]
         },
