@@ -2089,6 +2089,44 @@ const questionDataBase = {
         },
         {
             questionID: 32,
+            questionText: "Mamy układ współrzędnych K (w którym mierzymy położenie x i czas t) oraz poruszający się względem niego wzdłuż osi x z prędkością v0 układ K' (w którym mierzymy położenie x' i czas t'). W chwili t = t' = 0 początki układów pokrywały się. Zgodnie z przekształceniami odwrotnymi Lorentza zapiszemy",
+            questionAnswers: [
+                {
+                    text: "x' = (x - v0t)/sqrt(1 - v0^2/c^2)",
+                    isCorrect: true
+                },
+                {
+                    text: "x' = (x - v0t)/sqrt(1 - v0/c)"
+                },
+                {
+                    text: "x' = (x + v0t)/sqrt(1 - v0/c)"
+                },
+                {
+                    text: "x' = (x + v0t)/sqrt(1 - v0^2/c^2)"
+                }
+            ]
+        },
+        {
+            questionID: 33,
+            questionText: "Mamy układ współrzędnych K (w którym mierzymy położenie x i czas t) oraz poruszający się względem niego wzdłuż osi x z prędkością v0 układ K' (w którym mierzymy położenie x' i czas t'). W chwili t = t' = 0 początki układów pokrywały się. Zgodnie z przekształceniami Lorentza zapiszemy",
+            questionAnswers: [
+                {
+                    text: "t = (t' + x'*v0/c^2)/sqrt(1 - v0^2/c^2)",
+                    isCorrect: true
+                },
+                {
+                    text: "t = (t' - x'*v0/c^2)/sqrt(1 - v0^2/c^2)"
+                },
+                {
+                    text: "t = (t' + x'*v0/c^2)/sqrt(1 - v0/c)"
+                },
+                {
+                    text: "t = (t' - x'*v0/c^2)/sqrt(1 - v0/c)"
+                }
+            ]
+        },
+        {
+            questionID: 34,
             questionText: "Każda powierzchnia o temperaturze T wyższej niż 0K wypromieniowuje energię. Ilość energii wypromieniowywanej z jednostkowej powierzchni w jednostce czasu jest proporcjonalna do...",
             questionAnswers: [
                 {
@@ -2107,7 +2145,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 33,
+            questionID: 35,
             questionText: "Długość fali przy której widmowa zdolność emisyjna ciała doskonale czarnego ma maksimum, ...",
             questionAnswers: [
                 {
@@ -2126,7 +2164,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 34,
+            questionID: 36,
             questionText: "Podczas obserwacji zjawiska fotoelektrycznego przyłożenie napięcia hamującego pozwala na",
             questionAnswers: [
                 {
@@ -2145,7 +2183,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 35,
+            questionID: 37,
             questionText: "Na materiał pada światło. Aby z materiału mógł wydostać się elektron (zjawisko fotoelektryczne) niezbędne jest...",
             questionAnswers: [
                 {
@@ -2164,7 +2202,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 36,
+            questionID: 38,
             questionText: "Jak zależy maksymalna energia kinetyczna Ek od częstotliwości fali elektromagnetycznej padającej na materiał (zakładamy, że energia fotonów jest większa od pracy wyjścia)?",
             questionAnswers: [
                 {
@@ -2183,7 +2221,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 37,
+            questionID: 39,
             questionText: "Przesunięcie comptonowskie przy rozpraszaniu promieniowania X na elektronach zależy",
             questionAnswers: [
                 {
@@ -2202,7 +2240,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 38,
+            questionID: 40,
             questionText: "Aby poprawnie wyjaśnić zjawisko Comptona, należy",
             questionAnswers: [
                 {
@@ -2221,7 +2259,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 39,
+            questionID: 41,
             questionText: "Pierwszy postulat Bohra zakłada skwantowanie",
             questionAnswers: [
                 {
@@ -2240,7 +2278,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 40,
+            questionID: 42,
             questionText: "Drugi postulat Bohra zakłada, że",
             questionAnswers: [
                 {
@@ -2259,7 +2297,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 41,
+            questionID: 43,
             questionText: "Pierwszemu poziomowi energetycznemu w atomie wodoru odpowiada energia E₁. Energia n-tego poziomu wynosi:",
             questionAnswers: [
                 {
@@ -2278,7 +2316,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 42,
+            questionID: 44,
             questionText: "Eksperyment Davissona i Germera polega na...",
             questionAnswers: [
                 {
@@ -2297,7 +2335,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 43,
+            questionID: 45,
             questionText: "W precyzyjnie wykonanym eksperymencie badającym falową naturę materii wiązka elektronów pada prostopadle na płytę zawierającą dwie szczeliny. Obraz powstający na ekranie za płytą będzie zawierał:",
             questionAnswers: [
                 {
@@ -2316,7 +2354,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 44,
+            questionID: 46,
             questionText: "Ciało o masie 1 kg porusza się z prędkością 1 m/s. Jaka długość fali materii odpowiada temu ciału (wartość stałej Plancka: h =6,6*10^-34 Js)?",
             questionAnswers: [
                 {
@@ -2335,7 +2373,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 45,
+            questionID: 47,
             questionText: "Które stwierdzenie jest prawdziwe?",
             questionAnswers: [
                 {
@@ -2354,7 +2392,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 46,
+            questionID: 48,
             questionText: "Zgodnie z zasadą odpowiedniości Bohra, gdy rozpatruje się np. energię cząstki,...",
             questionAnswers: [
                 {
@@ -2373,7 +2411,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 47,
+            questionID: 49,
             questionText: "Absorpcja wymuszona to",
             questionAnswers: [
                 {
@@ -2392,7 +2430,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 48,
+            questionID: 50,
             questionText: "Inwersja obsadzeń to",
             questionAnswers: [
                 {
