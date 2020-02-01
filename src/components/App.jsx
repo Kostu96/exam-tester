@@ -12,7 +12,7 @@ import questionDataBase from './../database.js';
 
 const ExamLink = styled(Link)`
     display: block;
-    padding: 20px;
+    padding: 16px;
     text-decoration: none;
     color: whitesmoke;
     width: 320px;
@@ -57,6 +57,7 @@ class App extends Component {
                             <ExamLink
                                 to="/mii">Multimedia i Interfejsy
                             </ExamLink>
+                            <h3>Albo:</h3>
                             <InactiveLink disabled>
                                 Wgraj własny zestaw pytań [Soon...]
                             </InactiveLink>
