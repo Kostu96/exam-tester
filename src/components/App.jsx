@@ -31,6 +31,19 @@ class App extends Component {
                             questionDB={ questionDataBase.multimediaAndInterfaces }
                         />
                     </Route>
+                    <Route path="/">
+                    <ul>
+                        <li>
+                            <Link to="/physics">Podstawy Fizyki [WIP]</Link>
+                        </li>
+                        <li>
+                            <Link to="/modern_physics">Fizyka Współczesna</Link>
+                        </li>
+                        <li>
+                            <Link to="/mii">Multimedia i Interfejsy</Link>
+                        </li>
+                    </ul>
+                    </Route>
                 </Switch>
                 <Ad />
                 <Footer />
