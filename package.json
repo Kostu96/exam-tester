@@ -1,14 +1,14 @@
 {
   "name": "exam-tester",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "homepage": "https://kostu96.github.io/exam-tester",
   "license": "GPL-3.0-only",
   "author": {
     "name": "Konstanty Misiak"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Kostu96/exam-tester.git"
+    "type": "git",
+    "url": "https://github.com/Kostu96/exam-tester.git"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,6 +22,7 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "styled-components": "^4.4.1"
   },
