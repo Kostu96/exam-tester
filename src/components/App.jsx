@@ -15,6 +15,12 @@ const ExamLink = styled(Link)`
     padding: 20px;
     text-decoration: none;
     color: whitesmoke;
+    width: 320px;
+    margin: 0 auto;
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 
     &:hover {
         background-color: #403846;
