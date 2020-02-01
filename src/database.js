@@ -1767,6 +1767,7 @@ const questionDataBase = {
         {
             questionID: 15,
             questionText: "Elektron porusza się z pewną prędkością v (skierowaną wzdłuż osi x) w polu magnetycznym o indukcji B (wektor skierowany wzdłuż osi y). Jak będzie skierowana siła Lorentza?",
+            imageSrc: "img/modern_physics/15.jpg",
             questionAnswers: [
                 {
                     text: "w lewo (do -x)"
@@ -1824,6 +1825,7 @@ const questionDataBase = {
         {
             questionID: 18,
             questionText: "Przez przewód s (ułożony wzdłuż osi x) płynie prąd o natężeniu I (wektor wzdłuż osi x). Jaki będzie kierunek i zwrot wektora indukcji pola magnetycznego pochodzącego od tego przewodnika w punkcie wskazywanym wektorem r (kierunek wzdłuż osi y)?",
+            imageSrc: "img/modern_physics/18.jpg",
             questionAnswers: [
                 {
                     text: "w lewo (do -x)"

@@ -72,6 +72,11 @@ class AnswerButton extends Component {
 
 class QuestionWrapper extends Component {
     render() {
+        let image;
+        if (this.props.question.imageSrc)
+            image = <img src={ this.props.question.imageSrc } />;
+        else
+            image = <></>;
         return(
             <div onClick={ this.props.onClick }>
                 <hr />
@@ -79,6 +84,7 @@ class QuestionWrapper extends Component {
                     { this.props.question.questionID + ". " }
                     { this.props.question.questionText }
                 </QuestionText>
+                { image }
                 <AnswersWrapper>
                     { this.props.question.questionAnswers.map(
                         (answer, index) =>
