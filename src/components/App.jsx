@@ -28,6 +28,15 @@ const ExamLink = styled(Link)`
     }
 `;
 
+const InactiveLink = styled(ExamLink)`
+    color: grey;
+
+    &:hover {
+        background-color: #403846;
+        cursor: not-allowed;
+    }
+`;
+
 class App extends Component {
     render() {
         return (
@@ -48,6 +57,9 @@ class App extends Component {
                             <ExamLink
                                 to="/mii">Multimedia i Interfejsy
                             </ExamLink>
+                            <InactiveLink disabled>
+                                Wgraj własny zestaw pytań [Soon...]
+                            </InactiveLink>
                         </div>
                     </Route>
                     <Route path="/physics">
