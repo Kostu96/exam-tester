@@ -43,13 +43,15 @@ class Exam extends Component {
     handleAnswer = (isCorrect) => {
         if (!this.state.answered) {
             if (isCorrect) {
-                this.state.questionsView[this.state.currentQuestionIndex].goodAcc = this.state.questionsView[this.state.currentQuestionIndex].goodAcc + 1;
+                let newQuestionsView = this.state.questionsView;
+                newQuestionsView[this.state.currentQuestionIndex].goodAcc = this.state.questionsView[this.state.currentQuestionIndex].goodAcc + 1;
                 let addToLearnt = 0;
-                if (this.state.questionsView[this.state.currentQuestionIndex].goodAcc >= 2) {
-                    this.state.questionsView.splice(this.state.currentQuestionIndex, 1);
+                if (newQuestionsView[this.state.currentQuestionIndex].goodAcc >= 2) {
+                    newQuestionsView.splice(this.state.currentQuestionIndex, 1);
                     addToLearnt = 1;
                 }
                 this.setState({
+                    questionsView: newQuestionsView,
                     learntQuestionsCount: this.state.learntQuestionsCount + addToLearnt,
                     answersCount: this.state.answersCount + 1,
                     goodAnswersCount: this.state.goodAnswersCount + 1,
