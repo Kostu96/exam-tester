@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 const PageHeader = styled.header`
     padding: 20px;
-    margin-bottom: 10px;
     background-color: #202426;
     font-size: 35px;
     font-weight: 700;
