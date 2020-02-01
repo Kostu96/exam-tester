@@ -17,9 +17,9 @@ const Wrapper = styled.main`
 
 class Exam extends Component {
     state = {
-        questionIndexes: this.shuffleArray([...Array(this.props.questionDB.length).keys()]),
-        currentQuestionIndex: 0,
+        questionsView: this.shuffleArray(Array(this.props.questionDB.length).fill(undefined).map(function(val, idx) { return { index: idx, goodAcc: 0 } })),
         learntQuestionsCount: 0,
+        currentQuestionIndex: 0,
         answersCount: 0,
         goodAnswersCount: 0,
         answered : false
@@ -42,14 +42,28 @@ class Exam extends Component {
 
     handleAnswer = (isCorrect) => {
         if (!this.state.answered) {
-            var addToGood = 0;
-            if (isCorrect) addToGood = 1;
-
-            this.setState({
-                answersCount: this.state.answersCount + 1,
-                goodAnswersCount: this.state.goodAnswersCount + addToGood,
-                answered: true
-            });
+            if (isCorrect) {
+                let newQuestionsView = this.state.questionsView;
+                newQuestionsView[this.state.currentQuestionIndex].goodAcc = this.state.questionsView[this.state.currentQuestionIndex].goodAcc + 1;
+                let addToLearnt = 0;
+                if (newQuestionsView[this.state.currentQuestionIndex].goodAcc >= 2) {
+                    newQuestionsView.splice(this.state.currentQuestionIndex, 1);
+                    addToLearnt = 1;
+                }
+                this.setState({
+                    questionsView: newQuestionsView,
+                    learntQuestionsCount: this.state.learntQuestionsCount + addToLearnt,
+                    answersCount: this.state.answersCount + 1,
+                    goodAnswersCount: this.state.goodAnswersCount + 1,
+                    answered: true
+                });
+            }
+            else
+                this.setState({
+                    answersCount: this.state.answersCount + 1,
+                    goodAnswersCount: this.state.goodAnswersCount + 0,
+                    answered: true
+                });
         }
     }
 
@@ -65,7 +79,7 @@ class Exam extends Component {
             }
     
             this.setState({
-                questionIndexes: shouldShuffle ? this.shuffleArray(this.state.questionIndexes) : this.state.questionIndexes,
+                questionsView: shouldShuffle ? this.shuffleArray(this.state.questionsView) : this.state.questionsView,
                 currentQuestionIndex: newQuestionIndex,
                 answered: false
             });
@@ -73,6 +87,22 @@ class Exam extends Component {
     }
 
     render() {
+        let content;
+        if (this.state.questionsView.length > 0)
+            content = <QuestionWrapper
+                onClick={ this.handleNextQuestion }
+                question={ this.props.questionDB[(this.state.questionsView[this.state.currentQuestionIndex]).index] }
+                answerHandler={ this.handleAnswer }
+                answered={ this.state.answered }
+            />;
+        else
+            content = <h3>
+                Gratulacje!
+                <br />
+                Wszystkie pytanka ogarnięte!
+                <br />
+                Prawdopodobieństwo tego, że zdasz zostało zwiększone.
+            </h3>
         return (
             <Wrapper>
                 <Statistics
@@ -82,12 +112,7 @@ class Exam extends Component {
                     goodAnswersCount={ this.state.goodAnswersCount }
                 />
                 <Settings />
-                <QuestionWrapper
-                    onClick={ this.handleNextQuestion }
-                    question={ this.props.questionDB[this.state.questionIndexes[this.state.currentQuestionIndex]] }
-                    answerHandler={ this.handleAnswer }
-                    answered={ this.state.answered }
-                />
+                { content }
             </Wrapper>
         );
     }

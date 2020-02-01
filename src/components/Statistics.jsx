@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
     display: flex;
     margin: 0 auto;
-    padding: 0 5px;
+    padding-bottom: 4px;
 `;
 
 const Stat = styled.span`
