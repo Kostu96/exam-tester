@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import GlobalStyle from './../GlobalStyle';
 import Header from './Header';
 import NavBar from './NavBar';
@@ -25,7 +25,7 @@ const ExamLink = styled(Link)`
 class App extends Component {
     render() {
         return (
-            <Router basename="exam-tester">
+            <Router>
                 <GlobalStyle />
                 <Header />
                 <NavBar />
