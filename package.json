@@ -1,8 +1,21 @@
 {
-  "homepage": "https://kostu96.github.io/exam-tester",
   "name": "exam-tester",
   "version": "2.1.0",
-  "private": true,
+  "homepage": "https://kostu96.github.io/exam-tester",
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "Konstanty Misiak"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Kostu96/exam-tester.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.3",
@@ -12,18 +25,13 @@
     "react-scripts": "3.3.0",
     "styled-components": "^4.4.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "private": true,
   "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.5%",
       "not dead",
       "not op_mini all"
     ],
