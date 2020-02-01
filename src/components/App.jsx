@@ -25,7 +25,7 @@ const ExamLink = styled(Link)`
 class App extends Component {
     render() {
         return (
-            <Router>
+            <Router basename="exam-tester">
                 <GlobalStyle />
                 <Header />
                 <NavBar />
