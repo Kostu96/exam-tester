@@ -45,14 +45,9 @@ class Exam extends Component {
             if (isCorrect) {
                 let newQuestionsView = this.state.questionsView;
                 newQuestionsView[this.state.currentQuestionIndex].goodAcc = this.state.questionsView[this.state.currentQuestionIndex].goodAcc + 1;
-                let addToLearnt = 0;
-                if (newQuestionsView[this.state.currentQuestionIndex].goodAcc >= 2) {
-                    newQuestionsView.splice(this.state.currentQuestionIndex, 1);
-                    addToLearnt = 1;
-                }
+                
                 this.setState({
                     questionsView: newQuestionsView,
-                    learntQuestionsCount: this.state.learntQuestionsCount + addToLearnt,
                     answersCount: this.state.answersCount + 1,
                     goodAnswersCount: this.state.goodAnswersCount + 1,
                     answered: true
@@ -69,6 +64,13 @@ class Exam extends Component {
 
     handleNextQuestion = () => {
         if (this.state.answered) {
+            let addToLearnt = 0;
+            let newQuestionsView = this.state.questionsView;
+            if (newQuestionsView[this.state.currentQuestionIndex].goodAcc >= 2) {
+                newQuestionsView.splice(this.state.currentQuestionIndex, 1);
+                addToLearnt = 1;
+            }
+            
             var newQuestionIndex;
             var shouldShuffle = false;
             if (this.state.currentQuestionIndex < this.props.questionDB.length - 1)
@@ -81,6 +83,7 @@ class Exam extends Component {
             this.setState({
                 questionsView: shouldShuffle ? this.shuffleArray(this.state.questionsView) : this.state.questionsView,
                 currentQuestionIndex: newQuestionIndex,
+                learntQuestionsCount: this.state.learntQuestionsCount + addToLearnt,
                 answered: false
             });
         }
