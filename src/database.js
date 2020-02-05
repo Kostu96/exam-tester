@@ -53,14 +53,14 @@ const questionDataBase = {
                     text: "parametrycznym"
                 },
                 {
-                    text: "warunkowym"
+                    text: "warunkowym",
+                    isCorrect: true
                 },
                 {
                     text: "strukturalnym"
                 },
                 {
-                    text: "rekurencyjnym",
-                    isCorrect: true
+                    text: "rekurencyjnym"
                 }
             ]
         },
@@ -559,11 +559,11 @@ const questionDataBase = {
                     text: "woksel(voxel)"
                 },
                 {
-                    text: "wierzchołki A,B,C,D i z nich utworzone ściany ABCD lub CDBA",
-                    isCorrect: true
+                    text: "wierzchołki A,B,C,D i z nich utworzone ściany ABCD lub CDBA"
                 },
                 {
-                    text: "przeskalowany o 2 sześcian jednostkowy"
+                    text: "przeskalowany o 2 sześcian jednostkowy",
+                    isCorrect: true
                 }
             ]
         },
@@ -1171,14 +1171,14 @@ const questionDataBase = {
                     text: "SPL"
                 },
                 {
-                    text: "HLSL"
+                    text: "HLSL",
+                    isCorrect: true
                 },
                 {
                     text: "HSL"
                 },
                 {
-                    text: "HLSC",
-                    isCorrect: true
+                    text: "HLSC"
                 }
             ]
         },
