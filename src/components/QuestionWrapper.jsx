@@ -74,7 +74,7 @@ class QuestionWrapper extends Component {
     render() {
         let image;
         if (this.props.question.imageSrc)
-            image = <img src={ this.props.question.imageSrc } />;
+            image = <img alt="" src={ this.props.question.imageSrc } />;
         else
             image = <></>;
         return(

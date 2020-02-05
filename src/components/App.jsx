@@ -49,33 +49,41 @@ class App extends Component {
                         <h3>Wybierz test, który Cię interesuje:</h3>
                         <div>
                             <ExamLink
-                                to="/physics">Podstawy Fizyki [WIP]
+                                to="/modern_physics">Fizyka Współczesna
                             </ExamLink>
                             <ExamLink
-                                to="/modern_physics">Fizyka Współczesna
+                                to="/graphics">Grafika Komputerowa
                             </ExamLink>
                             <ExamLink
                                 to="/mii">Multimedia i Interfejsy
                             </ExamLink>
+                            <ExamLink
+                                to="/physics">Podstawy Fizyki [WIP]
+                            </ExamLink>
                             <h3>Albo:</h3>
-                            <InactiveLink disabled>
+                            <InactiveLink disabled to="">
                                 Wgraj własny zestaw pytań [Soon...]
                             </InactiveLink>
                         </div>
-                    </Route>
-                    <Route path="/physics">
-                        <Exam
-                            questionDB={ questionDataBase.physics }
-                        />
                     </Route>
                     <Route path="/modern_physics">
                         <Exam
                             questionDB={ questionDataBase.modernPhysics }
                         />
                     </Route>
+                    <Route path="/graphics">
+                        <Exam
+                            questionDB={ questionDataBase.graphics }
+                        />
+                    </Route>
                     <Route path="/mii">
                         <Exam
                             questionDB={ questionDataBase.multimediaAndInterfaces }
+                        />
+                    </Route>
+                    <Route path="/physics">
+                        <Exam
+                            questionDB={ questionDataBase.physics }
                         />
                     </Route>
                     <Route path="/question_db">
