@@ -3,7 +3,7 @@ name: build-and-test
 on:
   pull_request:
     branches:
-      - master
+      - master-temp-breakage
 
 jobs:
   build-and-test:

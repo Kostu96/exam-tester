@@ -1,4 +1,2501 @@
+// TODO: correct answer always first (but implement anwers shuffle first!)- no need for the aswer to be an object.
+// TODO: is questionID needed? Maybe it can be replaced by the array index.
+
 const questionDataBase = {
+    graphics: [
+        {
+            questionID: 1,
+            questionText: "Widzenie skotopowe zapewniają:",
+            questionAnswers: [
+                {
+                    text: "pręciki",
+                    isCorrect: true
+                },
+                {
+                    text: "czopki"
+                }
+            ]
+        },
+        {
+            questionID: 2,
+            questionText: "Widzenie fotopowe zapewniają:",
+            questionAnswers: [
+                {
+                    text: "czopki",
+                    isCorrect: true
+                },
+                {
+                    text: "pręciki"
+                }
+            ]
+        },
+        {
+            questionID: 3,
+            questionText: "Dwa krzyżujące się odcinki mogą mieć:",
+            questionAnswers: [
+                {
+                    text: "dodatnią liczbę punktów wspólnych (1, 2, 3...)"
+                },
+                {
+                    text: "0 albo 1 pktów wspólnych"
+                },
+                {
+                    text: "dowolną liczbę pktów wspólnych (0, 1, 2...)",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 4,
+            questionText: "Algorytm Bresenhama jest algorytmem:",
+            questionAnswers: [
+                {
+                    text: "parametrycznym"
+                },
+                {
+                    text: "warunkowym"
+                },
+                {
+                    text: "strukturalnym"
+                },
+                {
+                    text: "rekurencyjnym",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 5,
+            questionText: "Metoda przez spójność (przez \"sianie\") jest w algorytmie:",
+            questionAnswers: [
+                {
+                    text: "znajdywania konturu"
+                },
+                {
+                    text: "wypełniania kontutu",
+                    isCorrect: true
+                },
+                {
+                    text: "ścieniania"
+                },
+                {
+                    text: "wygładzania"
+                }
+            ]
+        },
+        {
+            questionID: 6,
+            questionText: "Do modeli cieniowania nie należy:",
+            questionAnswers: [
+                {
+                    text: "model Macha",
+                    isCorrect: true
+                },
+                {
+                    text: "model Phonga"
+                },
+                {
+                    text: "model Gourauda"
+                }
+            ]
+        },
+        {
+            questionID: 7,
+            questionText: "W grafice wektorowej:",
+            questionAnswers: [
+                {
+                    text: "obraz składa się z odcinków i wyznaczanie obrazu polega na wybieraniu koloru dla poszczególnego obiektu"
+                },
+                {
+                    text: "obraz składa się z pixeli i wyznaczanie obrazu polega na wybieraniu koloru dla poszczególnego pixela"
+                },
+                {
+                    text: "obraz składa się z odcinków i tworzenie obrazu polega na rysowaniu poszczególnych odcinków",
+                    isCorrect: true
+                },
+                {
+                    text: "obraz składa się z pixeli i tworzenie obrazu polega na rysowaniu kolejnych pixeli"
+                }
+            ]
+        },
+        {
+            questionID: 8,
+            questionText: "W modelu CMYK składowymi są:",
+            questionAnswers: [
+                {
+                    text: "kolory: czerwony, zielony, niebieski"
+                },
+                {
+                    text: "kolory: karmazynowy, żółty i zielononiebieski",
+                    isCorrect: true
+                },
+                {
+                    text: "odcień oraz nasycenie"
+                },
+                {
+                    text: "chrominancje U i V (coś w tym stylu, w każdym razie odnosiło to się do modelu CIE LUV)"
+                }
+            ]
+        },
+        {
+            questionID: 9,
+            questionText: "Co nazywamy szkieletem zbioru:",
+            questionAnswers: [
+                {
+                    text: "zbiór pixeli otrzymany w wyniku cyklicznego odrzucania pixeli konturu nie będących pixelami powtarzalnymi",
+                    isCorrect: true
+                },
+                {
+                    text: "zbiór pixeli złożony z pixeli powtarzalnych"
+                }
+            ]
+        },
+        {
+            questionID: 10,
+            questionText: "Który filtr cyfrowy rozmazuje obraz:",
+            questionAnswers: [
+                {
+                    text: "filtr dolnoprzepustowy",
+                    isCorrect: true
+                },
+                {
+                    text: "filtr górnoprzepustowy"
+                },
+                {
+                    text: "filtr medianowy"
+                },
+                {
+                    text: "filtr Laplace'a"
+                }
+            ]
+        },
+        {
+            questionID: 11,
+            questionText: "Który algorytm umożliwia rysowanie wygładzonego odcinka:",
+            questionAnswers: [
+                {
+                    text: "antialiasing",
+                    isCorrect: true
+                },
+                {
+                    text: "aliasing"
+                }
+            ]
+        },
+        {
+            questionID: 12,
+            questionText: "światło odbite składa się z trzech składowych. Jaka składowa tam nie występuje?",
+            questionAnswers: [
+                {
+                    text: "składowa emisyjna",
+                    isCorrect: true
+                },
+                {
+                    text: "składowa zwierciadlana"
+                },
+                {
+                    text: "składowa rozproszona"
+                }
+            ]
+        },
+        {
+            questionID: 13,
+            questionText: "Filtr wygładzający (zwłaszcza krawędzie) to:",
+            questionAnswers: [
+                {
+                    text: "medianowy"
+                },
+                {
+                    text: "dolnoprzepustowy",
+                    isCorrect: true
+                },
+                {
+                    text: "górnoprzepustowy"
+                },
+                {
+                    text: "La Place'a"
+                }
+            ]
+        },
+        {
+            questionID: 14,
+            questionText: "Teoria postrzegania trzema barwami to:",
+            questionAnswers: [
+                {
+                    text: "Helmhotza-Younga",
+                    isCorrect: true
+                },
+                {
+                    text: "teoria Phonga"
+                },
+                {
+                    text: "teoria Gourauda"
+                },
+                {
+                    text: "teoria Macha"
+                }
+            ]
+        },
+        {
+            questionID: 15,
+            questionText: "Algorytm poprzez spójność (sianie) to algorytm:",
+            questionAnswers: [
+                {
+                    text: "wypełniania konturu",
+                    isCorrect: true
+                },
+                {
+                    text: "znajdywania konturu"
+                },
+                {
+                    text: "ścieniania"
+                },
+                {
+                    text: "wygładzania"
+                }
+            ]
+        },
+        {
+            questionID: 16,
+            questionText: "CMYK powstał na bazie CMY poprzez dodanie koloru:",
+            questionAnswers: [
+                {
+                    text: "czarnego",
+                    isCorrect: true
+                },
+                {
+                    text: "czerwonego"
+                },
+                {
+                    text: "zielonego"
+                },
+                {
+                    text: "niebieskiego"
+                }
+            ]
+        },
+        {
+            questionID: 17,
+            questionText: "Zjawisko zębatości to:",
+            questionAnswers: [
+                {
+                    text: "aliasing",
+                    isCorrect: true
+                },
+                {
+                    text: "antyaliasing"
+                },
+                {
+                    text: "metameryzm"
+                }
+            ]
+        },
+        {
+            questionID: 18,
+            questionText: "Algorytm midpoint jest algorytmem:",
+            questionAnswers: [
+                {
+                    text: "strukturalnym"
+                },
+                {
+                    text: "parametrycznym"
+                },
+                {
+                    text: "warunkowym",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 19,
+            questionText: "Krzywa Beziera przechodzi w ogólności:",
+            questionAnswers: [
+                {
+                    text: "przez dwa punkty kontrolne",
+                    isCorrect: true
+                },
+                {
+                    text: "przez żadne punkty kontrolne"
+                },
+                {
+                    text: "przez wszystkie punkty kontrolne"
+                }
+            ]
+        },
+        {
+            questionID: 20,
+            questionText: "Co nie jest cechą fontu?",
+            questionAnswers: [
+                {
+                    text: "format zapisu",
+                    isCorrect: true
+                },
+                {
+                    text: "krój"
+                },
+                {
+                    text: "stopień"
+                },
+                {
+                    text: "odmiana"
+                }
+            ]
+        },
+        {
+            questionID: 21,
+            questionText: "Który z algorytmów stosuje metodę kompresji stratnej:",
+            questionAnswers: [
+                {
+                    text: "falkowy",
+                    isCorrect: true
+                },
+                {
+                    text: "LZW"
+                },
+                {
+                    text: "Huffmana"
+                },
+                {
+                    text: "run length encoding (RLE)"
+                }
+            ]
+        },
+        {
+            questionID: 22,
+            questionText: "Jak nazywa się znak stanowiący połączenie dwóch liter?",
+            questionAnswers: [
+                {
+                    text: "Ligatura",
+                    isCorrect: true
+                },
+                {
+                    text: "Metamera"
+                },
+                {
+                    text: "Znak Helmholtza"
+                }
+            ]
+        },
+        {
+            questionID: 23,
+            questionText: "Co to metameryzm?",
+            questionAnswers: [
+                {
+                    text: "przyzwyczajanie się oka do określonego natężenia światła"
+                },
+                {
+                    text: "zjawisko, w/g którego promieniowanie o różnym składzie widmowym, może dawać identyczne wrażenie barwy",
+                    isCorrect: true
+                },
+                {
+                    text: "fakt, w/g którego promieniowanie o różnym składzie widmowym nie może dawać identycznego wrażenia barwy"
+                }
+            ]
+        },
+        {
+            questionID: 24,
+            questionText: "Model barw TekHVC:",
+            questionAnswers: [
+                {
+                    text: "został specjalnie do zastosowań w urządzeniach firmy Tektronix"
+                },
+                {
+                    text: "to model w którym odległości między są proporcjonalne do wrażeń barwnych",
+                    isCorrect: true
+                },
+                {
+                    text: "model, dzięki któremu zużycie tuszu w drukarkach jest najmniejsze"
+                }
+            ]
+        },
+        {
+            questionID: 25,
+            questionText: "Metody fraktalne należą do metod kompresji:",
+            questionAnswers: [
+                {
+                    text: "stratnej",
+                    isCorrect: true
+                },
+                {
+                    text: "bezstratnej"
+                }
+            ]
+        },
+        {
+            questionID: 26,
+            questionText: "W wyniku kwantowania obrazu mogą pojawić się niepożądane krawędzie. Przeciwdziała temu:",
+            questionAnswers: [
+                {
+                    text: "antyaliasing"
+                },
+                {
+                    text: "aliasing"
+                },
+                {
+                    text: "dithering",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 27,
+            questionText: "Krzywą dyskretną nazywamy:",
+            questionAnswers: [
+                {
+                    text: "drogą w której wszystkie piksele ciągu stanawiącego ją, są różne, i żaden z nich nie ma więcej niż dwóch sąsiadów"
+                },
+                {
+                    text: "w każdym przypadku zbiór będący jednocześnie swoim konturem"
+                },
+                {
+                    text: "droga w której pierwszy piksel ciągu stanowiącego drogę jest sąsiadem ostatniego piksela tego ciągu"
+                },
+                {
+                    text: "każdy zbiór spójny pikseli nie zawierający czwórki pikseli tworzących kwadrat",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 28,
+            questionText: "Czym różni się B-kontur od konturu:",
+            questionAnswers: [
+                {
+                    text: "B-kontur jest drogą zamkniętą, kontur niekoniecznie"
+                },
+                {
+                    text: "B-kontur musi mieć jednego sąsiada nienależącego do zbioru, kontur musi mieć jednego B-sąsiada nienależącego do zbioru",
+                    isCorrect: true
+                },
+                {
+                    text: "niczym - pojęć używa się zamiennie"
+                },
+                {
+                    text: "pojęcie konturu nie występuje w grafice"
+                }
+            ]
+        },
+        {
+            questionID: 29,
+            questionText: "Przykładem strukturalnej metody rysowania odcinka jest:",
+            questionAnswers: [
+                {
+                    text: "algorytm midpoint"
+                },
+                {
+                    text: "algorytm Bresenhama"
+                },
+                {
+                    text: "Metzgera-Bronsa",
+                    isCorrect: true
+                },
+                {
+                    text: "Jordana"
+                }
+            ]
+        },
+        {
+            questionID: 30,
+            questionText: "Który filtr cyfrowy redukuje szumy:",
+            questionAnswers: [
+                {
+                    text: "filtr dolnoprzepustowy"
+                },
+                {
+                    text: "filtr górnoprzepustowy"
+                },
+                {
+                    text: "filtr medianowy",
+                    isCorrect: true
+                },
+                {
+                    text: "filtr Laplace'a"
+                }
+            ]
+        },
+        {
+            questionID: 31,
+            questionText: "Algorytm rysowania łuków Honga jest algorytmem:",
+            questionAnswers: [
+                {
+                    text: "parametrycznym",
+                    isCorrect: true
+                },
+                {
+                    text: "warunkowym"
+                },
+                {
+                    text: "okantnym"
+                },
+                {
+                    text: "bezwarunkowym"
+                }
+            ]
+        },
+        {
+            questionID: 32,
+            questionText: "Punkt P przesłania odcinek l wtedy gdy:",
+            questionAnswers: [
+                {
+                    text: "P leży na odcinku"
+                },
+                {
+                    text: "P leży na którymś z końcuów odcinku"
+                },
+                {
+                    text: "P jest duży i zasłania cały odcinek"
+                },
+                {
+                    text: "półprosta poziomej, wychodzącej z P w lewą stronę przecina się z l",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 33,
+            questionText: "Przykładem konstruktywnej reprezentacji obiektów graficznych jest:",
+            questionAnswers: [
+                {
+                    text: "woksel(voxel)"
+                },
+                {
+                    text: "wierzchołki A,B,C,D i z nich utworzone ściany ABCD lub CDBA",
+                    isCorrect: true
+                },
+                {
+                    text: "przeskalowany o 2 sześcian jednostkowy"
+                }
+            ]
+        },
+        {
+            questionID: 34,
+            questionText: "Przesłanianie ścian jest relacją:",
+            questionAnswers: [
+                {
+                    text: "przechodnią"
+                },
+                {
+                    text: "symetryczną"
+                },
+                {
+                    text: "antysymetryczną"
+                },
+                {
+                    text: "żadną z powyższych",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 35,
+            questionText: "Do algorytmow warunkowych rysujacych odcinki nie zaliczamy:",
+            questionAnswers: [
+                {
+                    text: "midpoint"
+                },
+                {
+                    text: "Metzgera-Bronsa",
+                    isCorrect: true
+                },
+                {
+                    text: "Bresenhama"
+                },
+                {
+                    text: "porownawczy Jordana"
+                }
+            ]
+        },
+        {
+            questionID: 36,
+            questionText: "Probkowanie powierzchni przy jej wygladzaniu może być:",
+            questionAnswers: [
+                {
+                    text: "Wagowe i bezwagowe",
+                    isCorrect: true
+                },
+                {
+                    text: "Względne i bezwzględne"
+                },
+                {
+                    text: "Dyskretne i rzeczywiste"
+                },
+                {
+                    text: "Żadna odpowiedzi nie jest poprawna"
+                }
+            ]
+        },
+        {
+            questionID: 37,
+            questionText: "Za pomocą ktorego algorytmu nie narysujesz elipsy:",
+            questionAnswers: [
+                {
+                    text: "Honga"
+                },
+                {
+                    text: "midpoint"
+                },
+                {
+                    text: "Wszystkie odpowiedzi są poprawne"
+                },
+                {
+                    text: "decyzyjnego Jordana",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 38,
+            questionText: "Konturem danego zbioru pikseli nazywamy:",
+            questionAnswers: [
+                {
+                    text: "Zbiór pikseli należących do tego zbioru i mających dokladnie jednego b-sąsiada nie należącego do tego zbioru."
+                },
+                {
+                    text: "Zbiór pikseli należących do tego zbioru i mających co najmniej jednego b-sąsiada nie należącego do tego zbioru.",
+                    isCorrect: true
+                },
+                {
+                    text: "Zbiór pikseli należących do tego zbioru i mających co najmniej jednego n-sąsiada nie należącego do tego zbioru."
+                },
+                {
+                    text: "Zbiór pikseli nienależących do tego zbioru i mających co najmniej jednego b-sąsiada należącego do tego zbioru"
+                }
+            ]
+        },
+        {
+            questionID: 39,
+            questionText: "Chcesz wyostrzyc obraz, w super programie od Daciuka uzyjesz do tego:",
+            questionAnswers: [
+                {
+                    text: "Filtru dolnoprzepustowego"
+                },
+                {
+                    text: "Wszystkie poniższe odpowiedzi są poprawne",
+                    isCorrect: true
+                },
+                {
+                    text: "laplasjana"
+                },
+                {
+                    text: "maski Sobela"
+                }
+            ]
+        },
+        {
+            questionID: 40,
+            questionText: "Ludzkie oko jest w stanie przechowywać wrażenie wzrokowe w czasie",
+            questionAnswers: [
+                {
+                    text: "0.1 ms"
+                },
+                {
+                    text: "0.5 s"
+                },
+                {
+                    text: "0.1 s",
+                    isCorrect: true
+                },
+                {
+                    text: "100ns"
+                }
+            ]
+        },
+        {
+            questionID: 41,
+            questionText: "Do modeli teoretycznych kolorów należy",
+            questionAnswers: [
+                {
+                    text: "RGB"
+                },
+                {
+                    text: "CMYK"
+                },
+                {
+                    text: "TekHVC",
+                    isCorrect: true
+                },
+                {
+                    text: "YUV"
+                }
+            ]
+        },
+        {
+            questionID: 42,
+            questionText: "Mówiąc o HSV, które zdanie jest falszywe:",
+            questionAnswers: [
+                {
+                    text: "Powstał przez transformacje modelu RGB"
+                },
+                {
+                    text: "Jest rozwinięciem modelu HLS",
+                    isCorrect: true
+                },
+                {
+                    text: "Reprezentacją graficzną tego modelu jest odwrócony stożek o podstawie sześciokąta"
+                },
+                {
+                    text: "Na środku podstawy znajduje się kolor biały"
+                }
+            ]
+        },
+        {
+            questionID: 43,
+            questionText: "Rendering to:",
+            questionAnswers: [
+                {
+                    text: "Proces generacji obrazu na podstawie modelu",
+                    isCorrect: true
+                },
+                {
+                    text: "Proces transformacji obrazu na podstawie modelu"
+                },
+                {
+                    text: "Dodawanie do CMY skladowej BLACK"
+                },
+                {
+                    text: "Algorytm malarski"
+                }
+            ]
+        },
+        {
+            questionID: 44,
+            questionText: "Wskaz zdanie wybitnie nieprawdziwe:",
+            questionAnswers: [
+                {
+                    text: "Bufor Z to jakistam obszar pamięci..."
+                },
+                {
+                    text: "...pozwalający wyeliminować z renderowania niewidoczne elementy krzywych"
+                },
+                {
+                    text: "Bufor Z służy do zapisywania tektur",
+                    isCorrect: true
+                },
+                {
+                    text: "Wszystkie odpowiedzi są niepoprawne"
+                }
+            ]
+        },
+        {
+            questionID: 45,
+            questionText: "Co nie ma wpływu na wyznaczanie cieni",
+            questionAnswers: [
+                {
+                    text: "Punkt widzenia źródła światła"
+                },
+                {
+                    text: "Punkt widzenia kamery w Tomb Raiderze"
+                },
+                {
+                    text: "Punkt widzenia postaci w Quake'u"
+                },
+                {
+                    text: "Lustro przy którym siedzi Lena",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 46,
+            questionText: "Co nie jest przeksztalceniem morfologicznym obrazu:",
+            questionAnswers: [
+                {
+                    text: "erozja"
+                },
+                {
+                    text: "dylatacja"
+                },
+                {
+                    text: "odszumienie",
+                    isCorrect: true
+                },
+                {
+                    text: "A+C"
+                }
+            ]
+        },
+        {
+            questionID: 47,
+            questionText: "Metoda oswietlenia globalnego zależna od położenia obserwatora to:",
+            questionAnswers: [
+                {
+                    text: "radiosity"
+                },
+                {
+                    text: "raytracing",
+                    isCorrect: true
+                },
+                {
+                    text: "raindancing"
+                },
+                {
+                    text: "illuminacja"
+                }
+            ]
+        },
+        {
+            questionID: 48,
+            questionText: "Metoda oswietlenia globalnego niezależna od położenia obserwatora to:",
+            questionAnswers: [
+                {
+                    text: "raytracing"
+                },
+                {
+                    text: "antialiasing"
+                },
+                {
+                    text: "radiosity",
+                    isCorrect: true
+                },
+                {
+                    text: "vertex shader"
+                }
+            ]
+        },
+        {
+            questionID: 49,
+            questionText: "Radiosity to metoda oświetlenia (rodzaj oswietlenia, nazwa metody):",
+            questionAnswers: [
+                {
+                    text: "globalnego, śledzenia promieni"
+                },
+                {
+                    text: "globalnego, energetyczna",
+                    isCorrect: true
+                },
+                {
+                    text: "lokalnego, Gourauda"
+                },
+                {
+                    text: "lokalnego, Phonga"
+                }
+            ]
+        },
+        {
+            questionID: 50,
+            questionText: "Czcionka nie jest:",
+            questionAnswers: [
+                {
+                    text: "Arial"
+                },
+                {
+                    text: "Verdana"
+                },
+                {
+                    text: "Times New Roman"
+                },
+                {
+                    text: "A+B+C",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 51,
+            questionText: "Antykwy nie są:",
+            questionAnswers: [
+                {
+                    text: "Ukryte"
+                },
+                {
+                    text: "Belkowe"
+                },
+                {
+                    text: "Klinowe"
+                },
+                {
+                    text: "Poprzeczne",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 52,
+            questionText: "Cyfry nautyczne to:",
+            questionAnswers: [
+                {
+                    text: "Jednolita linia pisma, równa wysokość"
+                },
+                {
+                    text: "Jednolita linia pisma, różna wysokość"
+                },
+                {
+                    text: "Niejednolita linia pisma, różna wysokość",
+                    isCorrect: true
+                },
+                {
+                    text: "Niejednolita linia pisma, równa wysokość"
+                }
+            ]
+        },
+        {
+            questionID: 53,
+            questionText: "Język polski nie wyksztalcil:",
+            questionAnswers: [
+                {
+                    text: "Abrewiatur",
+                    isCorrect: true
+                },
+                {
+                    text: "Ligatur"
+                }
+            ]
+        },
+        {
+            questionID: 54,
+            questionText: "Format fontów Type 1 opracowano w:",
+            questionAnswers: [
+                {
+                    text: "Adobe",
+                    isCorrect: true
+                },
+                {
+                    text: "Apple"
+                },
+                {
+                    text: "HP"
+                },
+                {
+                    text: "IBM"
+                }
+            ]
+        },
+        {
+            questionID: 55,
+            questionText: "Format fontów TrueType opracowano w:",
+            questionAnswers: [
+                {
+                    text: "Microsoft"
+                },
+                {
+                    text: "Apple",
+                    isCorrect: true
+                },
+                {
+                    text: "HP"
+                },
+                {
+                    text: "Adobe"
+                }
+            ]
+        },
+        {
+            questionID: 56,
+            questionText: "Format fontów OpenType opracowano w:",
+            questionAnswers: [
+                {
+                    text: "Microsoft i Adobe",
+                    isCorrect: true
+                },
+                {
+                    text: "Microsoft i HP"
+                },
+                {
+                    text: "Apple i Adobe"
+                },
+                {
+                    text: "Apple i HP"
+                }
+            ]
+        },
+        {
+            questionID: 57,
+            questionText: "Skladowymi liter w Type 1 są:",
+            questionAnswers: [
+                {
+                    text: "Kubiczne krzywe Beziera",
+                    isCorrect: true
+                },
+                {
+                    text: "Krzywe Beziera drugiego stopnia"
+                },
+                {
+                    text: "Powyższe odpowiedzi są prawidłowe"
+                },
+                {
+                    text: "Krzywe Beziera czwartego stopnia"
+                }
+            ]
+        },
+        {
+            questionID: 58,
+            questionText: "Skladowymi liter w TrueType są:",
+            questionAnswers: [
+                {
+                    text: "Krzywe Beziera drugiego stopnia"
+                },
+                {
+                    text: "Paraboliczne krzywe Beziera"
+                },
+                {
+                    text: "Powyższe odpowiedzi są prawidłowe",
+                    isCorrect: true
+                },
+                {
+                    text: "Kubiczne krzywe Beziera"
+                }
+            ]
+        },
+        {
+            questionID: 59,
+            questionText: "Który z Windowsów jako pierwszy w pełni obsługiwał format TrueType?",
+            questionAnswers: [
+                {
+                    text: "XP"
+                },
+                {
+                    text: "3.11"
+                },
+                {
+                    text: "95",
+                    isCorrect: true
+                },
+                {
+                    text: "98"
+                }
+            ]
+        },
+        {
+            questionID: 60,
+            questionText: "który symbol oznacza ułożenie w algorytmie Gilla bitow 0010?",
+            questionAnswers: [
+                {
+                    text: "_ - - -"
+                },
+                {
+                    text: "_ _ _ -"
+                },
+                {
+                    text: "_ _ _ _"
+                },
+                {
+                    text: "_ _ - -",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 61,
+            questionText: "Algorytm cienowania wielokątów wykorzystujący interpolacje wektorów normalnych to:",
+            questionAnswers: [
+                {
+                    text: "Algorytm Helmhotza-Younga"
+                },
+                {
+                    text: "Algorytm Phonga",
+                    isCorrect: true
+                },
+                {
+                    text: "Algorytm Gourauda"
+                },
+                {
+                    text: "śledzenie promieni"
+                }
+            ]
+        },
+        {
+            questionID: 62,
+            questionText: "Jakiemu fraktalowi odpowiada część wspólna dywanu Sierpińskiego i prostej poprowadzonej przez środek niego:",
+            questionAnswers: [
+                {
+                    text: "zbiorowi Mandelbrota"
+                },
+                {
+                    text: "zbiorowi Julii"
+                },
+                {
+                    text: "zbiorowi Cantora",
+                    isCorrect: true
+                },
+                {
+                    text: "kostce Mengera"
+                }
+            ]
+        },
+        {
+            questionID: 63,
+            questionText: "Który z shaderów jest najmłodszy (wprowadzony w DirectX 11):",
+            questionAnswers: [
+                {
+                    text: "pixel shader"
+                },
+                {
+                    text: "vertex shader"
+                },
+                {
+                    text: "geometry shader"
+                },
+                {
+                    text: "domain shader",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 64,
+            questionText: "Co nie jest wykonywane podczas postprocessingu?",
+            questionAnswers: [
+                {
+                    text: "desaturacja"
+                },
+                {
+                    text: "głębia ostrości"
+                },
+                {
+                    text: "rozmycie ruchu"
+                },
+                {
+                    text: "odbicia lustrzane",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 65,
+            questionText: "Model barw RGB jest:",
+            questionAnswers: [
+                {
+                    text: "subtraktywny"
+                },
+                {
+                    text: "addytywny",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 66,
+            questionText: "Który z poniższych to język programowania shaderów?",
+            questionAnswers: [
+                {
+                    text: "SPL"
+                },
+                {
+                    text: "HLSL"
+                },
+                {
+                    text: "HSL"
+                },
+                {
+                    text: "HLSC",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 67,
+            questionText: "Który z poniższych to język programowania shaderów?",
+            questionAnswers: [
+                {
+                    text: "GSL"
+                },
+                {
+                    text: "SPL"
+                },
+                {
+                    text: "GLSL",
+                    isCorrect: true
+                },
+                {
+                    text: "Perl"
+                }
+            ]
+        },
+        {
+            questionID: 68,
+            questionText: "Ile punktow kontrolnych ma krzywa beziera n-tego stopnia?",
+            questionAnswers: [
+                {
+                    text: "n-1"
+                },
+                {
+                    text: "n"
+                },
+                {
+                    text: "n+1",
+                    isCorrect: true
+                },
+                {
+                    text: "n+2"
+                }
+            ]
+        },
+        {
+            questionID: 69,
+            questionText: "Który shader został dodany w DX10?",
+            questionAnswers: [
+                {
+                    text: "Hull Shader"
+                },
+                {
+                    text: "Pixel Shader"
+                },
+                {
+                    text: "Geometry Shader",
+                    isCorrect: true
+                },
+                {
+                    text: "Vertex Shader"
+                }
+            ]
+        },
+        {
+            questionID: 70,
+            questionText: "Kiedy wprowadzono teselację?",
+            questionAnswers: [
+                {
+                    text: "DX9"
+                },
+                {
+                    text: "DX10"
+                },
+                {
+                    text: "DX11",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 71,
+            questionText: "Cienowanie wielokątów wykorzystujące interpolacje wartosci obliczonych dla poszczególnych wierzchołków to:",
+            questionAnswers: [
+                {
+                    text: "Metoda energetyczna"
+                },
+                {
+                    text: "Algorytm Phonga"
+                },
+                {
+                    text: "Algorytm Gourauda",
+                    isCorrect: true
+                },
+                {
+                    text: "śledzenie promieni"
+                }
+            ]
+        },
+        {
+            questionID: 72,
+            questionText: "Co to jest glif (ang. glyph)?",
+            questionAnswers: [
+                {
+                    text: "pisemna/graficzna reprezentacja znaku",
+                    isCorrect: true
+                },
+                {
+                    text: "odstęp pomiędzy wierszami"
+                },
+                {
+                    text: "odstęp pomiędzy znakami"
+                },
+                {
+                    text: "połączenie dwóch znaków w jeden"
+                }
+            ]
+        },
+        {
+            questionID: 73,
+            questionText: "O czopkach można powiedzieć, że:",
+            questionAnswers: [
+                {
+                    text: "działają już w słabym świetle i nie rozróżniają barw"
+                },
+                {
+                    text: "działają już w slabym świetle i rozróżniają barwy"
+                },
+                {
+                    text: "działają w dobrym (jasnym) świetle i nie rozróżniają barw"
+                },
+                {
+                    text: "działają w dobrym (jasnym) świetle i rozróżniają barwy",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 74,
+            questionText: "O czopkach można powiedzieć, że:",
+            questionAnswers: [
+                {
+                    text: "działają już w słabym świetle i umożliwiają rozróżnianie barw"
+                },
+                {
+                    text: "działają już w słabym świetle i nie umożliwiają rozróżniania barw"
+                },
+                {
+                    text: "działają w dobrym świetle i umożliwiają postrzeganie barw",
+                    isCorrect: true
+                },
+                {
+                    text: "działają w dobrym świetle i nie umożliwiają postrzegania barw"
+                }
+            ]
+        },
+        {
+            questionID: 75,
+            questionText: "Składowe YUV to:",
+            questionAnswers: [
+                {
+                    text: "Kolory: czerwony, zielony, niebieski"
+                },
+                {
+                    text: "Luminancja i dwie chrominancje",
+                    isCorrect: true
+                },
+                {
+                    text: "Kolory: zielononiebieski, fioletowy i żółty"
+                },
+                {
+                    text: "Odcień, nasycenie, jasność"
+                }
+            ]
+        },
+        {
+            questionID: 76,
+            questionText: "Jaki shader nie należy do pipeline'u renderującego DX11?",
+            questionAnswers: [
+                {
+                    text: "Vertex Shader"
+                },
+                {
+                    text: "Domain Shader"
+                },
+                {
+                    text: "Compute Shader",
+                    isCorrect: true
+                },
+                {
+                    text: "Pixel Shader"
+                }
+            ]
+        },
+        {
+            questionID: 77,
+            questionText: "Co oznacza skrót SIMD?",
+            questionAnswers: [
+                {
+                    text: "Single Instruction Multiple Data",
+                    isCorrect: true
+                },
+                {
+                    text: "Shader Information Matrix Data"
+                },
+                {
+                    text: "Structured Information Manipulation Data"
+                }
+            ]
+        },
+        {
+            questionID: 78,
+            questionText: "Co odpowiada za odbicia światła od matowych powierzchni?",
+            questionAnswers: [
+                {
+                    text: "complex"
+                },
+                {
+                    text: "diffuse",
+                    isCorrect: true
+                },
+                {
+                    text: "seismic"
+                },
+                {
+                    text: "retro"
+                }
+            ]
+        },
+        {
+            questionID: 79,
+            questionText: "Który z podanych algorytmów nie jest liniowy?",
+            questionAnswers: [
+                {
+                    text: "laplasjan"
+                },
+                {
+                    text: "medianowy",
+                    isCorrect: true
+                },
+                {
+                    text: "dolnoprzepustowy"
+                },
+                {
+                    text: "górnoprzepustowy"
+                }
+            ]
+        },
+        {
+            questionID: 80,
+            questionText: "Jaki shader odpowiada za cieniowanie pikseli w DirectX?",
+            questionAnswers: [
+                {
+                    text: "Pixel Shader",
+                    isCorrect: true
+                },
+                {
+                    text: "Fragment Shader"
+                },
+                {
+                    text: "Vertex Shader"
+                },
+                {
+                    text: "Geometry Shader"
+                }
+            ]
+        },
+        {
+            questionID: 81,
+            questionText: "Jaki shader odpowiada za cieniowanie pikseli w OpenGL?",
+            questionAnswers: [
+                {
+                    text: "Pixel Shader"
+                },
+                {
+                    text: "Fragment Shader",
+                    isCorrect: true
+                },
+                {
+                    text: "Vertex Shader"
+                },
+                {
+                    text: "Geometry Shader"
+                }
+            ]
+        },
+        {
+            questionID: 82,
+            questionText: "Jakie jest rozwinięcie skrótu VBS narzędzia służącego do przeprowadzania symulacji (np. pociągów)?",
+            questionAnswers: [
+                {
+                    text: "Virtual Basic Scripts"
+                },
+                {
+                    text: "Virtual Brutal Sociopath"
+                },
+                {
+                    text: "Virtual Battlespace",
+                    isCorrect: true
+                },
+                {
+                    text: "Vertex Basic Simulations"
+                }
+            ]
+        },
+        {
+            questionID: 83,
+            questionText: "Czym jest antialiasing?",
+            questionAnswers: [
+                {
+                    text: "Metoda usuwania szumów"
+                },
+                {
+                    text: "Algorytm szukania konturu"
+                },
+                {
+                    text: "Algorytm rysowania linii"
+                },
+                {
+                    text: "Metoda wygładzania obrazu",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 84,
+            questionText: "Które biblioteki graficzne są wysokopoziomowe?",
+            questionAnswers: [
+                {
+                    text: "Vulkan"
+                },
+                {
+                    text: "Dwie poniższe",
+                    isCorrect: true
+                },
+                {
+                    text: "OpenGL"
+                },
+                {
+                    text: "Direct3D"
+                }
+            ]
+        },
+        {
+            questionID: 85,
+            questionText: "Na czym operuje shader Tesselation?",
+            questionAnswers: [
+                {
+                    text: "pixelach"
+                },
+                {
+                    text: "trójkątach"
+                },
+                {
+                    text: "innych prymitywach"
+                },
+                {
+                    text: "łatach (patches)",
+                    isCorrect: true
+                }
+            ]
+        }
+    ],
+
+    modernPhysics: [
+        {
+            questionID: 1,
+            questionText: "Według prawa Gaussa (dla pola elektryczengo) strumień wektora natężenia pola elektrycznego przez dowolną powierzchnię zamkniętą S...",
+            questionAnswers: [
+                {
+                    text: "jest zawsze zerowy, niezależnie od rozmieszczenia źródeł pola"
+                },
+                {
+                    text: "zależy tylko od ładunków zawartych w obszarze ograniczonym powierzchnią S",
+                    isCorrect: true
+                },
+                {
+                    text: "zależy tylko od ładunków zawartych w obszarze na zewnątrz powierzchni S"
+                },
+                {
+                    text: "zależy zarówno od ładunków zawartych wewnątrz jak i na zewnątrz powierzchni S"
+                }
+            ]
+        },
+        {
+            questionID: 2,
+            questionText: "Energia potencjalna ładnuku q znajdującego się w odległości r od ładunku punktowego Q wynosi:",
+            questionAnswers: [
+                {
+                    text: "kQq/r²"
+                },
+                {
+                    text: "kQ/r²"
+                },
+                {
+                    text: "kQq/r",
+                    isCorrect: true
+                },
+                {
+                    "text": "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 3,
+            questionText: "Strumień jednorodnego pola elektrycznego o wartości E przez ustawioną prostopadle do linii pola prostokątną powierzchnię o polu S wynosi:",
+            questionAnswers: [
+                {
+                    text: "0"
+                },
+                {
+                    text: "ES",
+                    isCorrect: true
+                },
+                {
+                    text: "za mało danych"
+                },
+                {
+                    text: "ES²"
+                }
+            ]
+        },
+        {
+            questionID: 4,
+            questionText: "Pracę siły pola elektrycznego przy przemieszczaniu ładunku q z punktu 1 do punktu 2 można obliczyć na podstawie wyrażenia:",
+            questionAnswers: [
+                {
+                    text: "∫F*ds, gdzie F - siła elektrostatyczna [całka oznaczona od 1 do 2, F i s to wektory]"
+                },
+                {
+                    text: "q(V₁ - V₂), gdzie V₁ i V₂ - potencjały w punktach 1 i 2"
+                },
+                {
+                    text: "q∫E*ds, gdzie E - natężenie pola [całka oznaczona od 1 do 2, E i s to wektory]"
+                },
+                {
+                    text: "Wszystkie powyższe odpowiedzi są poprawne",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 5,
+            questionText: "Natężenie pola elektrycznego w próżni wynosi E[wektor]. Jeśli w polu tym umieścimy dielektryk o względnej przenikalności elektrycznej εᵣ, to wektor indukcji pola elektrycznego w tym materiale wyniesie:",
+            questionAnswers: [
+                {
+                    text: "D[wektor] = ε₀εᵣE[wektor]",
+                    isCorrect: true
+                },
+                {
+                    text: "D[wektor] = E[wektor]/(ε₀εᵣ)"
+                },
+                {
+                    text: "D[wektor] = E[wektor]/εᵣ"
+                },
+                {
+                    text: "D[wektor] = εᵣE[wektor]"
+                }
+            ]
+        },
+        {
+            questionID: 6,
+            questionText: "Energia potencjalna ładunku q poruszającego się polu ładunku punktu Q wynosi:",
+            questionAnswers: [
+                {
+                    text: "Eₚ = kqQ/r²"
+                },
+                {
+                    text: "Eₚ = kqQ/r",
+                    isCorrect: true
+                },
+                {
+                    text: "Eₚ = kQ/r"
+                },
+                {
+                    text: "Eₚ = kQ/r²"
+                }
+            ]
+        },
+        {
+            questionID: 7,
+            questionText: "Według prawa Gaussa strumień wektora natężenia pola elektrycznego przez zamkniętą powierzchnię S jest równy (czyli ∮E[wektor]*dS[wektor] = ...)",
+            questionAnswers: [
+                {
+                    text: "0"
+                },
+                {
+                    text: "sumie ładunków w obszarze zamkniętym powierzchnią S"
+                },
+                {
+                    text: "sumie ładunków w obszarze zamkniętym powierzchnią S podzielonej przez ε₀",
+                    isCorrect: true
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 8,
+            questionText: "W pewnym punkcie umieszczony jest ładunek dodatni o wartości 2C. W odległości 0,4 m od tego ładunku umieszczony jest ładunek ujemny -2C. Ładunki te tworzą dipol. Jaka jest wartość elektrycznego momentu dipolowego tego dipola?",
+            questionAnswers: [
+                {
+                    text: "1,6 Cm"
+                },
+                {
+                    text: "0,8 Cm",
+                    isCorrect: true
+                },
+                {
+                    text: "0,4 Cm"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 9,
+            questionText: "Jeśli dipol znajduje się w jednorodnym polu elektrycznym, działają na niego siły które...",
+            questionAnswers: [
+                {
+                    text: "dążą do ustawienia wektora momentu dipolowego prostopadle do linii pola"
+                },
+                {
+                    text: "dążą do ustawienia wektora momentu dipolowego tak, aby jego zwrot był równoległy do wektora natężenia pola elektrycznego",
+                    isCorrect: true
+                },
+                {
+                    text: "nie zmienią ani położenia ani ustawienia dipola, bo siła wypadkowa będzie zerowa"
+                },
+                {
+                    text: "będą przesuwać dipol wzdłuż linii pola"
+                }
+            ]
+        },
+        {
+            questionID: 10,
+            questionText: "Siły działające na dipol elektryczny umieszczony w niejednorodnym polu elektrycznym mogą...",
+            questionAnswers: [
+                {
+                    text: "tylko obracać dipol, bez przesuwania jego środka ciężkości"
+                },
+                {
+                    text: "tylko przesuwać dipol (jego środek ciężkości), bez obracania"
+                },
+                {
+                    text: "mogą zarówno obracać jak i przesuwać dipol",
+                    isCorrect: true
+                },
+                {
+                    text: "nie mogą ani obracać ani przesuwać dipola, bo siła wypadkowa będzie równa zeru"
+                }
+            ]
+        },
+        {
+            questionID: 11,
+            questionText: "Jak zależy moduł wektora natężenia pola elektrycznego, wytwarzanego przez nieskończoną płaszczyznę naładowaną ładunkiem o gęstości σ, od odległości od tej płaszczyzny:",
+            questionAnswers: [
+                {
+                    text: "jest proporcjonalny do odległości"
+                },
+                {
+                    text: "jest odwrotnie proporcjonalny do odległości"
+                },
+                {
+                    text: "nie zależy od odległości, jest stały i wynosi σ/(2ε₀)",
+                    isCorrect: true
+                },
+                {
+                    text: "nie zależy od odległości, jest równy 0"
+                }
+            ]
+        },
+        {
+            questionID: 12,
+            questionText: "Gęstość energii pola elektrycznego jest proporcjonalna do:",
+            questionAnswers: [
+                {
+                    text: "kwadratu natężenia pola elektrycznego"
+                },
+                {
+                    text: "kwadratu indukcji pola elektrycznego"
+                },
+                {
+                    text: "iloczynu natężenia i indukcji pola elektrycznego"
+                },
+                {
+                    text: "wszystkie odpowiedzi są poprawne",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 13,
+            questionText: "Cyrkulacja wektora natężenia pola elektrycznego wzdłuż zamkniętego konturu L (czyli ∮E[wektor]*dl[wektor]) w przypadku braku zmiennego pola magnetycznego wynosi",
+            questionAnswers: [
+                {
+                    text: "0",
+                    isCorrect: true
+                },
+                {
+                    text: "q"
+                },
+                {
+                    text: "q/ε₀"
+                },
+                {
+                    text: "ρ/ε₀"
+                }
+            ]
+        },
+        {
+            questionID: 14,
+            questionText: "Rotacja wektora natężenia pola elektrycznego (czyli ∇[wektor]xE[wektor]) w przypadku braku zmiennego pola magnetycznego wynosi:",
+            questionAnswers: [
+                {
+                    text: "ρ/ε₀"
+                },
+                {
+                    text: "q"
+                },
+                {
+                    text: "q/ε₀"
+                },
+                {
+                    text: "0",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 15,
+            questionText: "Elektron porusza się z pewną prędkością v w polu magnetycznym o indukcji B (rysunek). Jak będzie skierowana siła Lorentza?",
+            imageSrc: "img/modern_physics/15.jpg",
+            questionAnswers: [
+                {
+                    text: "w lewo (do -x)"
+                },
+                {
+                    text: "w dół (do -y)"
+                },
+                {
+                    text: "w głąb (do -z)",
+                    isCorrect: true
+                },
+                {
+                    text: "przed \"kartkę\" (do z)"
+                }
+            ]
+        },
+        {
+            questionID: 16,
+            questionText: "Czy pole magnetyczne, działając na poruszający się ładunek, zmienia jego energię kinetyczną?",
+            questionAnswers: [
+                {
+                    text: "tak, niezależnie od kąta pomiędzy wektorami B i v"
+                },
+                {
+                    text: "tak, ale tylko jeśli wektory B i v są równoległe"
+                },
+                {
+                    text: "tak, ale tylko jeśli wektory B i v są prostopadłe"
+                },
+                {
+                    text: "nie, niezaleznie od kąta pomiędzy wektorami B i v",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 17,
+            questionText: "Zgodnie z prawem Biota-Savarta, pole magnetyczne wytwarzane przez odcinek przednika ds, przez który płynie prąd o natężeniu I (zwrot jest zgodny z kierunkiem prądu), w punkcie, którego połozenie względem odcinka opisuje wektor r, wynosi:",
+            questionAnswers: [
+                {
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(r[wektor] x ds[wektor])/r²"
+                },
+                {
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(r[wektor] x ds[wektor])/rł"
+                },
+                {
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/r²"
+                },
+                {
+                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/rł",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 18,
+            questionText: "Przez przewód s płynie prąd o natężeniu I. Jaki będzie kierunek i zwrot wektora indukcji pola magnetycznego pochodzącego od tego przewodnika w punkcie wskazywanym wektorem r?",
+            imageSrc: "img/modern_physics/18.jpg",
+            questionAnswers: [
+                {
+                    text: "w lewo (do -x)"
+                },
+                {
+                    text: "w dół (do -y)"
+                },
+                {
+                    text: "w głąb (do -z)"
+                },
+                {
+                    text: "przed \"kartkę\" (do z)",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 19,
+            questionText: "Które z poniższych stwierdzeń jest prawdą?",
+            questionAnswers: [
+                {
+                    text: "Istnieją pojedyncze ładunki magnetyczne (odpowiedniki ładunków elektrycznych)"
+                },
+                {
+                    text: "Linie pola magnetycznego mają swoje początki i konce"
+                },
+                {
+                    text: "linie pola magnetycznego są krzywymi zamkniętymi",
+                    isCorrect: true
+                },
+                {
+                    text: "linie pola magnetyczengo mogą być zarówno krzywymi zamkniętymi jak i otwartymi"
+                }
+            ]
+        },
+        {
+            questionID: 20,
+            questionText: "Zgodnie z prawem Gaussa dla magnetyzmu, dywergencja wektora indukcji pola magnetycznego, czyli ∇[wektor]*B[wektor], jest ...",
+            questionAnswers: [
+                {
+                    text: "zawsze równa zeru",
+                    isCorrect: true
+                },
+                {
+                    text: "zależna od położenia; w pobliżu biegunów magnetycznych jest niezerowa"
+                },
+                {
+                    text: "zależna od odległości od przewodników z prądem"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 21,
+            questionText: "Przez fragment przewodu o długości ds, umieszczony w polu o indukcji B, płynie prąd o natężeniu I. Siła działająca na ten przewód wynosi:",
+            questionAnswers: [
+                {
+                    text: "0"
+                },
+                {
+                    text: "Ids∇[wektor]*B[wektor]"
+                },
+                {
+                    text: "Ids[wektor]xB[wektor]",
+                    isCorrect: true
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 22,
+            questionText: "Przez fragment przewodu o długości ds, umieszczony w polu o indukcji B, płynie prąd o natężeniu I. Siła działająca na ten przeówd jest skierowana:",
+            imageSrc: "img/modern_physics/22.jpg",
+            questionAnswers: [
+                {
+                    text: "przed \"kartkę\" (do z)"
+                },
+                {
+                    text: "w dół (do -y)"
+                },
+                {
+                    text: "w głąb (do -z)",
+                    isCorrect: true
+                },
+                {
+                    text: "w tym przypadku siła będzie wektorem zerowym"
+                }
+            ]
+        },
+        {
+            questionID: 23,
+            questionText: "W próżni mamy wybrany pewnien zamknięty kontur L, powierzchnia ograniczona tym konturem to S. Cyrkulacja wektora indukcji pola magnetycznego wzdłuż konturu L, czyli ∮B ⃗ ⋅​d ⃗ l wynosi:",
+            questionAnswers: [
+                {
+                    text: "zero, niezależnie od prądów płynących przez powierzchnię S"
+                },
+                {
+                    text: "suma prądów przecinających powierzchnię S, niezależnie od ich kierunków, przemnożona przez μ₀"
+                },
+                {
+                    text: "suma prądów przecinających powierzchnię S, z uwzględnieniem ich kierunków (znaków), przemnożona przez μ₀",
+                    isCorrect: true
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 24,
+            questionText: "Magnes oddala się od metalowej obręczy wzdłuż jej osi (rysunek). W obręczy tej...",
+            imageSrc: "img/modern_physics/24.jpg",
+            questionAnswers: [
+                {
+                    text: "popłynie prąd w kierunku zgodnym z ruchem wskazówek zegara (patrząc od strony magnesu)",
+                    isCorrect: true
+                },
+                {
+                    text: "popłynie prąd w kierunku przeciwnym do ruchu wskazówek zegara"
+                },
+                {
+                    text: "nie będzie płynąć prąd"
+                },
+                {
+                    text: "za mało informacji, by stwierdzić możliwy efekt"
+                }
+            ]
+        },
+        {
+            questionID: 25,
+            questionText: "Zgodnie z regułą Lenza...",
+            questionAnswers: [
+                {
+                    text: "linie pola magnetycznego w pobliżu przewodnika z prądem są okręgami"
+                },
+                {
+                    text: "linie pola magnetycznego w pobliżu przewodnika z prądem są prostymi"
+                },
+                {
+                    text: "prąd indukowany w przewodniku w wyniku zmian pola magnetycznego przeciwdziała zmianom tego pola",
+                    isCorrect: true
+                },
+                {
+                    text: "prąd indukowany w przewodniku w wyniku zmian pola magnetycznego wzmacnia zmiany tego pola"
+                }
+            ]
+        },
+        {
+            questionID: 26,
+            questionText: "Określając zależność między współczynnikiem samoindukcji L solenoidu a koncentracją zwojów n można powiedzieć, że L jest proporcjonalne do",
+            questionAnswers: [
+                {
+                    text: "n"
+                },
+                {
+                    text: "1/n"
+                },
+                {
+                    text: "n²",
+                    isCorrect: true
+                },
+                {
+                    text: "1/n²"
+                }
+            ]
+        },
+        {
+            questionID: 27,
+            questionText: "Gęstość energii pola magnetycznego jest proporcjonalna do",
+            questionAnswers: [
+                {
+                    text: "kwadratu natężenia pola magnetycznego"
+                },
+                {
+                    text: "kwadratu indukcji pola magnetycznego"
+                },
+                {
+                    text: "iloczynu natężenia i indukcji pola magnego"
+                },
+                {
+                    text: "wszystkie z odpowiedzi są poprawne",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 28,
+            questionText: "Zgodnie z prawem Faradaya źródłem wirowego pola elektrycznego może być",
+            questionAnswers: [
+                {
+                    text: "tylko zmienne pole magnetyczne",
+                    isCorrect: true
+                },
+                {
+                    text: "tylko elektryczny ładunek punktowy lub układ ładunków punktowych"
+                },
+                {
+                    text: "zarówno zmienne pole magnetyczne jak i elektryczne ładunki punktowe"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 29,
+            questionText: "Astronauta twierdzi, że rakieta, którą leci, ma długość 100m (chodzi o długość mierzoną w kierunku ruchu). Jaką długość będzie miała ta rakieta dla obserwatora, od którego rakieta oddala się prędkością 0,8c?",
+            questionAnswers: [
+                {
+                    text: "100m"
+                },
+                {
+                    text: "80m"
+                },
+                {
+                    text: "60m",
+                    isCorrect: true
+                },
+                {
+                    text: "40m"
+                }
+            ]
+        },
+        {
+            questionID: 30,
+            questionText: "Astronauta leci rakietą z prędkością 0,6c względem obserwatora na Ziemi. Jakiemu przedziałowi czasu dla obserwatora na Ziemi odpowiada rok dla astronauty?",
+            questionAnswers: [
+                {
+                    text: "1 rok"
+                },
+                {
+                    text: "1,25 roku",
+                    isCorrect: true
+                },
+                {
+                    text: "1,6 roku"
+                },
+                {
+                    text: "0,6 roku"
+                }
+            ]
+        },
+        {
+            questionID: 31,
+            questionText: "Z rakiety oddalającej się od Ziemi z prędkością 0,8c wystrzelono do przodu pocisk z prędkością 0,625c względem rakiety. Jaka jest prędkość pocisku względem Ziemi?",
+            questionAnswers: [
+                {
+                    text: "0,95c",
+                    isCorrect: true
+                },
+                {
+                    text: "1c"
+                },
+                {
+                    text: "1,425c"
+                },
+                {
+                    text: "0,86c"
+                }
+            ]
+        },
+        {
+            questionID: 32,
+            questionText: "Mamy układ współrzędnych K (w którym mierzymy położenie x i czas t) oraz poruszający się względem niego wzdłuż osi x z prędkością v0 układ K' (w którym mierzymy położenie x' i czas t'). W chwili t = t' = 0 początki układów pokrywały się. Zgodnie z przekształceniami odwrotnymi Lorentza zapiszemy",
+            questionAnswers: [
+                {
+                    text: "x' = (x - v0t)/sqrt(1 - v0^2/c^2)",
+                    isCorrect: true
+                },
+                {
+                    text: "x' = (x - v0t)/sqrt(1 - v0/c)"
+                },
+                {
+                    text: "x' = (x + v0t)/sqrt(1 - v0/c)"
+                },
+                {
+                    text: "x' = (x + v0t)/sqrt(1 - v0^2/c^2)"
+                }
+            ]
+        },
+        {
+            questionID: 33,
+            questionText: "Mamy układ współrzędnych K (w którym mierzymy położenie x i czas t) oraz poruszający się względem niego wzdłuż osi x z prędkością v0 układ K' (w którym mierzymy położenie x' i czas t'). W chwili t = t' = 0 początki układów pokrywały się. Zgodnie z przekształceniami Lorentza zapiszemy",
+            questionAnswers: [
+                {
+                    text: "t = (t' + x'*v0/c^2)/sqrt(1 - v0^2/c^2)",
+                    isCorrect: true
+                },
+                {
+                    text: "t = (t' - x'*v0/c^2)/sqrt(1 - v0^2/c^2)"
+                },
+                {
+                    text: "t = (t' + x'*v0/c^2)/sqrt(1 - v0/c)"
+                },
+                {
+                    text: "t = (t' - x'*v0/c^2)/sqrt(1 - v0/c)"
+                }
+            ]
+        },
+        {
+            questionID: 34,
+            questionText: "Każda powierzchnia o temperaturze T wyższej niż 0K wypromieniowuje energię. Ilość energii wypromieniowywanej z jednostkowej powierzchni w jednostce czasu jest proporcjonalna do...",
+            questionAnswers: [
+                {
+                    text: "T"
+                },
+                {
+                    text: "T²"
+                },
+                {
+                    text: "Tł"
+                },
+                {
+                    text: "T⁴",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 35,
+            questionText: "Długość fali przy której widmowa zdolność emisyjna ciała doskonale czarnego ma maksimum, ...",
+            questionAnswers: [
+                {
+                    text: "nie zależy od temperatury"
+                },
+                {
+                    text: "rośnie liniowo wraz z temperaturą"
+                },
+                {
+                    text: "jest proporcjonalna do kwadratu temperatury"
+                },
+                {
+                    text: "jest odwrotnie proporcjonalna do temperatury",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 36,
+            questionText: "Podczas obserwacji zjawiska fotoelektrycznego przyłożenie napięcia hamującego pozwala na",
+            questionAnswers: [
+                {
+                    text: "ocenę maksymalnej energii kinetycznej uzyskiwanej przez elektrony",
+                    isCorrect: true
+                },
+                {
+                    text: "ocenę energii fotonów będących przyczyną zjawiska fotoelektrycznego"
+                },
+                {
+                    text: "żadna z odpowiedzi (tych dwóch z normalną treścią) nie jest poprawna"
+                },
+                {
+                    text: "obie odpowiedzi (te dwie z normalną treścią) są poprawne"
+                }
+            ]
+        },
+        {
+            questionID: 37,
+            questionText: "Na materiał pada światło. Aby z materiału mógł wydostać się elektron (zjawisko fotoelektryczne) niezbędne jest...",
+            questionAnswers: [
+                {
+                    text: "odpowiednio duże natężenie światła"
+                },
+                {
+                    text: "aby do powierzchni materiału dotarło tyle fotonów, by ich łączna energia była większa od pracy wyjścia"
+                },
+                {
+                    text: "aby do powierzchni materiału dotarł foton, którego energia będzie większa lub równa pracy wyjścia",
+                    isCorrect: true
+                },
+                {
+                    text: "żadna z powyższych odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 38,
+            questionText: "Jak zależy maksymalna energia kinetyczna Ek od częstotliwości fali elektromagnetycznej padającej na materiał (zakładamy, że energia fotonów jest większa od pracy wyjścia)?",
+            questionAnswers: [
+                {
+                    text: "Ek jest stała, nie zależy od częstotliwości fali"
+                },
+                {
+                    text: "Ek rośnie liniowo ze wzrostem częstotliwości fali",
+                    isCorrect: true
+                },
+                {
+                    text: "Ek maleje liniowo ze wzrostem częstotliwości fali"
+                },
+                {
+                    text: "za mało danych, trzeba uwzględnić wpływ innych czynników"
+                }
+            ]
+        },
+        {
+            questionID: 39,
+            questionText: "Przesunięcie comptonowskie przy rozpraszaniu promieniowania X na elektronach zależy",
+            questionAnswers: [
+                {
+                    text: "tylko od kąta rozproszenia i długości fali promieniowania X"
+                },
+                {
+                    text: "tylko od długości fali promieniowania X"
+                },
+                {
+                    text: "tylko od kąta rozproszenia",
+                    isCorrect: true
+                },
+                {
+                    text: "tylko od długości fali promieniowania X i polaryzacji"
+                }
+            ]
+        },
+        {
+            questionID: 40,
+            questionText: "Aby poprawnie wyjaśnić zjawisko Comptona, należy",
+            questionAnswers: [
+                {
+                    text: "założyć, że światło jest falą i dokonać bilansu energii w układzie"
+                },
+                {
+                    text: "założyć, że światło wykazuje naturę cząsteczkową i zastosować zasady zachowania energii i pędu",
+                    isCorrect: true
+                },
+                {
+                    text: "współczesna fizyka nadal nie potrafi wyjaśnić zjawiska Comptona"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 41,
+            questionText: "Pierwszy postulat Bohra zakłada skwantowanie",
+            questionAnswers: [
+                {
+                    text: "pędu elektronu"
+                },
+                {
+                    text: "orbitalnego momentu pędu elektronu",
+                    isCorrect: true
+                },
+                {
+                    text: "energii elektronu"
+                },
+                {
+                    text: "promienia orbity elektronu"
+                }
+            ]
+        },
+        {
+            questionID: 42,
+            questionText: "Drugi postulat Bohra zakłada, że",
+            questionAnswers: [
+                {
+                    text: "elektron posiada tzw. spin"
+                },
+                {
+                    text: "elektron ma skwantowany promień orbity"
+                },
+                {
+                    text: "elektron ma skwantowany orbitalny moment pędu"
+                },
+                {
+                    text: "przejściu elektronu pomiędzy dwoma poziomami odpowiada emisja lub absorpcja fotonu o energii odpowiadającej różnicy energii między poziomami",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 43,
+            questionText: "Pierwszemu poziomowi energetycznemu w atomie wodoru odpowiada energia E₁. Energia n-tego poziomu wynosi:",
+            questionAnswers: [
+                {
+                    text: "Rₙ = nE₁"
+                },
+                {
+                    text: "Rₙ = E₁/n"
+                },
+                {
+                    text: "Rₙ = n²*E₁"
+                },
+                {
+                    text: "Rₙ = E₁/n²",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 44,
+            questionText: "Eksperyment Davissona i Germera polega na...",
+            questionAnswers: [
+                {
+                    text: "obserwacji falowej natury elektronów (zgodność z warunkiem na konstruktywną interferencję)",
+                    isCorrect: true
+                },
+                {
+                    text: "wytwarzaniu wirowego pola magnetycznego wokół przewodnika z prądem"
+                },
+                {
+                    text: "\"wygaszeniu\" światła przechodzącego przez układ dwóch polaryzatorów o wzajemnie prostopadłych kierunkach polaryzacji"
+                },
+                {
+                    text: "rozpraszaniu promieniowania rentgenowskiego na elektronach, co prowadzi zmiany długości fali promieniowania (zależnej od kąta rozproszenia)"
+                }
+            ]
+        },
+        {
+            questionID: 45,
+            questionText: "W precyzyjnie wykonanym eksperymencie badającym falową naturę materii wiązka elektronów pada prostopadle na płytę zawierającą dwie szczeliny. Obraz powstający na ekranie za płytą będzie zawierał:",
+            questionAnswers: [
+                {
+                    text: "dokładnie jedno maksimum"
+                },
+                {
+                    text: "dokładnie dwa maksima"
+                },
+                {
+                    text: "jedno lub dwa maksima"
+                },
+                {
+                    text: "co najmniej kilka wyraźnych maksimów",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 46,
+            questionText: "Ciało o masie 1 kg porusza się z prędkością 1 m/s. Jaka długość fali materii odpowiada temu ciału (wartość stałej Plancka: h =6,6*10^-34 Js)?",
+            questionAnswers: [
+                {
+                    text: "6,6*10^-34 m",
+                    isCorrect: true
+                },
+                {
+                    text: "3,3*10^-34 m"
+                },
+                {
+                    text: "6,6*10^-19 m"
+                },
+                {
+                    text: "3,3*10^-19 m"
+                }
+            ]
+        },
+        {
+            questionID: 47,
+            questionText: "Które stwierdzenie jest prawdziwe?",
+            questionAnswers: [
+                {
+                    text: "Funkcja falowa może być nieskończona"
+                },
+                {
+                    text: "funkcja falowa może być nieciągła"
+                },
+                {
+                    text: "funkcja falowa może zależeć od czasu",
+                    isCorrect: true
+                },
+                {
+                    text: "funkcja falowa może być równa zeru w całej swojej dziedzinie (w całym obszarze)"
+                }
+            ]
+        },
+        {
+            questionID: 48,
+            questionText: "Zgodnie z zasadą odpowiedniości Bohra, gdy rozpatruje się np. energię cząstki,...",
+            questionAnswers: [
+                {
+                    text: "nie ma możliwości porównywania wyników uzyskanych mechaniką klasyczną i kwantową"
+                },
+                {
+                    text: "Wyniki kwantowe uzyskane dla najniższych poziomów zgadzają się z klasycznymi"
+                },
+                {
+                    text: "wyniki kwantowe uzyskane dla bardzo wysokich poziomów zgadzają się z klasycznymi",
+                    isCorrect: true
+                },
+                {
+                    text: "wszystkie wyniki uzyskane mechaniką kwantową w pełni pokrywają się z wynikami klasycznymi"
+                }
+            ]
+        },
+        {
+            questionID: 49,
+            questionText: "Absorpcja wymuszona to",
+            questionAnswers: [
+                {
+                    text: "sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym"
+                },
+                {
+                    text: "Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów",
+                    isCorrect: true
+                },
+                {
+                    text: "Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        },
+        {
+            questionID: 50,
+            questionText: "Inwersja obsadzeń to",
+            questionAnswers: [
+                {
+                    text: "sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym",
+                    isCorrect: true
+                },
+                {
+                    text: "Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów"
+                },
+                {
+                    text: "Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu"
+                },
+                {
+                    text: "żadna z odpowiedzi nie jest prawidłowa"
+                }
+            ]
+        }
+    ],
+
     multimediaAndInterfaces: [
         {
             questionID: 1,
@@ -1492,963 +3989,6 @@ const questionDataBase = {
                 {
                     text: "druga pochodna funkcji opisującej położenie punktu materialnego względem czasu",
                     isCorrect: true
-                }
-            ]
-        }
-    ],
-
-    modernPhysics: [
-        {
-            questionID: 1,
-            questionText: "Według prawa Gaussa (dla pola elektryczengo) strumień wektora natężenia pola elektrycznego przez dowolną powierzchnię zamkniętą S...",
-            questionAnswers: [
-                {
-                    text: "jest zawsze zerowy, niezależnie od rozmieszczenia źródeł pola"
-                },
-                {
-                    text: "zależy tylko od ładunków zawartych w obszarze ograniczonym powierzchnią S",
-                    isCorrect: true
-                },
-                {
-                    text: "zależy tylko od ładunków zawartych w obszarze na zewnątrz powierzchni S"
-                },
-                {
-                    text: "zależy zarówno od ładunków zawartych wewnątrz jak i na zewnątrz powierzchni S"
-                }
-            ]
-        },
-        {
-            questionID: 2,
-            questionText: "Energia potencjalna ładnuku q znajdującego się w odległości r od ładunku punktowego Q wynosi:",
-            questionAnswers: [
-                {
-                    text: "kQq/r²"
-                },
-                {
-                    text: "kQ/r²"
-                },
-                {
-                    text: "kQq/r",
-                    isCorrect: true
-                },
-                {
-                    "text": "żadna z odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 3,
-            questionText: "Strumień jednorodnego pola elektrycznego o wartości E przez ustawioną prostopadle do linii pola prostokątną powierzchnię o polu S wynosi:",
-            questionAnswers: [
-                {
-                    text: "0"
-                },
-                {
-                    text: "ES",
-                    isCorrect: true
-                },
-                {
-                    text: "za mało danych"
-                },
-                {
-                    text: "ES²"
-                }
-            ]
-        },
-        {
-            questionID: 4,
-            questionText: "Pracę siły pola elektrycznego przy przemieszczaniu ładunku q z punktu 1 do punktu 2 można obliczyć na podstawie wyrażenia:",
-            questionAnswers: [
-                {
-                    text: "∫F*ds, gdzie F - siła elektrostatyczna [całka oznaczona od 1 do 2, F i s to wektory]"
-                },
-                {
-                    text: "q(V₁ - V₂), gdzie V₁ i V₂ - potencjały w punktach 1 i 2"
-                },
-                {
-                    text: "q∫E*ds, gdzie E - natężenie pola [całka oznaczona od 1 do 2, E i s to wektory]"
-                },
-                {
-                    text: "Wszystkie powyższe odpowiedzi są poprawne",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 5,
-            questionText: "Natężenie pola elektrycznego w próżni wynosi E[wektor]. Jeśli w polu tym umieścimy dielektryk o względnej przenikalności elektrycznej εᵣ, to wektor indukcji pola elektrycznego w tym materiale wyniesie:",
-            questionAnswers: [
-                {
-                    text: "D[wektor] = ε₀εᵣE[wektor]",
-                    isCorrect: true
-                },
-                {
-                    text: "D[wektor] = E[wektor]/(ε₀εᵣ)"
-                },
-                {
-                    text: "D[wektor] = E[wektor]/εᵣ"
-                },
-                {
-                    text: "D[wektor] = εᵣE[wektor]"
-                }
-            ]
-        },
-        {
-            questionID: 6,
-            questionText: "Energia potencjalna ładunku q poruszającego się polu ładunku punktu Q wynosi:",
-            questionAnswers: [
-                {
-                    text: "Eₚ = kqQ/r²"
-                },
-                {
-                    text: "Eₚ = kqQ/r",
-                    isCorrect: true
-                },
-                {
-                    text: "Eₚ = kQ/r"
-                },
-                {
-                    text: "Eₚ = kQ/r²"
-                }
-            ]
-        },
-        {
-            questionID: 7,
-            questionText: "Według prawa Gaussa strumień wektora natężenia pola elektrycznego przez zamkniętą powierzchnię S jest równy (czyli ∮E[wektor]*dS[wektor] = ...)",
-            questionAnswers: [
-                {
-                    text: "0"
-                },
-                {
-                    text: "sumie ładunków w obszarze zamkniętym powierzchnią S"
-                },
-                {
-                    text: "sumie ładunków w obszarze zamkniętym powierzchnią S podzielonej przez ε₀",
-                    isCorrect: true
-                },
-                {
-                    text: "żadna z odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 8,
-            questionText: "W pewnym punkcie umieszczony jest ładunek dodatni o wartości 2C. W odległości 0,4 m od tego ładunku umieszczony jest ładunek ujemny -2C. Ładunki te tworzą dipol. Jaka jest wartość elektrycznego momentu dipolowego tego dipola?",
-            questionAnswers: [
-                {
-                    text: "1,6 Cm"
-                },
-                {
-                    text: "0,8 Cm",
-                    isCorrect: true
-                },
-                {
-                    text: "0,4 Cm"
-                },
-                {
-                    text: "żadna z odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 9,
-            questionText: "Jeśli dipol znajduje się w jednorodnym polu elektrycznym, działają na niego siły które...",
-            questionAnswers: [
-                {
-                    text: "dążą do ustawienia wektora momentu dipolowego prostopadle do linii pola"
-                },
-                {
-                    text: "dążą do ustawienia wektora momentu dipolowego tak, aby jego zwrot był równoległy do wektora natężenia pola elektrycznego",
-                    isCorrect: true
-                },
-                {
-                    text: "nie zmienią ani położenia ani ustawienia dipola, bo siła wypadkowa będzie zerowa"
-                },
-                {
-                    text: "będą przesuwać dipol wzdłuż linii pola"
-                }
-            ]
-        },
-        {
-            questionID: 10,
-            questionText: "Siły działające na dipol elektryczny umieszczony w niejednorodnym polu elektrycznym mogą...",
-            questionAnswers: [
-                {
-                    text: "tylko obracać dipol, bez przesuwania jego środka ciężkości"
-                },
-                {
-                    text: "tylko przesuwać dipol (jego środek ciężkości), bez obracania"
-                },
-                {
-                    text: "mogą zarówno obracać jak i przesuwać dipol",
-                    isCorrect: true
-                },
-                {
-                    text: "nie mogą ani obracać ani przesuwać dipola, bo siła wypadkowa będzie równa zeru"
-                }
-            ]
-        },
-        {
-            questionID: 11,
-            questionText: "Jak zależy moduł wektora natężenia pola elektrycznego, wytwarzanego przez nieskończoną płaszczyznę naładowaną ładunkiem o gęstości σ, od odległości od tej płaszczyzny:",
-            questionAnswers: [
-                {
-                    text: "jest proporcjonalny do odległości"
-                },
-                {
-                    text: "jest odwrotnie proporcjonalny do odległości"
-                },
-                {
-                    text: "nie zależy od odległości, jest stały i wynosi σ/(2ε₀)",
-                    isCorrect: true
-                },
-                {
-                    text: "nie zależy od odległości, jest równy 0"
-                }
-            ]
-        },
-        {
-            questionID: 12,
-            questionText: "Gęstość energii pola elektrycznego jest proporcjonalna do:",
-            questionAnswers: [
-                {
-                    text: "kwadratu natężenia pola elektrycznego"
-                },
-                {
-                    text: "kwadratu indukcji pola elektrycznego"
-                },
-                {
-                    text: "iloczynu natężenia i indukcji pola elektrycznego"
-                },
-                {
-                    text: "wszystkie odpowiedzi są poprawne",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 13,
-            questionText: "Cyrkulacja wektora natężenia pola elektrycznego wzdłuż zamkniętego konturu L (czyli ∮E[wektor]*dl[wektor]) w przypadku braku zmiennego pola magnetycznego wynosi",
-            questionAnswers: [
-                {
-                    text: "0",
-                    isCorrect: true
-                },
-                {
-                    text: "q"
-                },
-                {
-                    text: "q/ε₀"
-                },
-                {
-                    text: "ρ/ε₀"
-                }
-            ]
-        },
-        {
-            questionID: 14,
-            questionText: "Rotacja wektora natężenia pola elektrycznego (czyli ∇[wektor]xE[wektor]) w przypadku braku zmiennego pola magnetycznego wynosi:",
-            questionAnswers: [
-                {
-                    text: "ρ/ε₀"
-                },
-                {
-                    text: "q"
-                },
-                {
-                    text: "q/ε₀"
-                },
-                {
-                    text: "0",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 15,
-            questionText: "Elektron porusza się z pewną prędkością v w polu magnetycznym o indukcji B (rysunek). Jak będzie skierowana siła Lorentza?",
-            imageSrc: "img/modern_physics/15.jpg",
-            questionAnswers: [
-                {
-                    text: "w lewo (do -x)"
-                },
-                {
-                    text: "w dół (do -y)"
-                },
-                {
-                    text: "w głąb (do -z)",
-                    isCorrect: true
-                },
-                {
-                    text: "przed \"kartkę\" (do z)"
-                }
-            ]
-        },
-        {
-            questionID: 16,
-            questionText: "Czy pole magnetyczne, działając na poruszający się ładunek, zmienia jego energię kinetyczną?",
-            questionAnswers: [
-                {
-                    text: "tak, niezależnie od kąta pomiędzy wektorami B i v"
-                },
-                {
-                    text: "tak, ale tylko jeśli wektory B i v są równoległe"
-                },
-                {
-                    text: "tak, ale tylko jeśli wektory B i v są prostopadłe"
-                },
-                {
-                    text: "nie, niezaleznie od kąta pomiędzy wektorami B i v",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 17,
-            questionText: "Zgodnie z prawem Biota-Savarta, pole magnetyczne wytwarzane przez odcinek przednika ds, przez który płynie prąd o natężeniu I (zwrot jest zgodny z kierunkiem prądu), w punkcie, którego połozenie względem odcinka opisuje wektor r, wynosi:",
-            questionAnswers: [
-                {
-                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(r[wektor] x ds[wektor])/r²"
-                },
-                {
-                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(r[wektor] x ds[wektor])/rł"
-                },
-                {
-                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/r²"
-                },
-                {
-                    text: "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/rł",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 18,
-            questionText: "Przez przewód s płynie prąd o natężeniu I. Jaki będzie kierunek i zwrot wektora indukcji pola magnetycznego pochodzącego od tego przewodnika w punkcie wskazywanym wektorem r?",
-            imageSrc: "img/modern_physics/18.jpg",
-            questionAnswers: [
-                {
-                    text: "w lewo (do -x)"
-                },
-                {
-                    text: "w dół (do -y)"
-                },
-                {
-                    text: "w głąb (do -z)"
-                },
-                {
-                    text: "przed \"kartkę\" (do z)",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 19,
-            questionText: "Które z poniższych stwierdzeń jest prawdą?",
-            questionAnswers: [
-                {
-                    text: "Istnieją pojedyncze ładunki magnetyczne (odpowiedniki ładunków elektrycznych)"
-                },
-                {
-                    text: "Linie pola magnetycznego mają swoje początki i konce"
-                },
-                {
-                    text: "linie pola magnetycznego są krzywymi zamkniętymi",
-                    isCorrect: true
-                },
-                {
-                    text: "linie pola magnetyczengo mogą być zarówno krzywymi zamkniętymi jak i otwartymi"
-                }
-            ]
-        },
-        {
-            questionID: 20,
-            questionText: "Zgodnie z prawem Gaussa dla magnetyzmu, dywergencja wektora indukcji pola magnetycznego, czyli ∇[wektor]*B[wektor], jest ...",
-            questionAnswers: [
-                {
-                    text: "zawsze równa zeru",
-                    isCorrect: true
-                },
-                {
-                    text: "zależna od położenia; w pobliżu biegunów magnetycznych jest niezerowa"
-                },
-                {
-                    text: "zależna od odległości od przewodników z prądem"
-                },
-                {
-                    text: "żadna z odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 21,
-            questionText: "Przez fragment przewodu o długości ds, umieszczony w polu o indukcji B, płynie prąd o natężeniu I. Siła działająca na ten przewód wynosi:",
-            questionAnswers: [
-                {
-                    text: "0"
-                },
-                {
-                    text: "Ids∇[wektor]*B[wektor]"
-                },
-                {
-                    text: "Ids[wektor]xB[wektor]",
-                    isCorrect: true
-                },
-                {
-                    text: "żadna z odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 22,
-            questionText: "Przez fragment przewodu o długości ds, umieszczony w polu o indukcji B, płynie prąd o natężeniu I. Siła działająca na ten przeówd jest skierowana:",
-            imageSrc: "img/modern_physics/22.jpg",
-            questionAnswers: [
-                {
-                    text: "przed \"kartkę\" (do z)"
-                },
-                {
-                    text: "w dół (do -y)"
-                },
-                {
-                    text: "w głąb (do -z)",
-                    isCorrect: true
-                },
-                {
-                    text: "w tym przypadku siła będzie wektorem zerowym"
-                }
-            ]
-        },
-        {
-            questionID: 23,
-            questionText: "W próżni mamy wybrany pewnien zamknięty kontur L, powierzchnia ograniczona tym konturem to S. Cyrkulacja wektora indukcji pola magnetycznego wzdłuż konturu L, czyli ∮B ⃗ ⋅​d ⃗ l wynosi:",
-            questionAnswers: [
-                {
-                    text: "zero, niezależnie od prądów płynących przez powierzchnię S"
-                },
-                {
-                    text: "suma prądów przecinających powierzchnię S, niezależnie od ich kierunków, przemnożona przez μ₀"
-                },
-                {
-                    text: "suma prądów przecinających powierzchnię S, z uwzględnieniem ich kierunków (znaków), przemnożona przez μ₀",
-                    isCorrect: true
-                },
-                {
-                    text: "żadna z odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 24,
-            questionText: "Magnes oddala się od metalowej obręczy wzdłuż jej osi (rysunek). W obręczy tej...",
-            imageSrc: "img/modern_physics/24.jpg",
-            questionAnswers: [
-                {
-                    text: "popłynie prąd w kierunku zgodnym z ruchem wskazówek zegara (patrząc od strony magnesu)",
-                    isCorrect: true
-                },
-                {
-                    text: "popłynie prąd w kierunku przeciwnym do ruchu wskazówek zegara"
-                },
-                {
-                    text: "nie będzie płynąć prąd"
-                },
-                {
-                    text: "za mało informacji, by stwierdzić możliwy efekt"
-                }
-            ]
-        },
-        {
-            questionID: 25,
-            questionText: "Zgodnie z regułą Lenza...",
-            questionAnswers: [
-                {
-                    text: "linie pola magnetycznego w pobliżu przewodnika z prądem są okręgami"
-                },
-                {
-                    text: "linie pola magnetycznego w pobliżu przewodnika z prądem są prostymi"
-                },
-                {
-                    text: "prąd indukowany w przewodniku w wyniku zmian pola magnetycznego przeciwdziała zmianom tego pola",
-                    isCorrect: true
-                },
-                {
-                    text: "prąd indukowany w przewodniku w wyniku zmian pola magnetycznego wzmacnia zmiany tego pola"
-                }
-            ]
-        },
-        {
-            questionID: 26,
-            questionText: "Określając zależność między współczynnikiem samoindukcji L solenoidu a koncentracją zwojów n można powiedzieć, że L jest proporcjonalne do",
-            questionAnswers: [
-                {
-                    text: "n"
-                },
-                {
-                    text: "1/n"
-                },
-                {
-                    text: "n²",
-                    isCorrect: true
-                },
-                {
-                    text: "1/n²"
-                }
-            ]
-        },
-        {
-            questionID: 27,
-            questionText: "Gęstość energii pola magnetycznego jest proporcjonalna do",
-            questionAnswers: [
-                {
-                    text: "kwadratu natężenia pola magnetycznego"
-                },
-                {
-                    text: "kwadratu indukcji pola magnetycznego"
-                },
-                {
-                    text: "iloczynu natężenia i indukcji pola magnego"
-                },
-                {
-                    text: "wszystkie z odpowiedzi są poprawne",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 28,
-            questionText: "Zgodnie z prawem Faradaya źródłem wirowego pola elektrycznego może być",
-            questionAnswers: [
-                {
-                    text: "tylko zmienne pole magnetyczne",
-                    isCorrect: true
-                },
-                {
-                    text: "tylko elektryczny ładunek punktowy lub układ ładunków punktowych"
-                },
-                {
-                    text: "zarówno zmienne pole magnetyczne jak i elektryczne ładunki punktowe"
-                },
-                {
-                    text: "żadna z odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 29,
-            questionText: "Astronauta twierdzi, że rakieta, którą leci, ma długość 100m (chodzi o długość mierzoną w kierunku ruchu). Jaką długość będzie miała ta rakieta dla obserwatora, od którego rakieta oddala się prędkością 0,8c?",
-            questionAnswers: [
-                {
-                    text: "100m"
-                },
-                {
-                    text: "80m"
-                },
-                {
-                    text: "60m",
-                    isCorrect: true
-                },
-                {
-                    text: "40m"
-                }
-            ]
-        },
-        {
-            questionID: 30,
-            questionText: "Astronauta leci rakietą z prędkością 0,6c względem obserwatora na Ziemi. Jakiemu przedziałowi czasu dla obserwatora na Ziemi odpowiada rok dla astronauty?",
-            questionAnswers: [
-                {
-                    text: "1 rok"
-                },
-                {
-                    text: "1,25 roku",
-                    isCorrect: true
-                },
-                {
-                    text: "1,6 roku"
-                },
-                {
-                    text: "0,6 roku"
-                }
-            ]
-        },
-        {
-            questionID: 31,
-            questionText: "Z rakiety oddalającej się od Ziemi z prędkością 0,8c wystrzelono do przodu pocisk z prędkością 0,625c względem rakiety. Jaka jest prędkość pocisku względem Ziemi?",
-            questionAnswers: [
-                {
-                    text: "0,95c",
-                    isCorrect: true
-                },
-                {
-                    text: "1c"
-                },
-                {
-                    text: "1,425c"
-                },
-                {
-                    text: "0,86c"
-                }
-            ]
-        },
-        {
-            questionID: 32,
-            questionText: "Mamy układ współrzędnych K (w którym mierzymy położenie x i czas t) oraz poruszający się względem niego wzdłuż osi x z prędkością v0 układ K' (w którym mierzymy położenie x' i czas t'). W chwili t = t' = 0 początki układów pokrywały się. Zgodnie z przekształceniami odwrotnymi Lorentza zapiszemy",
-            questionAnswers: [
-                {
-                    text: "x' = (x - v0t)/sqrt(1 - v0^2/c^2)",
-                    isCorrect: true
-                },
-                {
-                    text: "x' = (x - v0t)/sqrt(1 - v0/c)"
-                },
-                {
-                    text: "x' = (x + v0t)/sqrt(1 - v0/c)"
-                },
-                {
-                    text: "x' = (x + v0t)/sqrt(1 - v0^2/c^2)"
-                }
-            ]
-        },
-        {
-            questionID: 33,
-            questionText: "Mamy układ współrzędnych K (w którym mierzymy położenie x i czas t) oraz poruszający się względem niego wzdłuż osi x z prędkością v0 układ K' (w którym mierzymy położenie x' i czas t'). W chwili t = t' = 0 początki układów pokrywały się. Zgodnie z przekształceniami Lorentza zapiszemy",
-            questionAnswers: [
-                {
-                    text: "t = (t' + x'*v0/c^2)/sqrt(1 - v0^2/c^2)",
-                    isCorrect: true
-                },
-                {
-                    text: "t = (t' - x'*v0/c^2)/sqrt(1 - v0^2/c^2)"
-                },
-                {
-                    text: "t = (t' + x'*v0/c^2)/sqrt(1 - v0/c)"
-                },
-                {
-                    text: "t = (t' - x'*v0/c^2)/sqrt(1 - v0/c)"
-                }
-            ]
-        },
-        {
-            questionID: 34,
-            questionText: "Każda powierzchnia o temperaturze T wyższej niż 0K wypromieniowuje energię. Ilość energii wypromieniowywanej z jednostkowej powierzchni w jednostce czasu jest proporcjonalna do...",
-            questionAnswers: [
-                {
-                    text: "T"
-                },
-                {
-                    text: "T²"
-                },
-                {
-                    text: "T³"
-                },
-                {
-                    text: "T⁴",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 35,
-            questionText: "Długość fali przy której widmowa zdolność emisyjna ciała doskonale czarnego ma maksimum, ...",
-            questionAnswers: [
-                {
-                    text: "nie zależy od temperatury"
-                },
-                {
-                    text: "rośnie liniowo wraz z temperaturą"
-                },
-                {
-                    text: "jest proporcjonalna do kwadratu temperatury"
-                },
-                {
-                    text: "jest odwrotnie proporcjonalna do temperatury",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 36,
-            questionText: "Podczas obserwacji zjawiska fotoelektrycznego przyłożenie napięcia hamującego pozwala na",
-            questionAnswers: [
-                {
-                    text: "ocenę maksymalnej energii kinetycznej uzyskiwanej przez elektrony",
-                    isCorrect: true
-                },
-                {
-                    text: "ocenę energii fotonów będących przyczyną zjawiska fotoelektrycznego"
-                },
-                {
-                    text: "żadna z odpowiedzi (tych dwóch z normalną treścią) nie jest poprawna"
-                },
-                {
-                    text: "obie odpowiedzi (te dwie z normalną treścią) są poprawne"
-                }
-            ]
-        },
-        {
-            questionID: 37,
-            questionText: "Na materiał pada światło. Aby z materiału mógł wydostać się elektron (zjawisko fotoelektryczne) niezbędne jest...",
-            questionAnswers: [
-                {
-                    text: "odpowiednio duże natężenie światła"
-                },
-                {
-                    text: "aby do powierzchni materiału dotarło tyle fotonów, by ich łączna energia była większa od pracy wyjścia"
-                },
-                {
-                    text: "aby do powierzchni materiału dotarł foton, którego energia będzie większa lub równa pracy wyjścia",
-                    isCorrect: true
-                },
-                {
-                    text: "żadna z powyższych odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 38,
-            questionText: "Jak zależy maksymalna energia kinetyczna Ek od częstotliwości fali elektromagnetycznej padającej na materiał (zakładamy, że energia fotonów jest większa od pracy wyjścia)?",
-            questionAnswers: [
-                {
-                    text: "Ek jest stała, nie zależy od częstotliwości fali"
-                },
-                {
-                    text: "Ek rośnie liniowo ze wzrostem częstotliwości fali",
-                    isCorrect: true
-                },
-                {
-                    text: "Ek maleje liniowo ze wzrostem częstotliwości fali"
-                },
-                {
-                    text: "za mało danych, trzeba uwzględnić wpływ innych czynników"
-                }
-            ]
-        },
-        {
-            questionID: 39,
-            questionText: "Przesunięcie comptonowskie przy rozpraszaniu promieniowania X na elektronach zależy",
-            questionAnswers: [
-                {
-                    text: "tylko od kąta rozproszenia i długości fali promieniowania X"
-                },
-                {
-                    text: "tylko od długości fali promieniowania X"
-                },
-                {
-                    text: "tylko od kąta rozproszenia",
-                    isCorrect: true
-                },
-                {
-                    text: "tylko od długości fali promieniowania X i polaryzacji"
-                }
-            ]
-        },
-        {
-            questionID: 40,
-            questionText: "Aby poprawnie wyjaśnić zjawisko Comptona, należy",
-            questionAnswers: [
-                {
-                    text: "założyć, że światło jest falą i dokonać bilansu energii w układzie"
-                },
-                {
-                    text: "założyć, że światło wykazuje naturę cząsteczkową i zastosować zasady zachowania energii i pędu",
-                    isCorrect: true
-                },
-                {
-                    text: "współczesna fizyka nadal nie potrafi wyjaśnić zjawiska Comptona"
-                },
-                {
-                    text: "żadna z odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 41,
-            questionText: "Pierwszy postulat Bohra zakłada skwantowanie",
-            questionAnswers: [
-                {
-                    text: "pędu elektronu"
-                },
-                {
-                    text: "orbitalnego momentu pędu elektronu",
-                    isCorrect: true
-                },
-                {
-                    text: "energii elektronu"
-                },
-                {
-                    text: "promienia orbity elektronu"
-                }
-            ]
-        },
-        {
-            questionID: 42,
-            questionText: "Drugi postulat Bohra zakłada, że",
-            questionAnswers: [
-                {
-                    text: "elektron posiada tzw. spin"
-                },
-                {
-                    text: "elektron ma skwantowany promień orbity"
-                },
-                {
-                    text: "elektron ma skwantowany orbitalny moment pędu"
-                },
-                {
-                    text: "przejściu elektronu pomiędzy dwoma poziomami odpowiada emisja lub absorpcja fotonu o energii odpowiadającej różnicy energii między poziomami",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 43,
-            questionText: "Pierwszemu poziomowi energetycznemu w atomie wodoru odpowiada energia E₁. Energia n-tego poziomu wynosi:",
-            questionAnswers: [
-                {
-                    text: "Rₙ = nE₁"
-                },
-                {
-                    text: "Rₙ = E₁/n"
-                },
-                {
-                    text: "Rₙ = n²*E₁"
-                },
-                {
-                    text: "Rₙ = E₁/n²",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 44,
-            questionText: "Eksperyment Davissona i Germera polega na...",
-            questionAnswers: [
-                {
-                    text: "obserwacji falowej natury elektronów (zgodność z warunkiem na konstruktywną interferencję)",
-                    isCorrect: true
-                },
-                {
-                    text: "wytwarzaniu wirowego pola magnetycznego wokół przewodnika z prądem"
-                },
-                {
-                    text: "\"wygaszeniu\" światła przechodzącego przez układ dwóch polaryzatorów o wzajemnie prostopadłych kierunkach polaryzacji"
-                },
-                {
-                    text: "rozpraszaniu promieniowania rentgenowskiego na elektronach, co prowadzi zmiany długości fali promieniowania (zależnej od kąta rozproszenia)"
-                }
-            ]
-        },
-        {
-            questionID: 45,
-            questionText: "W precyzyjnie wykonanym eksperymencie badającym falową naturę materii wiązka elektronów pada prostopadle na płytę zawierającą dwie szczeliny. Obraz powstający na ekranie za płytą będzie zawierał:",
-            questionAnswers: [
-                {
-                    text: "dokładnie jedno maksimum"
-                },
-                {
-                    text: "dokładnie dwa maksima"
-                },
-                {
-                    text: "jedno lub dwa maksima"
-                },
-                {
-                    text: "co najmniej kilka wyraźnych maksimów",
-                    isCorrect: true
-                }
-            ]
-        },
-        {
-            questionID: 46,
-            questionText: "Ciało o masie 1 kg porusza się z prędkością 1 m/s. Jaka długość fali materii odpowiada temu ciału (wartość stałej Plancka: h =6,6*10^-34 Js)?",
-            questionAnswers: [
-                {
-                    text: "6,6*10^-34 m",
-                    isCorrect: true
-                },
-                {
-                    text: "3,3*10^-34 m"
-                },
-                {
-                    text: "6,6*10^-19 m"
-                },
-                {
-                    text: "3,3*10^-19 m"
-                }
-            ]
-        },
-        {
-            questionID: 47,
-            questionText: "Które stwierdzenie jest prawdziwe?",
-            questionAnswers: [
-                {
-                    text: "Funkcja falowa może być nieskończona"
-                },
-                {
-                    text: "funkcja falowa może być nieciągła"
-                },
-                {
-                    text: "funkcja falowa może zależeć od czasu",
-                    isCorrect: true
-                },
-                {
-                    text: "funkcja falowa może być równa zeru w całej swojej dziedzinie (w całym obszarze)"
-                }
-            ]
-        },
-        {
-            questionID: 48,
-            questionText: "Zgodnie z zasadą odpowiedniości Bohra, gdy rozpatruje się np. energię cząstki,...",
-            questionAnswers: [
-                {
-                    text: "nie ma możliwości porównywania wyników uzyskanych mechaniką klasyczną i kwantową"
-                },
-                {
-                    text: "Wyniki kwantowe uzyskane dla najniższych poziomów zgadzają się z klasycznymi"
-                },
-                {
-                    text: "wyniki kwantowe uzyskane dla bardzo wysokich poziomów zgadzają się z klasycznymi",
-                    isCorrect: true
-                },
-                {
-                    text: "wszystkie wyniki uzyskane mechaniką kwantową w pełni pokrywają się z wynikami klasycznymi"
-                }
-            ]
-        },
-        {
-            questionID: 49,
-            questionText: "Absorpcja wymuszona to",
-            questionAnswers: [
-                {
-                    text: "sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym"
-                },
-                {
-                    text: "Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów",
-                    isCorrect: true
-                },
-                {
-                    text: "Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu"
-                },
-                {
-                    text: "żadna z odpowiedzi nie jest prawidłowa"
-                }
-            ]
-        },
-        {
-            questionID: 50,
-            questionText: "Inwersja obsadzeń to",
-            questionAnswers: [
-                {
-                    text: "sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym",
-                    isCorrect: true
-                },
-                {
-                    text: "Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów"
-                },
-                {
-                    text: "Przejście atomu z wyższego do niższego stanu energetycznego wywołane fotonem o energii równej różnicy energii tych dwóch stanów i związane z wyemitowaniem takiego samego fotonu"
-                },
-                {
-                    text: "żadna z odpowiedzi nie jest prawidłowa"
                 }
             ]
         }
