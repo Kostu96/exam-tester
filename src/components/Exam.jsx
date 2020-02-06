@@ -73,7 +73,7 @@ class Exam extends Component {
             
             var newQuestionIndex;
             var shouldShuffle = false;
-            if (this.state.currentQuestionIndex < this.state.questionsView.length - 1)
+            if (this.state.currentQuestionIndex < newQuestionsView.length - 1)
                 newQuestionIndex = this.state.currentQuestionIndex + 1;
             else {
                 newQuestionIndex = 0;
@@ -81,7 +81,7 @@ class Exam extends Component {
             }
     
             this.setState({
-                questionsView: shouldShuffle ? this.shuffleArray(this.state.questionsView) : this.state.questionsView,
+                questionsView: shouldShuffle ? this.shuffleArray(newQuestionsView) : newQuestionsView,
                 currentQuestionIndex: newQuestionIndex,
                 learntQuestionsCount: this.state.learntQuestionsCount + addToLearnt,
                 answered: false
