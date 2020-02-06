@@ -107,7 +107,7 @@ const questionDataBase = {
                     text: "kolory: czerwony, zielony, niebieski."
                 },
                 {
-                    text: "kolory: karmazynowy, żółty i zielononiebieski.",
+                    text: "kolory: cyjan, magenta i żółty.",
                     isCorrect: true
                 },
                 {
