@@ -30,12 +30,21 @@ const ExternalLink = styled.a`
     }
 `;
 
+const InactiveLink = styled(InternalLink)`
+    color: grey;
+
+    &:hover {
+        background-color: #403846;
+        cursor: not-allowed;
+    }
+`;
+
 class NavBar extends Component {
     render() {
         return(
             <CustomNav>
                 <InternalLink to="/">Strona Główna</InternalLink>
-                <InternalLink to="/question_db">Baza Pytań</InternalLink>
+                <InactiveLink to="">Baza Pytań</InactiveLink>
                 <ExternalLink
                     href="https://github.com/Kostu96/exam-tester"
                     target="_blank"

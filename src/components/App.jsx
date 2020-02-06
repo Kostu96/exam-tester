@@ -61,7 +61,7 @@ class App extends Component {
                                 to="/physics">Podstawy Fizyki [WIP]
                             </ExamLink>
                             <h3>Albo:</h3>
-                            <InactiveLink disabled to="">
+                            <InactiveLink to="">
                                 Wgraj własny zestaw pytań [Soon...]
                             </InactiveLink>
                         </div>
