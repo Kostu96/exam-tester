@@ -73,7 +73,7 @@ class Exam extends Component {
             
             var newQuestionIndex;
             var shouldShuffle = false;
-            if (this.state.currentQuestionIndex < this.props.questionDB.length - 1)
+            if (this.state.currentQuestionIndex < this.state.questionsView.length - 1)
                 newQuestionIndex = this.state.currentQuestionIndex + 1;
             else {
                 newQuestionIndex = 0;
