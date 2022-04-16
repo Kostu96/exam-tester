@@ -2,6 +2,66 @@
 // TODO: is questionID needed? Maybe it can be replaced by the array index.
 
 const questionDataBase = {
+    cybersecurity: [
+        {
+            questionID: 0,
+            questionText: "Do ataków na integralność należy:",
+            questionAnswers: [
+                {
+                    text: "odtajnienie informacji"
+                },
+                {
+                    text: "odmowa świadczenia usług"
+                },
+                {
+                    text: "manipulacja informacją",
+                    isCorrect: true
+                },
+                {
+                    text: "podniesienie poziomu uprawnień"
+                }
+            ]
+        },
+        {
+            questionID: 1,
+            questionText: "Zagwarantowanie, że informacja nie zostanie zmodyfikowana w sposób nieuprawniony, a wszelkie modyfikacje zostaną wykryte to:",
+            questionAnswers: [
+                {
+                    text: "poufność"
+                },
+                {
+                    text: "niezaprzeczalność"
+                },
+                {
+                    text: "uwierzytelnianie"
+                },
+                {
+                    text: "integralność",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 2,
+            questionText: "Krytyczne rozszerzenia certyfikatu X.509:",
+            questionAnswers: [
+                {
+                    text: "muszą zostać zinterpretowane i przetworzone przez aplikacją, aby dany certyfikat mógł zostać wykorzystany."
+                },
+                {
+                    text: "są dodatkowo chronione dedykowanymi mechanizmami kryptograficznymi."
+                },
+                {
+                    text: "stanowią zagrożenie, gdyż w wykorzystujących je mechanizmach wykryto luki zabezpieczeń."
+                },
+                {
+                    text: "opisują techniczne parametry mechanizmów, które posłużyły utowrzeniu certyfikatu.",
+                    isCorrect: true // TODO: wrong answer
+                }
+            ]
+        }
+    ],
+
     graphics: [
         {
             questionID: 1,
@@ -3936,7 +3996,7 @@ const questionDataBase = {
 
     physics: [
         {
-            questionID: 2,
+            questionID: 1,
             questionText: "Przyspieszenie punktu materialnego o masie m zdefiniowane jest jako:",
             questionAnswers: [
                 {
@@ -3955,7 +4015,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 0,
+            questionID: 2,
             questionText: "Testing question 1",
             questionAnswers: [
                 {
@@ -3974,7 +4034,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 0,
+            questionID: 3,
             questionText: "Testing question 2",
             questionAnswers: [
                 {
