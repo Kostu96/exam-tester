@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Statistics from './Statistics';
-import Settings from './Settings';
 import QuestionWrapper from './QuestionWrapper';
 
 const Wrapper = styled.main`
@@ -114,7 +113,6 @@ class Exam extends Component {
                     answersCount={ this.state.answersCount }
                     goodAnswersCount={ this.state.goodAnswersCount }
                 />
-                <Settings />
                 { content }
             </Wrapper>
         );

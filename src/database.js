@@ -2,6 +2,354 @@
 // TODO: is questionID needed? Maybe it can be replaced by the array index.
 
 const questionDataBase = {
+    cybersecurity: [
+        {
+            questionID: 0,
+            questionText: "Do ataków na integralność należy:",
+            questionAnswers: [
+                {
+                    text: "odtajnienie informacji"
+                },
+                {
+                    text: "odmowa świadczenia usług"
+                },
+                {
+                    text: "manipulacja informacją",
+                    isCorrect: true
+                },
+                {
+                    text: "podniesienie poziomu uprawnień"
+                }
+            ]
+        },
+        {
+            questionID: 1,
+            questionText: "Zagwarantowanie, że informacja nie zostanie zmodyfikowana w sposób nieuprawniony, a wszelkie modyfikacje zostaną wykryte to:",
+            questionAnswers: [
+                {
+                    text: "poufność"
+                },
+                {
+                    text: "niezaprzeczalność"
+                },
+                {
+                    text: "uwierzytelnianie"
+                },
+                {
+                    text: "integralność",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 2,
+            questionText: "Krytyczne rozszerzenia certyfikatu X.509:",
+            questionAnswers: [
+                {
+                    text: "muszą zostać zinterpretowane i przetworzone przez aplikacją, aby dany certyfikat mógł zostać wykorzystany.",
+                    isCorrect: true
+                },
+                {
+                    text: "są dodatkowo chronione dedykowanymi mechanizmami kryptograficznymi."
+                },
+                {
+                    text: "stanowią zagrożenie, gdyż w wykorzystujących je mechanizmach wykryto luki zabezpieczeń."
+                },
+                {
+                    text: "opisują techniczne parametry mechanizmów, które posłużyły utowrzeniu certyfikatu."
+                }
+            ]
+        },
+        {
+            questionID: 3,
+            questionText: "Który z poniższych protokołów pozwala na uzgodnienie wspólnego klucza pomiędzy komunikującymi się stronami:",
+            questionAnswers: [
+                {
+                    text: "protokół Diffiego-Hellmana",
+                    isCorrect: true
+                },
+                {
+                    text: "Digital Signature Algorithm"
+                },
+                {
+                    text: "Advanced Encryption Standard"
+                },
+                {
+                    text: "One-Time Pad"
+                }
+            ]
+        },
+        {
+            questionID: 4,
+            questionText: 'W sieciach bezprzewodowych tryb "WPA2 Enterprise" oznacza, że certyfikaty są wykorzystywane w procesie:',
+            questionAnswers: [
+                {
+                    text: "uwierzytelniania",
+                    isCorrect: true
+                },
+                {
+                    text: "szyfrowania hasła współdzielonego użytkownika"
+                },
+                {
+                    text: "żadna z pozostałych odpowiedzi nie jest poprawna"
+                },
+                {
+                    text: "szyfrowania pakietów danych"
+                }
+            ]
+        },
+        {
+            questionID: 5,
+            questionText: "Podkradanie szyfrogramu (Ciphertext stealing) to:",
+            questionAnswers: [
+                {
+                    text: "metoda realizacji kryptograficznej funkcji skrótu"
+                },
+                {
+                    text: "metoda ataku kruptograficznego z wykorzystaniem wybranego szyfrogramu"
+                },
+                {
+                    text: "metoda pozwalająca na szyfrowanie wiadomości o długości mniejszej niż wielokrotność bloku algorytmu szyfrującego (padding)",
+                    isCorrect: true
+                },
+                {
+                    text: "metoda ataku kryptograficznego polegająca na wykradaniu szyfrogramu z pamięci operacyjnej atakowanego urządzenia"
+                }
+            ]
+        },
+        {
+            questionID: 6,
+            questionText: "Podatność SQLI (SQL Injection) należy do kategorii:",
+            questionAnswers: [
+                {
+                    text: "odmowy świadczenia usług"
+                },
+                {
+                    text: "błędów implementacji",
+                    isCorrect: true
+                },
+                {
+                    text: "podszywania"
+                },
+                {
+                    text: "żadnej z wymienionych"
+                }
+            ]
+        },
+        //{
+        //    questionID: 7, TODO: multiple choice
+        //    questionText: "Dostęp o charakterze zamkniętym ma następującą cechę:",
+        //    questionAnswers: [
+        //        {
+        //            text: "wykorzystywany jest dla ruchu wychodzącego do sieci Internet"
+        //        },
+        //        {
+        //            text: "jest bardziej restrykcyjny niż dostęp o charakterze otwartym",
+        //            isCorrect: true
+        //        },
+        //        {
+        //            text: "jest mniej restrykcyjny niż dostęp o charakterze otwartym"
+        //        },
+        //        {
+        //            text: "wykorzystywany jest dla ruchu przychodzącego z sieci Internet",
+        //            isCorrect: true
+        //        }
+        //    ]
+        //},
+        {
+            questionID: 8,
+            questionText: "W procesie żądania certyfikatu, klient:",
+            questionAnswers: [
+                {
+                    text: "generuje klucz publiczny i prywatny, a następnie przesyła ten drugi urzędowu certyfikacji (CA) jako część żądania CSR."
+                },
+                {
+                    text: "generuje klucz publiczny i prywatny, a następnie przesyła ten pierwszy urzędowu certyfikacji (CA) jako część żądania CSR.",
+                    isCorrect: true
+                },
+                {
+                    text: "przed wysłaniem żądania CSR sprawdza, czy certyfikat CA jest samo-podpisany (self-signed) - jęsli nie, rezygnuje z próby uzyskania certyfikatu."
+                },
+                {
+                    text: "przesyła urzędowi certyfikacji (CA) żądanie CSR, a CA generuje klucz prywatny i publiczny klienta."
+                }
+            ]
+        },
+        {
+            questionID: 9,
+            questionText: "W którym trybie pracy szyfrowania z wykorzystaniem algorytmów symetrycznyh zaobserwować mżna takie same bloki szyfrogramu dla takich samych bloków tekstu jawnego:",
+            questionAnswers: [
+                {
+                    text: "CFB"
+                },
+                {
+                    text: "ECB",
+                    isCorrect: true
+                },
+                {
+                    text: "CBC"
+                },
+                {
+                    text: "CTR"
+                }
+            ]
+        },
+        {
+            questionID: 10,
+            questionText: "Zaznacz zdanie prawdziwe dla systemu anonimizującego TOR (The Onion Router):",
+            questionAnswers: [
+                {
+                    text: "wykorzystuje trzy wartstwy węzłów pośredniczących",
+                    isCorrect: true
+                },
+                {
+                    text: "wykorzystuje dwie wartstwy węzłów pośredniczących"
+                },
+                {
+                    text: "dla podniesienia bezpieczeństwa dwukrotnie szyfruje dane"
+                },
+                {
+                    text: "szyfruje dane kluczami asymetrycznymi"
+                }
+            ]
+        },
+        {
+            questionID: 11,
+            questionText: "Rozwiązanie Pretty Good Privacy (PGP) wykorzystuje:",
+            questionAnswers: [
+                {
+                    text: "certyfikaty w formacie X.509."
+                },
+                {
+                    text: "sieć serwerów SCEP."
+                },
+                {
+                    text: "model zaufania typu user-centric",
+                    isCorrect: true
+                },
+                {
+                    text: "hierachiczny (strict hierachy) model zaufania"
+                }
+            ]
+        },
+        {
+            questionID: 12,
+            questionText: "Klasyfikacja zagrożeń ze względu na naturę podatności obejmuje kategorię:",
+            questionAnswers: [
+                {
+                    text: "ataków wykorzystujących sposób implementacji",
+                    isCorrect: true
+                },
+                {
+                    text: "ataków wewnątrz sieci lokalnej"
+                },
+                {
+                    text: "ataków rozproszonych"
+                },
+                {
+                    text: "ataków celowanych"
+                }
+            ]
+        },
+        //{
+        //    questionID: 13, TODO: multiple choice
+        //    questionText: "Zaznacz, w których rozwiązaniach wykorzystywane są typowe certyfikaty X.509:",
+        //    questionAnswers: [
+        //        {
+        //            text: "rozwiązanie SecureBoot"
+        //        },
+        //        {
+        //            text: "podpisywanie sterowników w systemie Windows",
+        //            isCorrect: true
+        //        },
+        //        {
+        //            text: "uwierzytelnianie i autoryzacja protokołem Kerberos"
+        //        },
+        //        {
+        //            text: "podpisywanie aplikacji na platformie Android",
+        //            isCorrect: true
+        //        }
+        //    ]
+        //},
+        {
+            questionID: 14,
+            questionText: "Wersja 3 standardu X.509 różni się od wersji 2 wprowadzeniem:",
+            questionAnswers: [
+                {
+                    text: "nowych pól: Issuer Unique ID i Subject Unique ID."
+                },
+                {
+                    text: "mozliwości użycia szyfrowania AES."
+                },
+                {
+                    text: "mechanizmu rozszerzeń (extensions) certyfikatu.",
+                    isCorrect: true
+                },
+                {
+                    text: "wykorzystania czasu UTC w polach dotyczących czasu ważności certyfikatu."
+                }
+            ]
+        },
+        {
+            questionID: 15,
+            questionText: "Do ataków na autentyczność należy:",
+            questionAnswers: [
+                {
+                    text: "manipulacja informacją"
+                },
+                {
+                    text: "odmowa świadczenia usług"
+                },
+                {
+                    text: "odtajnienie informacji"
+                },
+                {
+                    text: "podszywanie",
+                    isCorrect: true
+                }
+            ]
+        },
+        {
+            questionID: 16,
+            questionText: "Silna odporność na kolizję kryptograficznej funkcji skrótu polega na:",
+            questionAnswers: [
+                {
+                    text: "trudności w znalezieniu wiadomości o zadanej wartości funkcji skrótu"
+                },
+                {
+                    text: "pożądanie dużej złożoności obliczeniowej kryptograficznej funkcji skrótu"
+                },
+                {
+                    text: "zmianie wartości funkcji skrótu przy modyfikacji wiadomości"
+                },
+                {
+                    text: "trudności w znalezieniu dwóch wiadomości, dla któych wynik kryptograficznej funkcji skrótu byłby taki sam",
+                    isCorrect: true
+                }
+            ]
+        },
+        //{
+        //    questionID: 17, TODO: multiple choice
+        //    questionText: "W atakach DDoS tzw. agencji (boty) są wykorzystywane do:",
+        //    questionAnswers: [
+        //        {
+        //            text: "odpatcia ataku poprzez zmianę adresu IP serwisu"
+        //        },
+        //        {
+        //            text: "odnalezienia źródła ataku"
+        //        },
+        //        {
+        //            text: "generowania strumienia ruchu",
+        //            isCorrect: true
+        //        },
+        //        {
+        //            text: "ukrycia tożsamości napastnika",
+        //            isCorrect: true
+        //        }
+        //    ]
+        //},
+    ],
+
     graphics: [
         {
             questionID: 1,
@@ -3936,7 +4284,7 @@ const questionDataBase = {
 
     physics: [
         {
-            questionID: 2,
+            questionID: 1,
             questionText: "Przyspieszenie punktu materialnego o masie m zdefiniowane jest jako:",
             questionAnswers: [
                 {
@@ -3955,7 +4303,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 0,
+            questionID: 2,
             questionText: "Testing question 1",
             questionAnswers: [
                 {
@@ -3974,7 +4322,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 0,
+            questionID: 3,
             questionText: "Testing question 2",
             questionAnswers: [
                 {

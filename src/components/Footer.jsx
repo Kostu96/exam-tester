@@ -15,7 +15,7 @@ const PageFooter = styled.footer`
 class Footer extends Component {
     render() {
         return(
-            <PageFooter>v2.3 Konstanty Misiak &copy; 2019 - 2020</PageFooter>
+            <PageFooter>v2.4 Konstanty Misiak &copy; 2019 - 2022</PageFooter>
         );
     }
 }

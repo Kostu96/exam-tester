@@ -5,8 +5,6 @@ import GlobalStyle from './../GlobalStyle';
 import Header from './Header';
 import NavBar from './NavBar';
 import Exam from './Exam';
-import DataBaseHelp from './DataBaseHelp';
-import Ad from './Ad';
 import Footer from './Footer';
 import questionDataBase from './../database.js';
 
@@ -28,14 +26,14 @@ const ExamLink = styled(Link)`
     }
 `;
 
-const InactiveLink = styled(ExamLink)`
-    color: grey;
-
-    &:hover {
-        background-color: #403846;
-        cursor: not-allowed;
-    }
-`;
+// const InactiveLink = styled(ExamLink)`
+//     color: grey;
+// 
+//     &:hover {
+//         background-color: #403846;
+//         cursor: not-allowed;
+//     }
+// `;
 
 class App extends Component {
     render() {
@@ -49,6 +47,9 @@ class App extends Component {
                         <h3>Wybierz test, który Cię interesuje:</h3>
                         <div>
                             <ExamLink
+                                to="/cybersecurity">Wprowadzenie do Cyberbezpieczeństwa
+                            </ExamLink>
+                            <ExamLink
                                 to="/modern_physics">Fizyka Współczesna
                             </ExamLink>
                             <ExamLink
@@ -60,11 +61,12 @@ class App extends Component {
                             <ExamLink
                                 to="/physics">Podstawy Fizyki [WIP]
                             </ExamLink>
-                            <h3>Albo:</h3>
-                            <InactiveLink to="">
-                                Wgraj własny zestaw pytań [Soon...]
-                            </InactiveLink>
                         </div>
+                    </Route>
+                    <Route path="/cybersecurity">
+                        <Exam
+                            questionDB={ questionDataBase.cybersecurity }
+                        />
                     </Route>
                     <Route path="/modern_physics">
                         <Exam
@@ -86,9 +88,6 @@ class App extends Component {
                             questionDB={ questionDataBase.physics }
                         />
                     </Route>
-                    <Route path="/question_db">
-                        <DataBaseHelp />
-                    </Route>
                     <Route path="/*">
                         <br />
                         <h1>Error 404</h1>
@@ -98,7 +97,6 @@ class App extends Component {
                         <br />
                     </Route>
                 </Switch>
-                <Ad />
                 <Footer />
             </Router>
         );
