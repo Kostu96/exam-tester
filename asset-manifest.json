@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.js": "/exam-tester/static/js/main.e375bd62.chunk.js",
-    "main.js.map": "/exam-tester/static/js/main.e375bd62.chunk.js.map",
-    "runtime-main.js": "/exam-tester/static/js/runtime-main.eaca4e68.js",
-    "runtime-main.js.map": "/exam-tester/static/js/runtime-main.eaca4e68.js.map",
-    "static/js/2.243f3247.chunk.js": "/exam-tester/static/js/2.243f3247.chunk.js",
-    "static/js/2.243f3247.chunk.js.map": "/exam-tester/static/js/2.243f3247.chunk.js.map",
+    "main.js": "/exam-tester/static/js/main.1fddf051.chunk.js",
+    "main.js.map": "/exam-tester/static/js/main.1fddf051.chunk.js.map",
+    "runtime-main.js": "/exam-tester/static/js/runtime-main.fae1c1d9.js",
+    "runtime-main.js.map": "/exam-tester/static/js/runtime-main.fae1c1d9.js.map",
+    "static/js/2.048bf11d.chunk.js": "/exam-tester/static/js/2.048bf11d.chunk.js",
+    "static/js/2.048bf11d.chunk.js.map": "/exam-tester/static/js/2.048bf11d.chunk.js.map",
     "index.html": "/exam-tester/index.html",
-    "precache-manifest.31c2f1e7dba52b62ee14e023db4f6289.js": "/exam-tester/precache-manifest.31c2f1e7dba52b62ee14e023db4f6289.js",
-    "service-worker.js": "/exam-tester/service-worker.js",
-    "static/js/2.243f3247.chunk.js.LICENSE": "/exam-tester/static/js/2.243f3247.chunk.js.LICENSE"
+    "static/js/2.048bf11d.chunk.js.LICENSE.txt": "/exam-tester/static/js/2.048bf11d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.eaca4e68.js",
-    "static/js/2.243f3247.chunk.js",
-    "static/js/main.e375bd62.chunk.js"
+    "static/js/runtime-main.fae1c1d9.js",
+    "static/js/2.048bf11d.chunk.js",
+    "static/js/main.1fddf051.chunk.js"
   ]
 }
