@@ -4307,7 +4307,7 @@ const questionDataBase = {
             questionText: "Testing question 1",
             questionAnswers: [
                 {
-                    text: "Answer 1"
+                    text: "qwerty"
                 },
                 {
                     text: "Answer 2"
@@ -4323,6 +4323,7 @@ const questionDataBase = {
         },
         {
             questionID: 3,
+            isMultipleChoice: 2,
             questionText: "Testing question 2",
             questionAnswers: [
                 {
@@ -4336,7 +4337,59 @@ const questionDataBase = {
                     text: "Answer 3"
                 },
                 {
-                    text: "Answer 4"
+                    text: "Answer 4 good one",
+                    isCorrect: true
+                }
+            ]
+        }
+    ],
+
+    ham: [
+        {
+            questionID: 1,
+            questionText: "Czy opór elektryczny przewodu zależy od materiału z którego jest wykonany?",
+            questionAnswers: [
+                {
+                    text: "zależy",
+                    isCorrect: true
+                },
+                {
+                    text: "nie zależy"
+                },
+                {
+                    text: "zależy od izolacji przewodu"
+                }
+            ]
+        },
+        {
+            questionID: 2,
+            questionText: "Izolatorami nazywamy materiały które:",
+            questionAnswers: [
+                {
+                    text: "nie przewodzą prądu elektrycznego",
+                    isCorrect: true
+                },
+                {
+                    text: "przewodzą słabo"
+                },
+                {
+                    text: "przewodzą prąd przy wysokim napięciu"
+                }
+            ]
+        },
+        {
+            questionID: 3,
+            questionText: "Który przewód o tej samej długości i przekroju będzie miał największą oporność?",
+            questionAnswers: [
+                {
+                    text: "wykonany z aluminium"
+                },
+                {
+                    text: "wykonany z żelaza",
+                    isCorrect: true
+                },
+                {
+                    text: "wykonany z miedzi"
                 }
             ]
         }

@@ -98,13 +98,20 @@ class Exam extends Component {
                 answered={ this.state.answered }
             />;
         else
-            content = <h3>
+            content = (Math.floor(Math.random() * 100) % 2) === 0 ? 
+                <h3>
                 Gratulacje!
                 <br />
                 Wszystkie pytanka ogarnięte!
                 <br />
                 Prawdopodobieństwo tego, że zdasz zostało zwiększone.
-            </h3>
+                </h3>
+                :
+                <h3>
+                Nieźle Ziomeczku!
+                <br />
+                Teraz to już na pewno zdasz.
+                </h3>
         return (
             <Wrapper>
                 <Statistics

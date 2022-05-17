@@ -6,7 +6,11 @@ import Header from './Header';
 import NavBar from './NavBar';
 import Exam from './Exam';
 import Footer from './Footer';
-import questionDataBase from './../database.js';
+import questionDataBase from './../database.jsx';
+
+const ExamLinkContainer = styled.div`
+    line-height: 60%;
+`;
 
 const ExamLink = styled(Link)`
     display: block;
@@ -44,49 +48,38 @@ class App extends Component {
                 <NavBar />
                 <Switch>
                     <Route exact path="/">
-                        <h3>Wybierz test, który Cię interesuje:</h3>
-                        <div>
-                            <ExamLink
-                                to="/cybersecurity">Wprowadzenie do Cyberbezpieczeństwa
-                            </ExamLink>
-                            <ExamLink
-                                to="/modern_physics">Fizyka Współczesna
-                            </ExamLink>
-                            <ExamLink
-                                to="/graphics">Grafika Komputerowa
-                            </ExamLink>
-                            <ExamLink
-                                to="/mii">Multimedia i Interfejsy
-                            </ExamLink>
-                            <ExamLink
-                                to="/physics">Podstawy Fizyki [WIP]
-                            </ExamLink>
-                        </div>
+                        <h4>Politechnika Gdańska:</h4>
+                        <ExamLinkContainer>
+                            <ExamLink to="/cybersecurity">Wprowadzenie do Cyberbezpieczeństwa </ExamLink><br />
+                            <ExamLink to="/modern_physics">Fizyka Współczesna </ExamLink><br />
+                            <ExamLink to="/graphics">Grafika Komputerowa </ExamLink><br />
+                            <ExamLink to="/mii">Multimedia i Interfejsy </ExamLink><br />
+                            <ExamLink to="/physics">Podstawy Fizyki [WIP] </ExamLink>
+                        </ExamLinkContainer>
+                        <br />
+                        <hr />
+                        <h4>Pozostałe:</h4>
+                        <ExamLinkContainer>
+                            <ExamLink to="/ham">Egzamin krótkofalarski UKE </ExamLink>
+                        </ExamLinkContainer>
                     </Route>
                     <Route path="/cybersecurity">
-                        <Exam
-                            questionDB={ questionDataBase.cybersecurity }
-                        />
+                        <Exam questionDB={ questionDataBase.cybersecurity } />
                     </Route>
                     <Route path="/modern_physics">
-                        <Exam
-                            questionDB={ questionDataBase.modernPhysics }
-                        />
+                        <Exam questionDB={ questionDataBase.modernPhysics } />
                     </Route>
                     <Route path="/graphics">
-                        <Exam
-                            questionDB={ questionDataBase.graphics }
-                        />
+                        <Exam questionDB={ questionDataBase.graphics } />
                     </Route>
                     <Route path="/mii">
-                        <Exam
-                            questionDB={ questionDataBase.multimediaAndInterfaces }
-                        />
+                        <Exam questionDB={ questionDataBase.multimediaAndInterfaces } />
                     </Route>
                     <Route path="/physics">
-                        <Exam
-                            questionDB={ questionDataBase.physics }
-                        />
+                        <Exam questionDB={ questionDataBase.physics } />
+                    </Route>
+                    <Route path="/ham">
+                        <Exam questionDB={ questionDataBase.ham } />
                     </Route>
                     <Route path="/*">
                         <br />
