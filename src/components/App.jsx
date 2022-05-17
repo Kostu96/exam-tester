@@ -54,7 +54,6 @@ class App extends Component {
                             <ExamLink to="/modern_physics">Fizyka Współczesna </ExamLink><br />
                             <ExamLink to="/graphics">Grafika Komputerowa </ExamLink><br />
                             <ExamLink to="/mii">Multimedia i Interfejsy </ExamLink><br />
-                            {/* <ExamLink to="/physics">Podstawy Fizyki [WIP] </ExamLink> */}
                         </ExamLinkContainer>
                         <br />
                         <hr />
@@ -75,9 +74,6 @@ class App extends Component {
                     <Route path="/mii">
                         <Exam questionDB={ questionDataBase.multimediaAndInterfaces } />
                     </Route>
-                    {/* <Route path="/physics">
-                        <Exam questionDB={ questionDataBase.physics } />
-                    </Route> */}
                     <Route path="/ham">
                         <Exam questionDB={ questionDataBase.ham } />
                     </Route>
