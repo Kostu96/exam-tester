@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Statistics from './Statistics';
 import QuestionWrapper from './QuestionWrapper';
+import shuffleArray from '../shuffle_array';
 
 const Wrapper = styled.main`
     width: 1000px;
@@ -16,28 +17,13 @@ const Wrapper = styled.main`
 
 class Exam extends Component {
     state = {
-        questionsView: this.shuffleArray(Array(this.props.questionDB.length).fill(undefined).map(function(val, idx) { return { index: idx, goodAcc: 0 } })),
+        questionsView: shuffleArray(Array(this.props.questionDB.length).fill(undefined).map(function(_, idx) { return { index: idx, goodAcc: 0 } })),
         learntQuestionsCount: 0,
         currentQuestionIndex: 0,
         answersCount: 0,
         goodAnswersCount: 0,
         answered : false
     };
-
-    shuffleArray(array) {
-        var currentIndex = array.length, temporaryValue, randomIndex;
-  
-        while (0 !== currentIndex) {
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex -= 1;
-
-            temporaryValue = array[currentIndex];
-            array[currentIndex] = array[randomIndex];
-            array[randomIndex] = temporaryValue;
-        }
-  
-        return array;
-    }
 
     handleAnswer = (isCorrect) => {
         if (!this.state.answered) {
