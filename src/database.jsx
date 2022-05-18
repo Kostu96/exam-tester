@@ -8328,7 +8328,11 @@ text: "przewodem o przekroju żył, odpowiednim do pobieranej przez urządzenie 
     questionAnswers: [
         {
             text: "można bez żadnego ryzyka"
+        },
+        {
 text: "można, ale należy uważać na wysokie napięcie"
+},
+{
 text: "kategorycznie nie wolno"
 }
 ]
@@ -8339,7 +8343,11 @@ text: "kategorycznie nie wolno"
     questionAnswers: [
         {
             text: "dach naszego budynku w środku miasta"
+        },
+        {
 text: "dach 12-piętrowego sąsiedniego wieżowca"
+},
+{
 text: "terenowe QTH ze specjalnie wybudowanym polem antenowym"
 }
 ]
@@ -8350,7 +8358,11 @@ text: "terenowe QTH ze specjalnie wybudowanym polem antenowym"
     questionAnswers: [
         {
             text: "może, gdy moc nadajnika nie jest zbyt duża"
+        },
+        {
 text: "nie, kable powinny być maksymalnie oddalone"
+},
+{
 text: "odległość miedzy kablami jest nieistotna"
 }
 ]
@@ -8361,7 +8373,11 @@ text: "odległość miedzy kablami jest nieistotna"
     questionAnswers: [
         {
             text: "tak, bez żadnych ograniczeń"
+        },
+        {
 text: "tak, ale wyłącznie sieci jednofazowej"
+},
+{
 text: "nie, do tego potrzebne jest posiadanie stosownych uprawnień"
 }
 ]
@@ -8372,7 +8388,11 @@ text: "nie, do tego potrzebne jest posiadanie stosownych uprawnień"
     questionAnswers: [
         {
             text: "po końcówce mocy na fider antenowy"
+        },
+        {
 text: "pomiędzy transceiver a wzmacniacz mocy"
+},
+{
 text: "miejsce podłączenia jest dowolne"
 }
 ]
@@ -8383,7 +8403,11 @@ text: "miejsce podłączenia jest dowolne"
     questionAnswers: [
         {
             text: "nie ma żadnych"
+        },
+        {
 text: "następuje wzrost zakłóceń, bez względu na pogodę"
+},
+{
 text: "następuje wzrost zakłóceń i zmiana impedancji kabla grożąca uszkodzeniem nadajnika"
 }
 ]
@@ -8394,7 +8418,11 @@ text: "następuje wzrost zakłóceń i zmiana impedancji kabla grożąca uszkodz
     questionAnswers: [
         {
             text: "stabilizator napięcia"
+        },
+        {
 text: "opornik upływowy tzw. bleder"
+},
+{
 text: "właściwe uziemienie zasilacza"
 }
 ]
@@ -8405,7 +8433,11 @@ text: "właściwe uziemienie zasilacza"
     questionAnswers: [
         {
             text: "włączam większą moc nadajnika"
+        },
+        {
 text: "moja częstotliwość jest ..."
+},
+{
 text: "siła twoich sygnałów waha się"
 }
 ]
@@ -8416,7 +8448,11 @@ text: "siła twoich sygnałów waha się"
     questionAnswers: [
         {
             text: "przejdź na częstotliwość, zmień częstotliwość"
+        },
+        {
 text: "do usłyszenia na innej częstotliwości"
+},
+{
 text: "mam uszkodzoną antenę"
 }
 ]
@@ -8427,7 +8463,11 @@ text: "mam uszkodzoną antenę"
     questionAnswers: [
         {
             text: "jestem czynny w eterze od miesiąca"
+        },
+        {
 text: "odbieram twoje sygnały bardzo dobrze zmniejsz moc"
+},
+{
 text: "mam zakłócenia od innych stacji"
 }
 ]
@@ -8438,7 +8478,11 @@ text: "mam zakłócenia od innych stacji"
     questionAnswers: [
         {
             text: "jestem czynny w eterze od niedawna"
+        },
+        {
 text: "mam zakłócenia atmosferyczne"
+},
+{
 text: "pracuję na radiostacji tylko w niedzielę"
 }
 ]
@@ -8449,7 +8493,11 @@ text: "pracuję na radiostacji tylko w niedzielę"
     questionAnswers: [
         {
             text: "siła twoich sygnałów waha się"
+        },
+        {
 text: "w okolicy jest burza, wyłączam radiostację"
+},
+{
 text: "używam anteny dookolnej"
 }
 ]
@@ -8460,7 +8508,11 @@ text: "używam anteny dookolnej"
     questionAnswers: [
         {
             text: "o której godzinie rozpoczęliśmy łączność"
+        },
+        {
 text: "jestem gotów do pracy, jestem czynny w eterze"
+},
+{
 text: "proszę powtórzyć ostatnią relację"
 }
 ]
@@ -8471,7 +8523,11 @@ text: "proszę powtórzyć ostatnią relację"
     questionAnswers: [
         {
             text: "nie mam ochoty z tobą dalej rozmawiać"
+        },
+        {
 text: "przekazuję wiadomość od..."
+},
+{
 text: "moje położenie geograficzne jest..."
 }
 ]
@@ -8482,7 +8538,11 @@ text: "moje położenie geograficzne jest..."
     questionAnswers: [
         {
             text: "nadawaj powoli"
+        },
+        {
 text: "zmniejsz moc, zmniejszam moc"
+},
+{
 text: "powtórz swój znak wywoławczy"
 }
 ]
@@ -8493,7 +8553,11 @@ text: "powtórz swój znak wywoławczy"
     questionAnswers: [
         {
             text: "wyłączam stację"
+        },
+        {
 text: "na jaką częstotliwość mam się przestroić"
+},
+{
 text: "mam dla ciebie pilną wiadomość"
 }
 ]
@@ -8504,7 +8568,11 @@ text: "mam dla ciebie pilną wiadomość"
     questionAnswers: [
         {
             text: "moje położenie geograficzne jest..."
+        },
+        {
 text: "łączność, mam łączność"
+},
+{
 text: "siła twoich sygnałów waha się"
 }
 ]
@@ -8515,7 +8583,11 @@ text: "siła twoich sygnałów waha się"
     questionAnswers: [
         {
             text: "potwierdzam odbiór, przyślę kartę potwierdzającą łączność"
+        },
+        {
 text: "nadawaj szybciej"
+},
+{
 text: "słucham na częstotliwości"
 }
 ]
@@ -8526,7 +8598,11 @@ text: "słucham na częstotliwości"
     questionAnswers: [
         {
             text: "antena pionowa"
+        },
+        {
 text: "odbiornik"
+},
+{
 text: "klucz elektroniczny"
 }
 ]
@@ -8537,7 +8613,11 @@ text: "klucz elektroniczny"
     questionAnswers: [
         {
             text: "nielicencjonowany nadawca"
+        },
+        {
 text: "zakłócenia w odbiorze telewizji"
+},
+{
 text: "zawody w łowach na lisa"
 }
 ]
@@ -8548,7 +8628,11 @@ text: "zawody w łowach na lisa"
     questionAnswers: [
         {
             text: "antena z linki miedzianej"
+        },
+        {
 text: "czas uniwersalny"
+},
+{
 text: "panna - młoda pani"
 }
 ]
@@ -8559,7 +8643,11 @@ text: "panna - młoda pani"
     questionAnswers: [
         {
             text: "proszę powtórzyć, powtórzę, powtarzam"
+        },
+        {
 text: "proszę"
+},
+{
 text: "przechodzę na inny kanał"
 }
 ]
@@ -8570,7 +8658,11 @@ text: "przechodzę na inny kanał"
     questionAnswers: [
         {
             text: "na początku łączności i na życzenie korespondenta"
+        },
+        {
 text: "w odstępach 5-10 minut"
+},
+{
 text: "po każdym przekazaniu mikrofonu"
 }
 ]
@@ -8581,7 +8673,11 @@ text: "po każdym przekazaniu mikrofonu"
     questionAnswers: [
         {
             text: "można, ale tylko pod nadzorem radioamatora posiadającego pozwolenie radiowe"
+        },
+        {
 text: "można, w określonych przepisami zakresach częstotliwości"
+},
+{
 text: "nie można, ponieważ do obsługi stacji amatorskiej upoważnia jedynie pozwolenie radiowe"
 }
 ]
@@ -8592,7 +8688,11 @@ text: "nie można, ponieważ do obsługi stacji amatorskiej upoważnia jedynie p
     questionAnswers: [
         {
             text: "należy posiadać świadectwo operatora urządzeń radiowych i odbyć trzymiesięczną praktykę na stacji klubowej"
+        },
+        {
 text: "należy posiadać świadectwo operatora urządzeń radiowych i co najmniej średnie wykształcenie"
+},
+{
 text: "należy posiadać świadectwo operatora urządzeń radiowych"
 }
 ]
@@ -8603,7 +8703,11 @@ text: "należy posiadać świadectwo operatora urządzeń radiowych"
     questionAnswers: [
         {
             text: "tak"
+        },
+        {
 text: "nie, znak wywoławczy przydzielany jest w pozwoleniu radiowym"
+},
+{
 text: "tak, jeżeli dana osoba posiada radiostację"
 }
 ]
@@ -8614,7 +8718,11 @@ text: "tak, jeżeli dana osoba posiada radiostację"
     questionAnswers: [
         {
             text: "jest to symbol określający typ (model) radiostacji amatorskiej"
+        },
+        {
 text: "jest to hasło pozwalające wywołać konkretnego rozmówcę"
+},
+{
 text: "jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej identyfikator radiostacji amatorskiej"
 }
 ]
@@ -8625,7 +8733,11 @@ text: "jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej i
     questionAnswers: [
         {
             text: "można, po uzyskaniu specjalnej zgody UKE"
+        },
+        {
 text: "absolutnie nie, znak radioamatorski można używać tylko w zakresach częstotliwości przeznaczonych dla radioamatorów"
+},
+{
 text: "nie jest to zabronione i zależy od decyzji radioamatora"
 }
 ]
@@ -8636,7 +8748,11 @@ text: "nie jest to zabronione i zależy od decyzji radioamatora"
     questionAnswers: [
         {
             text: "składa się z prefiksu, cyfry i kombinacji maksymalnie czterech liter i cyfr"
+        },
+        {
 text: "nie ma określonej budowy, składa się z liter i cyfr"
+},
+{
 text: "składa się z prefiksu i dwóch liter"
 }
 ]
@@ -8647,7 +8763,11 @@ text: "składa się z prefiksu i dwóch liter"
     questionAnswers: [
         {
             text: "nie ma określonej budowy, składa się liter i cyfr"
+        },
+        {
 text: "składa się z prefiksu, cyfry i kombinacji maksymalnie siedmiu liter i cyfr"
+},
+{
 text: "składa się z prefiksu i pięciu liter"
 }
 ]
@@ -8658,7 +8778,11 @@ text: "składa się z prefiksu i pięciu liter"
     questionAnswers: [
         {
             text: "jest to dokument radiostacji amatorskiej zawierający informacje o korespondencji z innymi radiostacjami amatorskimi, zawierający znak stacji, imię operatora, datę, godzinę, pasmo w jakim przeprowadzono QSO"
+        },
+        {
 text: "jest to informacja o procedurach obowiązujących podczas łączności z innymi stacjami"
+},
+{
 text: "jest to informacja o kontroli radiostacji przez inspektorów UKE"
 }
 ]
@@ -8669,7 +8793,11 @@ text: "jest to informacja o kontroli radiostacji przez inspektorów UKE"
     questionAnswers: [
         {
             text: "jest to podstawowy obowiązek każdego radioamatora"
+        },
+        {
 text: "prowadzenie Logu nie jest obowiązkowe, lecz wskazane"
+},
+{
 text: "prowadzenie dziennika łączności może być nakazane jako zalecenie pokontrolne inspektorów ochrony środowiska"
 }
 ]
@@ -8680,7 +8808,11 @@ text: "prowadzenie dziennika łączności może być nakazane jako zalecenie pok
     questionAnswers: [
         {
             text: "czas odpowiadający południkowi zerowemu (GMT), stosowany przez radioamatorów do odnotowania w Logu godz. łączności"
+        },
+        {
 text: "czas w którym nie należy nawiązywać QSO"
+},
+{
 text: "czas w którym można nawiązywać łączności z krajami europejskimi"
 }
 ]
@@ -8691,7 +8823,11 @@ text: "czas w którym można nawiązywać łączności z krajami europejskimi"
     questionAnswers: [
         {
             text: "województwa zachodniopomorskiego"
+        },
+        {
 text: "województwa pomorskiego"
+},
+{
 text: "województwa mazowieckiego"
 }
 ]
@@ -8702,7 +8838,11 @@ text: "województwa mazowieckiego"
     questionAnswers: [
         {
             text: "województwa zachodniopomorskiego"
+        },
+        {
 text: "województw kujawsko-pomorskiego i pomorskiego"
+},
+{
 text: "województwa mazowieckiego"
 }
 ]
@@ -8713,7 +8853,11 @@ text: "województwa mazowieckiego"
     questionAnswers: [
         {
             text: "województwa mazowieckiego"
+        },
+        {
 text: "województw lubuskiego i wielkopolskiego"
+},
+{
 text: "województw kujawsko-pomorskie i pomorskie"
 }
 ]
@@ -8724,7 +8868,11 @@ text: "województw kujawsko-pomorskie i pomorskie"
     questionAnswers: [
         {
             text: "województwa mazowieckiego"
+        },
+        {
 text: "województw lubuskiego i wielkopolskiego"
+},
+{
 text: "województw podlaskiego i warmińsko-mazurskiego"
 }
 ]
@@ -8735,7 +8883,11 @@ text: "województw podlaskiego i warmińsko-mazurskiego"
     questionAnswers: [
         {
             text: "województwa mazowieckiego"
+        },
+        {
 text: "województw kujawsko-pomorskiego i pomorskiego"
+},
+{
 text: "województwa zachodnio-pomorskiego"
 }
 ]
@@ -8746,7 +8898,11 @@ text: "województwa zachodnio-pomorskiego"
     questionAnswers: [
         {
             text: "województwa mazowieckiego"
+        },
+        {
 text: "województw dolnośląskiego i opolskiego"
+},
+{
 text: "województwa zachodniopomorskiego"
 }
 ]
@@ -8757,7 +8913,11 @@ text: "województwa zachodniopomorskiego"
     questionAnswers: [
         {
             text: "województwa mazowieckiego"
+        },
+        {
 text: "województw dolnośląskiego i opolskiego"
+},
+{
 text: "województw łódzkiego i świętokrzyskiego"
 }
 ]
@@ -8768,7 +8928,11 @@ text: "województw łódzkiego i świętokrzyskiego"
     questionAnswers: [
         {
             text: "województw dolnośląskiego i opolskiego"
+        },
+        {
 text: "województw lubelskiego i podkarpackiego"
+},
+{
 text: "województwa zachodniopomorskiego"
 }
 ]
@@ -8779,7 +8943,11 @@ text: "województwa zachodniopomorskiego"
     questionAnswers: [
         {
             text: "województw małopolskiego i śląskiego"
+        },
+        {
 text: "województw lubelskiego i podkarpackiego"
+},
+{
 text: "województwa zachodniopomorskiego"
 }
 ]
@@ -8790,7 +8958,11 @@ text: "województwa zachodniopomorskiego"
     questionAnswers: [
         {
             text: "Adam, Roman"
+        },
+        {
 text: "Ala, Romuald"
+},
+{
 text: "Alfa, Romeo"
 }
 ]
@@ -8801,7 +8973,11 @@ text: "Alfa, Romeo"
     questionAnswers: [
         {
             text: "Genowefa, Ksawer"
+        },
+        {
 text: "Grażyna, Karol"
+},
+{
 text: "Golf, Kazek"
 }
 ]
@@ -8812,7 +8988,11 @@ text: "Golf, Kazek"
     questionAnswers: [
         {
             text: "Wanda, Zygmunt"
+        },
+        {
 text: "Walery, Zosia"
+},
+{
 text: "Warta, Zamek"
 }
 ]
@@ -8823,7 +9003,11 @@ text: "Warta, Zamek"
     questionAnswers: [
         {
             text: "Iks, Centrum"
+        },
+        {
 text: "Xawery, Cezary"
+},
+{
 text: "Xymena, Czesław"
 }
 ]
@@ -8834,7 +9018,11 @@ text: "Xymena, Czesław"
     questionAnswers: [
         {
             text: "Piotr, Niwa"
+        },
+        {
 text: "Przemek, Nina"
+},
+{
 text: "Paweł, Natalia"
 }
 ]
@@ -8845,7 +9033,11 @@ text: "Paweł, Natalia"
     questionAnswers: [
         {
             text: "Bil, Fox"
+        },
+        {
 text: "Bravo, Foxtrot"
+},
+{
 text: "Box, Florida"
 }
 ]
@@ -8856,7 +9048,11 @@ text: "Box, Florida"
     questionAnswers: [
         {
             text: "Charlie, Golf"
+        },
+        {
 text: "Canada, Gold"
+},
+{
 text: "Chile, Grenada"
 }
 ]
@@ -8867,7 +9063,11 @@ text: "Chile, Grenada"
     questionAnswers: [
         {
             text: "India, Kanada"
+        },
+        {
 text: "Italia, Kaz"
+},
+{
 text: "India, Kilo"
 }
 ]
@@ -8878,7 +9078,11 @@ text: "India, Kilo"
     questionAnswers: [
         {
             text: "Ren, Viktor"
+        },
+        {
 text: "Romeo, Viktor"
+},
+{
 text: "Radio, Viola"
 }
 ]
@@ -8889,7 +9093,11 @@ text: "Radio, Viola"
     questionAnswers: [
         {
             text: "X-Rey, Sierra"
+        },
+        {
 text: "Xsen, Santiago"
+},
+{
 text: "X-Rey, Syria"
 }
 ]
@@ -8900,7 +9108,11 @@ text: "X-Rey, Syria"
     questionAnswers: [
         {
             text: "zbiór symboli składających się z 3 liter, zaczynających się zawsze na literę Q, którym przypisane są proste zdanie lub słowa"
+        },
+        {
 text: "symbole składające się z litery Q i 2-3 cyfr określających jakość odbieranego sygnału"
+},
+{
 text: "wykaz zawierający prefiksy znaków wywoławczych wg ITU"
 }
 ]
@@ -8911,7 +9123,11 @@ text: "wykaz zawierający prefiksy znaków wywoławczych wg ITU"
     questionAnswers: [
         {
             text: "podania informacji o czasie rozpoczęcia łączności"
+        },
+        {
 text: "skrócenia czasu nadawania informacji"
+},
+{
 text: "informowania o sile odbieranego sygnału radiowego"
 }
 ]
@@ -8922,1086 +9138,1482 @@ text: "informowania o sile odbieranego sygnału radiowego"
     questionAnswers: [
         {
             text: "źle się czuję, odezwę się później"
+        },
+        {
 text: "jestem zajęty, proszę nie przeszkadzać"
+},
+{
 text: "do zobaczenia latem"
 }
 ]
 },
 {
     questionID: 324,
-    questionText: Co oznacza wg kodu Q symbol QRT ?
+    questionText: "Co oznacza wg kodu Q symbol QRT?",
     questionAnswers: [
         {
-            text: która jest godzina
-kończę nadawanie, wyłączam stację
-nadawaj wolniej
+            text: "która jest godzina"
+        },
+        {
+text: "kończę nadawanie, wyłączam stację"
+},
+{
+text: "nadawaj wolniej"
 }
 ]
 },
 {
     questionID: 325,
-    questionText: Co oznacza wg kodu Q symbol QRZ ?
+    questionText: "Co oznacza wg kodu Q symbol QRZ?",
     questionAnswers: [
         {
-            text: zmień częstotliwość na zapasową
-kto mnie woła
-jestem zajęty, proszę nie przeszkadzać
+            text: "zmień częstotliwość na zapasową"
+        },
+        {
+text: "kto mnie woła"
+},
+{
+text: "jestem zajęty, proszę nie przeszkadzać"
 }
 ]
 },
 {
     questionID: 326,
-    questionText: Co oznacza wg kodu Q symbol QRX ?
+    questionText: "Co oznacza wg kodu Q symbol QRX?",
     questionAnswers: [
         {
-            text: proszę czekać
-nadawaj wolniej
-mam zakłócenia od innych stacji
+            text: "proszę czekać"
+        },
+        {
+text: "nadawaj wolniej"
+},
+{
+text: "mam zakłócenia od innych stacji"
 }
 ]
 },
 {
     questionID: 327,
-    questionText: Co oznacza wg kodu Q symbol QRO ?
+    questionText: "Co oznacza wg kodu Q symbol QRO?",
     questionAnswers: [
         {
-            text: nic dla ciebie nie mam
-zwiększ moc, zwiększam moc
-przerwij nadawanie, kończę pracę
+            text: "nic dla ciebie nie mam"
+        },
+        {
+text: "zwiększ moc, zwiększam moc"
+},
+{
+text: "przerwij nadawanie, kończę pracę"
 }
 ]
 },
 {
     questionID: 328,
-    questionText: Który z poniższych kodów Q oznacza: Moja częstotliwość jest ... ?
+    questionText: "Który z poniższych kodów Q oznacza: Moja częstotliwość jest ...?",
     questionAnswers: [
         {
-            text: QRJ
-QRG
-QRK
+            text: "QRJ"
+        },
+        {
+text: "QRG"
+},
+{
+text: "QRK"
 }
 ]
 },
 {
     questionID: 329,
-    questionText: Który z poniższych kodów Q oznacza: Przejdź na częstotliwość, zmień częstotliwość ?
+    questionText: "Który z poniższych kodów Q oznacza: Przejdź na częstotliwość, zmień częstotliwość?",
     questionAnswers: [
         {
-            text: QSY
-QTR
-QSA
+            text: "QSY"
+        },
+        {
+text: "QTR"
+},
+{
+text: "QSA"
 }
 ]
 },
 {
     questionID: 330,
-    questionText: Który z poniższych kodów Q oznacza: Mam zakłócenia od innych stacji ?
+    questionText: "Który z poniższych kodów Q oznacza: Mam zakłócenia od innych stacji?",
     questionAnswers: [
         {
-            text: QWO
-QQQ
-QRM
+            text: "QWO"
+        },
+        {
+text: "QQQ"
+},
+{
+text: "QRM"
 }
 ]
 },
 {
     questionID: 331,
-    questionText: Który z poniższych kodów Q oznacza: Siła twoich sygnałów waha się ?
+    questionText: "Który z poniższych kodów Q oznacza: Siła twoich sygnałów waha się?",
     questionAnswers: [
         {
-            text: QSB
-QAZ
-QRY
+            text: "QSB"
+        },
+        {
+text: "QAZ"
+},
+{
+text: "QRY"
 }
 ]
 },
 {
     questionID: 332,
-    questionText: Który z poniższych kodów Q oznacza: Jestem gotów do pracy, jestem czynny w eterze ?
+    questionText: "Który z poniższych kodów Q oznacza: Jestem gotów do pracy, jestem czynny w eterze?",
     questionAnswers: [
         {
-            text: QWX
-QRV
-QRU
+            text: "QWX"
+        },
+        {
+text: "QRV"
+},
+{
+text: "QRU"
 }
 ]
 },
 {
     questionID: 333,
-    questionText: Który z poniższych kodów Q oznacza: Moje położenie geograficzne jest ... ?
+    questionText: "Który z poniższych kodów Q oznacza: Moje położenie geograficzne jest ...?",
     questionAnswers: [
         {
-            text: QLP
-QRG
-QTH
+            text: "QLP"
+        },
+        {
+text: "QRG"
+},
+{
+text: "QTH"
 }
 ]
 },
 {
     questionID: 334,
-    questionText: Który z poniższych kodów Q oznacza: Zmniejsz moc, zmniejszam moc ?
+    questionText: "Który z poniższych kodów Q oznacza: Zmniejsz moc, zmniejszam moc?",
     questionAnswers: [
         {
-            text: QUB
-QRA
-QRP
+            text: "QUB"
+        },
+        {
+text: "QRA"
+},
+{
+text: "QRP"
 }
 ]
 },
 {
     questionID: 335,
-    questionText: Który z poniższych kodów Q oznacza: Mam dla ciebie telegram, wiadomość ?
+    questionText: "Który z poniższych kodów Q oznacza: Mam dla ciebie telegram, wiadomość?",
     questionAnswers: [
         {
-            text: QRT
-QTC
-QSV
+            text: "QRT"
+        },
+        {
+text: "QTC"
+},
+{
+text: "QSV"
 }
 ]
 },
 {
     questionID: 336,
-    questionText: Który z poniższych kodów Q oznacza: Łączność, mam łączność ?
+    questionText: "Który z poniższych kodów Q oznacza: Łączność, mam łączność?",
     questionAnswers: [
         {
-            text: QSL
-QSO
-QRS
+            text: "QSL"
+        },
+        {
+text: "QSO"
+},
+{
+text: "QRS"
 }
 ]
 },
 {
     questionID: 337,
-    questionText: Który z poniższych kodów Q oznacza: Potwierdzam odbiór, przyślę kartę potwierdzającą łączność ?
+    questionText: "Który z poniższych kodów Q oznacza: Potwierdzam odbiór, przyślę kartę potwierdzającą łączność?",
     questionAnswers: [
         {
-            text: QSL
-QSA
-QRT
+            text: "QSL"
+        },
+        {
+text: "QSA"
+},
+{
+text: "QRT"
 }
 ]
 },
 {
     questionID: 338,
-    questionText: Co oznaczają skróty slangu radioamatorskiego: BAND; CFM ?
+    questionText: "Co oznaczają skróty slangu radioamatorskiego: BAND; CFM?",
     questionAnswers: [
         {
-            text: pasmo; potwierdzam
-zakres; godzina
-raport; popołudnie
+            text: "pasmo; potwierdzam"
+        },
+        {
+text: "zakres; godzina"
+},
+{
+text: "raport; popołudnie"
 }
 ]
 },
 {
     questionID: 339,
-    questionText: Co oznaczają skróty slangu radioamatorskiego: BK; CALL ?
+    questionText: "Co oznaczają skróty slangu radioamatorskiego: BK; CALL?",
     questionAnswers: [
         {
-            text: później; kalibrator
-przerwa; znak wywoławczy
-stop; odebrałem wszystko
+            text: "później; kalibrator"
+        },
+        {
+text: "przerwa; znak wywoławczy"
+},
+{
+text: "stop; odebrałem wszystko"
 }
 ]
 },
 {
     questionID: 340,
-    questionText: Co oznaczają skróty slangu radioamatorskiego: BEST; DX ?
+    questionText: "Co oznaczają skróty slangu radioamatorskiego: BEST; DX?",
     questionAnswers: [
         {
-            text: daleki; niezły
-najlepszy; daleka łączność
-dobry; szybki
+            text: "daleki; niezły"
+        },
+        {
+text: "najlepszy; daleka łączność"
+},
+{
+text: "dobry; szybki"
 }
 ]
 },
 {
     questionID: 341,
-    questionText: Co oznaczają skróty slangu radioamatorskiego: BCI; BOX ?
+    questionText: "Co oznaczają skróty slangu radioamatorskiego: BCI; BOX?",
     questionAnswers: [
         {
-            text: zakłócenia odbioru radiowego; skrytka pocztowa
-zakłócenia od sieciowe; radiolatarnia amatorska
-podaj dokładny czas; zmieniam kanał radiowy
+            text: "zakłócenia odbioru radiowego; skrytka pocztowa"
+        },
+        {
+text: "zakłócenia od sieciowe; radiolatarnia amatorska"
+},
+{
+text: "podaj dokładny czas; zmieniam kanał radiowy"
 }
 ]
 },
 {
     questionID: 342,
-    questionText: Co oznaczają skróty slangu radioamatorskiego: OK; NAME ?
+    questionText: "Co oznaczają skróty slangu radioamatorskiego: OK; NAME?",
     questionAnswers: [
         {
-            text: stary, nie przeszkadzaj; moje nazwisko jest
-wszystko w porządku; imię
-przestrajam się; podaj adres
+            text: "stary, nie przeszkadzaj; moje nazwisko jest"
+        },
+        {
+text: "wszystko w porządku; imię"
+},
+{
+text: "przestrajam się; podaj adres"
 }
 ]
 },
 {
     questionID: 343,
-    questionText: Co oznaczają skróty slangu radioamatorskiego: SWR; RX ?
+    questionText: "Co oznaczają skróty slangu radioamatorskiego: SWR; RX?",
     questionAnswers: [
         {
-            text: pasmo w metrach; antena pionowa
-współczynnik fali stojącej; odbiornik
-nasłuchowiec; klucz elektroniczny
+            text: "pasmo w metrach; antena pionowa"
+        },
+        {
+text: "współczynnik fali stojącej; odbiornik"
+},
+{
+text: "nasłuchowiec; klucz elektroniczny"
 }
 ]
 },
 {
     questionID: 344,
-    questionText: Które z poniższych skrótów slangu radioamatorskiego oznaczają: Zakłócenia w odbiorze telewizji; nielicencjonowany nadawca ?
+    questionText: "Które z poniższych skrótów slangu radioamatorskiego oznaczają: Zakłócenia w odbiorze telewizji; nielicencjonowany nadawca?",
     questionAnswers: [
         {
-            text: TRX; LIS
-TVI; UNLIS
-RBM; ICP
+            text: "TRX; LIS"
+        },
+        {
+text: "TVI; UNLIS"
+},
+{
+text: "RBM; ICP"
 }
 ]
 },
 {
     questionID: 345,
-    questionText: Które z poniższych skrótów slangu radioamatorskiego oznaczają: Panna, młoda pani; czas uniwersalny ?
+    questionText: "Które z poniższych skrótów slangu radioamatorskiego oznaczają: Panna, młoda pani; czas uniwersalny?",
     questionAnswers: [
         {
-            text: YL; UTC
-XYL; UT
-LY; TRO
+            text: "YL; UTC"
+        },
+        {
+text: "XYL; UT"
+},
+{
+text: "LY; TRO"
 }
 ]
 },
 {
     questionID: 346,
-    questionText: Co oznaczają skróty slangu radioamatorskiego: PSE; RPT ?
+    questionText: "Co oznaczają skróty slangu radioamatorskiego: PSE; RPT?",
     questionAnswers: [
         {
-            text: proszę; powtórzyć, powtórzę, powtarzam
-proszę; zmieniam pasmo o 10 kHz
-przechodzę na inny kanał; raport podam na koniec łączności
+            text: "proszę; powtórzyć, powtórzę, powtarzam"
+        },
+        {
+text: "proszę; zmieniam pasmo o 10 kHz"
+},
+{
+text: "przechodzę na inny kanał; raport podam na koniec łączności"
 }
 ]
 },
 {
     questionID: 347,
-    questionText: Co oznaczają skróty slangu radioamatorskiego: 99; UTC ?
+    questionText: "Co oznaczają skróty slangu radioamatorskiego: 99; UTC?",
     questionAnswers: [
         {
-            text: pozdrawiam; czas ukraiński
-ściskam dłoń; mam pilną wiadomość
-idź precz, przepadnij; czas uniwersalny
+            text: "pozdrawiam; czas ukraiński"
+        },
+        {
+text: "ściskam dłoń; mam pilną wiadomość"
+},
+{
+text: "idź precz, przepadnij; czas uniwersalny"
 }
 ]
 },
 {
     questionID: 348,
-    questionText: Co oznaczają skróty slangu radioamatorskiego: LOG; DIRECT ?
+    questionText: "Co oznaczają skróty slangu radioamatorskiego: LOG; DIRECT?",
     questionAnswers: [
         {
-            text: długa antena; dyrektor
-dziennik pracy stacji; bezpośrednio
-długi; bezpośredni kontakt
+            text: "długa antena; dyrektor"
+        },
+        {
+text: "dziennik pracy stacji; bezpośrednio"
+},
+{
+text: "długi; bezpośredni kontakt"
 }
 ]
 },
 {
     questionID: 349,
-    questionText: Co to jest raport R S stosowany podczas łączności fonicznych ?
+    questionText: "Co to jest raport R S stosowany podczas łączności fonicznych?",
     questionAnswers: [
         {
-            text: informacja o stanie technicznym radiostacji
-informacja o stanie pogody przekazana w postaci zakodowanej
-informacja o jakości odbieranego sygnału radiowego - czytelności i sił sygnału wyrażana w postaci cyfr
+            text: "informacja o stanie technicznym radiostacji"
+        },
+        {
+text: "informacja o stanie pogody przekazana w postaci zakodowanej"
+},
+{
+text: "informacja o jakości odbieranego sygnału radiowego - czytelności i sił sygnału wyrażana w postaci cyfr"
 }
 ]
 },
 {
     questionID: 350,
-    questionText: Co to jest raport R S T stosowany podczas łączności telegraficznych ?
+    questionText: "Co to jest raport R S T stosowany podczas łączności telegraficznych?",
     questionAnswers: [
         {
-            text: informacja o stanie technicznym radiostacji
-informacja o jakości odbieranego sygnału radiowego ? czytelności, siły i tonu akustycznego sygnału
-informacja o stanie pogody
+            text: "informacja o stanie technicznym radiostacji"
+        },
+        {
+text: "informacja o jakości odbieranego sygnału radiowego ? czytelności, siły i tonu akustycznego sygnału"
+},
+{
+text: "informacja o stanie pogody"
 }
 ]
 },
 {
     questionID: 351,
-    questionText: Co oznaczają w raporcie o słyszalności i jakości sygnałów korespondenta litery R S
+    questionText: "Co oznaczają w raporcie o słyszalności i jakości sygnałów korespondenta litery R S?",
     questionAnswers: [
         {
-            text: R - jakość sygnału, S- słyszalność
-R - stabilność sygnału, S- siła sygnału
-R - czytelność, S - siła sygnału
+            text: "R - jakość sygnału, S- słyszalność"
+        },
+        {
+text: "R - stabilność sygnału, S- siła sygnału"
+},
+{
+text: "R - czytelność, S - siła sygnału"
 }
 ]
 },
 {
     questionID: 352,
-    questionText: Co oznaczają w raporcie o słyszalności i jakości sygnałów korespondenta litery R S T ?
+    questionText: "Co oznaczają w raporcie o słyszalności i jakości sygnałów korespondenta litery R S T?",
     questionAnswers: [
         {
-            text: R - czytelność, S - siła sygnału, T - ton sygnału
-R - jakość sygnału, S - słyszalność, T - częstotliwość
-R - stabilność sygnału, S - siła sygnału, T - ton sygnału
+            text: "R - czytelność, S - siła sygnału, T - ton sygnału"
+        },
+        {
+text: "R - jakość sygnału, S - słyszalność, T - częstotliwość"
+},
+{
+text: "R - stabilność sygnału, S - siła sygnału, T - ton sygnału"
 }
 ]
 },
 {
     questionID: 353,
-    questionText: Jaka jest skala czytelności i skala siły sygnału w raporcie R S ?
+    questionText: "Jaka jest skala czytelności i skala siły sygnału w raporcie R S?",
     questionAnswers: [
         {
-            text: skala czytelności 1-5 i skala siły sygnału 1-9
-skala czytelności 1-9 i skala siły sygnału 1-5
-skala czytelności 0-5 i skala siły sygnału 0-9
+            text: "skala czytelności 1-5 i skala siły sygnału 1-9"
+        },
+        {
+text: "skala czytelności 1-9 i skala siły sygnału 1-5"
+},
+{
+text: "skala czytelności 0-5 i skala siły sygnału 0-9"
 }
 ]
 },
 {
     questionID: 354,
-    questionText: Co oznacza w łączności fonicznej raport 59 ?
+    questionText: "Co oznacza w łączności fonicznej raport 59?",
     questionAnswers: [
         {
-            text: dobrze czytelny, bardzo silny sygnał
-czytelny, silny sygnał
-słaby, czytelny z trudnościami sygnał
+            text: "dobrze czytelny, bardzo silny sygnał"
+        },
+        {
+text: "czytelny, silny sygnał"
+},
+{
+text: "słaby, czytelny z trudnościami sygnał"
 }
 ]
 },
 {
     questionID: 355,
-    questionText: Co oznacza w łączności fonicznej raport 43 ?
+    questionText: "Co oznacza w łączności fonicznej raport 43?",
     questionAnswers: [
         {
-            text: dobrze czytelny, bardzo silny sygnał
-czytelny, słaby sygnał
-czytelny z trudnościami, słaby sygnał
+            text: "dobrze czytelny, bardzo silny sygnał"
+        },
+        {
+text: "czytelny, słaby sygnał"
+},
+{
+text: "czytelny z trudnościami, słaby sygnał"
 }
 ]
 },
 {
     questionID: 356,
-    questionText: Co oznacza w łączności telegraficznej raport 599 ?
+    questionText: "Co oznacza w łączności telegraficznej raport 599?",
     questionAnswers: [
         {
-            text: czytelny, silny sygnał, dobry ton
-dobrze czytelny, bardzo silny sygnał, bardzo dobry ton
-czytelny z trudnościami, sygnał słaby, dobry ton
+            text: "czytelny, silny sygnał, dobry ton"
+        },
+        {
+text: "dobrze czytelny, bardzo silny sygnał, bardzo dobry ton"
+},
+{
+text: "czytelny z trudnościami, sygnał słaby, dobry ton"
 }
 ]
 },
 {
     questionID: 357,
-    questionText: Co oznacza w łączności telegraficznej raport 438 ?
+    questionText: "Co oznacza w łączności telegraficznej raport 438?",
     questionAnswers: [
         {
-            text: dobrze czytelny, bardzo silny sygnał, dobry ton
-czytelny z trudnościami, słaby sygnał, bardzo dobry ton
-czytelny, słaby sygnał, dobry ton sygnału
+            text: "dobrze czytelny, bardzo silny sygnał, dobry ton"
+        },
+        {
+text: "czytelny z trudnościami, słaby sygnał, bardzo dobry ton"
+},
+{
+text: "czytelny, słaby sygnał, dobry ton sygnału"
 }
 ]
 },
 {
     questionID: 358,
-    questionText: Co to jest okręg wywoławczy?
+    questionText: "Co to jest okręg wywoławczy?",
     questionAnswers: [
         {
-            text: obszar, na którym pracuje maksimum 1000 radiostacji amatorskich
-obszar odpowiadający podziałowi terytorialnemu Polski na województwa
-zwyczajowo przyjęty obszar w granicach jednego lub dwóch województw
+            text: "obszar, na którym pracuje maksimum 1000 radiostacji amatorskich"
+        },
+        {
+text: "obszar odpowiadający podziałowi terytorialnemu Polski na województwa"
+},
+{
+text: "zwyczajowo przyjęty obszar w granicach jednego lub dwóch województw"
 }
 ]
 },
 {
     questionID: 359,
-    questionText: Na ile okręgów wywoławczych podzielona jest Polska ?
+    questionText: "Na ile okręgów wywoławczych podzielona jest Polska?",
     questionAnswers: [
         {
-            text: 16
-10
-9
+            text: "16"
+        },
+        {
+text: "10"
+},
+{
+text: "9"
 }
 ]
 },
 {
     questionID: 360,
-    questionText: Jak zbudowane są znaki wywoławcze radiostacji amatorskich ?
+    questionText: "Jak zbudowane są znaki wywoławcze radiostacji amatorskich?",
     questionAnswers: [
         {
-            text: dwie litery, cyfra, dwie do pięciu liter, np. SP3AB lub SP3ABCDE
-dwie litery, cyfra, dwie do trzech liter, np. SP3AB lub SP3ABC
-dwie litery lub cyfra i litera, cyfra, jeden do czterech znaków (liter lub cyfr), gdzie ostatni jest literą, np. SP3A lub SP3ABCD
+            text: "dwie litery, cyfra, dwie do pięciu liter, np. SP3AB lub SP3ABCDE"
+        },
+        {
+text: "dwie litery, cyfra, dwie do trzech liter, np. SP3AB lub SP3ABC"
+},
+{
+text: "dwie litery lub cyfra i litera, cyfra, jeden do czterech znaków (liter lub cyfr), gdzie ostatni jest literą, np. SP3A lub SP3ABCD"
 }
 ]
 },
 {
     questionID: 361,
-    questionText: Które prefiksy znaków wywoławczych przeznaczone są dla Polski ?
+    questionText: "Które prefiksy znaków wywoławczych przeznaczone są dla Polski?",
     questionAnswers: [
         {
-            text: HF, SN, SO, SP, SQ, SR, 3Z
-HF, SN, SO, SP, SQ, 3Z, 3X
-HA, SM, SO, SP, SQ, SR, 3Z
+            text: "HF, SN, SO, SP, SQ, SR, 3Z"
+        },
+        {
+text: "HF, SN, SO, SP, SQ, 3Z, 3X"
+},
+{
+text: "HA, SM, SO, SP, SQ, SR, 3Z"
 }
 ]
 },
 {
     questionID: 362,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 160 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 160 m to:",
     questionAnswers: [
         {
-            text: 1810 kHz - 1950 kHz
-1810 kHz - 2000 kHz
-1810 kHz - 1980 kHz
+            text: "1810 kHz - 1950 kHz"
+        },
+        {
+text: "1810 kHz - 2000 kHz"
+},
+{
+text: "1810 kHz - 1980 kHz"
 }
 ]
 },
 {
     questionID: 363,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 80 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 80 m to:",
     questionAnswers: [
         {
-            text: 3550 kHz - 3750 kHz
-3500 kHz - 3750 kHz
-3500 kHz - 3800 kHz
+            text: "3550 kHz - 3750 kHz"
+        },
+        {
+text: "3500 kHz - 3750 kHz"
+},
+{
+text: "3500 kHz - 3800 kHz"
 }
 ]
 },
 {
     questionID: 364,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 40 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 40 m to:",
     questionAnswers: [
         {
-            text: 7000 kHz - 7200 kHz
-7100 kHz - 7300 kHz
-7050 kHz - 7200 kHz
+            text: "7000 kHz - 7200 kHz"
+        },
+        {
+text: "7100 kHz - 7300 kHz"
+},
+{
+text: "7050 kHz - 7200 kHz"
 }
 ]
 },
 {
     questionID: 365,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 30 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 30 m to:",
     questionAnswers: [
         {
-            text: 10050 kHz - 10200 kHz
-10100 kHz - 10150 kHz
-10100 kHz - 10200 kHz
+            text: "10050 kHz - 10200 kHz"
+        },
+        {
+text: "10100 kHz - 10150 kHz"
+},
+{
+text: "10100 kHz - 10200 kHz"
 }
 ]
 },
 {
     questionID: 366,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 20 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 20 m to:",
     questionAnswers: [
         {
-            text: 14000 kHz - 14350 kHz
-14000 kHz - 14450 kHz
-14100 kHz - 14350 kHz
+            text: "14000 kHz - 14350 kHz"
+        },
+        {
+text: "14000 kHz - 14450 kHz"
+},
+{
+text: "14100 kHz - 14350 kHz"
 }
 ]
 },
 {
     questionID: 367,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 17 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 17 m to:",
     questionAnswers: [
         {
-            text: 18050 kHz - 18250 kHz
-18068 kHz - 18168 kHz
-18000 kHz - 18168 kHz
+            text: "18050 kHz - 18250 kHz"
+        },
+        {
+text: "18068 kHz - 18168 kHz"
+},
+{
+text: "18000 kHz - 18168 kHz"
 }
 ]
 },
 {
     questionID: 368,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 15 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 15 m to:",
     questionAnswers: [
         {
-            text: 21000 kHz - 21500 kHz
-21100 kHz - 21450 kHz
-21000 kHz - 21450 kHz
+            text: "21000 kHz - 21500 kHz"
+        },
+        {
+text: "21100 kHz - 21450 kHz"
+},
+{
+text: "21000 kHz - 21450 kHz"
 }
 ]
 },
 {
     questionID: 369,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 12 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 12 m to:",
     questionAnswers: [
         {
-            text: 24690 kHz - 24990 kHz
-24890 kHz - 24990 kHz
-24680 kHz - 24990 kHz
+            text: "24690 kHz - 24990 kHz"
+        },
+        {
+text: "24890 kHz - 24990 kHz"
+},
+{
+text: "24680 kHz - 24990 kHz"
 }
 ]
 },
 {
     questionID: 370,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 10 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 10 m to:",
     questionAnswers: [
         {
-            text: 28500 kHz - 29800 kHz
-28000 kHz - 29500 kHz
-28000 kHz - 29700 kHz
+            text: "28500 kHz - 29800 kHz"
+        },
+        {
+text: "28000 kHz - 29500 kHz"
+},
+{
+text: "28000 kHz - 29700 kHz"
 }
 ]
 },
 {
     questionID: 371,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 6 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 6 m to:",
     questionAnswers: [
         {
-            text: 50 MHz - 54 MHz
-50 MHz - 52 MHz
-50 MHz - 53,5 MHz
+            text: "50 MHz - 54 MHz"
+        },
+        {
+text: "50 MHz - 52 MHz"
+},
+{
+text: "50 MHz - 53,5 MHz"
 }
 ]
 },
 {
     questionID: 372,
-    questionText: Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 2 m to:
+    questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 2 m to:",
     questionAnswers: [
         {
-            text: 144 MHz - 146 MHz
-144 MHz - 148 MHz
-143 MHz - 146 MHz
+            text: "144 MHz - 146 MHz"
+        },
+        {
+text: "144 MHz - 148 MHz"
+},
+{
+text: "143 MHz - 146 MHz"
 }
 ]
 },
 {
     questionID: 373,
-    questionText: Co jest bandpan IARU?
+    questionText: "Co jest bandpan IARU?",
     questionAnswers: [
         {
-            text: podział zakresów częstotliwości na segmenty przeznaczone dla poszczególnych rodzajów emisji lub kanały robocze
-podział częstotliwości osobno nadawczych i odbiorczych
-plan przydziału częstotliwości dla poszczególnych krajów
+            text: "podział zakresów częstotliwości na segmenty przeznaczone dla poszczególnych rodzajów emisji lub kanały robocze"
+        },
+        {
+text: "podział częstotliwości osobno nadawczych i odbiorczych"
+},
+{
+text: "plan przydziału częstotliwości dla poszczególnych krajów"
 }
 ]
 },
 {
     questionID: 374,
-    questionText: Czy dopuszcza się w band planie IARU możliwość pracy emisją jednowstęgową (SSB) w zakresie częstotliwości 10100 kHz ? 10150 kHz (pasmo 30 m) ?
+    questionText: "Czy dopuszcza się w band planie IARU możliwość pracy emisją jednowstęgową (SSB) w zakresie częstotliwości 10100 kHz ? 10150 kHz (pasmo 30 m)?",
     questionAnswers: [
         {
-            text: nie ma żadnych ograniczeń co do stosowanych emisji
-jest całkowity zakaz używania emisji jednowstęgowej w tym zakresie
-dopuszcza się użycie SSB w sytuacjach bezpośredniego zagrożenia dla bezpieczeństwa życia i mienia i wyłącznie przez stacje uczestniczące w akcji ratunkowej
+            text: "nie ma żadnych ograniczeń co do stosowanych emisji"
+        },
+        {
+text: "jest całkowity zakaz używania emisji jednowstęgowej w tym zakresie"
+},
+{
+text: "dopuszcza się użycie SSB w sytuacjach bezpośredniego zagrożenia dla bezpieczeństwa życia i mienia i wyłącznie przez stacje uczestniczące w akcji ratunkowej"
 }
 ]
 },
 {
     questionID: 375,
-    questionText: Jaki jest odstęp między częstotliwością nadawczą a odbiorczą przemienników pracujących w paśmie 2 m?
+    questionText: "Jaki jest odstęp między częstotliwością nadawczą a odbiorczą przemienników pracujących w paśmie 2 m?",
     questionAnswers: [
         {
-            text: 600 kHz
-650 kHz
-800 kHz
+            text: "600 kHz"
+        },
+        {
+text: "650 kHz"
+},
+{
+text: "800 kHz"
 }
 ]
 },
 {
     questionID: 376,
-    questionText: Jak nazywa się organ międzynarodowy ustalający ogólnoświatowe zasady wykonywania działalności telekomunikacyjnej i radiokomunikacyjnej ?
+    questionText: "Jak nazywa się organ międzynarodowy ustalający ogólnoświatowe zasady wykonywania działalności telekomunikacyjnej i radiokomunikacyjnej?",
     questionAnswers: [
         {
-            text: Organizacja Narodów Zjednoczonych (ONZ)
-Międzynarodowy Związek Telekomunikacyjny (ITU)
-Światowa Organizacja Handlu (WTO)
+            text: "Organizacja Narodów Zjednoczonych (ONZ)"
+        },
+        {
+text: "Międzynarodowy Związek Telekomunikacyjny (ITU)"
+},
+{
+text: "Światowa Organizacja Handlu (WTO)"
 }
 ]
 },
 {
     questionID: 377,
-    questionText: Gdzie mieści się siedziba Międzynarodowego Związku Telekomunikacyjnego (ITU) ?
+    questionText: "Gdzie mieści się siedziba Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
     questionAnswers: [
         {
-            text: w Nowym Jorku
-w Wiedniu
-w Genewie
+            text: "w Nowym Jorku"
+        },
+        {
+text: "w Wiedniu"
+},
+{
+text: "w Genewie"
 }
 ]
 },
 {
     questionID: 378,
-    questionText: Ile krajów zrzesza Międzynarodowy Związek Telekomunikacyjny ?
+    questionText: "Ile krajów zrzesza Międzynarodowy Związek Telekomunikacyjny?",
     questionAnswers: [
         {
-            text: 50-100
-100-150
-150-200
+            text: "50-100"
+        },
+        {
+text: "100-150"
+},
+{
+text: "150-200"
 }
 ]
 },
 {
     questionID: 379,
-    questionText: Jaki organ Międzynarodowego Związku Telekomunikacyjnego (ITU) decyduje o przeznaczeniach poszczególnych zakresów częstotliwości dla różnych służb radiokomunikacyjnych ?
+    questionText: "Jaki organ Międzynarodowego Związku Telekomunikacyjnego (ITU) decyduje o przeznaczeniach poszczególnych zakresów częstotliwości dla różnych służb radiokomunikacyjnych?",
     questionAnswers: [
         {
-            text: Rada Międzynarodowego Związku Telekomunikacyjnego (ITU)
-Światowe Konferencje Radiokomunikacyjne
-Biuro Radiokomunikacji ITU
+            text: "Rada Międzynarodowego Związku Telekomunikacyjnego (ITU)"
+        },
+        {
+text: "Światowe Konferencje Radiokomunikacyjne"
+},
+{
+text: "Biuro Radiokomunikacji ITU"
 }
 ]
 },
 {
     questionID: 380,
-    questionText: Jaki dokument obowiązujący wszystkie kraje członkowskie Międzynarodowego Związku Telekomunikacyjnego (ITU) określa zasady wykonywania służby radiokomunikacyjnej amatorskiej i służby amatorskiej satelitarnej oraz wymienia przyznane tym służbom zakresy częstotliwości ?
+    questionText: "Jaki dokument obowiązujący wszystkie kraje członkowskie Międzynarodowego Związku Telekomunikacyjnego (ITU) określa zasady wykonywania służby radiokomunikacyjnej amatorskiej i służby amatorskiej satelitarnej oraz wymienia przyznane tym służbom zakresy częstotliwości?",
     questionAnswers: [
         {
-            text: Konstytucja ITU
-Regulamin Radiokomunikacyjny (Radio Regulations) ITU
-Konwencja ITU
+            text: "Konstytucja ITU"
+        },
+        {
+text: "Regulamin Radiokomunikacyjny (Radio Regulations) ITU"
+},
+{
+text: "Konwencja ITU"
 }
 ]
 },
 {
     questionID: 381,
-    questionText: W którym roku Rzeczpospolita Polska przystąpiła do Międzynarodowego Związku Telekomunikacyjnego (ITU) ?
+    questionText: "W którym roku Rzeczpospolita Polska przystąpiła do Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
     questionAnswers: [
         {
-            text: 1921
-1935
-1956
+            text: "1921"
+        },
+        {
+text: "1935"
+},
+{
+text: "1956"
 }
 ]
 },
 {
     questionID: 382,
-    questionText: Jak brzmi definicja służby amatorskiej zamieszczona w Regulaminie Radiokomunikacyjnym Międzynarodowego Związku Telekomunikacyjnego (ITU) ?
+    questionText: "Jak brzmi definicja służby amatorskiej zamieszczona w Regulaminie Radiokomunikacyjnym Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
     questionAnswers: [
         {
-            text: służba radiokomunikacyjna wykonywana przez radioamatorów w celu nawiązywania wzajemnych znajomości i wymiany informacji technicznych
-służba radiokomunikacyjna mająca na celu samokształcenie, wzajemne komunikowanie się i eksperymenty techniczne prowadzone przez amatorów, to jest przez odpowiednio upoważnione osoby interesujące się techniką radiową wyłącznie z pobudek osobistych, bez celów zarobkowych
-służba radiokomunikacyjna mająca na celu badanie propagacji fal radiowych w zakresach krótkofalowym i ultrakrótkofalowym oraz warunków meteorologicznych
+            text: "służba radiokomunikacyjna wykonywana przez radioamatorów w celu nawiązywania wzajemnych znajomości i wymiany informacji technicznych"
+        },
+        {
+text: "służba radiokomunikacyjna mająca na celu samokształcenie, wzajemne komunikowanie się i eksperymenty techniczne prowadzone przez amatorów, to jest przez odpowiednio upoważnione osoby interesujące się techniką radiową wyłącznie z pobudek osobistych, bez celów zarobkowych"
+},
+{
+text: "służba radiokomunikacyjna mająca na celu badanie propagacji fal radiowych w zakresach krótkofalowym i ultrakrótkofalowym oraz warunków meteorologicznych"
 }
 ]
 },
 {
     questionID: 383,
-    questionText: Regulamin Radiokomunikacyjny ITU dzieli świat na trzy regiony. W którym regionie radiokomunikacyjnym znajduje się Polska ?
+    questionText: "Regulamin Radiokomunikacyjny ITU dzieli świat na trzy regiony. W którym regionie radiokomunikacyjnym znajduje się Polska?",
     questionAnswers: [
         {
-            text: w trzecim
-w pierwszym
-w drugim
+            text: "w trzecim"
+        },
+        {
+text: "w pierwszym"
+},
+{
+text: "w drugim"
 }
 ]
 },
 {
     questionID: 384,
-    questionText: Czy Regulamin Radiokomunikacyjny ITU przewiduje wykorzystanie stacji amatorskich w akcjach humanitarnych, niesienia pomocy w przypadkach katastrof, klęsk żywiołowych i innych zagrożeń ?
+    questionText: "Czy Regulamin Radiokomunikacyjny ITU przewiduje wykorzystanie stacji amatorskich w akcjach humanitarnych, niesienia pomocy w przypadkach katastrof, klęsk żywiołowych i innych zagrożeń?",
     questionAnswers: [
         {
-            text: nie zezwala na takie wykorzystanie stacji amatorskich
-niezbędny jest specjalny wpis do pozwolenia radioamatorskiego
-usilnie zaleca się wykorzystywanie stacji amatorskich w powyższych przypadkach
+            text: "nie zezwala na takie wykorzystanie stacji amatorskich"
+        },
+        {
+text: "niezbędny jest specjalny wpis do pozwolenia radioamatorskiego"
+},
+{
+text: "usilnie zaleca się wykorzystywanie stacji amatorskich w powyższych przypadkach"
 }
 ]
 },
 {
     questionID: 385,
-    questionText: Czy Regulamin Radiokomunikacyjny reguluje zasady przyznawania znaków wywoławczych stacjom amatorskim ?
+    questionText: "Czy Regulamin Radiokomunikacyjny reguluje zasady przyznawania znaków wywoławczych stacjom amatorskim?",
     questionAnswers: [
         {
-            text: nie, regulują to przepisy krajowe
-tak, Regulamin Radiokomunikacyjny określa ściśle zasady przyznawania znaków
-nie, znak wywoławczy obiera sobie sam operator stacji
+            text: "nie, regulują to przepisy krajowe"
+        },
+        {
+text: "tak, Regulamin Radiokomunikacyjny określa ściśle zasady przyznawania znaków"
+},
+{
+text: "nie, znak wywoławczy obiera sobie sam operator stacji"
 }
 ]
 },
 {
     questionID: 386,
-    questionText: Czy postanowienia Regulaminu Radiokomunikacyjnego ITU dotyczące służby amatorskiej obowiązuj również w służbie amatorskiej satelitarnej ?
+    questionText: "Czy postanowienia Regulaminu Radiokomunikacyjnego ITU dotyczące służby amatorskiej obowiązuj również w służbie amatorskiej satelitarnej?",
     questionAnswers: [
         {
-            text: tak, obowiązują
-nie, obowiązują odrębne przepisy
-nie obowiązują żadne przepisy
+            text: "tak, obowiązują"
+        },
+        {
+text: "nie, obowiązują odrębne przepisy"
+},
+{
+text: "nie obowiązują żadne przepisy"
 }
 ]
 },
 {
     questionID: 387,
-    questionText: Co zgodnie z Regulaminem Radiokomunikacyjnym ITU musi zapewnić operator amatorskiej orbitalnej stacji satelitarnej ?
+    questionText: "Co zgodnie z Regulaminem Radiokomunikacyjnym ITU musi zapewnić operator amatorskiej orbitalnej stacji satelitarnej?",
     questionAnswers: [
         {
-            text: nadawanie przez amatorską stację satelitarną jej znaku wywoławczego
-niezwłoczne zdalne wyłączenie amatorskiej stacji satelitarnej w przypadku powodowania przez nią szkodliwych zakłóceń dla innych służb radiokomunikacyjnych
-nadawanie przez amatorską stację satelitarną komunikatów meteorologicznych
+            text: "nadawanie przez amatorską stację satelitarną jej znaku wywoławczego"
+        },
+        {
+text: "niezwłoczne zdalne wyłączenie amatorskiej stacji satelitarnej w przypadku powodowania przez nią szkodliwych zakłóceń dla innych służb radiokomunikacyjnych"
+},
+{
+text: "nadawanie przez amatorską stację satelitarną komunikatów meteorologicznych"
 }
 ]
 },
 {
     questionID: 388,
-    questionText: Jak nazywa się organ międzynarodowy zrzeszający krajowe administracje łączności z terenu Europy ?
+    questionText: "Jak nazywa się organ międzynarodowy zrzeszający krajowe administracje łączności z terenu Europy?",
     questionAnswers: [
         {
-            text: Rada Europy (EC)
-Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT)
-Organizacja Bezpieczeństwa i Współpracy w Europie (OBWE)
+            text: "Rada Europy (EC)"
+        },
+        {
+text: "Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT)"
+},
+{
+text: "Organizacja Bezpieczeństwa i Współpracy w Europie (OBWE)"
 }
 ]
 },
 {
     questionID: 389,
-    questionText: Gdzie mieści się siedziba Europejskiego Biura Radiokomunikacji (ERO) ?
+    questionText: "Gdzie mieści się siedziba Europejskiego Biura Radiokomunikacji (ERO)?",
     questionAnswers: [
         {
-            text: w Brukseli
-w Helsinkach
-w Kopenhadze
+            text: "w Brukseli"
+        },
+        {
+text: "w Helsinkach"
+},
+{
+text: "w Kopenhadze"
 }
 ]
 },
 {
     questionID: 390,
-    questionText: Jakiego rodzaju dokumenty regulujące działalność radiokomunikacyjną w Europie przyjmuje i wprowadza Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT) i publikuje Europejskie Biuro Radiokomunikacji (ERO) ?
+    questionText: "Jakiego rodzaju dokumenty regulujące działalność radiokomunikacyjną w Europie przyjmuje i wprowadza Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT) i publikuje Europejskie Biuro Radiokomunikacji (ERO)?",
     questionAnswers: [
         {
-            text: decyzje
-decyzje i zalecenia
-decyzje, zalecenia i raporty
+            text: "decyzje"
+        },
+        {
+text: "decyzje i zalecenia"
+},
+{
+text: "decyzje, zalecenia i raporty"
 }
 ]
 },
 {
     questionID: 391,
-    questionText: Jakie dokumenty Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) regulują sprawy międzynarodowego uznawania pozwoleń i międzynarodowych wymagań egzaminacyjnych w służbie amatorskiej ?
+    questionText: "Jakie dokumenty Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) regulują sprawy międzynarodowego uznawania pozwoleń i międzynarodowych wymagań egzaminacyjnych w służbie amatorskiej?",
     questionAnswers: [
         {
-            text: Uchwały Komitetu Komunikacji Elektronicznej CEPT
-Zalecenia CEPT T/R 61-01 i T/R 61-02
-Zalecenia CEPT T/R 22-01 i T/R 22-02
+            text: "Uchwały Komitetu Komunikacji Elektronicznej CEPT"
+        },
+        {
+text: "Zalecenia CEPT T/R 61-01 i T/R 61-02"
+},
+{
+text: "Zalecenia CEPT T/R 22-01 i T/R 22-02"
 }
 ]
 },
 {
     questionID: 392,
-    questionText: Przez jaki okres czasu może posiadacz międzynarodowego pozwolenia amatorskiego zgodnego z zaleceniem CEPT T/R 61-01 pracować z terytorium innego kraju uznającego to zalecenie, bez konieczności uzyskiwania pozwolenia od miejscowej administracji łączności ?
+    questionText: "Przez jaki okres czasu może posiadacz międzynarodowego pozwolenia amatorskiego zgodnego z zaleceniem CEPT T/R 61-01 pracować z terytorium innego kraju uznającego to zalecenie, bez konieczności uzyskiwania pozwolenia od miejscowej administracji łączności?",
     questionAnswers: [
         {
-            text: 1 miesiąc
-3 miesiące
-1 rok
+            text: "1 miesiąc"
+        },
+        {
+text: "3 miesiące"
+},
+{
+text: "1 rok"
 }
 ]
 },
 {
     questionID: 393,
-    questionText: Czy przepisy Międzynarodowego Związku Telekomunikacyjnego (ITU) i Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) wprowadzają obowiązkowy wymóg umiejętności odbioru i nadawania znaków w kodzie Morse-a przy egzaminie na świadectwo radiooperatora w służbie amatorskiej ?
+    questionText: "Czy przepisy Międzynarodowego Związku Telekomunikacyjnego (ITU) i Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) wprowadzają obowiązkowy wymóg umiejętności odbioru i nadawania znaków w kodzie Morse-a przy egzaminie na świadectwo radiooperatora w służbie amatorskiej?",
     questionAnswers: [
         {
-            text: wprowadzają wymóg jako obowiązkowy
-pozostawiaj powyższy wymóg do decyzji krajowych administracji łączności
-znoszą całkowicie powyższy wymóg
+            text: "wprowadzają wymóg jako obowiązkowy"
+        },
+        {
+text: "pozostawiaj powyższy wymóg do decyzji krajowych administracji łączności"
+},
+{
+text: "znoszą całkowicie powyższy wymóg"
 }
 ]
 },
 {
     questionID: 394,
-    questionText: Kto określa maksymalną moc wyjściową radiostacji amatorskiej podawaną w pozwoleniu ?
+    questionText: "Kto określa maksymalną moc wyjściową radiostacji amatorskiej podawaną w pozwoleniu?",
     questionAnswers: [
         {
-            text: Międzynarodowy Związek Telekomunikacyjny (ITU)
-Europejskie Biuro Radiokomunikacji (ERO)
-krajowa administracja łączności
+            text: "Międzynarodowy Związek Telekomunikacyjny (ITU)"
+        },
+        {
+text: "Europejskie Biuro Radiokomunikacji (ERO)"
+},
+{
+text: "krajowa administracja łączności"
 }
 ]
 },
 {
     questionID: 395,
-    questionText: Jaka organizacja reprezentuje służbę amatorską na forum międzynarodowym ?
+    questionText: "Jaka organizacja reprezentuje służbę amatorską na forum międzynarodowym?",
     questionAnswers: [
         {
-            text: Międzynarodowy Związek Telekomunikacyjny (ITU)
-Międzynarodowy Związek Radioamatorów (IARU)
-Europejskie Biuro Radiokomunikacji (ERO)
+            text: "Międzynarodowy Związek Telekomunikacyjny (ITU)"
+        },
+        {
+text: "Międzynarodowy Związek Radioamatorów (IARU)"
+},
+{
+text: "Europejskie Biuro Radiokomunikacji (ERO)"
 }
 ]
 },
 {
     questionID: 396,
-    questionText: Ile organizacji regionalnych składa się na ogólnoświatowy Międzynarodowy Związek Radioamatorów (IARU ? the International Amateur Radio Union) ?
+    questionText: "Ile organizacji regionalnych składa się na ogólnoświatowy Międzynarodowy Związek Radioamatorów (IARU ? the International Amateur Radio Union)?",
     questionAnswers: [
         {
-            text: trzy
-cztery
-pięć
+            text: "trzy"
+        },
+        {
+text: "cztery"
+},
+{
+text: "pięć"
 }
 ]
 },
 {
     questionID: 397,
-    questionText: W którym roku i w jakim miejscu powstał Międzynarodowy Związek Radioamatorów (IARU) ?
+    questionText: "W którym roku i w jakim miejscu powstał Międzynarodowy Związek Radioamatorów (IARU)?",
     questionAnswers: [
         {
-            text: w roku 1930 w Genewie
-w roku 1925 w Paryżu
-w roku 1910 w Berlinie
+            text: "w roku 1930 w Genewie"
+        },
+        {
+text: "w roku 1925 w Paryżu"
+},
+{
+text: "w roku 1910 w Berlinie"
 }
 ]
 },
 {
     questionID: 398,
-    questionText: W którym roku powstał Polski Związek Krótkofalowców (PZK) ?
+    questionText: "W którym roku powstał Polski Związek Krótkofalowców (PZK)?",
     questionAnswers: [
         {
-            text: w roku 1924
-w roku 1930
-w roku 1946
+            text: "w roku 1924"
+        },
+        {
+text: "w roku 1930"
+},
+{
+text: "w roku 1946"
 }
 ]
 },
 {
     questionID: 399,
-    questionText: Jaki organ krajowy reguluje i kontroluje pracę stacji amatorskich, przeprowadza egzaminy na świadectwa operatora urządzeń radiowych i wydaje pozwolenia w służbie amatorskiej ?
+    questionText: "Jaki organ krajowy reguluje i kontroluje pracę stacji amatorskich, przeprowadza egzaminy na świadectwa operatora urządzeń radiowych i wydaje pozwolenia w służbie amatorskiej?",
     questionAnswers: [
         {
-            text: Minister właściwy do spraw łączności
-Prezes Urzędu Komunikacji Elektronicznej
-Minister właściwy do spraw wewnętrznych
+            text: "Minister właściwy do spraw łączności"
+        },
+        {
+text: "Prezes Urzędu Komunikacji Elektronicznej"
+},
+{
+text: "Minister właściwy do spraw wewnętrznych"
 }
 ]
 },
 {
     questionID: 400,
-    questionText: Jaki podstawowy akt prawny reguluje działalność telekomunikacyjną i radiokomunikacyjną w Polsce ?
+    questionText: "Jaki podstawowy akt prawny reguluje działalność telekomunikacyjną i radiokomunikacyjną w Polsce?",
     questionAnswers: [
         {
-            text: statut Urzędu Komunikacji Elektronicznej (UKE)
-ustawa Prawo ochrony środowiska
-ustawa Prawo telekomunikacyjne
+            text: "statut Urzędu Komunikacji Elektronicznej (UKE)"
+        },
+        {
+text: "ustawa Prawo ochrony środowiska"
+},
+{
+text: "ustawa Prawo telekomunikacyjne"
 }
 ]
 },
 {
     questionID: 401,
-    questionText: W jakim dokumencie określone są zakresy częstotliwości przeznaczone w Polsce dla służby amatorskiej i służby amatorskiej satelitarnej ?
+    questionText: "W jakim dokumencie określone są zakresy częstotliwości przeznaczone w Polsce dla służby amatorskiej i służby amatorskiej satelitarnej?",
     questionAnswers: [
         {
-            text: w ustawie Prawo telekomunikacyjne
-w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń Częstotliwości
-w decyzjach Prezesa Urzędu Komunikacji Elektronicznej
+            text: "w ustawie Prawo telekomunikacyjne"
+        },
+        {
+text: "w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń Częstotliwości"
+},
+{
+text: "w decyzjach Prezesa Urzędu Komunikacji Elektronicznej"
 }
 ]
 },
 {
     questionID: 402,
-    questionText: Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba pierwszej ważności oznacza, że:
+    questionText: "Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba pierwszej ważności oznacza, że:",
     questionAnswers: [
         {
-            text: służba taka jest chroniona przed szkodliwymi zakłóceniami ze strony służb drugiej ważności
-służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie
-służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie
+            text: "służba taka jest chroniona przed szkodliwymi zakłóceniami ze strony służb drugiej ważności"
+        },
+        {
+text: "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie"
+},
+{
+text: "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie"
 }
 ]
 },
 {
     questionID: 403,
-    questionText: Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba drugiej ważności - oznacza, że:
+    questionText: "Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba drugiej ważności - oznacza, że:",
     questionAnswers: [
         {
-            text: służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie
-służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji służb pierwszej ważności; którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka może jednak żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie.
-służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie
+            text: "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie"
+        },
+        {
+text: "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji służb pierwszej ważności; którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka może jednak żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie."
+},
+{
+text: "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie"
 }
 ]
 },
 {
     questionID: 404,
-    questionText: Jaki dokument określa kategorie pozwoleń w służbie amatorskiej i dozwolone moce wyjściowe radiostacji amatorskiej ?
+    questionText: "Jaki dokument określa kategorie pozwoleń w służbie amatorskiej i dozwolone moce wyjściowe radiostacji amatorskiej?",
     questionAnswers: [
         {
-            text: ustawa Prawo telekomunikacyjne
-rozporządzenie ministra właściwego do spraw łączności
-zarządzenie Prezesa Urzędu Komunikacji Elektronicznej
+            text: "ustawa Prawo telekomunikacyjne"
+        },
+        {
+text: "rozporządzenie ministra właściwego do spraw łączności"
+},
+{
+text: "zarządzenie Prezesa Urzędu Komunikacji Elektronicznej"
 }
 ]
 },
 {
     questionID: 405,
-    questionText: Do czego upoważnia świadectwo operatora klasy A w służbie radiokomunikacyjnej amatorskiej ?
+    questionText: "Do czego upoważnia świadectwo operatora klasy A w służbie radiokomunikacyjnej amatorskiej?",
     questionAnswers: [
         {
-            text: do uzyskania pozwolenia amatorskiego kategorii 1
-do uzyskania pozwolenia amatorskiego kategorii 3
-wyłącznie do pracy na radiostacji klubowej
+            text: "do uzyskania pozwolenia amatorskiego kategorii 1"
+        },
+        {
+text: "do uzyskania pozwolenia amatorskiego kategorii 3"
+},
+{
+text: "wyłącznie do pracy na radiostacji klubowej"
 }
 ]
 },
 {
     questionID: 406,
-    questionText: Do czego upoważnia świadectwo operatora klasy C w służbie radiokomunikacyjnej amatorskiej ?
+    questionText: "Do czego upoważnia świadectwo operatora klasy C w służbie radiokomunikacyjnej amatorskiej?",
     questionAnswers: [
         {
-            text: do uzyskania pozwolenia amatorskiego kategorii 2
-do uzyskania pozwolenia amatorskiego kategorii 3
-do organizowania zawodów w amatorskiej radiolokacji sportowej
+            text: "do uzyskania pozwolenia amatorskiego kategorii 2"
+        },
+        {
+text: "do uzyskania pozwolenia amatorskiego kategorii 3"
+},
+{
+text: "do organizowania zawodów w amatorskiej radiolokacji sportowej"
 }
 ]
 },
 {
     questionID: 407,
-    questionText: Na jaki okres czasu wydawane są indywidualne pozwolenia amatorskie kategorii 1 i 3 ?
+    questionText: "Na jaki okres czasu wydawane są indywidualne pozwolenia amatorskie kategorii 1 i 3?",
     questionAnswers: [
         {
-            text: 10 lat
-15 lat
-dożywotnio
+            text: "10 lat"
+        },
+        {
+text: "15 lat"
+},
+{
+text: "dożywotnio"
 }
 ]
 },
 {
     questionID: 408,
-    questionText: Na jaki okres czasu wydawane są pozwolenia amatorskie kategorii 5 ?
+    questionText: "Na jaki okres czasu wydawane są pozwolenia amatorskie kategorii 5?",
     questionAnswers: [
         {
-            text: 5 lat
-10 lat
-15 lat
+            text: "5 lat"
+        },
+        {
+text: "10 lat"
+},
+{
+text: "15 lat"
 }
 ]
 },
 {
     questionID: 409,
-    questionText: Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 1 uzyskanego po raz pierwszy ?
+    questionText: "Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 1 uzyskanego po raz pierwszy?",
     questionAnswers: [
         {
-            text: 50 watów
-500 watów
-250 watów
+            text: "50 watów"
+        },
+        {
+text: "500 watów"
+},
+{
+text: "250 watów"
 }
 ]
 },
 {
     questionID: 410,
-    questionText: Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 3 ?
+    questionText: "Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 3?",
     questionAnswers: [
         {
-            text: 15 watów
-100 watów
-150 watów
+            text: "15 watów"
+        },
+        {
+text: "100 watów"
+},
+{
+text: "150 watów"
 }
 ]
 },
 {
     questionID: 411,
-    questionText: Jaka jest moc maksymalna wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 5 ?
+    questionText: "Jaka jest moc maksymalna wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 5?",
     questionAnswers: [
         {
-            text: 50 watów dla nadajnika poniżej 30MHz a 15 watów dla nadajnika powyżej 30MHz
-50 watów
-150 watów
+            text: "50 watów dla nadajnika poniżej 30MHz a 15 watów dla nadajnika powyżej 30MHz"
+        },
+        {
+text: "50 watów"
+},
+{
+text: "150 watów"
 }
 ]
 },
 {
     questionID: 412,
-    questionText: Jaka jest maksymalna moc wyjściowa radiostacji w przypadku pozwolenia dodatkowego ?
+    questionText: "Jaka jest maksymalna moc wyjściowa radiostacji w przypadku pozwolenia dodatkowego?",
     questionAnswers: [
         {
-            text: 500 watów
-1000 watów
-1500 watów
+            text: "500 watów"
+        },
+        {
+text: "1000 watów"
+},
+{
+text: "1500 watów"
 }
 ]
 },
 {
     questionID: 413,
-    questionText: W jakich zakresach krótkofalowych może pracować operator posiadający pozwolenie kategorii 1 ?
+    questionText: "W jakich zakresach krótkofalowych może pracować operator posiadający pozwolenie kategorii 1?",
     questionAnswers: [
         {
-            text: 3500 - 3800 kHz oraz 7000 - 7100 kHz
-7000 - 7100 kHz oraz 28000 - 29700 kHz
-we wszystkich zakresach częstotliwości przeznaczonych dla służby radiokomunikacyjnej amatorskiej na terytorium RP
+            text: "3500 - 3800 kHz oraz 7000 - 7100 kHz"
+        },
+        {
+text: "7000 - 7100 kHz oraz 28000 - 29700 kHz"
+},
+{
+text: "we wszystkich zakresach częstotliwości przeznaczonych dla służby radiokomunikacyjnej amatorskiej na terytorium RP"
 }
 ]
 },
 {
     questionID: 414,
-    questionText: W jakich zakresach częstotliwości może pracować operator posiadający pozwolenie kategorii 3 ?
+    questionText: "W jakich zakresach częstotliwości może pracować operator posiadający pozwolenie kategorii 3?",
     questionAnswers: [
         {
-            text: 28000-29700 kHz oraz 144-146 MHz
-1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz, 144-146 MHz; 430-440 MHz oraz 10-10,5 GHz.
-28000-29700 kHz oraz 430-440 MHz
+            text: "28000-29700 kHz oraz 144-146 MHz"
+        },
+        {
+text: "1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz, 144-146 MHz; 430-440 MHz oraz 10-10,5 GHz."
+},
+{
+text: "28000-29700 kHz oraz 430-440 MHz"
 }
 ]
 },
 {
     questionID: 415,
-    questionText: Jaki jest minimalny wiek, w którym można przystąpić do egzaminu i uzyskać świadectwo operatora urządzeń radiowych w służbie amatorskiej oraz uzyskać pozwolenie dla służby radiokomunikacyjnej amatorskiej ?
+    questionText: "Jaki jest minimalny wiek, w którym można przystąpić do egzaminu i uzyskać świadectwo operatora urządzeń radiowych w służbie amatorskiej oraz uzyskać pozwolenie dla służby radiokomunikacyjnej amatorskiej?",
     questionAnswers: [
         {
-            text: 10 lat dla uzyskania świadectwa klasy C oraz 15 lat dla uzyskania świadectwa klasy A
-15 lat dla uzyskania świadectwa klasy A i C
-nie określono minimalnego wieku
+            text: "10 lat dla uzyskania świadectwa klasy C oraz 15 lat dla uzyskania świadectwa klasy A"
+        },
+        {
+text: "15 lat dla uzyskania świadectwa klasy A i C"
+},
+{
+text: "nie określono minimalnego wieku"
 }
 ]
 },
 {
     questionID: 416,
-    questionText: Jakimi rodzajami emisji radiowych wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 50-52 MHz ?
+    questionText: "Jakimi rodzajami emisji radiowych wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 50-52 MHz?",
     questionAnswers: [
         {
-            text: wyłącznie emisją A1A (telegrafia)
-wyłącznie emisją F3E (telefonia z modulacją częstotliwości)
-wszystkimi rodzajami emisji z wyjątkiem F3E
+            text: "wyłącznie emisją A1A (telegrafia)"
+        },
+        {
+text: "wyłącznie emisją F3E (telefonia z modulacją częstotliwości)"
+},
+{
+text: "wszystkimi rodzajami emisji z wyjątkiem F3E"
 }
 ]
 },
 {
     questionID: 417,
-    questionText: Jakimi rodzajami emisji radiowych i z jaką mocą wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 135,7-137,8 kHz ?
+    questionText: "Jakimi rodzajami emisji radiowych i z jaką mocą wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 135,7-137,8 kHz?",
     questionAnswers: [
         {
-            text: wyłącznie emisją A1A (telegrafia) z mocą wyjściową 150 watów
-wszystkimi rodzajami emisji z mocą wyjściową 250 watów
-wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc promieniowana izotropowo)
+            text: "wyłącznie emisją A1A (telegrafia) z mocą wyjściową 150 watów"
+        },
+        {
+text: "wszystkimi rodzajami emisji z mocą wyjściową 250 watów"
+},
+{
+text: "wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc promieniowana izotropowo)"
 }
 ]
 },
 {
     questionID: 418,
-    questionText: Jaki dokument określa klasy świadectw operatora radiowego w służbie amatorskiej i wymagania egzaminacyjne na poszczególne klasy świadectw ?
+    questionText: "Jaki dokument określa klasy świadectw operatora radiowego w służbie amatorskiej i wymagania egzaminacyjne na poszczególne klasy świadectw?",
     questionAnswers: [
         {
-            text: rozporządzenie ministra właściwego do spraw łączności
-ustawa Prawo telekomunikacyjne
-Krajowa Tablica Przeznaczeń Częstotliwości
+            text: "rozporządzenie ministra właściwego do spraw łączności"
+        },
+        {
+text: "ustawa Prawo telekomunikacyjne"
+},
+{
+text: "Krajowa Tablica Przeznaczeń Częstotliwości"
 }
 ]
 },
 {
     questionID: 419,
-    questionText: Jak powinien postąpić operator stacji amatorskiej w razie przypadkowego odebrania wiadomości nie przeznaczonej dla służby amatorskiej ?
+    questionText: "Jak powinien postąpić operator stacji amatorskiej w razie przypadkowego odebrania wiadomości nie przeznaczonej dla służby amatorskiej?",
     questionAnswers: [
         {
-            text: rozpowszechnić odebraną wiadomość w internecie
-zachować treść wiadomości w ścisłej tajemnicy
-zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana wiadomość zawiera istotne dla funkcjonowania Pastwa lub porządku publicznego informacje - powiadomić najbliższą jednostkę Urzędu Komunikacji Elektronicznej
+            text: "rozpowszechnić odebraną wiadomość w internecie"
+        },
+        {
+text: "zachować treść wiadomości w ścisłej tajemnicy"
+},
+{
+text: "zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana wiadomość zawiera istotne dla funkcjonowania Pastwa lub porządku publicznego informacje - powiadomić najbliższą jednostkę Urzędu Komunikacji Elektronicznej"
 }
 ]
 },
 {
     questionID: 420,
-    questionText: Czy operator stacji amatorskiej może przekazywać przy pomocy swej radiostacji wiadomości pochodzące od osób trzecich i przeznaczone dla osób trzecich ?
+    questionText: "Czy operator stacji amatorskiej może przekazywać przy pomocy swej radiostacji wiadomości pochodzące od osób trzecich i przeznaczone dla osób trzecich?",
     questionAnswers: [
         {
-            text: jest to dopuszczalne
-jest to surowo zabronione
-jest to dopuszczalne, jeśli stacja amatorska za wiedzą Urzędu Komunikacji Elektronicznej bierze udział w akcji niesienia pomocy lub likwidacji skutków klęsk żywiołowych i katastrof
+            text: "jest to dopuszczalne"
+        },
+        {
+text: "jest to surowo zabronione"
+},
+{
+text: "jest to dopuszczalne, jeśli stacja amatorska za wiedzą Urzędu Komunikacji Elektronicznej bierze udział w akcji niesienia pomocy lub likwidacji skutków klęsk żywiołowych i katastrof"
 }
 ]
 },
 {
     questionID: 421,
-    questionText: Jak często operator radiostacji amatorskiej powinien podawać podczas łączności znak wywoławczy swej stacji ?
+    questionText: "Jak często operator radiostacji amatorskiej powinien podawać podczas łączności znak wywoławczy swej stacji?",
     questionAnswers: [
         {
-            text: co pół godziny
-tak często, jak jest to w praktyce możliwe, przynajmniej na początku i na kocu każdego nadawania
-nie musi podawać znaku wywoławczego
+            text: "co pół godziny"
+        },
+        {
+text: "tak często, jak jest to w praktyce możliwe, przynajmniej na początku i na kocu każdego nadawania"
+},
+{
+text: "nie musi podawać znaku wywoławczego"
 }
 ]
 }
