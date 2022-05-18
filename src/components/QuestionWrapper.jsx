@@ -51,7 +51,7 @@ class AnswerButton extends Component {
         this.props.onClick();
     }
 
-    componentDidUpdate(prevProps, prevState) {
+    componentDidUpdate(_, prevState) {
         if (prevState.wasClicked)
             this.setState({ wasClicked: false })
     }
@@ -76,6 +76,11 @@ class QuestionWrapper extends Component {
         answersView: shuffleAray([...Array(this.props.question.questionAnswers.length).keys()])
     };
 
+    componentDidUpdate(prevProps, _) {
+        if (prevProps.question !== this.props.question)
+            this.setState({ answersView: shuffleAray([...Array(this.props.question.questionAnswers.length).keys()]) });
+    }
+
     render() {
         let image;
         if (this.props.question.imageSrc)
@@ -83,11 +88,7 @@ class QuestionWrapper extends Component {
         else
             image = <></>;
         return(
-            <div onClick={ () => {
-                if (this.props.answered)
-                    this.setState({ answersView: shuffleAray(this.state.answersView) });
-                this.props.onClick();
-            } }>
+            <div onClick={ this.props.onClick }>
                 <hr />
                 <QuestionText>
                     { this.props.question.questionID + ". " }

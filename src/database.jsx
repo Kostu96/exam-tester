@@ -189,1496 +189,803 @@ const questionDataBase = {
             questionID: 1,
             questionText: "Widzenie skotopowe zapewniają:",
             questionAnswers: [
-                {
-                    text: "pręciki",
-                    isCorrect: true
-                },
-                {
-                    text: "czopki"
-                }
+                "pręciki",
+                "czopki"
             ]
         },
         {
             questionID: 2,
             questionText: "Widzenie fotopowe zapewniają:",
             questionAnswers: [
-                {
-                    text: "czopki",
-                    isCorrect: true
-                },
-                {
-                    text: "pręciki"
-                }
+                "czopki",
+                "pręciki"
             ]
         },
         {
             questionID: 3,
             questionText: "Dwa krzyżujące się odcinki mogą mieć:",
             questionAnswers: [
-                {
-                    text: "dodatnią liczbę punktów wspólnych (1, 2, 3...)"
-                },
-                {
-                    text: "0 albo 1 pktów wspólnych"
-                },
-                {
-                    text: "dowolną liczbę pktów wspólnych (0, 1, 2...)",
-                    isCorrect: true
-                }
+                "dowolną liczbę pktów wspólnych (0, 1, 2...)",
+                "dodatnią liczbę punktów wspólnych (1, 2, 3...)",
+                "0 albo 1 pktów wspólnych"
             ]
         },
         {
             questionID: 4,
             questionText: "Algorytm Bresenhama jest algorytmem:",
             questionAnswers: [
-                {
-                    text: "parametrycznym"
-                },
-                {
-                    text: "warunkowym",
-                    isCorrect: true
-                },
-                {
-                    text: "strukturalnym"
-                },
-                {
-                    text: "rekurencyjnym"
-                }
+                "warunkowym",
+                "parametrycznym",
+                "strukturalnym",
+                "rekurencyjnym"
             ]
         },
         {
             questionID: 5,
             questionText: "Do modeli cieniowania nie należy:",
             questionAnswers: [
-                {
-                    text: "model Macha",
-                    isCorrect: true
-                },
-                {
-                    text: "model Phonga"
-                },
-                {
-                    text: "model Gourauda"
-                }
+                "model Macha",
+                "model Phonga",
+                "model Gourauda"
             ]
         },
         {
             questionID: 6,
             questionText: "W grafice wektorowej:",
             questionAnswers: [
-                {
-                    text: "obraz składa się z odcinków i wyznaczanie obrazu polega na wybieraniu koloru dla poszczególnego obiektu"
-                },
-                {
-                    text: "obraz składa się z pixeli i wyznaczanie obrazu polega na wybieraniu koloru dla poszczególnego pixela"
-                },
-                {
-                    text: "obraz składa się z odcinków i tworzenie obrazu polega na rysowaniu poszczególnych odcinków",
-                    isCorrect: true
-                },
-                {
-                    text: "obraz składa się z pixeli i tworzenie obrazu polega na rysowaniu kolejnych pixeli"
-                }
+                "obraz składa się z odcinków i tworzenie obrazu polega na rysowaniu poszczególnych odcinków",
+                "obraz składa się z odcinków i wyznaczanie obrazu polega na wybieraniu koloru dla poszczególnego obiektu",
+                "obraz składa się z pixeli i wyznaczanie obrazu polega na wybieraniu koloru dla poszczególnego pixela",
+                "obraz składa się z pixeli i tworzenie obrazu polega na rysowaniu kolejnych pixeli"
             ]
         },
         {
             questionID: 7,
             questionText: "W modelu CMYK składowymi są:",
             questionAnswers: [
-                {
-                    text: "kolory: czerwony, zielony, niebieski."
-                },
-                {
-                    text: "kolory: cyjan, magenta i żółty.",
-                    isCorrect: true
-                },
-                {
-                    text: "odcień oraz nasycenie."
-                },
-                {
-                    text: "chrominancje U i V."
-                }
+                "kolory: cyjan, magenta i żółty.",
+                "kolory: czerwony, zielony, niebieski.",
+                "odcień oraz nasycenie.",
+                "chrominancje U i V."
             ]
         },
         {
             questionID: 8,
             questionText: "Co nazywamy szkieletem zbioru:",
             questionAnswers: [
-                {
-                    text: "zbiór pixeli otrzymany w wyniku cyklicznego odrzucania pixeli konturu nie będących pixelami powtarzalnymi",
-                    isCorrect: true
-                },
-                {
-                    text: "zbiór pixeli złożony z pixeli powtarzalnych"
-                }
+                "zbiór pixeli otrzymany w wyniku cyklicznego odrzucania pixeli konturu nie będących pixelami powtarzalnymi",
+                "zbiór pixeli złożony z pixeli powtarzalnych"
             ]
         },
         {
             questionID: 9,
             questionText: "Który filtr cyfrowy rozmazuje obraz:",
             questionAnswers: [
-                {
-                    text: "filtr dolnoprzepustowy",
-                    isCorrect: true
-                },
-                {
-                    text: "filtr górnoprzepustowy"
-                },
-                {
-                    text: "filtr medianowy"
-                },
-                {
-                    text: "filtr Laplace'a"
-                }
+                "filtr dolnoprzepustowy",
+                "filtr górnoprzepustowy",
+                "filtr medianowy",
+                "filtr Laplace'a"
             ]
         },
         {
             questionID: 10,
             questionText: "Który algorytm umożliwia rysowanie wygładzonego odcinka:",
             questionAnswers: [
-                {
-                    text: "antialiasing",
-                    isCorrect: true
-                },
-                {
-                    text: "aliasing"
-                }
+                "antialiasing",
+                "aliasing"
             ]
         },
         {
             questionID: 11,
             questionText: "światło odbite składa się z trzech składowych. Jaka składowa tam nie występuje?",
             questionAnswers: [
-                {
-                    text: "składowa emisyjna",
-                    isCorrect: true
-                },
-                {
-                    text: "składowa zwierciadlana"
-                },
-                {
-                    text: "składowa rozproszona"
-                }
+                "składowa emisyjna",
+                "składowa zwierciadlana",
+                "składowa rozproszona"
             ]
         },
         {
             questionID: 12,
             questionText: "Filtr wygładzający (zwłaszcza krawędzie) to:",
             questionAnswers: [
-                {
-                    text: "medianowy"
-                },
-                {
-                    text: "dolnoprzepustowy",
-                    isCorrect: true
-                },
-                {
-                    text: "górnoprzepustowy"
-                },
-                {
-                    text: "La Place'a"
-                }
+                "dolnoprzepustowy",
+                "medianowy",
+                "górnoprzepustowy",
+                "La Place'a"
             ]
         },
         {
             questionID: 13,
             questionText: "Teoria postrzegania trzema barwami to:",
             questionAnswers: [
-                {
-                    text: "Helmhotza-Younga",
-                    isCorrect: true
-                },
-                {
-                    text: "teoria Phonga"
-                },
-                {
-                    text: "teoria Gourauda"
-                },
-                {
-                    text: "teoria Macha"
-                }
+                "Helmhotza-Younga",
+                "teoria Phonga",
+                "teoria Gourauda",
+                "teoria Macha"
             ]
         },
         {
             questionID: 14,
             questionText: "Algorytm poprzez spójność (sianie) to algorytm:",
             questionAnswers: [
-                {
-                    text: "wypełniania konturu",
-                    isCorrect: true
-                },
-                {
-                    text: "znajdywania konturu"
-                },
-                {
-                    text: "ścieniania"
-                },
-                {
-                    text: "wygładzania"
-                }
+                "wypełniania konturu",
+                "znajdywania konturu",
+                "ścieniania",
+                "wygładzania"
             ]
         },
         {
             questionID: 15,
             questionText: "CMYK powstał na bazie CMY poprzez dodanie koloru:",
             questionAnswers: [
-                {
-                    text: "czarnego",
-                    isCorrect: true
-                },
-                {
-                    text: "czerwonego"
-                },
-                {
-                    text: "zielonego"
-                },
-                {
-                    text: "niebieskiego"
-                }
+                "czarnego",
+                "czerwonego",
+                "zielonego",
+                "niebieskiego"
             ]
         },
         {
             questionID: 16,
             questionText: "Zjawisko zębatości to:",
             questionAnswers: [
-                {
-                    text: "aliasing",
-                    isCorrect: true
-                },
-                {
-                    text: "antyaliasing"
-                },
-                {
-                    text: "metameryzm"
-                }
+                "aliasing",
+                "antyaliasing",
+                "metameryzm"
             ]
         },
         {
             questionID: 17,
             questionText: "Algorytm midpoint jest algorytmem:",
             questionAnswers: [
-                {
-                    text: "strukturalnym"
-                },
-                {
-                    text: "parametrycznym"
-                },
-                {
-                    text: "warunkowym",
-                    isCorrect: true
-                }
+                "warunkowym",
+                "strukturalnym",
+                "parametrycznym"
             ]
         },
         {
             questionID: 18,
             questionText: "Krzywa Beziera przechodzi w ogólności:",
             questionAnswers: [
-                {
-                    text: "przez dwa punkty kontrolne",
-                    isCorrect: true
-                },
-                {
-                    text: "przez żadne punkty kontrolne"
-                },
-                {
-                    text: "przez wszystkie punkty kontrolne"
-                }
+                "przez dwa punkty kontrolne",
+                "przez żadne punkty kontrolne",
+                "przez wszystkie punkty kontrolne"
             ]
         },
         {
             questionID: 19,
             questionText: "Co nie jest cechą fontu?",
             questionAnswers: [
-                {
-                    text: "format zapisu",
-                    isCorrect: true
-                },
-                {
-                    text: "krój"
-                },
-                {
-                    text: "stopień"
-                },
-                {
-                    text: "odmiana"
-                }
+                "format zapisu",
+                "krój",
+                "stopień",
+                "odmiana"
             ]
         },
         {
             questionID: 20,
             questionText: "Który z algorytmów stosuje metodę kompresji stratnej:",
             questionAnswers: [
-                {
-                    text: "falkowy",
-                    isCorrect: true
-                },
-                {
-                    text: "LZW"
-                },
-                {
-                    text: "Huffmana"
-                },
-                {
-                    text: "run length encoding (RLE)"
-                }
+                "falkowy",
+                "LZW",
+                "Huffmana",
+                "Run Length Encoding (RLE)"
             ]
         },
         {
             questionID: 21,
             questionText: "Jak nazywa się znak stanowiący połączenie dwóch liter?",
             questionAnswers: [
-                {
-                    text: "Ligatura",
-                    isCorrect: true
-                },
-                {
-                    text: "Metamera"
-                },
-                {
-                    text: "Znak Helmholtza"
-                }
+                "Ligatura",
+                "Metamera",
+                "Znak Helmholtza"
             ]
         },
         {
             questionID: 22,
             questionText: "Co to metameryzm?",
             questionAnswers: [
-                {
-                    text: "przyzwyczajanie się oka do określonego natężenia światła"
-                },
-                {
-                    text: "zjawisko, w/g którego promieniowanie o różnym składzie widmowym, może dawać identyczne wrażenie barwy",
-                    isCorrect: true
-                },
-                {
-                    text: "fakt, w/g którego promieniowanie o różnym składzie widmowym nie może dawać identycznego wrażenia barwy"
-                }
+                "zjawisko, w/g którego promieniowanie o różnym składzie widmowym, może dawać identyczne wrażenie barwy",
+                "przyzwyczajanie się oka do określonego natężenia światła",
+                "fakt, w/g którego promieniowanie o różnym składzie widmowym nie może dawać identycznego wrażenia barwy"
             ]
         },
         {
             questionID: 23,
             questionText: "Model barw TekHVC:",
             questionAnswers: [
-                {
-                    text: "został specjalnie do zastosowań w urządzeniach firmy Tektronix"
-                },
-                {
-                    text: "to model w którym odległości między są proporcjonalne do wrażeń barwnych",
-                    isCorrect: true
-                },
-                {
-                    text: "model, dzięki któremu zużycie tuszu w drukarkach jest najmniejsze"
-                }
+                "to model w którym odległości między są proporcjonalne do wrażeń barwnych",
+                "został specjalnie do zastosowań w urządzeniach firmy Tektronix",
+                "model, dzięki któremu zużycie tuszu w drukarkach jest najmniejsze"
             ]
         },
         {
             questionID: 24,
             questionText: "Metody fraktalne należą do metod kompresji:",
             questionAnswers: [
-                {
-                    text: "stratnej",
-                    isCorrect: true
-                },
-                {
-                    text: "bezstratnej"
-                }
+                "stratnej",
+                "bezstratnej"
             ]
         },
         {
             questionID: 25,
             questionText: "W wyniku kwantowania obrazu mogą pojawić się niepożądane krawędzie. Przeciwdziała temu:",
             questionAnswers: [
-                {
-                    text: "antyaliasing"
-                },
-                {
-                    text: "aliasing"
-                },
-                {
-                    text: "dithering",
-                    isCorrect: true
-                }
+                "dithering",
+                "antyaliasing",
+                "aliasing"
             ]
         },
         {
             questionID: 26,
             questionText: "Krzywą dyskretną nazywamy:",
             questionAnswers: [
-                {
-                    text: "drogą w której wszystkie piksele ciągu stanawiącego ją, są różne, i żaden z nich nie ma więcej niż dwóch sąsiadów"
-                },
-                {
-                    text: "w każdym przypadku zbiór będący jednocześnie swoim konturem"
-                },
-                {
-                    text: "droga w której pierwszy piksel ciągu stanowiącego drogę jest sąsiadem ostatniego piksela tego ciągu"
-                },
-                {
-                    text: "każdy zbiór spójny pikseli nie zawierający czwórki pikseli tworzących kwadrat",
-                    isCorrect: true
-                }
+                "każdy zbiór spójny pikseli nie zawierający czwórki pikseli tworzących kwadrat",
+                "drogą w której wszystkie piksele ciągu stanawiącego ją, są różne, i żaden z nich nie ma więcej niż dwóch sąsiadów",
+                "w każdym przypadku zbiór będący jednocześnie swoim konturem",
+                "droga w której pierwszy piksel ciągu stanowiącego drogę jest sąsiadem ostatniego piksela tego ciągu"
             ]
         },
         {
             questionID: 27,
             questionText: "Czym różni się B-kontur od konturu:",
             questionAnswers: [
-                {
-                    text: "B-kontur jest drogą zamkniętą, kontur niekoniecznie"
-                },
-                {
-                    text: "B-kontur musi mieć jednego sąsiada nienależącego do zbioru, kontur musi mieć jednego B-sąsiada nienależącego do zbioru",
-                    isCorrect: true
-                },
-                {
-                    text: "niczym - pojęć używa się zamiennie"
-                },
-                {
-                    text: "pojęcie konturu nie występuje w grafice"
-                }
+                "B-kontur musi mieć jednego sąsiada nienależącego do zbioru, kontur musi mieć jednego B-sąsiada nienależącego do zbioru",
+                "B-kontur jest drogą zamkniętą, kontur niekoniecznie",
+                "niczym - pojęć używa się zamiennie",
+                "pojęcie konturu nie występuje w grafice"
             ]
         },
         {
             questionID: 28,
             questionText: "Przykładem strukturalnej metody rysowania odcinka jest:",
             questionAnswers: [
-                {
-                    text: "algorytm midpoint"
-                },
-                {
-                    text: "algorytm Bresenhama"
-                },
-                {
-                    text: "Metzgera-Bronsa",
-                    isCorrect: true
-                },
-                {
-                    text: "Jordana"
-                }
+                "Metzgera-Bronsa",
+                "algorytm midpoint",
+                "algorytm Bresenhama",
+                "Jordana"
             ]
         },
         {
             questionID: 29,
             questionText: "Który filtr cyfrowy redukuje szumy:",
             questionAnswers: [
-                {
-                    text: "filtr dolnoprzepustowy"
-                },
-                {
-                    text: "filtr górnoprzepustowy"
-                },
-                {
-                    text: "filtr medianowy",
-                    isCorrect: true
-                },
-                {
-                    text: "filtr Laplace'a"
-                }
+                "filtr medianowy",
+                "filtr dolnoprzepustowy",
+                "filtr górnoprzepustowy",
+                "filtr Laplace'a"
             ]
         },
         {
             questionID: 30,
             questionText: "Algorytm rysowania łuków Honga jest algorytmem:",
             questionAnswers: [
-                {
-                    text: "parametrycznym",
-                    isCorrect: true
-                },
-                {
-                    text: "warunkowym"
-                },
-                {
-                    text: "okantnym"
-                },
-                {
-                    text: "bezwarunkowym"
-                }
+                "parametrycznym",
+                "warunkowym",
+                "okantnym",
+                "bezwarunkowym"
             ]
         },
         {
             questionID: 31,
             questionText: "Punkt P przesłania odcinek l wtedy gdy:",
             questionAnswers: [
-                {
-                    text: "P leży na odcinku"
-                },
-                {
-                    text: "P leży na którymś z końcuów odcinku"
-                },
-                {
-                    text: "P jest duży i zasłania cały odcinek"
-                },
-                {
-                    text: "półprosta poziomej, wychodzącej z P w lewą stronę przecina się z l",
-                    isCorrect: true
-                }
+                "półprosta poziomej, wychodzącej z P w lewą stronę przecina się z l",
+                "P leży na odcinku",
+                "P leży na którymś z końcuów odcinku",
+                "P jest duży i zasłania cały odcinek"
             ]
         },
         {
             questionID: 32,
             questionText: "Przykładem konstruktywnej reprezentacji obiektów graficznych jest:",
             questionAnswers: [
-                {
-                    text: "woksel(voxel)"
-                },
-                {
-                    text: "wierzchołki A,B,C,D i z nich utworzone ściany ABCD lub CDBA"
-                },
-                {
-                    text: "przeskalowany o 2 sześcian jednostkowy",
-                    isCorrect: true
-                }
+                "przeskalowany o 2 sześcian jednostkowy",
+                "woksel(voxel)",
+                "wierzchołki A,B,C,D i z nich utworzone ściany ABCD lub CDBA"
             ]
         },
         {
             questionID: 33,
             questionText: "Przesłanianie ścian jest relacją:",
             questionAnswers: [
-                {
-                    text: "przechodnią"
-                },
-                {
-                    text: "symetryczną"
-                },
-                {
-                    text: "antysymetryczną"
-                },
-                {
-                    text: "żadną z wymienionych",
-                    isCorrect: true
-                }
+                "żadną z wymienionych",
+                "przechodnią",
+                "symetryczną",
+                "antysymetryczną"
             ]
         },
         {
             questionID: 34,
             questionText: "Do algorytmow warunkowych rysujacych odcinki nie zaliczamy:",
             questionAnswers: [
-                {
-                    text: "midpoint"
-                },
-                {
-                    text: "Metzgera-Bronsa",
-                    isCorrect: true
-                },
-                {
-                    text: "Bresenhama"
-                },
-                {
-                    text: "porownawczy Jordana"
-                }
+                "Metzgera-Bronsa",
+                "midpoint",
+                "Bresenhama",
+                "porownawczy Jordana"
             ]
         },
         {
             questionID: 35,
             questionText: "Probkowanie powierzchni przy jej wygladzaniu może być:",
             questionAnswers: [
-                {
-                    text: "Wagowe i bezwagowe",
-                    isCorrect: true
-                },
-                {
-                    text: "Względne i bezwzględne"
-                },
-                {
-                    text: "Dyskretne i rzeczywiste"
-                },
-                {
-                    text: "Żadna odpowiedzi nie jest poprawna"
-                }
+                "Wagowe i bezwagowe",
+                "Względne i bezwzględne",
+                "Dyskretne i rzeczywiste",
+                "Żadna odpowiedzi nie jest poprawna"
             ]
         },
         {
             questionID: 36,
             questionText: "Za pomocą ktorego algorytmu nie narysujesz elipsy:",
             questionAnswers: [
-                {
-                    text: "Honga"
-                },
-                {
-                    text: "midpoint"
-                },
-                {
-                    text: "Wszystkie odpowiedzi są poprawne"
-                },
-                {
-                    text: "decyzyjnego Jordana",
-                    isCorrect: true
-                }
+                "decyzyjnego Jordana",
+                "Honga",
+                "midpoint",
+                "Wszystkie odpowiedzi są poprawne"
             ]
         },
         {
             questionID: 37,
             questionText: "Konturem danego zbioru pikseli nazywamy:",
             questionAnswers: [
-                {
-                    text: "Zbiór pikseli należących do tego zbioru i mających dokladnie jednego b-sąsiada nie należącego do tego zbioru."
-                },
-                {
-                    text: "Zbiór pikseli należących do tego zbioru i mających co najmniej jednego b-sąsiada nie należącego do tego zbioru.",
-                    isCorrect: true
-                },
-                {
-                    text: "Zbiór pikseli należących do tego zbioru i mających co najmniej jednego n-sąsiada nie należącego do tego zbioru."
-                },
-                {
-                    text: "Zbiór pikseli nienależących do tego zbioru i mających co najmniej jednego b-sąsiada należącego do tego zbioru"
-                }
+                "Zbiór pikseli należących do tego zbioru i mających co najmniej jednego b-sąsiada nie należącego do tego zbioru.",
+                "Zbiór pikseli należących do tego zbioru i mających dokladnie jednego b-sąsiada nie należącego do tego zbioru.",
+                "Zbiór pikseli należących do tego zbioru i mających co najmniej jednego n-sąsiada nie należącego do tego zbioru.",
+                "Zbiór pikseli nienależących do tego zbioru i mających co najmniej jednego b-sąsiada należącego do tego zbioru"
             ]
         },
         {
             questionID: 38,
             questionText: "Chcesz wyostrzyć obraz, w super programie od Daciuka użyjesz do tego:",
             questionAnswers: [
-                {
-                    text: "Filtru dolnoprzepustowego"
-                },
-                {
-                    text: "Laplasjana albo maski Sobela",
-                    isCorrect: true
-                },
-                {
-                    text: "Laplasjana"
-                },
-                {
-                    text: "Maski Sobela"
-                }
+                "Laplasjana albo maski Sobela",
+                "Filtru dolnoprzepustowego",
+                "Laplasjana",
+                "Maski Sobela"
             ]
         },
         {
             questionID: 39,
             questionText: "Ludzkie oko jest w stanie przechowywać wrażenie wzrokowe w czasie",
             questionAnswers: [
-                {
-                    text: "0.1 ms"
-                },
-                {
-                    text: "0.5 s"
-                },
-                {
-                    text: "0.1 s",
-                    isCorrect: true
-                },
-                {
-                    text: "100ns"
-                }
+                "0.1 s",
+                "0.1 ms",
+                "0.5 s",
+                "100ns"
             ]
         },
         {
             questionID: 40,
             questionText: "Do modeli teoretycznych kolorów należy",
             questionAnswers: [
-                {
-                    text: "RGB"
-                },
-                {
-                    text: "CMYK"
-                },
-                {
-                    text: "TekHVC",
-                    isCorrect: true
-                },
-                {
-                    text: "YUV"
-                }
+                "TekHVC",
+                "RGB",
+                "CMYK",
+                "YUV"
             ]
         },
         {
             questionID: 41,
             questionText: "Mówiąc o HSV, które zdanie jest falszywe:",
             questionAnswers: [
-                {
-                    text: "Powstał przez transformacje modelu RGB"
-                },
-                {
-                    text: "Jest rozwinięciem modelu HLS",
-                    isCorrect: true
-                },
-                {
-                    text: "Reprezentacją graficzną tego modelu jest odwrócony stożek o podstawie sześciokąta"
-                },
-                {
-                    text: "Na środku podstawy znajduje się kolor biały"
-                }
+                "Jest rozwinięciem modelu HLS",
+                "Powstał przez transformacje modelu RGB",
+                "Reprezentacją graficzną tego modelu jest odwrócony stożek o podstawie sześciokąta",
+                "Na środku podstawy znajduje się kolor biały"
             ]
         },
         {
             questionID: 42,
             questionText: "Rendering to:",
             questionAnswers: [
-                {
-                    text: "Proces generacji obrazu na podstawie modelu",
-                    isCorrect: true
-                },
-                {
-                    text: "Proces transformacji obrazu na podstawie modelu"
-                },
-                {
-                    text: "Dodawanie do CMY skladowej BLACK"
-                },
-                {
-                    text: "Algorytm malarski"
-                }
+                "Proces generacji obrazu na podstawie modelu",
+                "Proces transformacji obrazu na podstawie modelu",
+                "Dodawanie do CMY skladowej BLACK",
+                "Algorytm malarski"
             ]
         },
         {
             questionID: 43,
             questionText: "Wskaz zdanie wybitnie nieprawdziwe:",
             questionAnswers: [
-                {
-                    text: "Bufor Z to jakiś tam obszar pamięci."
-                },
-                {
-                    text: "Bufor Z pozwalaja wyeliminować z renderowania niewidoczne elementy krzywych."
-                },
-                {
-                    text: "Bufor Z służy do zapisywania tektur.",
-                    isCorrect: true
-                },
-                {
-                    text: "Wszystkie odpowiedzi są niepoprawne"
-                }
+                "Bufor Z służy do zapisywania tektur.",
+                "Bufor Z to jakiś tam obszar pamięci.",
+                "Bufor Z pozwalaja wyeliminować z renderowania niewidoczne elementy krzywych.",
+                "Wszystkie odpowiedzi są niepoprawne"
             ]
         },
         {
             questionID: 44,
             questionText: "Co nie ma wpływu na wyznaczanie cieni",
             questionAnswers: [
-                {
-                    text: "Punkt widzenia źródła światła"
-                },
-                {
-                    text: "Punkt widzenia kamery w Tomb Raiderze"
-                },
-                {
-                    text: "Punkt widzenia postaci w Quake'u"
-                },
-                {
-                    text: "Lustro przy którym siedzi Lena",
-                    isCorrect: true
-                }
+                "Lustro przy którym siedzi Lena",
+                "Punkt widzenia źródła światła",
+                "Punkt widzenia kamery w Tomb Raiderze",
+                "Punkt widzenia postaci w Quake'u"
             ]
         },
         {
             questionID: 45,
             questionText: "Co nie jest przeksztalceniem morfologicznym obrazu:",
             questionAnswers: [
-                {
-                    text: "erozja"
-                },
-                {
-                    text: "dylatacja"
-                },
-                {
-                    text: "odszumienie",
-                    isCorrect: true
-                },
-                {
-                    text: "erozja i odszumienie"
-                }
+                "odszumienie",
+                "erozja",
+                "dylatacja",
+                "erozja i odszumienie"
             ]
         },
         {
             questionID: 46,
             questionText: "Metoda oswietlenia globalnego zależna od położenia obserwatora to:",
             questionAnswers: [
-                {
-                    text: "radiosity"
-                },
-                {
-                    text: "raytracing",
-                    isCorrect: true
-                },
-                {
-                    text: "raindancing"
-                },
-                {
-                    text: "illuminacja"
-                }
+                "raytracing",
+                "radiosity",
+                "raindancing",
+                "illuminacja"
             ]
         },
         {
             questionID: 47,
             questionText: "Metoda oswietlenia globalnego niezależna od położenia obserwatora to:",
             questionAnswers: [
-                {
-                    text: "raytracing"
-                },
-                {
-                    text: "antialiasing"
-                },
-                {
-                    text: "radiosity",
-                    isCorrect: true
-                },
-                {
-                    text: "vertex shader"
-                }
+                "radiosity",
+                "raytracing",
+                "antialiasing",
+                "vertex shader"
             ]
         },
         {
             questionID: 48,
             questionText: "Radiosity to metoda oświetlenia (rodzaj oswietlenia, nazwa metody):",
             questionAnswers: [
-                {
-                    text: "globalnego, śledzenia promieni"
-                },
-                {
-                    text: "globalnego, energetyczna",
-                    isCorrect: true
-                },
-                {
-                    text: "lokalnego, Gourauda"
-                },
-                {
-                    text: "lokalnego, Phonga"
-                }
+                "globalnego, energetyczna",
+                "globalnego, śledzenia promieni",
+                "lokalnego, Gourauda",
+                "lokalnego, Phonga"
             ]
         },
         {
             questionID: 49,
-            questionText: "Czcionka nie jest:",
+            questionText: "Czcionką nie jest:",
             questionAnswers: [
-                {
-                    text: "Arial"
-                },
-                {
-                    text: "Verdana"
-                },
-                {
-                    text: "Times New Roman"
-                },
-                {
-                    text: "Żadno z wymienionych",
-                    isCorrect: true
-                }
+                "Żadno z wymienionych",
+                "Arial",
+                "Verdana",
+                "Times New Roman"
             ]
         },
         {
             questionID: 50,
             questionText: "Antykwy nie są:",
             questionAnswers: [
-                {
-                    text: "Ukryte"
-                },
-                {
-                    text: "Belkowe"
-                },
-                {
-                    text: "Klinowe"
-                },
-                {
-                    text: "Poprzeczne",
-                    isCorrect: true
-                }
+                "Poprzeczne",
+                "Ukryte",
+                "Belkowe",
+                "Klinowe"
             ]
         },
         {
             questionID: 51,
             questionText: "Cyfry nautyczne to:",
             questionAnswers: [
-                {
-                    text: "Jednolita linia pisma, równa wysokość"
-                },
-                {
-                    text: "Jednolita linia pisma, różna wysokość"
-                },
-                {
-                    text: "Niejednolita linia pisma, różna wysokość",
-                    isCorrect: true
-                },
-                {
-                    text: "Niejednolita linia pisma, równa wysokość"
-                }
+                "Niejednolita linia pisma, różna wysokość",
+                "Jednolita linia pisma, równa wysokość",
+                "Jednolita linia pisma, różna wysokość",
+                "Niejednolita linia pisma, równa wysokość"
             ]
         },
         {
             questionID: 52,
-            questionText: "Język polski nie wyksztalcil:",
+            questionText: "Język polski nie wyksztalcił:",
             questionAnswers: [
-                {
-                    text: "Abrewiatur",
-                    isCorrect: true
-                },
-                {
-                    text: "Ligatur"
-                }
+                "Abrewiatur",
+                "Ligatur"
             ]
         },
         {
             questionID: 53,
             questionText: "Format fontów Type 1 opracowano w:",
             questionAnswers: [
-                {
-                    text: "Adobe",
-                    isCorrect: true
-                },
-                {
-                    text: "Apple"
-                },
-                {
-                    text: "HP"
-                },
-                {
-                    text: "IBM"
-                }
+                "Adobe",
+                "Apple",
+                "HP",
+                "IBM"
             ]
         },
         {
             questionID: 54,
             questionText: "Format fontów TrueType opracowano w:",
             questionAnswers: [
-                {
-                    text: "Microsoft"
-                },
-                {
-                    text: "Apple",
-                    isCorrect: true
-                },
-                {
-                    text: "HP"
-                },
-                {
-                    text: "Adobe"
-                }
+                "Apple",
+                "Microsoft",
+                "HP",
+                "Adobe"
             ]
         },
         {
             questionID: 55,
             questionText: "Format fontów OpenType opracowano w:",
             questionAnswers: [
-                {
-                    text: "Microsoft i Adobe",
-                    isCorrect: true
-                },
-                {
-                    text: "Microsoft i HP"
-                },
-                {
-                    text: "Apple i Adobe"
-                },
-                {
-                    text: "Apple i HP"
-                }
+                "Microsoft i Adobe",
+                "Microsoft i HP",
+                "Apple i Adobe",
+                "Apple i HP"
             ]
         },
         {
             questionID: 56,
             questionText: "Skladowymi liter w Type 1 są:",
             questionAnswers: [
-                {
-                    text: "Kubiczne krzywe Beziera",
-                    isCorrect: true
-                },
-                {
-                    text: "Krzywe Beziera drugiego stopnia"
-                },
-                {
-                    text: "Krzywe Beziera kubiczne oraz drugiego stopnia"
-                },
-                {
-                    text: "Krzywe Beziera czwartego stopnia"
-                }
+                "Kubiczne krzywe Beziera",
+                "Krzywe Beziera drugiego stopnia",
+                "Krzywe Beziera kubiczne oraz drugiego stopnia",
+                "Krzywe Beziera czwartego stopnia"
             ]
         },
         {
             questionID: 57,
             questionText: "Składowymi liter w TrueType są:",
             questionAnswers: [
-                {
-                    text: "Krzywe Beziera drugiego stopnia"
-                },
-                {
-                    text: "Paraboliczne krzywe Beziera"
-                },
-                {
-                    text: "Krzywe Beziera paraboliczne i drugiego stopnia",
-                    isCorrect: true
-                },
-                {
-                    text: "Kubiczne krzywe Beziera"
-                }
+                "Krzywe Beziera paraboliczne i drugiego stopnia",
+                "Krzywe Beziera drugiego stopnia",
+                "Paraboliczne krzywe Beziera",
+                "Kubiczne krzywe Beziera"
             ]
         },
         {
             questionID: 58,
             questionText: "Który z Windowsów jako pierwszy w pełni obsługiwał format TrueType?",
             questionAnswers: [
-                {
-                    text: "XP"
-                },
-                {
-                    text: "3.11"
-                },
-                {
-                    text: "95",
-                    isCorrect: true
-                },
-                {
-                    text: "98"
-                }
+                "95",
+                "XP",
+                "3.11",
+                "98"
             ]
         },
         {
             questionID: 59,
             questionText: "który symbol oznacza ułożenie w algorytmie Gilla bitow 0010?",
             questionAnswers: [
-                {
-                    text: "_ - - -"
-                },
-                {
-                    text: "_ _ _ -"
-                },
-                {
-                    text: "_ _ _ _"
-                },
-                {
-                    text: "_ _ - -",
-                    isCorrect: true
-                }
+                "_ _ - -",
+                "_ - - -",
+                "_ _ _ -",
+                "_ _ _ _"
             ]
         },
         {
             questionID: 60,
             questionText: "Algorytm cienowania wielokątów wykorzystujący interpolacje wektorów normalnych to:",
             questionAnswers: [
-                {
-                    text: "Algorytm Helmhotza-Younga"
-                },
-                {
-                    text: "Algorytm Phonga",
-                    isCorrect: true
-                },
-                {
-                    text: "Algorytm Gourauda"
-                },
-                {
-                    text: "śledzenie promieni"
-                }
+                "Algorytm Phonga",
+                "Algorytm Helmhotza-Younga",
+                "Algorytm Gourauda",
+                "śledzenie promieni"
             ]
         },
         {
             questionID: 61,
             questionText: "Jakiemu fraktalowi odpowiada część wspólna dywanu Sierpińskiego i prostej poprowadzonej przez środek niego:",
             questionAnswers: [
-                {
-                    text: "zbiorowi Mandelbrota"
-                },
-                {
-                    text: "zbiorowi Julii"
-                },
-                {
-                    text: "zbiorowi Cantora",
-                    isCorrect: true
-                },
-                {
-                    text: "kostce Mengera"
-                }
+                "zbiorowi Cantora",
+                "zbiorowi Mandelbrota",
+                "zbiorowi Julii",
+                "kostce Mengera"
             ]
         },
         {
             questionID: 62,
             questionText: "Który z shaderów został wprowadzony w DirectX 11:",
             questionAnswers: [
-                {
-                    text: "Pixel shader"
-                },
-                {
-                    text: "Vertex shader"
-                },
-                {
-                    text: "Geometry shader"
-                },
-                {
-                    text: "Domain shader",
-                    isCorrect: true
-                }
+                "Domain shader",
+                "Pixel shader",
+                "Vertex shader",
+                "Geometry shader"
             ]
         },
         {
             questionID: 63,
             questionText: "Co nie jest wykonywane podczas postprocessingu?",
             questionAnswers: [
-                {
-                    text: "desaturacja"
-                },
-                {
-                    text: "głębia ostrości"
-                },
-                {
-                    text: "rozmycie ruchu"
-                },
-                {
-                    text: "odbicia lustrzane",
-                    isCorrect: true
-                }
+                "odbicia lustrzane",
+                "desaturacja",
+                "głębia ostrości",
+                "rozmycie ruchu"
             ]
         },
         {
             questionID: 64,
             questionText: "Model barw RGB jest:",
             questionAnswers: [
-                {
-                    text: "subtraktywny"
-                },
-                {
-                    text: "addytywny",
-                    isCorrect: true
-                }
+                "addytywny",
+                "subtraktywny"
             ]
         },
         {
             questionID: 65,
             questionText: "Który z poniższych to język programowania shaderów?",
             questionAnswers: [
-                {
-                    text: "SPL"
-                },
-                {
-                    text: "HLSL",
-                    isCorrect: true
-                },
-                {
-                    text: "HSL"
-                },
-                {
-                    text: "HLSC"
-                }
+                "HLSL",
+                "SPL",
+                "HSL",
+                "HLSC"
             ]
         },
         {
             questionID: 66,
             questionText: "Który z poniższych to język programowania shaderów?",
             questionAnswers: [
-                {
-                    text: "GSL"
-                },
-                {
-                    text: "SPL"
-                },
-                {
-                    text: "GLSL",
-                    isCorrect: true
-                },
-                {
-                    text: "Perl"
-                }
+                "GLSL",
+                "GSL",
+                "SPL",
+                "Perl"
             ]
         },
         {
             questionID: 67,
             questionText: "Ile punktow kontrolnych ma krzywa beziera n-tego stopnia?",
             questionAnswers: [
-                {
-                    text: "n-1"
-                },
-                {
-                    text: "n"
-                },
-                {
-                    text: "n+1",
-                    isCorrect: true
-                },
-                {
-                    text: "n+2"
-                }
+                "n + 1",
+                "n - 1",
+                "n",
+                "n + 2"
             ]
         },
         {
             questionID: 68,
             questionText: "Który shader został dodany w DX10?",
             questionAnswers: [
-                {
-                    text: "Hull Shader"
-                },
-                {
-                    text: "Pixel Shader"
-                },
-                {
-                    text: "Geometry Shader",
-                    isCorrect: true
-                },
-                {
-                    text: "Vertex Shader"
-                }
+                "Geometry Shader",
+                "Hull Shader",
+                "Pixel Shader",
+                "Vertex Shader"
             ]
         },
         {
             questionID: 69,
             questionText: "Kiedy wprowadzono teselację?",
             questionAnswers: [
-                {
-                    text: "DX9"
-                },
-                {
-                    text: "DX10"
-                },
-                {
-                    text: "DX11",
-                    isCorrect: true
-                }
+                "DX11",
+                "DX9",
+                "DX10"
             ]
         },
         {
             questionID: 70,
             questionText: "Cienowanie wielokątów wykorzystujące interpolacje wartosci obliczonych dla poszczególnych wierzchołków to:",
             questionAnswers: [
-                {
-                    text: "Metoda energetyczna"
-                },
-                {
-                    text: "Algorytm Phonga"
-                },
-                {
-                    text: "Algorytm Gourauda",
-                    isCorrect: true
-                },
-                {
-                    text: "śledzenie promieni"
-                }
+                "Algorytm Gourauda",
+                "Metoda energetyczna",
+                "Algorytm Phonga",
+                "śledzenie promieni"
             ]
         },
         {
             questionID: 71,
             questionText: "Co to jest glif (ang. glyph)?",
             questionAnswers: [
-                {
-                    text: "pisemna/graficzna reprezentacja znaku",
-                    isCorrect: true
-                },
-                {
-                    text: "odstęp pomiędzy wierszami"
-                },
-                {
-                    text: "odstęp pomiędzy znakami"
-                },
-                {
-                    text: "połączenie dwóch znaków w jeden"
-                }
+                "pisemna/graficzna reprezentacja znaku",
+                "odstęp pomiędzy wierszami",
+                "odstęp pomiędzy znakami",
+                "połączenie dwóch znaków w jeden"
             ]
         },
         {
             questionID: 72,
             questionText: "O czopkach można powiedzieć, że:",
             questionAnswers: [
-                {
-                    text: "działają już w słabym świetle i umożliwiają rozróżnianie barw"
-                },
-                {
-                    text: "działają już w słabym świetle i nie umożliwiają rozróżniania barw"
-                },
-                {
-                    text: "działają w dobrym świetle i umożliwiają postrzeganie barw",
-                    isCorrect: true
-                },
-                {
-                    text: "działają w dobrym świetle i nie umożliwiają postrzegania barw"
-                }
+                "działają w dobrym świetle i umożliwiają postrzeganie barw",
+                "działają już w słabym świetle i umożliwiają rozróżnianie barw",
+                "działają już w słabym świetle i nie umożliwiają rozróżniania barw",
+                "działają w dobrym świetle i nie umożliwiają postrzegania barw"
             ]
         },
         {
             questionID: 73,
             questionText: "Składowe YUV to:",
             questionAnswers: [
-                {
-                    text: "Kolory: czerwony, zielony, niebieski"
-                },
-                {
-                    text: "Luminancja i dwie chrominancje",
-                    isCorrect: true
-                },
-                {
-                    text: "Kolory: zielononiebieski, fioletowy i żółty"
-                },
-                {
-                    text: "Odcień, nasycenie, jasność"
-                }
+                "Luminancja i dwie chrominancje",
+                "Kolory: czerwony, zielony, niebieski",
+                "Kolory: zielononiebieski, fioletowy i żółty",
+                "Odcień, nasycenie, jasność"
             ]
         },
         {
             questionID: 74,
             questionText: "Jaki shader nie należy do pipeline'u renderującego DX11?",
             questionAnswers: [
-                {
-                    text: "Vertex Shader"
-                },
-                {
-                    text: "Domain Shader"
-                },
-                {
-                    text: "Compute Shader",
-                    isCorrect: true
-                },
-                {
-                    text: "Pixel Shader"
-                }
+                "Compute Shader",
+                "Vertex Shader",
+                "Domain Shader",
+                "Pixel Shader"
             ]
         },
         {
             questionID: 75,
             questionText: "Co oznacza skrót SIMD?",
             questionAnswers: [
-                {
-                    text: "Single Instruction Multiple Data",
-                    isCorrect: true
-                },
-                {
-                    text: "Shader Information Matrix Data"
-                },
-                {
-                    text: "Structured Information Manipulation Data"
-                }
+                "Single Instruction Multiple Data",
+                "Shader Information Matrix Data",
+                "Structured Information Manipulation Data"
             ]
         },
         {
             questionID: 76,
             questionText: "Co odpowiada za odbicia światła od matowych powierzchni?",
             questionAnswers: [
-                {
-                    text: "complex"
-                },
-                {
-                    text: "diffuse",
-                    isCorrect: true
-                },
-                {
-                    text: "seismic"
-                },
-                {
-                    text: "retro"
-                }
+                "diffuse",
+                "complex",
+                "seismic",
+                "retro"
             ]
         },
         {
             questionID: 77,
             questionText: "Który z podanych algorytmów nie jest liniowy?",
             questionAnswers: [
-                {
-                    text: "laplasjan"
-                },
-                {
-                    text: "medianowy",
-                    isCorrect: true
-                },
-                {
-                    text: "dolnoprzepustowy"
-                },
-                {
-                    text: "górnoprzepustowy"
-                }
+                "medianowy",
+                "laplasjan",
+                "dolnoprzepustowy",
+                "górnoprzepustowy"
             ]
         },
         {
             questionID: 78,
             questionText: "Jaki shader odpowiada za cieniowanie pikseli w DirectX?",
             questionAnswers: [
-                {
-                    text: "Pixel Shader",
-                    isCorrect: true
-                },
-                {
-                    text: "Fragment Shader"
-                },
-                {
-                    text: "Vertex Shader"
-                },
-                {
-                    text: "Geometry Shader"
-                }
+                "Pixel Shader",
+                "Fragment Shader",
+                "Vertex Shader",
+                "Geometry Shader"
             ]
         },
         {
             questionID: 79,
             questionText: "Jaki shader odpowiada za cieniowanie pikseli w OpenGL?",
             questionAnswers: [
-                {
-                    text: "Pixel Shader"
-                },
-                {
-                    text: "Fragment Shader",
-                    isCorrect: true
-                },
-                {
-                    text: "Vertex Shader"
-                },
-                {
-                    text: "Geometry Shader"
-                }
+                "Fragment Shader",
+                "Pixel Shader",
+                "Vertex Shader",
+                "Geometry Shader"
             ]
         },
         {
             questionID: 80,
             questionText: "Jakie jest rozwinięcie skrótu VBS narzędzia służącego do przeprowadzania symulacji (np. pociągów)?",
             questionAnswers: [
-                {
-                    text: "Virtual Basic Scripts"
-                },
-                {
-                    text: "Virtual Brutal Sociopath"
-                },
-                {
-                    text: "Virtual Battlespace",
-                    isCorrect: true
-                },
-                {
-                    text: "Vertex Basic Simulations"
-                }
+                "Virtual Battlespace",
+                "Virtual Basic Scripts",
+                "Virtual Brutal Sociopath",
+                "Vertex Basic Simulations"
             ]
         },
         {
             questionID: 81,
             questionText: "Czym jest antialiasing?",
             questionAnswers: [
-                {
-                    text: "Metodą usuwania szumów"
-                },
-                {
-                    text: "Algorytmem szukania konturu"
-                },
-                {
-                    text: "Algorytmem rysowania linii"
-                },
-                {
-                    text: "Metodą wygładzania obrazu",
-                    isCorrect: true
-                }
+                "Metodą wygładzania obrazu",
+                "Metodą usuwania szumów",
+                "Algorytmem szukania konturu",
+                "Algorytmem rysowania linii"
             ]
         },
         {
             questionID: 82,
             questionText: "Które biblioteki graficzne są wysokopoziomowe?",
             questionAnswers: [
-                {
-                    text: "Vulkan"
-                },
-                {
-                    text: "OpenGL i Direct3D",
-                    isCorrect: true
-                },
-                {
-                    text: "OpenGL"
-                },
-                {
-                    text: "Direct3D"
-                }
+                "OpenGL i Direct3D",
+                "Vulkan",
+                "OpenGL",
+                "Direct3D"
             ]
         },
         {
             questionID: 83,
             questionText: "Na czym operuje shader teselacji?",
             questionAnswers: [
-                {
-                    text: "Na pixelach"
-                },
-                {
-                    text: "Na trójkątach"
-                },
-                {
-                    text: "Na innych prymitywach"
-                },
-                {
-                    text: "Na łatach (patches)",
-                    isCorrect: true
-                }
+                "Na łatach (patches)",
+                "Na pixelach",
+                "Na trójkątach",
+                "Na innych prymitywach"
             ]
         }
     ],
