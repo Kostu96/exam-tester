@@ -39,6 +39,11 @@ const ExamLink = styled(Link)`
 //     }
 // `;
 
+const ChangeLog = styled.div`
+    text-align: left;
+    margin: 0 20px
+`;
+
 class App extends Component {
     render() {
         return (
@@ -76,6 +81,25 @@ class App extends Component {
                     </Route>
                     <Route path="/ham">
                         <Exam questionDB={ questionDataBase.ham } />
+                    </Route>
+                    <Route path="/changelog">
+                        <ChangeLog>
+                            19-05-2022
+                            <ul>
+                                <li>Dodano egzamin krótkofalarski UKE</li>
+                                <li>Dodano losowanie kolejności odpowiedzi - uproszczono format bazy z pytaniami</li>
+                                <li>Dodano changelog</li>
+                                <li>Zmieniono stopkę strony</li>
+                                <li>Usunięto niekompletny test z fizyki</li>
+                                <li>Naprawionio wyświetlanie grafiki w pytaniach</li>
+                                <li>Naprawionio drobne błędy</li>
+                            </ul>
+                            17-04-2022
+                            <ul>
+                                <li>Dodano egzamin z Wprowadzenia do Cyberbezpieczeństwa</li>
+                                <li>Usunięto nieaktywne linki</li>
+                            </ul>
+                        </ChangeLog>
                     </Route>
                     <Route path="/*">
                         <br />

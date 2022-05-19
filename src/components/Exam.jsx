@@ -66,7 +66,7 @@ class Exam extends Component {
             }
     
             this.setState({
-                questionsView: shouldShuffle ? this.shuffleArray(newQuestionsView) : newQuestionsView,
+                questionsView: shouldShuffle ? shuffleArray(newQuestionsView) : newQuestionsView,
                 currentQuestionIndex: newQuestionIndex,
                 learntQuestionsCount: this.state.learntQuestionsCount + addToLearnt,
                 answered: false
