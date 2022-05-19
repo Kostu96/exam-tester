@@ -2283,1621 +2283,964 @@ const questionDataBase = {
             questionID: 1,
             questionText: "Czy opór elektryczny przewodu zależy od materiału z którego jest wykonany?",
             questionAnswers: [
-                {
-                    text: "zależy",
-                    isCorrect: true
-                },
-                {
-                    text: "nie zależy"
-                },
-                {
-                    text: "zależy od izolacji przewodu"
-                }
+                "zależy",
+                "nie zależy",
+                "zależy od izolacji przewodu"
             ]
         },
         {
             questionID: 2,
             questionText: "Izolatorami nazywamy materiały które:",
             questionAnswers: [
-                {
-                    text: "nie przewodzą prądu elektrycznego",
-                    isCorrect: true
-                },
-                {
-                    text: "przewodzą słabo"
-                },
-                {
-                    text: "przewodzą prąd przy wysokim napięciu"
-                }
+                "nie przewodzą prądu elektrycznego",
+                "przewodzą słabo",
+                "przewodzą prąd przy wysokim napięciu"
             ]
         },
         {
             questionID: 3,
             questionText: "Który przewód o tej samej długości i przekroju będzie miał największą oporność?",
             questionAnswers: [
-                {
-                    text: "wykonany z aluminium"
-                },
-                {
-                    text: "wykonany z żelaza",
-                    isCorrect: true
-                },
-                {
-                    text: "wykonany z miedzi"
-                }
+                "wykonany z żelaza",
+                "wykonany z aluminium",
+                "wykonany z miedzi"
             ]
         },
         {
             questionID: 4,
             questionText: "Który z materiałów ma własności półprzewodnikowe?",
             questionAnswers: [
-                {
-                    text: "złoto"
-                },
-                {
-                    text: "german",
-                    isCorrect: true
-                },
-                {
-                    text: "platyna"
-                }
+                "german",
+                "złoto",
+                "platyna"
             ]
         },
         {
             questionID: 5,
             questionText: "Żarówka 12 V pobiera z baterii 0,1 A. Jaką oporność ma żarówka?",
             questionAnswers: [
-                {
-                    text: "oporność 120 om",
-                    isCorrect: true
-                },
-                {
-                    text: "oporność 12 om"
-                },
-                {
-                    text: "oporność 1,2 kom"
-                }
+                "oporność 120 om",
+                "oporność 12 om",
+                "oporność 1,2 kom"
             ]
         },
         {
             questionID: 6,
             questionText: "Żarówka ma moc 24 W i pobiera z akumulatora 2 A. Jakie jest napięcie akumulatora?",
             questionAnswers: [
-                {
-                    text: "napięcie wynosi 24 V"
-                },
-                {
-                    text: "napięcie wynosi 12 V",
-                    isCorrect: true
-                },
-                {
-                    text: "napięcie wynosi 48 V"
-                }
+                "napięcie wynosi 12 V",
+                "napięcie wynosi 24 V",
+                "napięcie wynosi 48 V"
             ]
         },
         {
             questionID: 7,
             questionText: "Źródła chemiczne prądu dają prąd:",
             questionAnswers: [
-                {
-                    text: "stały",
-                    isCorrect: true
-                },
-                {
-                    text: "zmienny"
-                },
-                {
-                    text: "pulsujący"
-                }
+                "stały",
+                "zmienny",
+                "pulsujący"
             ]
         },
         {
             questionID: 8,
             questionText: "Akumulator ma pojemność 20 Ah. Jak długo będzie świecić z niego żarówka pobierająca 4 A?",
             questionAnswers: [
-                {
-                    text: "5 godzin",
-                    isCorrect: true
-                },
-                {
-                    text: "4 godziny"
-                },
-                {
-                    text: "80 godzin"
-                }
+                "5 godzin",
+                "4 godziny",
+                "80 godzin"
             ]
         },
         {
             questionID: 9,
             questionText: "Ile bateryjek 4,5 V potrzebujemy połączyć w szereg, by uzyskać baterię anodową o napięciu 90 V?",
             questionAnswers: [
-                {
-                    text: "15 szt."
-                },
-                {
-                    text: "10 szt."
-                },
-                {
-                    text: "20 szt.",
-                    isCorrect: true
-                }
+                "20 szt.",
+                "15 szt.",
+                "10 szt."
             ]
         },
         {
             questionID: 10,
             questionText: "Ładunki elektryczne w przestrzeni przyciągają się, jeżeli:",
             questionAnswers: [
-                {
-                    text: "są jednoimienne"
-                },
-                {
-                    text: "są różnoimienne",
-                    isCorrect: true
-                },
-                {
-                    text: "są nieskończenie daleko"
-                }
+                "są różnoimienne",
+                "są jednoimienne",
+                "są nieskończenie daleko"
             ]
         },
         {
             questionID: 11,
             questionText: "Materiały ferromagnetyczne to materiały, które przewodzą pole magnetyczne:",
             questionAnswers: [
-                {
-                    text: "lepiej niż powietrze",
-                    isCorrect: true
-                },
-                {
-                    text: "tak jak powietrze"
-                },
-                {
-                    text: "gorzej niż powietrze"
-                }
+                "lepiej niż powietrze",
+                "tak jak powietrze",
+                "gorzej niż powietrze"
             ]
         },
         {
             questionID: 12,
             questionText: "Jaki kierunek przyjmuje pole magnetyczne wokół przewodnika z prądem?",
             questionAnswers: [
-                {
-                    text: "jest prostopadłe do przewodu",
-                    isCorrect: true
-                },
-                {
-                    text: "jest do niego równoległe"
-                },
-                {
-                    text: "jest ukośne do przewodu"
-                }
+                "jest prostopadłe do przewodu",
+                "jest do niego równoległe",
+                "jest ukośne do przewodu"
             ]
         },
         {
             questionID: 13,
             questionText: "Jeżeli składowa elektryczna fali jest prostopadła do ziemi to fala ma polaryzację?",
             questionAnswers: [
-                {
-                    text: "poziomą"
-                },
-                {
-                    text: "pionową",
-                    isCorrect: true
-                },
-                {
-                    text: "kołową"
-                }
+                "pionową",
+                "poziomą",
+                "kołową"
             ]
         },
         {
             questionID: 14,
             questionText: "Czy prędkość fali elektromagnetycznej zależy od ośrodka, w którym się rozchodzi?",
             questionAnswers: [
-                {
-                    text: "tak",
-                    isCorrect: true
-                },
-                {
-                    text: "nie zależy"
-                },
-                {
-                    text: "jest zawsze jednakowa"
-                }
+                "tak",
+                "nie zależy",
+                "jest zawsze jednakowa"
             ]
         },
         {
             questionID: 15,
             questionText: "Długość fali wynosi 1500 metrów. Jaka jest częstotliwość tej fali?",
             questionAnswers: [
-                {
-                    text: "2 MHz"
-                },
-                {
-                    text: "200 kHz"
-                },
-                {
-                    text: "233 kHz"
-                }
+                "200 kHz",
+                "2 MHz",
+                "233 kHz"
             ]
         },
         {
             questionID: 16,
             questionText: "Jaki zakres częstotliwości dźwięków wystarcza dla zrozumiałego nadawania mowy?",
             questionAnswers: [
-                {
-                    text: "od 300 Hz do 3,2 kHz"
-                },
-                {
-                    text: "od 100 Hz do 5 kHz"
-                },
-                {
-                    text: "od 20 Hz do 15 kHz"
-                }
+                "od 300 Hz do 3,2 kHz",
+                "od 100 Hz do 5 kHz",
+                "od 20 Hz do 15 kHz"
             ]
         },
         {
             questionID: 17,
             questionText: "Nadajnik UKF ma kwarc kanałowy 12 MHz. Ile razy musi być powielony by uzyskać 144 MHz?",
             questionAnswers: [
-                {
-                    text: "16 razy"
-                },
-                {
-                    text: "12 razy"
-                },
-                {
-                    text: "18 razy"
-                }
+                "12 razy",
+                "16 razy",
+                "18 razy"
             ]
         },
-{
-    questionID: 18,
-    questionText: "Modulacja telegraficzna CW polega na:",
-    questionAnswers: [
         {
-            text: "przerywaniu fali nośnej"
+            questionID: 18,
+            questionText: "Modulacja telegraficzna CW polega na:",
+            questionAnswers: [
+                "przerywaniu fali nośnej",
+                "zmianie jej częstotliwości",
+                "zmianie jej amplitudy"
+            ]
+        },
+        {
+            questionID: 19,
+            questionText: "Kanał radiowy nadajnika telegraficznego CW jest:",
+            questionAnswers: [
+                "bardzo wąski",
+                "bardzo szeroki",
+                "średni"
+            ]
+        },
+        {
+            questionID: 20,
+            questionText: "Przy modulacji częstotliwości FM szerokość kanału radiowego dla nadajników amatorskich UKF wynosi:",
+            questionAnswers: [
+                "12,5 kHz",
+                "50 kHz",
+                "200 kHz"
+            ]
+        },
+        {
+            questionID: 21,
+            questionText: "Jaka jest szerokość kanału radiowego przy emisji SSB?",
+            questionAnswers: [
+                "3,5 kHz",
+                "9 kHz",
+                "1,5 kHz"
+            ]
+        },
+        {
+            questionID: 22,
+            questionText: "Amatorska telewizja z powolnym analizowaniem SSTV może być stosowana do łączności prowadzonych:",
+            questionAnswers: [
+                "na duże odległości na falach krótkich",
+                "tylko na UKF",
+                "tylko w internecie"
+            ]
+        },
+        {
+            questionID: 23,
+            questionText: "Która z podanych mocy PEP odpowiada napiciu maksymalnemu U max = 100 V, zmierzonemu oscyloskopem na wyjściu nadajnika, na obciążeniu 50 om?",
+            questionAnswers: [
+                "100 W",
+                "200 W",
+                "50 W"
+            ]
+        },
+        {
+            questionID: 24,
+            questionText: "Opornik warstwowy metalizowany jest wykonany jako:",
+            questionAnswers: [
+                "metalowa warstwa oporowa na wałku ceramicznym",
+                "warstwa drutu oporowego nawiniętego na wałku ceramicznym",
+                "warstwa oporowa węglowa na wałku ceramicznym"
+            ]
+        },
+        {
+            questionID: 25,
+            questionText: "Do cewki powietrznej 100 uH wkładamy rdzeń ferrytowy o względnej przenikalności u = 10. Ile wyniesie indukcyjność cewki?",
+            questionAnswers: [
+                "wzrośnie do 1000 uH",
+                "nie zmieni się",
+                "zmaleje do 10 uH"
+            ]
+        },
+        {
+            questionID: 26,
+            questionText: "Są dwie cewki powietrzne. Przy tej samej średnicy i ilości zwojów, L1 jest nawinięta drutem dwa razy grubszym niż L2. Która z nich ma większą dobroć Q?",
+            questionAnswers: [
+                "cewka L1",
+                "cewka L2",
+                "obie mają taką samą dobroć, bo mają tą samą średnicę"
+            ]
+        },
+        {
+            questionID: 27,
+            questionText: "Przekładnia transformatora wynosi 20 do 1. Strona pierwotna włączona jest na napicie sieci 240 V. Jakie napicie będzie po stronie wtórnej?",
+            questionAnswers: [
+                "12 V",
+                "24 V",
+                "20 V"
+            ]
+        },
+        {
+            questionID: 28,
+            questionText: "Diody prostownicze zasilające są stosowane do:",
+            questionAnswers: [
+                "do prostowania prądu w zasilaczach",
+                "prostowania prądów wysokiej częstotliwości",
+                "do stabilizacji napięć"
+            ]
+        },
+        {
+            questionID: 29,
+            questionText: "Diody Zenera to diody do:",
+            questionAnswers: [
+                "stabilizacji napięć",
+                "świecące",
+                "na bardzo wysokie częstotliwości"
+            ]
+        },
+        {
+            questionID: 30,
+            questionText: "Warikap to dioda:",
+            questionAnswers: [
+                "dioda pojemnościowa",
+                "dioda mikrofalowa",
+                "dioda stabilizacyjna"
+            ]
+        },
+        {
+            questionID: 31,
+            questionText: "Z jakich pierwiastków wykonywane są tranzystory i obwody scalone?",
+            questionAnswers: [
+                "z czystego krzemu i germanu z domieszkami boru i arsenu",
+                "z absolutnie czystego krzemu i germanu",
+                "z krzemu i tlenków krzemu"
+            ]
+        },
+        {
+            questionID: 32,
+            questionText: "Do jakiego typu układów scalonych należy scalony wzmacniacz akustyczny?",
+            questionAnswers: [
+                "do układów scalonych analogowych",
+                "do układów scalonych cyfrowych",
+                "do scalonych pamięci"
+            ]
+        },
+        {
+            questionID: 33,
+            questionText: "Kalkulator zawiera jeden układ scalony, wyświetlacz i klawiaturę. Do jakiej grupy zaliczymy układ scalony?",
+            questionAnswers: [
+                "wielkiej skali integracji",
+                "małej skali integracji",
+                "średniej skali integracji"
+            ]
+        },
+        {
+            questionID: 34,
+            questionText: "Lampa elektronowa pentoda posiada:",
+            questionAnswers: [
+                "pięć elektrod",
+                "cztery elektrody",
+                "trzy elektrody"
+            ]
+        },
+        {
+            questionID: 35,
+            questionText: "Cztery oporniki o wartościach 5 om zostały połączone szeregowo. Ile wynosi oporność zastępcza tych oporów?",
+            questionAnswers: [
+                "20 om",
+                "10 om",
+                "40 om"
+            ]
+        },
+        {
+            questionID: 36,
+            questionText: "Ile oporników o wartości 200 om należy połączyć równolegle by uzyska sztuczne obciążenie antenowe 50 om?",
+            questionAnswers: [
+                "4 szt.",
+                "5 szt.",
+                "2 szt."
+            ]
+        },
+        {
+            questionID: 37,
+            questionText: "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
+            questionAnswers: [
+                "prostownik jednopołówkowy",
+                "prostownik dwupołówkowy",
+                "prostownik mostkowy dwupołówkowy"
+            ]
+        },
+        {
+            questionID: 38,
+            questionText: "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
+            questionAnswers: [
+                "prostownik dwupołówkowy",
+                "prostownik jednopołówkowy",
+                "prostownik mostkowy dwupołówkowy"
+            ]
+        },
+        {
+            questionID: 39,
+            questionText: "Wzmacniacz wzmacnia sygnały w zakresie od 100Hz do 10 kHz. Wzmacniacz ten nazywamy wzmacniaczem:",
+            questionAnswers: [
+                "niskiej częstotliwości",
+                "wzmacniaczem pośredniej częstotliwości",
+                "wzmacniaczem selektywnym"
+            ]
+        },
+        {
+            questionID: 40,
+            questionText: "Kiedy wzmacniacz jest przesterowany?",
+            questionAnswers: [
+                "jak ma za duże napięcie wejściowe",
+                "jak ma za duże napięcie zasilania",
+                "jak pracuje w klasie C"
+            ]
+        },
+        {
+            questionID: 41,
+            questionText: "W jakiej klasie ma pracować wzmacniacz rezonansowy w.cz. do wzmacniania sygnału SSB?",
+            questionAnswers: [
+                "w klasie AB",
+                "w klasie C",
+                "impulsowo"
+            ]
+        },
+        {
+            questionID: 42,
+            questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych, ale nieopisanych bloków. Blok 1 to:",
+            questionAnswers: [
+                "generator stabilizowany",
+                "komparator",
+                "dzielnik wzorca"
+            ]
+        },
+        {
+            questionID: 43,
+            questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych, ale nieopisanych bloków. Blok 4 to:",
+            questionAnswers: [
+                "generator wzorca",
+                "dzielnik wzorca",
+                "komparator"
+            ]
+        },
+        {
+            questionID: 44,
+            questionText: "Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 3 to:",
+            questionAnswers: [
+                "wzmacniacz akustyczny",
+                "detektor z reakcją",
+                "wzmacniacz w.cz."
+            ]
+        },
+        {
+            questionID: 45,
+            questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 1 to:",
+            questionAnswers: [
+                "filtr wejściowy",
+                "wzmacniacz akustyczny",
+                "detektor AM"
+            ]
+        },
+        {
+            questionID: 46,
+            questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 5 to:",
+            questionAnswers: [
+                "wzmacniacz akustyczny",
+                "heterodyna",
+                "detektor AM"
+            ]
+        },
+        {
+            questionID: 47,
+            questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 1 to:",
+            questionAnswers: [
+                "wzmacniacz w.cz.",
+                "wzmacniacz akustyczny",
+                "detektor AM CW SSB"
+            ]
+        },
+        {
+            questionID: 48,
+            questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 9 to:",
+            questionAnswers: [
+                "wzmacniacz akustyczny",
+                "wzmacniacz pośredniej cz.",
+                "heterodyna"
+            ]
+        },
+        {
+            questionID: 49,
+            questionText: "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 1 to:",
+            questionAnswers: [
+                "filtr wejściowy",
+                "wzmacniacz akustyczny",
+                "heterodyna"
+            ]
+        },
+        {
+            questionID: 50,
+            questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 2 to:",
+            questionAnswers: [
+                "I mieszacz",
+                "wzmacniacz akustyczny",
+                "wzmacniacz II p.cz."
+            ]
+        },
+        {
+            questionID: 51,
+            questionText: "Jaka powinna być stabilność heterodyny w odbiorniku komunikacyjnym ? Częstotliwość heterodyny na najwyższym zakresie po włączeniu odbiornika powinna zmieniać się nie więcej jak:",
+            questionAnswers: [
+                "o 200 Hz",
+                "o 500 Hz",
+                "o 1000 Hz"
+            ]
+        },
+        {
+            questionID: 52,
+            questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 4 to:",
+            questionAnswers: [
+                "filtr wyjściowy",
+                "wzmacniacz mocy (PA)",
+                "separator"
+            ]
+        },
+        {
+            questionID: 53,
+            questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 1 to:",
+            questionAnswers: [
+                "oscylator (VFO)",
+                "wzmacniacz mocy (PA)",
+                "separator"
+            ]
+        },
+        {
+            questionID: 54,
+            questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 1 to:",
+            questionAnswers: [
+                "wzbudnica SSB 9 MHz",
+                "wzmacniacz mocy (PA)",
+                "oscylator (VFO) 5 - 5.5 MHz"
+            ]
+        },
+        {
+            questionID: 55,
+            questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnic 9 MHz. Blok 2 to:",
+            questionAnswers: [
+                "mieszacz",
+                "wzmacniacz sterujący",
+                "filtr wyjściowy"
+            ]
+        },
+        {
+            questionID: 56,
+            questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 1 to:",
+            questionAnswers: [
+                "modulator",
+                "wzmacniacz mocy (PA)",
+                "generator kwarcowy modulowany"
+            ]
+        },
+        {
+            questionID: 57,
+            questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 7 to:",
+            questionAnswers: [
+                "filtr wyjściowy",
+                "modulator",
+                "I powielacz x 3"
+            
+            ]
+        },
+        {
+            questionID: 58,
+            questionText: "Jaka jest horyzontalna charakterystyka promieniowania dipola półfalowego zawieszonego poziomo?",
+            questionAnswers: [
+                "ósemkowa",
+                "dookólna",
+                "kierunkowa w linii zawieszenia"
+            ]
+        },
+        {
+            questionID: 59,
+            questionText: "Jaka jest horyzontalna charakterystyka promieniowania pionowej anteny ćwierćfalowej?",
+            questionAnswers: [
+                "dookólna",
+                "kierunkowa",
+                "w kształcie koniczyny"
+            ]
+        },
+        {
+            questionID: 60,
+            questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 1 to:",
+            questionAnswers: [
+                "reflektor",
+                "radiator",
+                "I direktor"
+            ]
+        },
+        {
+            questionID: 61,
+            questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 2 to:",
+            questionAnswers: [
+                "radiator",
+                "II direktor",
+                "reflektor"
+            ]
+        },
+        {
+            questionID: 62,
+            questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 3 to:",
+            questionAnswers: [
+                "I direktor",
+                "radiator",
+                "II direktor"
+            ]
+        },
+        {
+            questionID: 63,
+            questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 4 to:",
+            questionAnswers: [
+                "II direktor",
+                "I direktor",
+                "radiator"
+            ]
+        },
+        {
+            questionID: 64,
+            questionText: "Dlaczego kable koncentryczne nadawcze wykonywane są z opornością falową 50 om?",
+            questionAnswers: [
+                "bo jest ona zbliżona do oporności dipola półfalowego",
+                "bo najłatwiej takie wykonać",
+                "bo wymagają do wykonania najmniejszej ilości materiału"
+            ]
+        },
+        {
+            questionID: 65,
+            questionText: "W jakim przypadku powstaje w linii przesyłowej w.cz. fala stojąca?",
+            questionAnswers: [
+                "kiedy oporność obciążenia nie jest zgodna z opornością falową kabla",
+                "kiedy kabel nie jest ułożony prosto",
+                "kiedy obok kabla koncentrycznego przechodzi inny kabel"
+            ]
+        },
+        {
+            questionID: 66,
+            questionText: "Jak nazywa się przyrząd do mierzenia fali stojącej w kablu koncentrycznym?",
+            questionAnswers: [
+                "reflektometr",
+                "rezystomierz",
+                "refraktometr"
+            ]
+        },
+        {
+            questionID: 67,
+            questionText: "Reflektometr wskazuje, że fala padająca jest równa fali odbitej. WFS równy jest nieskończoności. Co może być przyczyną takiego stanu?",
+            questionAnswers: [
+                "zwarcie lub przerwa w kablu",
+                "niewielka zmiana oporności falowej anteny",
+                "zamoczenie izolacji w kablu"
+            ]
+        },
+        {
+            questionID: 68,
+            questionText: "Połączenie niesymetrycznego kabla koncentrycznego 50 om do symetrycznej anteny o oporności falowej 50 om wymaga zastosowania:",
+            questionAnswers: [
+                "symetryzatora 1 do 1",
+                "transformatora impedancji 1 do 4",
+                "baluna o przekładni 1 do 2"
+            ]
+        },
+        {
+            questionID: 69,
+            questionText: "Czy stan jonosfery ma wpływ na rozchodzenie się fal krótkich?",
+            questionAnswers: [
+                "ma bardzo duży wpływ",
+                "słaby",
+                "tylko okresowo, w dzień"
+            ]
+        },
+        {
+            questionID: 70,
+            questionText: "Co jaki okres czasu następują bardzo dobre warunki propagacyjne i z czym to jest związane?",
+            questionAnswers: [
+                "regularnie co 11 lat przy maksymalnej aktywności słonecznej",
+                "nieregularnie",
+                "co kilka lat w związku z ociepleniem"
+            ]
+        },
+        {
+            questionID: 71,
+            questionText: "Co to jest zasięg horyzontalny na UKF?",
+            questionAnswers: [
+                "zasięg wyznaczony linią horyzontu przy prostoliniowym rozchodzeniu się fal",
+                "zasięg obliczony z mocy promieniowanej e.i.r.p.",
+                "zasięg teoretyczny nadajnika"
+            ]
+        },
+        {
+            questionID: 72,
+            questionText: "Dalekie rozchodzenie się fal UKF podczas inwersji temperaturowej w troposferze polega na:",
+            questionAnswers: [
+                "prowadzeniu fal przez dukty powstałe z warstw ciepłego i zimnego powietrza",
+                "na wielokrotnym odbijaniu się fal od ciepłej ziemi",
+                "na odbijaniu fal radiowych od ciepłego powietrza"
+            ]
+        },
+        {
+            questionID: 73,
+            questionText: "Skrót EME oznacza łączności na UKF:",
+            questionAnswers: [
+                "z wykorzystaniem odbicia sygnału od Księżyca",
+                "wykorzystaniem do łączności siły elektromotorycznej SEM",
+                "za pomocą elektromagnetycznej emisji EME na UKF"
+            ]
+        },
+        {
+            questionID: 74,
+            questionText: "Jak nazywa się przyrząd do pomiaru napięcia?",
+            questionAnswers: [
+                "woltomierz",
+                "omomierz",
+                "amperomierz"
+            ]
+        },
+        {
+            questionID: 75,
+            questionText: "Jakim przyrządem możemy zmierzyć wartość opornika?",
+            questionAnswers: [
+                "omomierzem",
+                "woltomierzem",
+                "amperomierzem"
+            ]
+        },
+        {
+            questionID: 76,
+            questionText: "Co to jest przyrząd uniwersalny wielozakresowy?",
+            questionAnswers: [
+                "przyrząd do pomiarów, napięć, prądów, oporności, w wielu zakresach",
+                "przyrząd do pomiaru tylko jednego napięcia",
+                "przyrząd do pomiaru wielu napięć"
+            ]
+        },
+        {
+            questionID: 77,
+            questionText: "Jak zmierzyć moc prądu stałego?",
+            questionAnswers: [
+                "zmierzyć prąd i napięcie w obwodzie i obliczyć",
+                "zmierzyć oporność obwodu i obliczyć",
+                "zmierzyć prąd i obliczyć"
+            ]
+        },
+        {
+            questionID: 78,
+            questionText: "Jak w warunkach amatorskich zmierzyć moc wyjściową nadajnika?",
+            questionAnswers: [
+                "poprzez pomiar napięcia skutecznego na oporze sztucznej anteny 50 om i obliczenie",
+                "poprzez pomiar prądu i napięcia stałego doprowadzonego do stopnia mocy (PA)",
+                "poprzez uzyskanie raportu od korespondenta"
+            ]
+        },
+        {
+            questionID: 79,
+            questionText: "Jakim przyrządem mierzymy dopasowanie obciążenia do kabla koncentrycznego?",
+            questionAnswers: [
+                "za pomocą reflektometru przelotowego",
+                "żarówką włączoną w szereg na maksimum świecenia",
+                "sprawdzeniem czy kabel się nie grzeje"
+            ]
+        },
+        {
+            questionID: 80,
+            questionText: "Jak zwalczamy zakłócenia rozprowadzane siecią energetyczną?",
+            questionAnswers: [
+                "przez stosowanie filtrów sieciowych i ekranowanie urządzeń, odpowiednią konstrukcję",
+                "przez stosowanie grubych przewodów",
+                "przez zasilanie bateryjne urządzeń"
+            ]
+        },
+        {
+            questionID: 81,
+            questionText: "Co to jest kompatybilność elektromagnetyczna (EMC)?",
+            questionAnswers: [
+                "taka konstrukcja sprzętu, by urządzenia nie wpływały na siebie i mogły pracować bez powodowania wzajemnych zakłóceń",
+                "zamienność urządzeń",
+                "wymogi co do podobnej obsługi urządzeń elektrycznych"
+            ]
+        },
+        {
+            questionID: 82,
+            questionText: "Jeżeli nadajnik amatorski powoduje zakłócenia, to jakie elementy sprawdzamy w pierwszej kolejności?",
+            questionAnswers: [
+                "liniowość stopnia mocy (PA) i filtr wyjściowy",
+                "zawieszenie anteny",
+                "odbiornik"
+            ]
+        },
+        {
+            questionID: 83,
+            questionText: "Dlaczego w zabudowie miejskiej stosujemy do anten kable koncentryczne?",
+            questionAnswers: [
+                "bo przy dopasowaniu nie promieniują energii i mogą przechodzić obok innych anten i urządzeń",
+                "bo są ogólnie dostępne",
+                "bo są trwałe"
+            ]
+        },
+        {
+            questionID: 84,
+            questionText: "Jeżeli nadajnik promieniuje energię w.cz. poprzez sieć zasilającą to stosujemy:",
+            questionAnswers: [
+                "uziemiamy obudowę i włączamy filtr sieciowy w zasilanie",
+                "filtr w.cz. na wyjściu antenowym nadajnika",
+                "uziemiamy obudowę"
+            ]
+        },
+        {
+            questionID: 85,
+            questionText: "Jaka instytucja zajmuje się lokalizowaniem zakłóceń radiowych i radioelektrycznych oraz badaniem sprzętu radionadawczego?",
+            questionAnswers: [
+                "Urząd Komunikacji Elektronicznej",
+                "Ministerstwo Ochrony Środowiska",
+                "Sztaby antykryzysowe"
+            ]
+        },
+        {
+            questionID: 86,
+            questionText: "Prąd elektryczny w przewodzie metalowym płynie dzięki obecności w nim:",
+            questionAnswers: [
+                "wolnych elektronów",
+                "swobodnych jonów",
+                "wolnych atomów"
+            ]
+        },
+        {
+            questionID: 87,
+            questionText: "Jak zmienia się opór przewodu miedzianego podczas wzrostu temperatury?",
+            questionAnswers: [
+                "opór rośnie",
+                "opór maleje",
+                "nie zmienia się"
+            ]
+        },
+        {
+            questionID: 88,
+            questionText: "Jaki ładunek ma elektron?",
+            questionAnswers: [
+                "ujemny",
+                "dodatni",
+                "nie posiada ładunku"
+            ]
         },
         {
-            text: "zmianie jej częstotliwości"
-        },
-        {
-            text: "zmianie jej amplitudy"
-}
-]
-},
-{
-    questionID: 19,
-    questionText: "Kanał radiowy nadajnika telegraficznego CW jest:",
-    questionAnswers: [
-        {
-            text: "bardzo szeroki"
-        },
-        {
-            text: "bardzo wąski"
-        },
-        {
-            text: "średni"
-}
-]
-},
-{
-    questionID: 20,
-    questionText: "Przy modulacji częstotliwości FM szerokość kanału radiowego dla nadajników amatorskich UKF wynosi:",
-    questionAnswers: [
-        {
-            text: "12,5 kHz"
-        },
-        {
-            text: "50 kHz"
-        },
-        {
-            text: "200 kHz"
-}
-]
-},
-{
-    questionID: 21,
-    questionText: "Jaka jest szerokość kanału radiowego przy emisji SSB?",
-    questionAnswers: [
-        {
-            text: "9 kHz"
-        },
-        {
-            text: "3,5 kHz"
-        },
-        {
-            text: "1,5 kHz"
-}
-]
-},
-{
-    questionID: 22,
-    questionText: "Amatorska telewizja z powolnym analizowaniem SSTV może być stosowana do łączności prowadzonych:",
-    questionAnswers: [
-        {
-            text: "na duże odległości na falach krótkich"
-        },
-        {
-            text: "tylko na UKF"
-        },
-        {
-            text: "tylko w internecie"
-}
-]
-},
-{
-    questionID: 23,
-    questionText: "Która z podanych mocy PEP odpowiada napiciu maksymalnemu U max = 100 V, zmierzonemu oscyloskopem na wyjściu nadajnika, na obciążeniu 50 om?",
-    questionAnswers: [
-        {
-            text: "200 W"
-        },
-        {
-            text: "100 W"
-        },
-        {
-            text: "50 W"
-}
-]
-},
-{
-    questionID: 24,
-    questionText: "Opornik warstwowy metalizowany jest wykonany jako:",
-    questionAnswers: [
-        {
-            text: "metalowa warstwa oporowa na wałku ceramicznym"
-        },
-        {
-            text: "warstwa drutu oporowego nawiniętego na wałku ceramicznym"
-        },
-        {
-            text: "warstwa oporowa węglowa na wałku ceramicznym"
-}
-]
-},
-{
-    questionID: 25,
-    questionText: "Do cewki powietrznej 100 uH wkładamy rdzeń ferrytowy o względnej przenikalności u = 10. Ile wyniesie indukcyjność cewki?",
-    questionAnswers: [
-        {
-            text: "wzrośnie do 1000 uH"
-        },
-        {
-            text: "nie zmieni się"
-        },
-        {
-            text: "zmaleje do 10 uH"
-}
-]
-},
-{
-    questionID: 26,
-    questionText: "Są dwie cewki powietrzne. Przy tej samej średnicy i ilości zwojów, L1 jest nawinięta drutem dwa razy grubszym niż L2. Która z nich ma większą dobroć Q?",
-    questionAnswers: [
-        {
-            text: "cewka L2"
-        },
-        {
-            text: "cewka L1"
-        },
-        {
-            text: "obie mają taką samą dobroć, bo mają tą samą średnicę"
-}
-]
-},
-{
-    questionID: 27,
-    questionText: "Przekładnia transformatora wynosi 20 do 1. Strona pierwotna włączona jest na napicie sieci 240 V. Jakie napicie będzie po stronie wtórnej?",
-    questionAnswers: [
-        {
-            text: "24 V"
-        },
-        {
-            text: "12 V"
-        },
-        {
-            text: "20 V"
-}
-]
-},
-{
-    questionID: 28,
-    questionText: "Diody prostownicze zasilające są stosowane do:",
-    questionAnswers: [
-        {
-            text: "prostowania prądów wysokiej częstotliwości"
-        },
-        {
-            text: "do prostowania prądu w zasilaczach"
-        },
-        {
-            text: "do stabilizacji napięć"
-}
-]
-},
-{
-    questionID: 29,
-    questionText: "Diody Zenera to diody do:",
-    questionAnswers: [
-        {
-            text: "stabilizacji napięć"
-        },
-        {
-            text: "świecące"
-        },
-        {
-            text: "na bardzo wysokie częstotliwości"
-}
-]
-},
-{
-    questionID: 30,
-    questionText: "Warikap to dioda:",
-    questionAnswers: [
-        {
-            text: "dioda mikrofalowa"
-        },
-        {
-            text: "dioda pojemnościowa"
-        },
-        {
-            text: "dioda stabilizacyjna"
-}
-]
-},
-{
-    questionID: 31,
-    questionText: "Z jakich pierwiastków wykonywane są tranzystory i obwody scalone?",
-    questionAnswers: [
-        {
-            text: "z absolutnie czystego krzemu i germanu"
-        },
-        {
-            text: "z czystego krzemu i germanu z domieszkami boru i arsenu"
-        },
-        {
-            text: "z krzemu i tlenków krzemu"
-}
-]
-},
-{
-    questionID: 32,
-    questionText: "Do jakiego typu układów scalonych należy scalony wzmacniacz akustyczny?",
-    questionAnswers: [
-        {
-            text: "do układów scalonych cyfrowych"
-        },
-        {
-            text: "do układów scalonych analogowych"
-        },
-        {
-            text: "do scalonych pamięci"
-}
-]
-},
-{
-    questionID: 33,
-    questionText: "Kalkulator zawiera jeden układ scalony, wyświetlacz i klawiaturę. Do jakiej grupy zaliczymy układ scalony?",
-    questionAnswers: [
-        {
-            text: "małej skali integracji"
-        },
-        {
-            text: "średniej skali integracji"
-        },
-        {
-            text: "wielkiej skali integracji"
-}
-]
-},
-{
-    questionID: 34,
-    questionText: "Lampa elektronowa pentoda posiada:",
-    questionAnswers: [
-        {
-            text: "pięć elektrod"
-        },
-        {
-            text: "cztery elektrody"
-        },
-        {
-            text: "trzy elektrody"
-}
-]
-},
-{
-    questionID: 35,
-    questionText: "Cztery oporniki o wartościach 5 om zostały połączone szeregowo. Ile wynosi oporność zastępcza tych oporów?",
-    questionAnswers: [
-        {
-            text: "10 om"
-        },
-        {
-            text: "20 om"
-        },
-        {
-            text: "40 om"
-}
-]
-},
-{
-    questionID: 36,
-    questionText: "Ile oporników o wartości 200 om należy połączyć równolegle by uzyska sztuczne obciążenie antenowe 50 om?",
-    questionAnswers: [
-        {
-            text: "5 szt."
-        },
-        {
-            text: "2 szt."
-        },
-        {
-            text: "4 szt."
-}
-]
-},
-{
-    questionID: 37,
-    questionText: "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
-    questionAnswers: [
-        {
-            text: "prostownik dwupołówkowy"
-        },
-        {
-            text: "prostownik jednopołówkowy"
-        },
-        {
-            text: "prostownik mostkowy dwupołówkowy"
-}
-]
-},
-{
-    questionID: 38,
-    questionText: "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
-
-    questionAnswers: [
-        {
-            text: "prostownik dwupołówkowy"
-        },
-        {
-            text: "prostownik jednopołówkowy"
-        },
-        {
-            text: "prostownik mostkowy dwupołówkowy"
-}
-]
-},
-{
-    questionID: 39,
-    questionText: "Wzmacniacz wzmacnia sygnały w zakresie od 100Hz do 10 kHz. Wzmacniacz ten nazywamy wzmacniaczem:",
-    questionAnswers: [
-        {
-            text: "niskiej częstotliwości"
-        },
-        {
-            text: "wzmacniaczem pośredniej częstotliwości"
-        },
-        {
-            text: "wzmacniaczem selektywnym"
-}
-]
-},
-{
-    questionID: 40,
-    questionText: "Kiedy wzmacniacz jest przesterowany?",
-    questionAnswers: [
-        {
-            text: "jak ma za duże napięcie zasilania"
-        },
-        {
-            text: "jak ma za duże napięcie wejściowe"
-        },
-        {
-            text: "jak pracuje w klasie C"
-}
-]
-},
-{
-    questionID: 41,
-    questionText: "W jakiej klasie ma pracować wzmacniacz rezonansowy w.cz. do wzmacniania sygnału SSB?",
-    questionAnswers: [
-        {
-            text: "w klasie C"
-        },
-        {
-            text: "w klasie AB"
-        },
-        {
-            text: "impulsowo"
-}
-]
-},
-{
-    questionID: 42,
-    questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych, ale nieopisanych bloków. Blok 1 to:",
-    questionAnswers: [
-        {
-            text: "generator stabilizowany"
-        },
-        {
-            text: "komparator"
-        },
-        {
-            text: "dzielnik wzorca"
-}
-]
-},
-{
-    questionID: 43,
-    questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych, ale nieopisanych bloków. Blok 4 to:",
-    questionAnswers: [
-        {
-            text: "dzielnik wzorca"
-        },
-        {
-            text: "generator wzorca"
-        },
-        {
-            text: "komparator"
-}
-]
-},
-{
-    questionID: 44,
-    questionText: "Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 3 to:",
-    questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor z reakcją"
-        },
-        {
-            text: "wzmacniacz w.cz."
-}
-]
-},
-{
-    questionID: 45,
-    questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 1 to:",
-    questionAnswers: [
-        {
-            text: "filtr wejściowy"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor AM"
-}
-]
-},
-{
-    questionID: 46,
-    questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 5 to:",
-    questionAnswers: [
-        {
-            text: "heterodyna"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor AM"
-}
-]
-},
-{
-    questionID: 47,
-    questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 1 to:",
-    questionAnswers: [
-        {
-            text: "wzmacniacz w.cz."
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor AM CW SSB"
-}
-]
-},
-{
-    questionID: 48,
-    questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 9 to:",
-    questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "wzmacniacz pośredniej cz."
-        },
-        {
-            text: "heterodyna"
-}
-]
-},
-{
-    questionID: 49,
-    questionText: "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 1 to:",
-    questionAnswers: [
-        {
-            text: "filtr wejściowy"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "heterodyna"
-}
-]
-},
-{
-    questionID: 50,
-    questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 2 to:",
-    questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "I mieszacz"
-        },
-        {
-            text: "wzmacniacz II p.cz."
-}
-]
-},
-{
-    questionID: 51,
-    questionText: "Jaka powinna być stabilność heterodyny w odbiorniku komunikacyjnym ? Częstotliwość heterodyny na najwyższym zakresie po włączeniu odbiornika powinna zmieniać się nie więcej jak:",
-    questionAnswers: [
-        {
-            text: "o 200 Hz"
-        },
-        {
-            text: "o 500 Hz"
-        },
-        {
-            text: "o 1000 Hz"
-}
-]
-},
-{
-    questionID: 52,
-    questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 4 to:",
-    questionAnswers: [
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "separator"
-}
-]
-},
-{
-    questionID: 53,
-    questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 1 to:",
-    questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "oscylator (VFO)"
-        },
-        {
-            text: "separator"
-}
-]
-},
-{
-    questionID: 54,
-    questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 1 to:",
-    questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "oscylator (VFO) 5 - 5.5 MHz"
-        },
-        {
-            text: "wzbudnica SSB 9 MHz"
-}
-]
-},
-{
-    questionID: 55,
-    questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnic 9 MHz. Blok 2 to:",
-    questionAnswers: [
-        {
-            text: "wzmacniacz sterujący"
-        },
-        {
-            text: "mieszacz"
-        },
-        {
-            text: "filtr wyjściowy"
-}
-]
-},
-{
-    questionID: 56,
-    questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 1 to:",
-    questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "generator kwarcowy modulowany"
-        },
-        {
-            text: "modulator"
-}
-]
-},
-{
-    questionID: 57,
-    questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 7 to:",
-    questionAnswers: [
-        {
-            text: "modulator"
-        },
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "I powielacz x 3"
-}
-]
-},
-{
-    questionID: 58,
-    questionText: "Jaka jest horyzontalna charakterystyka promieniowania dipola półfalowego zawieszonego poziomo?",
-    questionAnswers: [
-        {
-            text: "dookólna"
-        },
-        {
-            text: "ósemkowa"
-        },
-        {
-            text: "kierunkowa w linii zawieszenia"
-}
-]
-},
-{
-    questionID: 59,
-    questionText: "Jaka jest horyzontalna charakterystyka promieniowania pionowej anteny ćwierćfalowej?",
-    questionAnswers: [
-        {
-            text: "dookólna"
-        },
-        {
-            text: "kierunkowa"
-        },
-        {
-            text: "w kształcie koniczyny"
-}
-]
-},
-{
-    questionID: 60,
-    questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 1 to:",
-    questionAnswers: [
-        {
-            text: "reflektor"
-        },
-        {
-            text: "radiator"
-        },
-        {
-            text: "I direktor"
-}
-]
-},
-{
-    questionID: 61,
-    questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 2 to:",
-    questionAnswers: [
-        {
-            text: "radiator"
-        },
-        {
-            text: "II direktor"
-        },
-        {
-            text: "reflektor"
-}
-]
-},
-{
-    questionID: 62,
-    questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 3 to:",
-    questionAnswers: [
-        {
-            text: "radiator"
-        },
-        {
-            text: "I direktor"
-        },
-        {
-            text: "II direktor"
-}
-]
-},
-{
-    questionID: 63,
-    questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 4 to:",
-    questionAnswers: [
-        {
-            text: "I direktor"
-        },
-        {
-            text: "II direktor"
-        },
-        {
-            text: "radiator"
-}
-]
-},
-{
-    questionID: 64,
-    questionText: "Dlaczego kable koncentryczne nadawcze wykonywane są z opornością falową 50 om?",
-    questionAnswers: [
-        {
-            text: "bo jest ona zbliżona do oporności dipola półfalowego"
-        },
-        {
-            text: "bo najłatwiej takie wykonać"
-        },
-        {
-            text: "bo wymagają do wykonania najmniejszej ilości materiału"
-}
-]
-},
-{
-    questionID: 65,
-    questionText: "W jakim przypadku powstaje w linii przesyłowej w.cz. fala stojąca?",
-    questionAnswers: [
-        {
-            text: "kiedy kabel nie jest ułożony prosto"
-        },
-        {
-            text: "kiedy obok kabla koncentrycznego przechodzi inny kabel"
-        },
-        {
-            text: "kiedy oporność obciążenia nie jest zgodna z opornością falową kabla"
-}
-]
-},
-{
-    questionID: 66,
-    questionText: "Jak nazywa się przyrząd do mierzenia fali stojącej w kablu koncentrycznym?",
-    questionAnswers: [
-        {
-            text: "rezystomierz"
-        },
-        {
-            text: "reflektometr"
-        },
-        {
-            text: "refraktometr"
-}
-]
-},
-{
-    questionID: 67,
-    questionText: "Reflektometr wskazuje, że fala padająca jest równa fali odbitej. WFS równy jest nieskończoności. Co może być przyczyną takiego stanu?",
-    questionAnswers: [
-        {
-            text: "zwarcie lub przerwa w kablu"
-        },
-        {
-            text: "niewielka zmiana oporności falowej anteny"
-        },
-        {
-            text: "zamoczenie izolacji w kablu"
-}
-]
-},
-{
-    questionID: 68,
-    questionText: "Połączenie niesymetrycznego kabla koncentrycznego 50 om do symetrycznej anteny o oporności falowej 50 om wymaga zastosowania:",
-    questionAnswers: [
-        {
-            text: "transformatora impedancji 1 do 4"
-        },
-        {
-            text: "symetryzatora 1 do 1"
-        },
-        {
-            text: "baluna o przekładni 1 do 2"
-}
-]
-},
-{
-    questionID: 69,
-    questionText: "Czy stan jonosfery ma wpływ na rozchodzenie się fal krótkich?",
-    questionAnswers: [
-        {
-            text: "słaby"
-        },
-        {
-            text: "tylko okresowo, w dzień"
-        },
-        {
-            text: "ma bardzo duży wpływ"
-}
-]
-},
-{
-    questionID: 70,
-    questionText: "Co jaki okres czasu następują bardzo dobre warunki propagacyjne i z czym to jest związane?",
-    questionAnswers: [
-        {
-            text: "nieregularnie"
-        },
-        {
-            text: "co kilka lat w związku z ociepleniem"
-        },
-        {
-            text: "regularnie co 11 lat przy maksymalnej aktywności słonecznej"
-}
-]
-},
-{
-    questionID: 71,
-    questionText: "Co to jest zasięg horyzontalny na UKF?",
-    questionAnswers: [
-        {
-            text: "zasięg wyznaczony linią horyzontu przy prostoliniowym rozchodzeniu się fal",
-        },
-        {
-            text: "zasięg obliczony z mocy promieniowanej e.i.r.p."
-        },
-        {
-            text: "zasięg teoretyczny nadajnika"
-}
-]
-},
-{
-    questionID: 72,
-    questionText: "Dalekie rozchodzenie się fal UKF podczas inwersji temperaturowej w troposferze polega na:",
-    questionAnswers: [
-        {
-            text: "na wielokrotnym odbijaniu się fal od ciepłej ziemi"
-        },
-        {
-            text: "na odbijaniu fal radiowych od ciepłego powietrza"
-        },
-        {
-            text: "prowadzeniu fal przez dukty powstałe z warstw ciepłego i zimnego powietrza"
-}
-]
-},
-{
-    questionID: 73,
-    questionText: "Skrót EME oznacza łączności na UKF:",
-    questionAnswers: [
-        {
-            text: "z wykorzystaniem odbicia sygnału od Księżyca"
-        },
-        {
-            text: "wykorzystaniem do łączności siły elektromotorycznej SEM"
-        },
-        {
-            text: "za pomocą elektromagnetycznej emisji EME na UKF"
-}
-]
-},
-{
-    questionID: 74,
-    questionText: "Jak nazywa się przyrząd do pomiaru napięcia?",
-    questionAnswers: [
-        {
-            text: "omomierz"
-        },
-        {
-            text: "woltomierz"
-        },
-        {
-            text: "amperomierz"
-}
-]
-},
-{
-    questionID: 75,
-    questionText: "Jakim przyrządem możemy zmierzyć wartość opornika?",
-    questionAnswers: [
-        {
-            text: "omomierzem"
-        },
-        {
-            text: "woltomierzem"
-        },
-        {
-            text: "amperomierzem"
-}
-]
-},
-{
-    questionID: 76,
-    questionText: "Co to jest przyrząd uniwersalny wielozakresowy?",
-    questionAnswers: [
-        {
-            text: "przyrząd do pomiaru tylko jednego napięcia"
-        },
-        {
-            text: "przyrząd do pomiarów, napięć, prądów, oporności, w wielu zakresach"
-        },
-        {
-            text: "przyrząd do pomiaru wielu napięć"
-}
-]
-},
-{
-    questionID: 77,
-    questionText: "Jak zmierzyć moc prądu stałego?",
-    questionAnswers: [
-        {
-            text: "zmierzyć prąd i napięcie w obwodzie i obliczyć"
-        },
-        {
-            text: "zmierzyć oporność obwodu i obliczyć"
-        },
-        {
-            text: "zmierzyć prąd i obliczyć"
-}
-]
-},
-{
-    questionID: 78,
-    questionText: "Jak w warunkach amatorskich zmierzyć moc wyjściową nadajnika?",
-    questionAnswers: [
-        {
-            text: "poprzez pomiar napięcia skutecznego na oporze sztucznej anteny 50 om i obliczenie"
-        },
-        {
-            text: "poprzez pomiar prądu i napięcia stałego doprowadzonego do stopnia mocy (PA)"
-        },
-        {
-            text: "poprzez uzyskanie raportu od korespondenta"
-}
-]
-},
-{
-    questionID: 79,
-    questionText: "Jakim przyrządem mierzymy dopasowanie obciążenia do kabla koncentrycznego?",
-    questionAnswers: [
-        {
-            text: "żarówką włączoną w szereg na maksimum świecenia"
-        },
-        {
-            text: "sprawdzeniem czy kabel się nie grzeje"
-        },
-        {
-            text: "za pomocą reflektometru przelotowego"
-}
-]
-},
-{
-    questionID: 80,
-    questionText: "Jak zwalczamy zakłócenia rozprowadzane siecią energetyczną?",
-    questionAnswers: [
-        {
-            text: "przez stosowanie grubych przewodów"
-        },
-        {
-            text: "przez stosowanie filtrów sieciowych i ekranowanie urządzeń, odpowiednią konstrukcję"
-        },
-        {
-            text: "przez zasilanie bateryjne urządzeń"
-}
-]
-},
-{
-    questionID: 81,
-    questionText: "Co to jest kompatybilność elektromagnetyczna (EMC)?",
-    questionAnswers: [
-        {
-            text: "zamienność urządzeń"
-        },
-        {
-            text: "wymogi co do podobnej obsługi urządzeń elektrycznych"
-        },
-        {
-            text: "taka konstrukcja sprzętu, by urządzenia nie wpływały na siebie i mogły pracować bez powodowania wzajemnych zakłóceń"
-}
-]
-},
-{
-    questionID: 82,
-    questionText: "Jeżeli nadajnik amatorski powoduje zakłócenia, to jakie elementy sprawdzamy w pierwszej kolejności?",
-    questionAnswers: [
-        {
-            text: "zawieszenie anteny"
-        },
-        {
-            text: "odbiornik"
-        },
-        {
-            text: "liniowość stopnia mocy (PA) i filtr wyjściowy"
-}
-]
-},
-{
-    questionID: 83,
-    questionText: "Dlaczego w zabudowie miejskiej stosujemy do anten kable koncentryczne?",
-    questionAnswers: [
-        {
-            text: "bo są ogólnie dostępne"
-        },
-        {
-            text: "bo są trwałe"
-        },
-        {
-            text: "bo przy dopasowaniu nie promieniują energii i mogą przechodzić obok innych anten i urządzeń"
-}
-]
-},
-{
-    questionID: 84,
-    questionText: "Jeżeli nadajnik promieniuje energię w.cz. poprzez sieć zasilającą to stosujemy:",
-    questionAnswers: [
-        {
-            text: "filtr w.cz. na wyjściu antenowym nadajnika"
-        },
-        {
-            text: "uziemiamy obudowę"
-        },
-        {
-            text: "uziemiamy obudowę i włączamy filtr sieciowy w zasilanie"
-}
-]
-},
-{
-    questionID: 85,
-    questionText: "Jaka instytucja zajmuje się lokalizowaniem zakłóceń radiowych i radioelektrycznych oraz badaniem sprzętu radionadawczego?",
-    questionAnswers: [
-        {
-            text: "Urząd Komunikacji Elektronicznej"
-        },
-        {
-            text: "Ministerstwo Ochrony Środowiska"
-        },
-        {
-            text: "Sztaby antykryzysowe"
-}
-]
-},
-{
-    questionID: 86,
-    questionText: "Prąd elektryczny w przewodzie metalowym płynie dzięki obecności w nim:",
-    questionAnswers: [
-        {
-            text: "swobodnych jonów"
-        },
-        {
-            text: "wolnych elektronów"
-        },
-        {
-            text: "wolnych atomów"
-}
-]
-},
-{
-    questionID: 87,
-    questionText: "Jak zmienia się opór przewodu miedzianego podczas wzrostu temperatury?",
-    questionAnswers: [
-        {
-            text: "opór maleje"
-        },
-        {
-            text: "opór rośnie"
-        },
-        {
-            text: "nie zmienia się"
-}
-]
-},
-{
-    questionID: 88,
-    questionText: "Jaki ładunek ma elektron?",
-    questionAnswers: [
-        {
-            text: "dodatni"
-        },
-        {
-            text: "nie posiada ładunku"
-        },
-        {
-            text: "ujemny"
-}
-]
-},
-{
     questionID: 89,
     questionText: "W obwodach elektrycznych przyjmujemy, że kierunek przepływu prądu odbywa się od:",
     questionAnswers: [
-        {
-            text: "od wyższego potencjału (+) do niższego (-)"
-        },
-        {
-            text: "w prawo zgodnie z wskazówkami zegara"
-        },
-        {
-            text: "przeciwnie do wskazówek zegara"
-}
+        "od wyższego potencjału (+) do niższego (-)"
+        "w prawo zgodnie z wskazówkami zegara"
+        "przeciwnie do wskazówek zegara"
 ]
 },
 {
     questionID: 90,
     questionText: "W obwodzie prądu stałego przez opornik 1000 om płynie prąd 2 mA. Jaki jest spadek napięcia na oporze?",
     questionAnswers: [
-        {
-            text: "spadek wynosi 500 V"
-        },
-        {
-            text: "spadek wynosi 2000 V"
-        },
-        {
-            text: "spadek wynosi 2 V"
-}
+        "spadek wynosi 500 V"
+        "spadek wynosi 2000 V"
+        "spadek wynosi 2 V"
 ]
 },
 {
     questionID: 91,
     questionText: "Akumulator ma napięcie 6.5 V. Do akumulatora chcemy podłączyć żarówkę 3,5 V 0,3 A. Jaki opornik należy włączyć w szereg by ograniczyć prąd?",
     questionAnswers: [
-        {
-            text: "opornik 3.5 om"
-        },
-        {
-            text: "opornik 100 om"
-        },
-        {
-            text: "opornik 10 om"
-}
+        "opornik 3.5 om"
+        "opornik 100 om"
+        "opornik 10 om"
 ]
 },
 {
     questionID: 92,
     questionText: "Opornik ma 200 om. Płynie przez niego prąd 300 mA. Jaka jest moc tracona w oporze?",
     questionAnswers: [
-        {
-            text: "18 W"
-        },
-        {
-            text: "1800 W"
-        },
-        {
-            text: "1,8 W"
-}
+        "18 W"
+        "1800 W"
+        "1,8 W"
 ]
 },
 {
     questionID: 93,
     questionText: "Jakie napięcie występuje na oporze 50 om przy dostarczeniu do niego mocy 200 W?",
     questionAnswers: [
-        {
-            text: "100 V"
-        },
-        {
-            text: "200 V"
-        },
-        {
-            text: "50 V"
-        },
-        {
-}
+        "100 V"
+        "200 V"
+        "50 V"
 ]
 },
 {
     questionID: 94,
     questionText: "Mamy opornik 100 om dołączony do napięcia 3 V. Z jakiej grupy mocy wybierzemy opornik?",
     questionAnswers: [
-        {
-            text: "grupa 1 W"
-        },
-        {
-            text: "grupa 0,125 W"
-        },
-        {
-            text: "grupa 0,5 W"
-}
+        "grupa 1 W"
+        "grupa 0,125 W"
+        "grupa 0,5 W"
 ]
 },
 {
     questionID: 95,
     questionText: "Jaka jest częstotliwość prądu zmiennego, którego okres wynosi 0,02 sek.?",
     questionAnswers: [
-        {
-            text: "100 Hz"
-        },
-        {
-            text: "50 Hz"
-        },
-        {
-            text: "60 Hz"
-}
+        "100 Hz"
+        "50 Hz"
+        "60 Hz"
 ]
 },
 {
     questionID: 96,
     questionText: "Wartość amplitudy napięcia sinusoidalnego wynosi 200 V. Jaka jest wartość skuteczna napięcia?",
     questionAnswers: [
-        {
-            text: "200 V"
-        },
-        {
-            text: "400 V"
-        },
-        {
-            text: "141,8 V"
-}
+        "200 V"
+        "400 V"
+        "141,8 V"
 ]
 },
 {
     questionID: 97,
     questionText: "Napięcie międzyszczytowe sinusoidalnego napięcia zmiennego wynosi 678 V. Ile wynosi wartość skuteczna tego napięcia?",
     questionAnswers: [
-        {
-            text: "340 V"
-        },
-        {
-            text: "240 V"
-        },
-        {
-            text: "680 V"
-}
+        "340 V"
+        "240 V"
+        "680 V"
 ]
 },
 {
     questionID: 98,
     questionText: "Siła elektromotoryczna ogniwa wynosi 1,5 V. Oporność wewnętrzna ogniwa wynosi 0,1 oma. Z ogniwa pobieramy prąd 1 A. Jakie będzie napięcie na zaciskach ogniwa?",
     questionAnswers: [
-        {
-            text: "1.5 V"
-        },
-        {
-            text: "1 V"
-        },
-        {
-            text: "1,4 V"
-}
+        "1.5 V"
+        "1 V"
+        "1,4 V"
 ]
 },
 {
     questionID: 99,
     questionText: "Pole elektryczne nazywamy jednorodnym jeżeli:",
     questionAnswers: [
-        {
-            text: "linie sił pola są prostopadłe"
-        },
-        {
-            text: "linie układają się w koła"
-        },
-        {
-            text: "linie sił są równoległe"
-}
+        "linie sił pola są prostopadłe"
+        "linie układają się w koła"
+        "linie sił są równoległe"
 ]
 },
 {
     questionID: 100,
     questionText: "Pole elektryczne może być ekranowane za pomocą:",
     questionAnswers: [
-        {
-            text: "ekranów z blach metalowych"
-        },
-        {
-            text: "ekranów z izolatorów"
-        },
-        {
-            text: "ekranów z luster"
-}
+        "ekranów z blach metalowych"
+        "ekranów z izolatorów"
+        "ekranów z luster"
 ]
 },
 {
     questionID: 101,
     questionText: "Do jakich materiałów magnetycznych należą magnesy stałe?",
     questionAnswers: [
-        {
-            text: "materiałów paramagnetycznych"
-        },
-        {
-            text: "materiałów magnetycznie twardych"
-        },
-        {
-            text: "magnetycznie miękkich"
-}
+        "materiałów paramagnetycznych"
+        "materiałów magnetycznie twardych"
+        "magnetycznie miękkich"
 ]
 },
 {
     questionID: 102,
     questionText: "Dlaczego rdzenie transformatorów wykonywane są z blaszek a nie z litego materiału?",
     questionAnswers: [
-        {
-            text: "ze względu na lepsze chłodzenie"
-        },
-        {
-            text: "ze względu na łatwiejsze wykonanie"
-        },
-        {
-            text: "ze względu na mniejsze straty przy prądach wirowych"
-}
+        "ze względu na lepsze chłodzenie"
+        "ze względu na łatwiejsze wykonanie"
+        "ze względu na mniejsze straty przy prądach wirowych"
 ]
 },
 {
     questionID: 103,
     questionText: "Ekranowanie pól magnetycznych wykonujemy z materiałów:",
     questionAnswers: [
-        {
-            text: "izolacyjnych"
-        },
-        {
-            text: "z materiałów o wysokiej przenikalności magnetycznej"
-        },
-        {
-            text: "z materiałów o małym oporze właściwym"
-}
+        "izolacyjnych"
+        "z materiałów o wysokiej przenikalności magnetycznej"
+        "z materiałów o małym oporze właściwym"
 ]
 },
 {
     questionID: 104,
     questionText: "Fala elektromagnetyczna ma dwie składowe. Zaznacz która kombinacja jest poprawna:",
     questionAnswers: [
-        {
-            text: "składowa elektryczna i składowa prędkości"
-        },
-        {
-            text: "składowa elektryczna i magnetyczna"
-        },
-        {
-            text: "składowa magnetyczna i składowa prędkości"
-}
+        "składowa elektryczna i składowa prędkości"
+        "składowa elektryczna i magnetyczna"
+        "składowa magnetyczna i składowa prędkości"
 ]
 },
 {
     questionID: 105,
     questionText: "Częstotliwość pracy nadajnika amatorskiego wynosi 3,5714 MHz. Jaka jest dokładna długość fali tego nadajnika?",
     questionAnswers: [
-        {
-            text: "80 m"
-        },
-        {
-            text: "84 m"
-        },
-        {
-            text: "81,08 m"
-}
+        "80 m"
+        "84 m"
+        "81,08 m"
 ]
 },
 {
     questionID: 106,
     questionText: "Czy czysty sygnał sinusoidalny 1000 Hz, zawiera harmoniczne 2000 Hz i 3000 Hz?",
     questionAnswers: [
-        {
-            text: "zawiera tylko 2000 Hz"
-        },
-        {
-            text: "zawiera obie harmoniczne"
-        },
-        {
-            text: "nie zawiera w ogóle harmonicznych"
-}
+        "zawiera tylko 2000 Hz"
+        "zawiera obie harmoniczne"
+        "nie zawiera w ogóle harmonicznych"
 ]
 },
 {
     questionID: 107,
     questionText: "Czy można prowadzić powielanie częstotliwości w stopniu mocy nadajnika?",
     questionAnswers: [
-        {
-            text: "tak"
-        },
-        {
-            text: "nie"
-        },
-        {
-            text: "jest to bez znaczenia"
+        "tak"
+        "nie"
+        "jest to bez znaczenia"
 }
 ]
 },
@@ -3905,14 +3248,9 @@ const questionDataBase = {
     questionID: 108,
     questionText: "Przy modulacji amplitudy AM szerokość kanału radiowego zależy od:",
     questionAnswers: [
-        {
-            text: "najniższych częstotliwości modulujących"
-        },
-        {
-            text: "amplitudy modulującego sygnału"
-        },
-        {
-            text: "najwyższych częstotliwości modulujących"
+        "najniższych częstotliwości modulujących"
+        "amplitudy modulującego sygnału"
+        "najwyższych częstotliwości modulujących"
 }
 ]
 },
@@ -3920,14 +3258,9 @@ const questionDataBase = {
     questionID: 109,
     questionText: "Modulacja cyfrowa FSK oznacza przesyłanie sygnału telegrafii maszynowej RTTY za pomocą:",
     questionAnswers: [
-        {
-            text: "modulacji amplitudy"
-        },
-        {
-            text: "modulacji fazy"
-        },
-        {
-            text: "modulacji z przesuwem częstotliwości"
+        "modulacji amplitudy"
+        "modulacji fazy"
+        "modulacji z przesuwem częstotliwości"
 }
 ]
 },
@@ -3950,14 +3283,9 @@ const questionDataBase = {
     questionID: 111,
     questionText: "Napięcie na wejściu odbiornika na oporności 50 om wynosi 10 uV. Napięcie to wzrosło do 100 uV. O ile wzrosło napięcie wyrażone w dB?",
     questionAnswers: [
-        {
-            text: "o 10 dB"
-        },
-        {
-            text: "o 20 dB"
-        },
-        {
-            text: "o 40 dB"
+        "o 10 dB"
+        "o 20 dB"
+        "o 40 dB"
 }
 ]
 },
@@ -3965,14 +3293,9 @@ const questionDataBase = {
     questionID: 112,
     questionText: "Zasilacz nadajnika dostarcza do stopnia końcowego nadajnika napięcie 500 V i prąd 200 mA. Jaka jest sprawność energetyczna stopnia końcowego w % jeżeli na wyjściu zmierzyliśmy moc PEP = 40 W?",
     questionAnswers: [
-        {
-            text: "50 %"
-        },
-        {
-            text: "40 %"
-        },
-        {
-            text: "60 %"
+        "50 %"
+        "40 %"
+        "60 %"
 }
 ]
 },
@@ -3980,14 +3303,9 @@ const questionDataBase = {
     questionID: 113,
     questionText: "Tolerancja wykonania opornika 1 kom wynosi 5 %. W jakich granicach zawiera się jego oporność?",
     questionAnswers: [
-        {
-            text: "od 0,9 do 1,1 kom"
-        },
-        {
-            text: "od 0,98 do 1,02 kom"
-        },
-        {
-            text: "od 950 om do 1050 om"
+        "od 0,9 do 1,1 kom"
+        "od 0,98 do 1,02 kom"
+        "od 950 om do 1050 om"
 }
 ]
 },
@@ -3995,14 +3313,9 @@ const questionDataBase = {
     questionID: 114,
     questionText: "Spadek napięcia na oporniku wynosi 100 V, przy prądzie 10 mA. Opornik jakiej mocy zastosujemy w tym miejscu?",
     questionAnswers: [
-        {
-            text: "0,125 W"
-        },
-        {
-            text: "1 W"
-        },
-        {
-            text: "0,5 W"
+        "0,125 W"
+        "1 W"
+        "0,5 W"
 }
 ]
 },
@@ -4010,14 +3323,9 @@ const questionDataBase = {
     questionID: 115,
     questionText: "Kondensator mikowy ma pojemność 6800 pF, i napięcie pracy 500V. Czy można go zastosować w miejsce kondensatora 6,8 nF o napięciu pracy 250 V?",
     questionAnswers: [
-        {
-            text: "tak można"
-        },
-        {
-            text: "nie można"
-        },
-        {
-            text: "można, ale potrzebne są dwa takie kondensatory"
+        "tak można"
+        "nie można"
+        "można, ale potrzebne są dwa takie kondensatory"
 }
 ]
 },
@@ -4025,14 +3333,9 @@ const questionDataBase = {
     questionID: 116,
     questionText: "W obwodzie prądu zmiennego przy tej samej częstotliwości zmieniono kondensator 2200 pF na 22 nF. Ile razy zmniejszyła się zawada Xc?",
     questionAnswers: [
-        {
-            text: "2 razy"
-        },
-        {
-            text: "100 razy"
-        },
-        {
-            text: "10 razy"
+        "2 razy"
+        "100 razy"
+        "10 razy"
 }
 ]
 },
@@ -4040,14 +3343,9 @@ const questionDataBase = {
     questionID: 117,
     questionText: "Prąd zmienny płynący przez kondensator C:",
     questionAnswers: [
-        {
-            text: "wyprzedza napięcie na kondensatorze o 90 stopni"
-        },
-        {
-            text: "jest w fazie z napięciem"
-        },
-        {
-            text: "opóźnia się o 90 stopni wobec napięcia"
+        "wyprzedza napięcie na kondensatorze o 90 stopni"
+        "jest w fazie z napięciem"
+        "opóźnia się o 90 stopni wobec napięcia"
 }
 ]
 },
@@ -4055,14 +3353,9 @@ const questionDataBase = {
     questionID: 118,
     questionText: "Tranzystor krzemowy ma wzmocnienie prądowe B = 100. Napięcie zasilania wynosi 5 V. Przez kolektor tego tranzystora płynie prąd 100 mA. Jaki jest prąd bazy tego tranzystora?",
     questionAnswers: [
-        {
-            text: "1 mA"
-        },
-        {
-            text: "5 mA"
-        },
-        {
-            text: "20 mA"
+        "1 mA"
+        "5 mA"
+        "20 mA"
 }
 ]
 },
@@ -4070,14 +3363,9 @@ const questionDataBase = {
     questionID: 119,
     questionText: "Przy jakich napięciach anodowych pracują amatorskie lampowe wzmacniacze mocy?",
     questionAnswers: [
-        {
-            text: "do 200 V"
-        },
-        {
-            text: "do 50 V"
-        },
-        {
-            text: "od 1,5 kV do 3 kV"
+        "do 200 V"
+        "do 50 V"
+        "od 1,5 kV do 3 kV"
 }
 ]
 },
@@ -4085,14 +3373,9 @@ const questionDataBase = {
     questionID: 120,
     questionText: "W jakiej klasie wzmacniacza pracuje lampowy stopień mocy nadajnika telegraficznego?",
     questionAnswers: [
-        {
-            text: "w klasie A"
-        },
-        {
-            text: "w klasie C"
-        },
-        {
-            text: "w klasie AB"
+        "w klasie A"
+        "w klasie C"
+        "w klasie AB"
 }
 ]
 },
@@ -4100,14 +3383,9 @@ const questionDataBase = {
     questionID: 121,
     questionText: "Mamy dwa kondensatory o pojemności jeden 4,7 nF a drugi 300 pF. Jak należy je połączyć by uzyskać pojemność 5000 pF?",
     questionAnswers: [
-        {
-            text: "szeregowo"
-        },
-        {
-            text: "równolegle"
-        },
-        {
-            text: "nie da się z nich złożyć 5000 pF"
+        "szeregowo"
+        "równolegle"
+        "nie da się z nich złożyć 5000 pF"
 }
 ]
 },
@@ -4115,14 +3393,9 @@ const questionDataBase = {
     questionID: 122,
     questionText: "W układzie były trzy kondensatory po 30 uF połączone szeregowo . Każdy z nich ma napięcie pracy 100V. Czy możemy je zastąpić jednym kondensatorem 10 uF i o jakim napięciu pracy?",
     questionAnswers: [
-        {
-            text: "nie możemy"
-        },
-        {
-            text: "możemy stosując kondensator na napięcie 100 V"
-        },
-        {
-            text: "możemy, stosując kondensator na napięcie 300V"
+        "nie możemy"
+        "możemy stosując kondensator na napięcie 100 V"
+        "możemy, stosując kondensator na napięcie 300V"
 }
 ]
 },
@@ -4130,14 +3403,9 @@ const questionDataBase = {
     questionID: 123,
     questionText: "Dwie indukcyjności nie sprzężone mają 30 uH i 60 uH. Ile wynosi indukcyjność zastępcza przy połączeniu szeregowym tych indukcyjności?",
     questionAnswers: [
-        {
-            text: "90 uH"
-        },
-        {
-            text: "20 uH"
-        },
-        {
-            text: "45 uH"
+        "90 uH"
+        "20 uH"
+        "45 uH"
 }
 ]
 },
@@ -4145,14 +3413,9 @@ const questionDataBase = {
     questionID: 124,
     questionText: "Dwa oporniki 1 kom połączone są w szereg i dołączone do napięcia 200 V. Jaki jest spadek napięcia na każdym z tych oporników?",
     questionAnswers: [
-        {
-            text: "50 V"
-        },
-        {
-            text: "100 V"
-        },
-        {
-            text: "200 V"
+        "50 V"
+        "100 V"
+        "200 V"
 }
 ]
 },
@@ -4160,14 +3423,9 @@ const questionDataBase = {
     questionID: 125,
     questionText: "Obwód rezonansowy równoległy LC, w punkcie rezonansu przedstawia oporność:",
     questionAnswers: [
-        {
-            text: "rzeczywistą omową"
-        },
-        {
-            text: "reaktancję pojemnościową"
-        },
-        {
-            text: "reaktancję indukcyjną"
+        "rzeczywistą omową"
+        "reaktancję pojemnościową"
+        "reaktancję indukcyjną"
 }
 ]
 },
@@ -4175,14 +3433,9 @@ const questionDataBase = {
     questionID: 126,
     questionText: "Mamy obwód rezonansowy o częstotliwości 3,5 MHz. W jego skład wchodzi pojemność C = 400 pF. Jaką pojemność należy dołączyć zamiast C, by przestroić obwód na 7 MHz?",
     questionAnswers: [
-        {
-            text: "200 pF"
-        },
-        {
-            text: "100 pF"
-        },
-        {
-            text: "57 pF"
+        "200 pF"
+        "100 pF"
+        "57 pF"
 }
 ]
 },
@@ -4190,14 +3443,9 @@ const questionDataBase = {
     questionID: 127,
     questionText: "Pasmo obwodu rezonansowego zależy od dobroci Q obwodu. Jeżeli Q = 100 to ile wynosi pasmo przy częstotliwości obwodu 14 MHz?",
     questionAnswers: [
-        {
-            text: "280 kHz"
-        },
-        {
-            text: "14 kHz"
-        },
-        {
-            text: "140 kHz"
+        "280 kHz"
+        "14 kHz"
+        "140 kHz"
 }
 ]
 },
@@ -4205,14 +3453,9 @@ const questionDataBase = {
     questionID: 128,
     questionText: "Jakie pasmo musi posiadać filtr pasmowy dla poprawnego odbioru stacji radiofonicznej AM?",
     questionAnswers: [
-        {
-            text: "9 kHz"
-        },
-        {
-            text: "20 kHz"
-        },
-        {
-            text: "3.5 kHz"
+        "9 kHz"
+        "20 kHz"
+        "3.5 kHz"
 }
 ]
 },
@@ -4220,14 +3463,9 @@ const questionDataBase = {
     questionID: 129,
     questionText: "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
     questionAnswers: [
-        {
-            text: "prostownik dwupołówkowy"
-        },
-        {
-            text: "prostownik jednopołówkowy"
-        },
-        {
-            text: "prostownik mostkowy dwupołówkowy"
+        "prostownik dwupołówkowy"
+        "prostownik jednopołówkowy"
+        "prostownik mostkowy dwupołówkowy"
 }
 ]
 },
@@ -4235,14 +3473,9 @@ const questionDataBase = {
     questionID: 130,
     questionText: "Transformator zasilacza ma napięcie Usk = 300 V. Czy w prostowniku jednopołówkowym można użyć diody wytrzymującej wstecznie 400 V?",
     questionAnswers: [
-        {
-            text: "tak"
-        },
-        {
-            text: "nie"
-        },
-        {
-            text: "tak, ale z opornikiem w szereg"
+        "tak"
+        "nie"
+        "tak, ale z opornikiem w szereg"
 }
 ]
 },
@@ -4250,14 +3483,9 @@ const questionDataBase = {
     questionID: 131,
     questionText: "Napięcie na wyjściu zasilacza nieobciążonego z filtrem pojemnościowym, wynosi 25 V. Jakie jest napięcie Usk transformatora zasilającego diody?",
     questionAnswers: [
-        {
-            text: "25 V"
-        },
-        {
-            text: "17,7 V"
-        },
-        {
-            text: "20 V"
+        "25 V"
+        "17,7 V"
+        "20 V"
 }
 ]
 },
@@ -4265,14 +3493,9 @@ const questionDataBase = {
     questionID: 132,
     questionText: "Wzmacniacz posiada wzmocnienie napięciowe 10 razy. Wyraź to wzmocnienie w decybelach (dB)",
     questionAnswers: [
-        {
-            text: "10 dB"
-        },
-        {
-            text: "20 dB"
-        },
-        {
-            text: "40 dB"
+        "10 dB"
+        "20 dB"
+        "40 dB"
 }
 ]
 },
@@ -4280,14 +3503,9 @@ const questionDataBase = {
     questionID: 133,
     questionText: "Wzmacniacz wysokiej częstotliwości obciążony obwodem rezonansowym jest:",
     questionAnswers: [
-        {
-            text: "wzmacniaczem selektywnym"
-        },
-        {
-            text: "wzmacniaczem szerokopasmowym"
-        },
-        {
-            text: "wzmacniaczem akustycznym"
+        "wzmacniaczem selektywnym"
+        "wzmacniaczem szerokopasmowym"
+        "wzmacniaczem akustycznym"
 }
 ]
 },
@@ -4295,14 +3513,9 @@ const questionDataBase = {
     questionID: 134,
     questionText: "Czy w wzmacniaczu mocy pracującym idealnie liniowo, powstają harmoniczne?",
     questionAnswers: [
-        {
-            text: "tak"
-        },
-        {
-            text: "nie"
-        },
-        {
-            text: "tak ale małe"
+        "tak"
+        "nie"
+        "tak ale małe"
 }
 ]
 },
@@ -4310,14 +3523,9 @@ const questionDataBase = {
     questionID: 135,
     questionText: "Na rysunku przedstawiono schemat detektora diodowego. Jaką rolę spełnia w nim kondensator C1?",
     questionAnswers: [
-        {
-            text: "jest kondensatorem filtrującym prądy w.cz."
-        },
-        {
-            text: "poprawia odtwarzanie wysokich tonów"
-        },
-        {
-            text: "chroni słuchawki przed uszkodzeniem"
+        "jest kondensatorem filtrującym prądy w.cz."
+        "poprawia odtwarzanie wysokich tonów"
+        "chroni słuchawki przed uszkodzeniem"
 }
 ]
 },
@@ -4325,14 +3533,9 @@ const questionDataBase = {
     questionID: 136,
     questionText: "Dlaczego do detekcji sygnałów telegrafii CW używamy produkt detektora i pomocniczego generatora BFO?",
     questionAnswers: [
-        {
-            text: "bo sygnał CW jest przerywany"
-        },
-        {
-            text: "musimy wytworzyć słyszalne dudnienia z niemodulowanym sygnałem CW"
-        },
-        {
-            text: "bo sygnał CW jest słaby"
+        "bo sygnał CW jest przerywany"
+        "musimy wytworzyć słyszalne dudnienia z niemodulowanym sygnałem CW"
+        "bo sygnał CW jest słaby"
 }
 ]
 },
@@ -4340,14 +3543,9 @@ const questionDataBase = {
     questionID: 137,
     questionText: "Aby czytelnie odebrać sygnał SSB, to przy odbiorze dolnej wstęgi (LSB) sygnał odtwarzający falę nośną powinien być:",
     questionAnswers: [
-        {
-            text: "poniżej wstęgi LSB"
-        },
-        {
-            text: "powyżej wstęgi LSB"
-        },
-        {
-            text: "w środku LSB"
+        "poniżej wstęgi LSB"
+        "powyżej wstęgi LSB"
+        "w środku LSB"
 }
 ]
 },
@@ -4355,14 +3553,9 @@ const questionDataBase = {
     questionID: 138,
     questionText: "Czy dyskryminator sygnału FM powinien reagować na modulację amplitudy sygnału FM?",
     questionAnswers: [
-        {
-            text: "nie"
-        },
-        {
-            text: "tak"
-        },
-        {
-            text: "nie ma to znaczenia"
+        "nie"
+        "tak"
+        "nie ma to znaczenia"
 }
 ]
 },
@@ -4370,14 +3563,9 @@ const questionDataBase = {
     questionID: 139,
     questionText: "Warunkiem wzbudzenia się generatora z obwodem rezonansowym jest:",
     questionAnswers: [
-        {
-            text: "zastosowanie obwodu rezonansu szeregowego"
-        },
-        {
-            text: "spełnienie warunku amplitudy i fazy"
-        },
-        {
-            text: "zastosowanie ujemnego sprzężenia zwrotnego"
+        "zastosowanie obwodu rezonansu szeregowego"
+        "spełnienie warunku amplitudy i fazy"
+        "zastosowanie ujemnego sprzężenia zwrotnego"
 }
 ]
 },
@@ -4385,14 +3573,9 @@ const questionDataBase = {
     questionID: 140,
     questionText: "Na rysunku przedstawiono kilka układów generatorów. Są one ponumerowane od 1 do 4. Wybierz pod którą literą znajdują się poprawne nazwy generatorów zgodne z kolejnością ich narysowania.",
     questionAnswers: [
-        {
-            text: "Meissner , Hartley, Colpitts, Clapp"
-        },
-        {
-            text: "Colpits, Hartley, Clapp, Meisner"
-        },
-        {
-            text: "Clapp, Colpitts, Hartley, Meissner"
+        "Meissner , Hartley, Colpitts, Clapp"
+        "Colpits, Hartley, Clapp, Meisner"
+        "Clapp, Colpitts, Hartley, Meissner"
 }
 ]
 },
@@ -4400,14 +3583,9 @@ const questionDataBase = {
     questionID: 141,
     questionText: "Oscylator kwarcowy ma wysoką stabilność częstotliwości. Zawdzięcza ją:",
     questionAnswers: [
-        {
-            text: "zasilaniu z stabilizowanego zasilacza"
-        },
-        {
-            text: "zastosowaniu specjalnego tranzystora"
-        },
-        {
-            text: "zastosowaniu rezonatora kwarcowego"
+        "zasilaniu z stabilizowanego zasilacza"
+        "zastosowaniu specjalnego tranzystora"
+        "zastosowaniu rezonatora kwarcowego"
 }
 ]
 },
@@ -4415,14 +3593,9 @@ const questionDataBase = {
     questionID: 142,
     questionText: "Kwarce owertonowe to rezonatory kwarcowe pracujące na:",
     questionAnswers: [
-        {
-            text: "częstotliwościach harmonicznych"
-        },
-        {
-            text: "na częstotliwościach podstawowych"
-        },
-        {
-            text: "na częstotliwościach pasożytniczych"
+        "częstotliwościach harmonicznych"
+        "na częstotliwościach podstawowych"
+        "na częstotliwościach pasożytniczych"
 }
 ]
 },
@@ -4430,14 +3603,9 @@ const questionDataBase = {
     questionID: 143,
     questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 2 to:",
     questionAnswers: [
-        {
-            text: "komparator"
-        },
-        {
-            text: "dzielnik nastawny"
-        },
-        {
-            text: "generator wzorca"
+        "komparator"
+        "dzielnik nastawny"
+        "generator wzorca"
 }
 ]
 },
@@ -4445,14 +3613,9 @@ const questionDataBase = {
     questionID: 144,
     questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "dzielnik nastawny"
-        },
-        {
-            text: "komparator"
-        },
-        {
-            text: "wzmacniacz błędu"
+        "dzielnik nastawny"
+        "komparator"
+        "wzmacniacz błędu"
 }
 ]
 },
@@ -4460,14 +3623,9 @@ const questionDataBase = {
     questionID: 145,
     questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 5 to:",
     questionAnswers: [
-        {
-            text: "dzielnik wzorca"
-        },
-        {
-            text: "generator stabilizowany"
-        },
-        {
-            text: "komparator"
+        "dzielnik wzorca"
+        "generator stabilizowany"
+        "komparator"
 }
 ]
 },
@@ -4475,14 +3633,9 @@ const questionDataBase = {
     questionID: 146,
     questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 6 to:",
     questionAnswers: [
-        {
-            text: "komparator"
-        },
-        {
-            text: "dzielnik nastawny"
-        },
-        {
-            text: "wzmacniacz błędu"
+        "komparator"
+        "dzielnik nastawny"
+        "wzmacniacz błędu"
 }
 ]
 },
@@ -4490,14 +3643,9 @@ const questionDataBase = {
     questionID: 147,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 1 to:",
     questionAnswers: [
-        {
-            text: "detektor z reakcją"
-        },
-        {
-            text: "wzmacniacz w. cz"
-        },
-        {
-            text: "wzmacniacz akustyczny"
+        "detektor z reakcją"
+        "wzmacniacz w. cz"
+        "wzmacniacz akustyczny"
         }
 ]
 },
@@ -4505,14 +3653,9 @@ const questionDataBase = {
     questionID: 148,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 2 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz w. cz."
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor z reakcją"
+        "wzmacniacz w. cz."
+        "wzmacniacz akustyczny"
+        "detektor z reakcją"
 }
 ]
 },
@@ -4520,14 +3663,9 @@ const questionDataBase = {
     questionID: 149,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 2 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "mieszacz"
-        },
-        {
-            text: "detektor AM"
+        "wzmacniacz akustyczny"
+        "mieszacz"
+        "detektor AM"
 }
 ]
 },
@@ -4535,14 +3673,9 @@ const questionDataBase = {
     questionID: 150,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "filtr wejściowy"
-        },
-        {
-            text: "wzmacniacz pośredniej cz."
-        },
-        {
-            text: "heterodyna"
+        "filtr wejściowy"
+        "wzmacniacz pośredniej cz."
+        "heterodyna"
 }
 ]
 },
@@ -4550,14 +3683,9 @@ const questionDataBase = {
     questionID: 151,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 4 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "filtr wejściowy"
-        },
-        {
-            text: "detektor AM"
+        "wzmacniacz akustyczny"
+        "filtr wejściowy"
+        "detektor AM"
 }
 ]
 },
@@ -4565,14 +3693,9 @@ const questionDataBase = {
     questionID: 152,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 6 to:",
     questionAnswers: [
-        {
-            text: "filtr wejściowy"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "heterodyna"
+        "filtr wejściowy"
+        "wzmacniacz akustyczny"
+        "heterodyna"
 }
 ]
 },
@@ -4580,14 +3703,9 @@ const questionDataBase = {
     questionID: 153,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 2 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "I mieszacz"
-        },
-        {
-            text: "filtr przełączany II p.cz."
+        "wzmacniacz akustyczny"
+        "I mieszacz"
+        "filtr przełączany II p.cz."
 }
 ]
 },
@@ -4595,14 +3713,9 @@ const questionDataBase = {
     questionID: 154,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "BFO"
-        },
-        {
-            text: "wzmacniacz I pośredniej cz."
-        },
-        {
-            text: "heterodyna"
+        "BFO"
+        "wzmacniacz I pośredniej cz."
+        "heterodyna"
 }
 ]
 },
@@ -4610,14 +3723,9 @@ const questionDataBase = {
     questionID: 155,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 4 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "BFO"
-        },
-        {
-            text: "II mieszacz"
+        "wzmacniacz akustyczny"
+        "BFO"
+        "II mieszacz"
 }
 ]
 },
@@ -4625,14 +3733,9 @@ const questionDataBase = {
     questionID: 156,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 5 to:",
     questionAnswers: [
-        {
-            text: "II heterodyna stała"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor AM CW SSB"
+        "II heterodyna stała"
+        "wzmacniacz akustyczny"
+        "detektor AM CW SSB"
 }
 ]
 },
@@ -4640,14 +3743,9 @@ const questionDataBase = {
     questionID: 157,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 6 to:",
     questionAnswers: [
-        {
-            text: "filtr przełączany II p.cz."
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "II heterodyna stała"
+        "filtr przełączany II p.cz."
+        "wzmacniacz akustyczny"
+        "II heterodyna stała"
 }
 ]
 },
@@ -4655,14 +3753,9 @@ const questionDataBase = {
     questionID: 158,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 7 to:",
     questionAnswers: [
-        {
-            text: "BFO"
-        },
-        {
-            text: "wzmacniacz II pośredniej cz."
-        },
-        {
-            text: "detektor AM , CW, SSB"
+        "BFO"
+        "wzmacniacz II pośredniej cz."
+        "detektor AM , CW, SSB"
 }
 ]
 },
@@ -4670,14 +3763,9 @@ const questionDataBase = {
     questionID: 159,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 8 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "wzmacniacz w.cz."
-        },
-        {
-            text: "detektor AM, CW, SSB"
+        "wzmacniacz akustyczny"
+        "wzmacniacz w.cz."
+        "detektor AM, CW, SSB"
 }
 ]
 },
@@ -4685,14 +3773,9 @@ const questionDataBase = {
     questionID: 160,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 10 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "BFO"
-        },
-        {
-            text: "detektor AM, CW, SSB"
+        "wzmacniacz akustyczny"
+        "BFO"
+        "detektor AM, CW, SSB"
 }
 ]
 },
@@ -4700,14 +3783,9 @@ const questionDataBase = {
     questionID: 161,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 11 to:",
     questionAnswers: [
-        {
-            text: "I heterodyna strojona"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor AM"
+        "I heterodyna strojona"
+        "wzmacniacz akustyczny"
+        "detektor AM"
 }
 ]
 },
@@ -4715,14 +3793,9 @@ const questionDataBase = {
     questionID: 162,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 2 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "filtr wejściowy"
-        },
-        {
-            text: "mieszacz zrównoważony"
+        "wzmacniacz akustyczny"
+        "filtr wejściowy"
+        "mieszacz zrównoważony"
 }
 ]
 },
@@ -4730,14 +3803,9 @@ const questionDataBase = {
     questionID: 163,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "heterodyna"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "filtr wejściowy"
+        "heterodyna"
+        "wzmacniacz akustyczny"
+        "filtr wejściowy"
 }
 ]
 },
@@ -4745,14 +3813,9 @@ const questionDataBase = {
     questionID: 164,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 4 to:",
     questionAnswers: [
-        {
-            text: "filtr wejściowy"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "heterodyna"
+        "filtr wejściowy"
+        "wzmacniacz akustyczny"
+        "heterodyna"
 }
 ]
 },
@@ -4760,14 +3823,9 @@ const questionDataBase = {
     questionID: 165,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 1 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz w.cz."
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor FM"
+        "wzmacniacz w.cz."
+        "wzmacniacz akustyczny"
+        "detektor FM"
 }
 ]
 },
@@ -4775,14 +3833,9 @@ const questionDataBase = {
     questionID: 166,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz w.cz."
-        },
-        {
-            text: "wzmacniacz I pośredniej cz. 10,7 MHz"
-        },
-        {
-            text: "I heterodyna"
+        "wzmacniacz w.cz."
+        "wzmacniacz I pośredniej cz. 10,7 MHz"
+        "I heterodyna"
 }
 ]
 },
@@ -4790,14 +3843,9 @@ const questionDataBase = {
     questionID: 167,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 4 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "blokada szumów"
-        },
-        {
-            text: "II mieszacz"
+        "wzmacniacz akustyczny"
+        "blokada szumów"
+        "II mieszacz"
 }
 ]
 },
@@ -4805,14 +3853,9 @@ const questionDataBase = {
     questionID: 168,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 5 to:",
     questionAnswers: [
-        {
-            text: "II heterodyna stała"
-        },
-        {
-            text: "wzmacniacz II p.cz. 455 kHz"
-        },
-        {
-            text: "detektor FM"
+        "II heterodyna stała"
+        "wzmacniacz II p.cz. 455 kHz"
+        "detektor FM"
 }
 ]
 },
@@ -4820,14 +3863,9 @@ const questionDataBase = {
     questionID: 169,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 6 to:",
     questionAnswers: [
-        {
-            text: "detektor FM"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "II heterodyna stała"
+        "detektor FM"
+        "wzmacniacz akustyczny"
+        "II heterodyna stała"
 }
 ]
 },
@@ -4835,14 +3873,9 @@ const questionDataBase = {
     questionID: 170,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 7 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz II p. cz. 455kHz"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor FM"
+        "wzmacniacz II p. cz. 455kHz"
+        "wzmacniacz akustyczny"
+        "detektor FM"
 }
 ]
 },
@@ -4850,14 +3883,9 @@ const questionDataBase = {
     questionID: 171,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 8 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "blokada szumów"
-        },
-        {
-            text: "detektor FM"
+        "wzmacniacz akustyczny"
+        "blokada szumów"
+        "detektor FM"
 }
 ]
 },
@@ -4865,14 +3893,9 @@ const questionDataBase = {
     questionID: 172,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 9 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "blokada szumów"
-        },
-        {
-            text: "II heterodyna stała"
+        "wzmacniacz akustyczny"
+        "blokada szumów"
+        "II heterodyna stała"
 }
 ]
 },
@@ -4880,14 +3903,9 @@ const questionDataBase = {
     questionID: 173,
     questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 10 to:",
     questionAnswers: [
-        {
-            text: "I heterodyna kwarcowa"
-        },
-        {
-            text: "wzmacniacz akustyczny"
-        },
-        {
-            text: "detektor FM"
+        "I heterodyna kwarcowa"
+        "wzmacniacz akustyczny"
+        "detektor FM"
 }
 ]
 },
@@ -4895,14 +3913,9 @@ const questionDataBase = {
     questionID: 174,
     questionText: "Miarą selektywności odbiornika jest szerokość pasma odbieranego przez odbiornik. Przy jakim poziomie od poziomu maksymalnego mierzymy selektywność?",
     questionAnswers: [
-        {
-            text: "przy -10dB"
-        },
-        {
-            text: "przy -6dB"
-        },
-        {
-            text: "przy -12dB"
+        "przy -10dB"
+        "przy -6dB"
+        "przy -12dB"
 }
 ]
 },
@@ -4910,14 +3923,9 @@ const questionDataBase = {
     questionID: 175,
     questionText: "Przy jakim stosunku sygnału do szumu mierzymy czułość odbiornika?",
     questionAnswers: [
-        {
-            text: "przy 6 dB"
-        },
-        {
-            text: "przy 10 dB"
-        },
-        {
-            text: "przy 20 dB"
+        "przy 6 dB"
+        "przy 10 dB"
+        "przy 20 dB"
 }
 ]
 },
@@ -4925,14 +3933,9 @@ const questionDataBase = {
     questionID: 176,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 1 to:",
     questionAnswers: [
-        {
-            text: "separator"
-        },
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "oscylator (VFO)"
+        "separator"
+        "wzmacniacz mocy (PA)"
+        "oscylator (VFO)"
 }
 ]
 },
@@ -4940,14 +3943,9 @@ const questionDataBase = {
     questionID: 177,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 2 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "oscylator (VFO)"
-        },
-        {
-            text: "separator"
+        "wzmacniacz mocy (PA)"
+        "oscylator (VFO)"
+        "separator"
 }
 ]
 },
@@ -4955,14 +3953,9 @@ const questionDataBase = {
     questionID: 178,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "oscylator (VFO)"
-        },
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "filtr wyjściowy"
+        "oscylator (VFO)"
+        "wzmacniacz mocy (PA)"
+        "filtr wyjściowy"
 }
 ]
 },
@@ -4970,14 +3963,9 @@ const questionDataBase = {
     questionID: 179,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 2 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz sterujący"
-        },
-        {
-            text: "separator"
-        },
-        {
-            text: "I powielacz x2"
+        "wzmacniacz sterujący"
+        "separator"
+        "I powielacz x2"
 }
 ]
 },
@@ -4985,14 +3973,9 @@ const questionDataBase = {
     questionID: 180,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "I powielacz x2"
-        },
-        {
-            text: "oscylator (VFO)"
+        "wzmacniacz mocy (PA)"
+        "I powielacz x2"
+        "oscylator (VFO)"
 }
 ]
 },
@@ -5000,14 +3983,9 @@ const questionDataBase = {
     questionID: 181,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 4 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz sterujący"
-        },
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "II powielacz x2"
+        "wzmacniacz sterujący"
+        "filtr wyjściowy"
+        "II powielacz x2"
 }
 ]
 },
@@ -5015,14 +3993,9 @@ const questionDataBase = {
     questionID: 182,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 5 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz sterujący"
-        },
-        {
-            text: "I powielacz x2"
-        },
-        {
-            text: "oscylator (VFO)"
+        "wzmacniacz sterujący"
+        "I powielacz x2"
+        "oscylator (VFO)"
 }
 ]
 },
@@ -5030,14 +4003,9 @@ const questionDataBase = {
     questionID: 183,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 6 to:",
     questionAnswers: [
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "II powielacz x2"
+        "filtr wyjściowy"
+        "wzmacniacz mocy (PA)"
+        "II powielacz x2"
 }
 ]
 },
@@ -5045,14 +4013,9 @@ const questionDataBase = {
     questionID: 184,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 7 to:",
     questionAnswers: [
-        {
-            text: "oscylator (VFO)"
-        },
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "separator"
+        "oscylator (VFO)"
+        "filtr wyjściowy"
+        "separator"
 }
 ]
 },
@@ -5060,14 +4023,9 @@ const questionDataBase = {
     questionID: 185,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "filtr pasmowy 3.5 - 14 MHz"
-        },
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "VFO 5 - 5.5 MHz"
+        "filtr pasmowy 3.5 - 14 MHz"
+        "wzmacniacz mocy (PA)"
+        "VFO 5 - 5.5 MHz"
 }
 ]
 },
@@ -5075,14 +4033,9 @@ const questionDataBase = {
     questionID: 186,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 4 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz sterujący"
-        },
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "wzbudnica SSB 9 MHz"
+        "wzmacniacz sterujący"
+        "filtr wyjściowy"
+        "wzbudnica SSB 9 MHz"
 }
 ]
 },
@@ -5090,14 +4043,9 @@ const questionDataBase = {
     questionID: 187,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 5 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "mieszacz"
-        },
-        {
-            text: "oscylator (VFO) 5 - 5.5 MHz"
+        "wzmacniacz mocy (PA)"
+        "mieszacz"
+        "oscylator (VFO) 5 - 5.5 MHz"
 }
 ]
 },
@@ -5105,14 +4053,9 @@ const questionDataBase = {
     questionID: 188,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 6 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "mieszacz"
+        "wzmacniacz mocy (PA)"
+        "filtr wyjściowy"
+        "mieszacz"
 }
 ]
 },
@@ -5120,14 +4063,9 @@ const questionDataBase = {
     questionID: 189,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 7 to:",
     questionAnswers: [
-        {
-            text: "oscylator (VFO) 5-5.5 MHz"
-        },
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "filtr pasmowy 3.5 - 14 MHz"
+        "oscylator (VFO) 5-5.5 MHz"
+        "filtr wyjściowy"
+        "filtr pasmowy 3.5 - 14 MHz"
 }
 ]
 },
@@ -5135,14 +4073,9 @@ const questionDataBase = {
     questionID: 190,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 2 to:",
     questionAnswers: [
-        {
-            text: "generator kwarcowy modulowany"
-        },
-        {
-            text: "modulator"
-        },
-        {
-            text: "I powielacz x3"
+        "generator kwarcowy modulowany"
+        "modulator"
+        "I powielacz x3"
 }
 ]
 },
@@ -5150,14 +4083,9 @@ const questionDataBase = {
     questionID: 191,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "I powielacz x3"
-        },
-        {
-            text: "II powielacz x3"
-        },
-        {
-            text: "generator kwarcowy modulowany"
+        "I powielacz x3"
+        "II powielacz x3"
+        "generator kwarcowy modulowany"
 }
 ]
 },
@@ -5165,14 +4093,9 @@ const questionDataBase = {
     questionID: 192,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 4 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "II powielacz x3"
+        "wzmacniacz mocy (PA)"
+        "filtr wyjściowy"
+        "II powielacz x3"
 }
 ]
 },
@@ -5180,14 +4103,9 @@ const questionDataBase = {
     questionID: 193,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 5 to:",
     questionAnswers: [
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "III powielacz x2"
-        },
-        {
-            text: "modulator"
+        "filtr wyjściowy"
+        "III powielacz x2"
+        "modulator"
 }
 ]
 },
@@ -5195,14 +4113,9 @@ const questionDataBase = {
     questionID: 194,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 6 to:",
     questionAnswers: [
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "II powielacz x3"
+        "filtr wyjściowy"
+        "wzmacniacz mocy (PA)"
+        "II powielacz x3"
 }
 ]
 },
@@ -5210,14 +4123,9 @@ const questionDataBase = {
     questionID: 195,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 1 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "generator PLL"
-        },
-        {
-            text: "modulator"
+        "wzmacniacz mocy (PA)"
+        "generator PLL"
+        "modulator"
 }
 ]
 },
@@ -5225,14 +4133,9 @@ const questionDataBase = {
     questionID: 196,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 2 to:",
     questionAnswers: [
-        {
-            text: "generator PLL"
-        },
-        {
-            text: "modulator"
-        },
-        {
-            text: "wzmacniacz sterujący"
+        "generator PLL"
+        "modulator"
+        "wzmacniacz sterujący"
 }
 ]
 },
@@ -5240,14 +4143,9 @@ const questionDataBase = {
     questionID: 197,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 3 to:",
     questionAnswers: [
-        {
-            text: "modulator"
-        },
-        {
-            text: "wzmacniacz sterujący"
-        },
-        {
-            text: "generator PLL"
+        "modulator"
+        "wzmacniacz sterujący"
+        "generator PLL"
 }
 ]
 },
@@ -5255,14 +4153,9 @@ const questionDataBase = {
     questionID: 198,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 4 to:",
     questionAnswers: [
-        {
-            text: "wzmacniacz mocy (PA)"
-        },
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "modulator"
+        "wzmacniacz mocy (PA)"
+        "filtr wyjściowy"
+        "modulator"
 }
 ]
 },
@@ -5270,14 +4163,9 @@ const questionDataBase = {
     questionID: 199,
     questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 5 to:",
     questionAnswers: [
-        {
-            text: "filtr wyjściowy"
-        },
-        {
-            text: "wzmacniacz sterujący"
-        },
-        {
-            text: "modulator"
+        "filtr wyjściowy"
+        "wzmacniacz sterujący"
+        "modulator"
 }
 ]
 },
@@ -5285,14 +4173,9 @@ const questionDataBase = {
     questionID: 200,
     questionText: "Jak zmienia się oporność dipola półfalowego przy niskim zawieszeniu nad ziemią?",
     questionAnswers: [
-        {
-            text: "nie zmienia się"
-        },
-        {
-            text: "rośnie"
-        },
-        {
-            text: "maleje"
+        "nie zmienia się"
+        "rośnie"
+        "maleje"
 }
 ]
 },
@@ -5300,14 +4183,9 @@ const questionDataBase = {
     questionID: 201,
     questionText: "W antenie dipolowej W3DZZ na pasma 80, 40, 20 metrów zastosowano trapy. Na jaką częstotliwość muszą być nastrojone?",
     questionAnswers: [
-        {
-            text: "10 MHz"
-        },
-        {
-            text: "7,05 MHz"
-        },
-        {
-            text: "14,1 MHz"
+        "10 MHz"
+        "7,05 MHz"
+        "14,1 MHz"
 }
 ]
 },
@@ -5315,14 +4193,9 @@ const questionDataBase = {
     questionID: 202,
     questionText: "Zysk anteny kierunkowej wyrażony jest w dBi. Względem jakiego źródła jest określony?",
     questionAnswers: [
-        {
-            text: "dipola pomiarowego"
-        },
-        {
-            text: "źródła izotropowego"
-        },
-        {
-            text: "innej anteny kierunkowej"
+        "dipola pomiarowego"
+        "źródła izotropowego"
+        "innej anteny kierunkowej"
 }
 ]
 },
@@ -5330,14 +4203,9 @@ const questionDataBase = {
     questionID: 203,
     questionText: "Jaka jest różnica pomiędzy efektywną mocą promieniowaną e.r.p. a efektywną mocą promieniowaną izotropowo e.i.r.p?",
     questionAnswers: [
-        {
-            text: "e.i.r.p. jest większe o 2,16 dB od e.r.p."
-        },
-        {
-            text: "e.i.r.p. jest mniejsze o 2,16 dB od e.r.p."
-        },
-        {
-            text: "nie ma różnicy"
+        "e.i.r.p. jest większe o 2,16 dB od e.r.p."
+        "e.i.r.p. jest mniejsze o 2,16 dB od e.r.p."
+        "nie ma różnicy"
 }
 ]
 },
@@ -5345,14 +4213,9 @@ const questionDataBase = {
     questionID: 204,
     questionText: "Antena kierunkowa na UKF w miejscu odbioru daje napięcie 4 razy większe jak dipol półfalowy. Jaki ma zysk dBd?",
     questionAnswers: [
-        {
-            text: "6 dBd"
-        },
-        {
-            text: "4 dBd"
-        },
-        {
-            text: "12 dBd"
+        "6 dBd"
+        "4 dBd"
+        "12 dBd"
 }
 ]
 },
@@ -5360,14 +4223,9 @@ const questionDataBase = {
     questionID: 205,
     questionText: "Kabel koncentryczny wprowadza straty sygnału. Kabel przy częstotliwości 150 MHz ma straty 12 dB na 100 m. Długość kabla między anteną a odbiornikiem wynosi 50 m. Ile razy napięcie na wejściu odbiornika będzie mniejsze niż w antenie?",
     questionAnswers: [
-        {
-            text: "4 razy"
-        },
-        {
-            text: "6 razy"
-        },
-        {
-            text: "2 razy"
+        "4 razy"
+        "6 razy"
+        "2 razy"
 }
 ]
 },
@@ -5375,14 +4233,9 @@ const questionDataBase = {
     questionID: 206,
     questionText: "Jakie długości fal zaliczamy do zakresu fal krótkich?",
     questionAnswers: [
-        {
-            text: "od 100 m do 10 m"
-        },
-        {
-            text: "od 80 m do 13 m"
-        },
-        {
-            text: "od 160 m do 10 m"
+        "od 100 m do 10 m"
+        "od 80 m do 13 m"
+        "od 160 m do 10 m"
 }
 ]
 },
@@ -5390,14 +4243,9 @@ const questionDataBase = {
     questionID: 207,
     questionText: "Do jakiej wysokości sięgają najwyższe warstwy jonosfery w lecie w dzień?",
     questionAnswers: [
-        {
-            text: "do 200 km"
-        },
-        {
-            text: "450 km"
-        },
-        {
-            text: "100 km"
+        "do 200 km"
+        "450 km"
+        "100 km"
 }
 ]
 },
@@ -5405,14 +4253,9 @@ const questionDataBase = {
     questionID: 208,
     questionText: "O czym mówi podawana w prognozach propagacji częstotliwość MUF?",
     questionAnswers: [
-        {
-            text: "o zakłóceniach odbioru"
-        },
-        {
-            text: "o maksymalnej częstotliwości do łączności na danej trasie"
-        },
-        {
-            text: "o zaniku łączności w danym kierunku"
+        "o zakłóceniach odbioru"
+        "o maksymalnej częstotliwości do łączności na danej trasie"
+        "o zaniku łączności w danym kierunku"
 }
 ]
 },
@@ -5420,14 +4263,9 @@ const questionDataBase = {
     questionID: 209,
     questionText: "Co to jest strefa martwa na falach krótkich?",
     questionAnswers: [
-        {
-            text: "strefa bez odbioru leżąca pomiędzy końcem fali przyziemnej a powrotem fali przestrzennej"
-        },
-        {
-            text: "strefa bez odbioru z powodu dużych zakłóceń w mieście"
-        },
-        {
-            text: "strefa w której brak odbioru z powodu interferencji fal przychodzących z różnych kierunków"
+        "strefa bez odbioru leżąca pomiędzy końcem fali przyziemnej a powrotem fali przestrzennej"
+        "strefa bez odbioru z powodu dużych zakłóceń w mieście"
+        "strefa w której brak odbioru z powodu interferencji fal przychodzących z różnych kierunków"
 }
 ]
 },
@@ -5435,14 +4273,9 @@ const questionDataBase = {
     questionID: 210,
     questionText: "Jakim przyrządem możemy sprawdzić kształt napięcia zmiennego w.cz. i wykryć zniekształcenia sygnału?",
     questionAnswers: [
-        {
-            text: "oscyloskopem"
-        },
-        {
-            text: "miernikiem napięcia"
-        },
-        {
-            text: "słuchając odbiornikiem"
+        "oscyloskopem"
+        "miernikiem napięcia"
+        "słuchając odbiornikiem"
 }
 ]
 },
@@ -5450,14 +4283,9 @@ const questionDataBase = {
     questionID: 211,
     questionText: "Jakie dodatkowe zabezpieczenie, oprócz umieszczenia jej na bezpiecznej wysokości, są zalecane dla anteny na terenowym QTH?",
     questionAnswers: [
-        {
-            text: "nie są potrzebne żadne dodatkowe zabezpieczenia"
-        },
-        {
-            text: "wykonanie anteny z drutu miedzianego w igielicie"
-        },
-        {
-            text: "zakaz przebywania pod anteną podczas nadawania"
+        "nie są potrzebne żadne dodatkowe zabezpieczenia"
+        "wykonanie anteny z drutu miedzianego w igielicie"
+        "zakaz przebywania pod anteną podczas nadawania"
 }
 ]
 },
@@ -5465,14 +4293,9 @@ const questionDataBase = {
     questionID: 212,
     questionText: "Czy można wykorzystać sieć wodociągową jako uziemienie?",
     questionAnswers: [
-        {
-            text: "tak"
-        },
-        {
-            text: "jedynie po zbocznikowaniu wodomierza i upewnieniu się, że jest ona uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć"
-        },
-        {
-            text: "nie, jest to zabronione"
+        "tak"
+        "jedynie po zbocznikowaniu wodomierza i upewnieniu się, że jest ona uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć"
+        "nie, jest to zabronione"
 }
 ]
 },
@@ -5480,14 +4303,9 @@ const questionDataBase = {
     questionID: 213,
     questionText: "Resuscytację krążeniowo-oddechową u osoby dorosłej, bez widocznych obrażeń ciała, wykonujemy w stosunku:",
     questionAnswers: [
-        {
-            text: "30 uciśnięć klatki piersiowej na dwa wdechy"
-        },
-        {
-            text: "20 uciśnięć klatki piersiowej na cztery wdechy"
-        },
-        {
-            text: "15 uciśnięć klatki piersiowej na sześć wdechów"
+        "30 uciśnięć klatki piersiowej na dwa wdechy"
+        "20 uciśnięć klatki piersiowej na cztery wdechy"
+        "15 uciśnięć klatki piersiowej na sześć wdechów"
 }
 ]
 },
@@ -5495,14 +4313,9 @@ const questionDataBase = {
     questionID: 214,
     questionText: "Podczas pracy z monitorem komputerowym minimalne zalecane przerwy wynoszą:",
     questionAnswers: [
-        {
-            text: "co dwie godziny po 20 minut"
-        },
-        {
-            text: "co godzinę pięć minut"
-        },
-        {
-            text: "co trzy godziny po dziesięć minut"
+        "co dwie godziny po 20 minut"
+        "co godzinę pięć minut"
+        "co trzy godziny po dziesięć minut"
 }
 ]
 },
@@ -5510,14 +4323,9 @@ const questionDataBase = {
     questionID: 215,
     questionText: "Jakie oznaczenie na rękojeści narzędzia ma istotne znaczenie przy pracach elektrycznych?",
     questionAnswers: [
-        {
-            text: "rodzaj zastosowanej izolacji"
-        },
-        {
-            text: "nazwa producenta"
-        },
-        {
-            text: "dopuszczalne napięcie pracy"
+        "rodzaj zastosowanej izolacji"
+        "nazwa producenta"
+        "dopuszczalne napięcie pracy"
 }
 ]
 },
@@ -5525,14 +4333,9 @@ const questionDataBase = {
     questionID: 216,
     questionText: "Dlaczego stosuje się ograniczenia w przebywaniu (zamieszkaniu) w bezpośrednim sąsiedztwie dużych obiektów nadawczych radiowych i telewizyjnych?",
     questionAnswers: [
-        {
-            text: "ze względu na wyładowania atmosferyczne"
-        },
-        {
-            text: "ze względu na duże natężenie pola elektromagnetycznego mogące mieć negatywny wpływ na zdrowie"
-        },
-        {
-            text: "ze względu na możliwość przewrócenia się masztu"
+        "ze względu na wyładowania atmosferyczne"
+        "ze względu na duże natężenie pola elektromagnetycznego mogące mieć negatywny wpływ na zdrowie"
+        "ze względu na możliwość przewrócenia się masztu"
 }
 ]
 },
@@ -5540,14 +4343,9 @@ const questionDataBase = {
     questionID: 217,
     questionText: "Czy wolno wykonywać prace antenowe przy włączonym nadajniku?",
     questionAnswers: [
-        {
-            text: "wolno, bez żadnych ograniczeń"
-        },
-        {
-            text: "wolno, ale tylko przy małych mocach nadajnika"
-        },
-        {
-            text: "kategorycznie nie wolno"
+        "wolno, bez żadnych ograniczeń"
+        "wolno, ale tylko przy małych mocach nadajnika"
+        "kategorycznie nie wolno"
 }
 ]
 },
@@ -5555,14 +4353,9 @@ const questionDataBase = {
     questionID: 218,
     questionText: "Na polu antenowym mamy kilka anten na różne pasma. Czy można regulować nieczynne anteny, jeżeli obok pracuje na podobnej antenie nadajnik KF?",
     questionAnswers: [
-        {
-            text: "nie wolno"
-        },
-        {
-            text: "można"
-        },
-        {
-            text: "można, ale tylko gdy nadajnik ten pracuje z małą mocą"
+        "nie wolno"
+        "można"
+        "można, ale tylko gdy nadajnik ten pracuje z małą mocą"
 }
 ]
 },
@@ -5570,14 +4363,9 @@ const questionDataBase = {
     questionID: 219,
     questionText: "Spełnienie jakich warunków konstrukcyjnych ogranicza przedostawanie się energii w.cz. niepożądanymi drogami?",
     questionAnswers: [
-        {
-            text: "dobre uziemienie i szczelność ekranowania"
-        },
-        {
-            text: "filtrowany zasilacz"
-        },
-        {
-            text: "odpowiedni przekrój kabla sieciowego"
+        "dobre uziemienie i szczelność ekranowania"
+        "filtrowany zasilacz"
+        "odpowiedni przekrój kabla sieciowego"
         },
         {
 }
@@ -5587,14 +4375,9 @@ const questionDataBase = {
     questionID: 220,
     questionText: "Czy źle wykonany uziom może być przyczyną szkodliwego promieniowania w.cz.?",
     questionAnswers: [
-        {
-            text: "nie"
-        },
-        {
-            text: "tak"
-        },
-        {
-            text: "nie zawsze"
+        "nie"
+        "tak"
+        "nie zawsze"
 }
 ]
 },
@@ -5602,14 +4385,9 @@ const questionDataBase = {
     questionID: 221,
     questionText: "Jakie niebezpieczeństwo grozi, gdy trzymamy w rękach naładowany kondensator elektrolityczny?",
     questionAnswers: [
-        {
-            text: "porażenie prądem elektrycznym"
-        },
-        {
-            text: "nie ma żadnego niebezpieczeństwa"
-        },
-        {
-            text: "implozja kondensatora"
+        "porażenie prądem elektrycznym"
+        "nie ma żadnego niebezpieczeństwa"
+        "implozja kondensatora"
 }
 ]
 },
@@ -5617,14 +4395,9 @@ const questionDataBase = {
     questionID: 222,
     questionText: "Czy zwarcie drutem biegunów źródła prądu (bateria, akumulator) może być niebezpieczne?",
     questionAnswers: [
-        {
-            text: "nie ma żadnego zagrożenia"
-        },
-        {
-            text: "tak, może spowodować pożar"
-        },
-        {
-            text: "tak, może spowodować stopienie się drutu i poparzenie roztopionym metalem"
+        "nie ma żadnego zagrożenia"
+        "tak, może spowodować pożar"
+        "tak, może spowodować stopienie się drutu i poparzenie roztopionym metalem"
 }
 ]
 },
@@ -5632,14 +4405,9 @@ const questionDataBase = {
     questionID: 223,
     questionText: "Czy kondensator elektrolityczny musi mieć napięcie pracy równe lub większe niż napięcie występujące w układzie w jakim pracuje?",
     questionAnswers: [
-        {
-            text: "napięcie pracy kondensatora nie ma znaczenia"
-        },
-        {
-text: "napięcie pracy kondensatora ma znaczenia tylko w niektórych typach układów"
-},
-{
-text: "koniecznie, gdyż może ulec zniszczeniu"
+        "napięcie pracy kondensatora nie ma znaczenia"
+        "napięcie pracy kondensatora ma znaczenia tylko w niektórych typach układów"
+"koniecznie, gdyż może ulec zniszczeniu"
 }
 ]
 },
@@ -5647,14 +4415,9 @@ text: "koniecznie, gdyż może ulec zniszczeniu"
     questionID: 224,
     questionText: "Czy brak filtru przeciw zakłóceniowego na obwodzie zasilania sieciowego może być przyczyną zakłóceń w pracy urządzenia?",
     questionAnswers: [
-        {
-            text: "tak, ale tylko przy dużej mocy"
-        },
-        {
-text: "zawsze, bez względu na moc"
-},
-{
-text: "to nie ma znaczenia, rolę filtru pełni transformator zasilacza"
+        "tak, ale tylko przy dużej mocy"
+        "zawsze, bez względu na moc"
+"to nie ma znaczenia, rolę filtru pełni transformator zasilacza"
 }
 ]
 },
@@ -5662,14 +4425,9 @@ text: "to nie ma znaczenia, rolę filtru pełni transformator zasilacza"
     questionID: 225,
     questionText: "Czy promieniowanie elektromagnetyczne w.cz. może mieć wpływ na zdrowie człowieka?",
     questionAnswers: [
-        {
-            text: "nie"
-        },
-        {
-text: "tak"
-},
-{
-text: "nie, jeśli używamy specjalnego ubrania ochronnego"
+        "nie"
+        "tak"
+"nie, jeśli używamy specjalnego ubrania ochronnego"
 }
 ]
 },
@@ -5677,14 +4435,9 @@ text: "nie, jeśli używamy specjalnego ubrania ochronnego"
     questionID: 226,
     questionText: "Czy sztuczne obciążenie w postaci opornika bezindukcyjnego powinno być ekranowane?",
     questionAnswers: [
-        {
-            text: "nie ma takiej potrzeby"
-        },
-        {
-text: "tak, zawsze powinno być ekranowane i uziemione w tym samym punkcie co radiostacja"
-},
-{
-text: "tylko w przypadku gdy wzmacniacz mocy nie jest właściwie dostrojony"
+        "nie ma takiej potrzeby"
+        "tak, zawsze powinno być ekranowane i uziemione w tym samym punkcie co radiostacja"
+"tylko w przypadku gdy wzmacniacz mocy nie jest właściwie dostrojony"
 }
 ]
 },
@@ -5692,14 +4445,9 @@ text: "tylko w przypadku gdy wzmacniacz mocy nie jest właściwie dostrojony"
     questionID: 227,
     questionText: "Czy można uruchomić urządzenie po przeniesieniu z zimnego pomieszczenia do ciepłego?",
     questionAnswers: [
-        {
-            text: "istnieje bezwzględny zakaz"
-        },
-        {
-text: "można, ale po odczekaniu pewnego czasu"
-},
-{
-text: "można natychmiast, bez żadnego ryzyka"
+        "istnieje bezwzględny zakaz"
+        "można, ale po odczekaniu pewnego czasu"
+"można natychmiast, bez żadnego ryzyka"
 }
 ]
 },
@@ -5707,14 +4455,9 @@ text: "można natychmiast, bez żadnego ryzyka"
     questionID: 228,
     questionText: "Czy plastikowa obudowa urządzenia nadawczego stanowi odpowiednie zabezpieczenie przed oddziaływaniem energii w.cz.?",
     questionAnswers: [
-        {
-            text: "jest to wystarczające zabezpieczenie przed energią w.cz."
-        },
-        {
-text: "urządzenia te używa się głównie na terenowym QTH więc takie zabezpieczenie nie jest potrzebne"
-},
-{
-text: "nie stanowi żadnego zabezpieczenia przed energią w.cz."
+        "jest to wystarczające zabezpieczenie przed energią w.cz."
+        "urządzenia te używa się głównie na terenowym QTH więc takie zabezpieczenie nie jest potrzebne"
+"nie stanowi żadnego zabezpieczenia przed energią w.cz."
 }
 ]
 },
@@ -5722,14 +4465,9 @@ text: "nie stanowi żadnego zabezpieczenia przed energią w.cz."
     questionID: 229,
     questionText: "Czy dopuszczalne jest użycie sieci CO (np. kaloryfera) do uziemienia radiostacji?",
     questionAnswers: [
-        {
-            text: "tak"
-        },
-        {
-text: "tylko po upewnieniu się, że jest ona właściwie uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć"
-},
-{
-text: "nie"
+        "tak"
+        "tylko po upewnieniu się, że jest ona właściwie uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć"
+"nie"
 }
 ]
 },
@@ -5737,14 +4475,9 @@ text: "nie"
     questionID: 230,
     questionText: "Jaki zapas mocy powinien mieć zasilacz urządzeń AM i FM przewidziany do ciągłej bezawaryjnej pracy?",
     questionAnswers: [
-        {
-            text: "20% więcej"
-        },
-        {
-text: "50% więcej"
-},
-{
-text: "10 % więcej powyżej mocy maksymalnej"
+        "20% więcej"
+        "50% więcej"
+"10 % więcej powyżej mocy maksymalnej"
 }
 ]
 },
@@ -5752,14 +4485,9 @@ text: "10 % więcej powyżej mocy maksymalnej"
     questionID: 231,
     questionText: "Czy można wykorzystać jako uziemienie rurę instalacji gazowej?",
     questionAnswers: [
-        {
-            text: "bezwzględnie nie wolno"
-        },
-        {
-text: "wolno bez żadnych ograniczeń"
-},
-{
-text: "wolno jedynie w sytuacji, gdy nie dysponuje się innym uziemieniem"
+        "bezwzględnie nie wolno"
+        "wolno bez żadnych ograniczeń"
+"wolno jedynie w sytuacji, gdy nie dysponuje się innym uziemieniem"
 }
 ]
 },
@@ -5767,14 +4495,9 @@ text: "wolno jedynie w sytuacji, gdy nie dysponuje się innym uziemieniem"
     questionID: 232,
     questionText: "Jakie działania należy podjąć, aby udzielić pomocy porażonemu prądem elektrycznym?",
     questionAnswers: [
-        {
-            text: "odłączyć porażonego od prądu, podjąć działania w celu wyeliminowania skutków ewentualnych poparzeń"
-        },
-        {
-text: "zadbać o własne bezpieczeństwo, odłączyć porażonego od prądy, sprawdzić funkcje życiowe, wezwać lekarza, w razie konieczności przeprowadzać resuscytację krążeniowo-oddechową"
-},
-{
-text: "zadbać o własne bezpieczeństwo, wezwać znajomych w celu prowadzenia wspólnej akcji ratowniczej"
+        "odłączyć porażonego od prądu, podjąć działania w celu wyeliminowania skutków ewentualnych poparzeń"
+        "zadbać o własne bezpieczeństwo, odłączyć porażonego od prądy, sprawdzić funkcje życiowe, wezwać lekarza, w razie konieczności przeprowadzać resuscytację krążeniowo-oddechową"
+"zadbać o własne bezpieczeństwo, wezwać znajomych w celu prowadzenia wspólnej akcji ratowniczej"
 }
 ]
 },
@@ -5782,14 +4505,9 @@ text: "zadbać o własne bezpieczeństwo, wezwać znajomych w celu prowadzenia w
     questionID: 233,
     questionText: "Pomieszczenie, w którym znajduje się indywidualna stacja amatorska, powinno być wyposażone w następujące środki ochrony p-poż:",
     questionAnswers: [
-        {
-            text: "środki gaśnicze wymagane dla obiektów użytku publicznego"
-        },
-        {
-text: "koc gaśniczy i gaśnicę do gaszenia urządzeń elektrycznych"
-},
-{
-text: "gaśnicę do gaszenia urządzeń pod napięciem"
+        "środki gaśnicze wymagane dla obiektów użytku publicznego"
+        "koc gaśniczy i gaśnicę do gaszenia urządzeń elektrycznych"
+"gaśnicę do gaszenia urządzeń pod napięciem"
 }
 ]
 },
@@ -5797,14 +4515,9 @@ text: "gaśnicę do gaszenia urządzeń pod napięciem"
     questionID: 234,
     questionText: "Przewody zasilające prądu stałego oznaczone są kolorami:",
     questionAnswers: [
-        {
-            text: "żółty i czarny"
-        },
-        {
-text: "niebieski i czarny"
-},
-{
-text: "czerwony i czarny"
+        "żółty i czarny"
+        "niebieski i czarny"
+"czerwony i czarny"
 }
 ]
 },
@@ -5812,14 +4525,9 @@ text: "czerwony i czarny"
     questionID: 235,
     questionText: "Uszkodzonych tranzystorów nie powinno się otwierać, gdyż:",
     questionAnswers: [
-        {
-            text: "można się pokaleczyć"
-        },
-        {
-text: "zawierają szkodliwe substancje, mogące spowodować ciężkie zatrucie"
-},
-{
-text: "zawierają tajemnice produkcji, których i tak nie jesteśmy w stanie wykorzystać"
+        "można się pokaleczyć"
+        "zawierają szkodliwe substancje, mogące spowodować ciężkie zatrucie"
+"zawierają tajemnice produkcji, których i tak nie jesteśmy w stanie wykorzystać"
 }
 ]
 },
@@ -5827,14 +4535,9 @@ text: "zawierają tajemnice produkcji, których i tak nie jesteśmy w stanie wyk
     questionID: 236,
     questionText: "Narzędzia do prac elektrycznych powinny:",
     questionAnswers: [
-        {
-            text: "charakteryzować się estetyką wykonania"
-        },
-        {
-text: "posiadać homologację Ministerstwa Łączności"
-},
-{
-text: "posiadać izolowane uchwyty z nadrukowaną informacją o dopuszczalnym napięciu pracy np. 500 V"
+        "charakteryzować się estetyką wykonania"
+        "posiadać homologację Ministerstwa Łączności"
+"posiadać izolowane uchwyty z nadrukowaną informacją o dopuszczalnym napięciu pracy np. 500 V"
 }
 ]
 },
@@ -5842,14 +4545,9 @@ text: "posiadać izolowane uchwyty z nadrukowaną informacją o dopuszczalnym na
     questionID: 237,
     questionText: "Na terenowym QTH uziemienie można wykonać:",
     questionAnswers: [
-        {
-            text: "wbijając uziom do ziemi jako osobne uziemienie dla swojej stacji"
-        },
-        {
-text: "podłączając się do uziomu roboczego na słupie kratowym"
-},
-{
-text: "podłączając się do uziomu w energetycznej szafie rozdzielczej"
+        "wbijając uziom do ziemi jako osobne uziemienie dla swojej stacji"
+        "podłączając się do uziomu roboczego na słupie kratowym"
+"podłączając się do uziomu w energetycznej szafie rozdzielczej"
 }
 ]
 },
@@ -5857,14 +4555,9 @@ text: "podłączając się do uziomu w energetycznej szafie rozdzielczej"
     questionID: 238,
     questionText: "Uruchomienie nieznanego urządzenia rozpoczyna się od:",
     questionAnswers: [
-        {
-            text: "włożenia wtyczki do kontaktu i przełączenia przełącznika"
-        },
-        {
-text: "podłączenia anteny i uziemienia"
-},
-{
-text: "sprawdzenia, czy ustawione jest właściwe napięcie sieci oraz zainstalowany jest właściwy bezpiecznik"
+        "włożenia wtyczki do kontaktu i przełączenia przełącznika"
+        "podłączenia anteny i uziemienia"
+"sprawdzenia, czy ustawione jest właściwe napięcie sieci oraz zainstalowany jest właściwy bezpiecznik"
 }
 ]
 },
@@ -5872,14 +4565,9 @@ text: "sprawdzenia, czy ustawione jest właściwe napięcie sieci oraz zainstalo
     questionID: 239,
     questionText: "Czy radiostację i urządzenia pomocnicze można podłączać do gniazd zasilanych z dwóch różnych faz?",
     questionAnswers: [
-        {
-            text: "można, nie ma żadnych przeciwwskazań"
-        },
-        {
-text: "kategorycznie nie można, grozi to zniszczeniem sprzętu i porażeniem operatora"
-},
-{
-text: "można, jeżeli jednocześnie nie używa się wszystkich urządzeń"
+        "można, nie ma żadnych przeciwwskazań"
+        "kategorycznie nie można, grozi to zniszczeniem sprzętu i porażeniem operatora"
+"można, jeżeli jednocześnie nie używa się wszystkich urządzeń"
 }
 ]
 },
@@ -5887,14 +4575,9 @@ text: "można, jeżeli jednocześnie nie używa się wszystkich urządzeń"
     questionID: 240,
     questionText: "Po zakończeniu pracy radiostacji należy:",
     questionAnswers: [
-        {
-            text: "wyłączyć zasilanie"
-        },
-        {
-text: "wyłączyć zasilanie i uziemić anteny"
-},
-{
-text: "wyłączyć zasilanie, uziemić anteny i odłączyć uziemienie od radia"
+        "wyłączyć zasilanie"
+        "wyłączyć zasilanie i uziemić anteny"
+"wyłączyć zasilanie, uziemić anteny i odłączyć uziemienie od radia"
 }
 ]
 },
@@ -5902,14 +4585,9 @@ text: "wyłączyć zasilanie, uziemić anteny i odłączyć uziemienie od radia"
     questionID: 241,
     questionText: "Podczas wieszania anteny na wysokościach należy:",
     questionAnswers: [
-        {
-            text: "jedynie zapewnić sobie pomoc innej osoby"
-        },
-        {
-text: "zapewnić sobie pomoc innej osoby oraz stosować sprzęt ochronny"
-},
-{
-text: "zapewnić sobie pomoc innej osoby, stosować sprzęt ochronny, starać się maksymalnie zabezpieczyć osoby na dole przez ogrodzenie miejsc zagrożonych linką i zawieszenie tablic: Na górze pracują, oraz zapewnić łączność za pomocą radiotelefonów przenośnych, aby prace wykonać na komendę pomagającej nam osoby kiedy nie ma zagrożenia dla innych ludzi"
+        "jedynie zapewnić sobie pomoc innej osoby"
+        "zapewnić sobie pomoc innej osoby oraz stosować sprzęt ochronny"
+"zapewnić sobie pomoc innej osoby, stosować sprzęt ochronny, starać się maksymalnie zabezpieczyć osoby na dole przez ogrodzenie miejsc zagrożonych linką i zawieszenie tablic: Na górze pracują, oraz zapewnić łączność za pomocą radiotelefonów przenośnych, aby prace wykonać na komendę pomagającej nam osoby kiedy nie ma zagrożenia dla innych ludzi"
 }
 ]
 },
@@ -5917,14 +4595,9 @@ text: "zapewnić sobie pomoc innej osoby, stosować sprzęt ochronny, starać si
     questionID: 242,
     questionText: "Środki ochrony osobistej przy pracy na wysokości to:",
     questionAnswers: [
-        {
-            text: "rękawice i okulary ochronne"
-        },
-        {
-text: "drabina rozstawna"
-},
-{
-text: "szelki bezpieczeństwa z podwójną linką plus lina asekuracyjna, kask i rękawice"
+        "rękawice i okulary ochronne"
+        "drabina rozstawna"
+"szelki bezpieczeństwa z podwójną linką plus lina asekuracyjna, kask i rękawice"
 }
 ]
 },
@@ -5932,14 +4605,9 @@ text: "szelki bezpieczeństwa z podwójną linką plus lina asekuracyjna, kask i
     questionID: 243,
     questionText: "Jaka powinna być rezystancja uziemienia radiostacji?",
     questionAnswers: [
-        {
-            text: "50 Omów"
-        },
-        {
-text: "zależnie od kabla antenowego: 50 lub 75 Omów"
-},
-{
-text: "pomiędzy 10 a 1 Om, im mniejsza tym lepsza"
+        "50 Omów"
+        "zależnie od kabla antenowego: 50 lub 75 Omów"
+"pomiędzy 10 a 1 Om, im mniejsza tym lepsza"
 }
 ]
 },
@@ -5947,14 +4615,9 @@ text: "pomiędzy 10 a 1 Om, im mniejsza tym lepsza"
     questionID: 244,
     questionText: "W momencie stwierdzenia pożaru urządzenia należy:",
     questionAnswers: [
-        {
-            text: "zadzwonić po straż pożarną"
-        },
-        {
-text: "wezwać kolegów i wspólnie przystąpić do gaszenia"
-},
-{
-text: "odłączyć urządzenie od zasilania i przystąpić do gaszenia, w razie potrzeby wezwać straż pożarną"
+        "zadzwonić po straż pożarną"
+        "wezwać kolegów i wspólnie przystąpić do gaszenia"
+"odłączyć urządzenie od zasilania i przystąpić do gaszenia, w razie potrzeby wezwać straż pożarną"
 }
 ]
 },
@@ -5962,14 +4625,9 @@ text: "odłączyć urządzenie od zasilania i przystąpić do gaszenia, w razie 
     questionID: 245,
     questionText: "Zwody (połączenia) uziemiające od radiostacji należy poprowadzić następująco:",
     questionAnswers: [
-        {
-            text: "zasilacz do ziemi, skrzynka antenowa do radia i do zasilacza"
-        },
-        {
-text: "skrzynka antenowa jako pierwsza do uziemienia, następnie radiostacja osobnym zwodem do skrzynki i zasilacz osobnym zwodem do tejże skrzynki"
-},
-{
-text: "sposób prowadzenia połączeń uziemiających nie ma znaczenia"
+        "zasilacz do ziemi, skrzynka antenowa do radia i do zasilacza"
+        "skrzynka antenowa jako pierwsza do uziemienia, następnie radiostacja osobnym zwodem do skrzynki i zasilacz osobnym zwodem do tejże skrzynki"
+"sposób prowadzenia połączeń uziemiających nie ma znaczenia"
 }
 ]
 },
@@ -5977,14 +4635,9 @@ text: "sposób prowadzenia połączeń uziemiających nie ma znaczenia"
     questionID: 246,
     questionText: "Transformator ochronny stosujemy, gdy:",
     questionAnswers: [
-        {
-            text: "zachodzi obawa, że użycie narzędzi elektrycznych zasilanych napięciem 230 V może spowodować porażenie prądem, np. pracując na zewnątrz pomieszczeń"
-        },
-        {
-text: "wykonujemy prace w wilgotnym pomieszczeniu"
-},
-{
-text: "jak w punkcie A i B i w innych sytuacjach, jeżeli zachodzi niebezpieczeństwo porażenia prądem np. przy pracach naprawczych"
+        "zachodzi obawa, że użycie narzędzi elektrycznych zasilanych napięciem 230 V może spowodować porażenie prądem, np. pracując na zewnątrz pomieszczeń"
+        "wykonujemy prace w wilgotnym pomieszczeniu"
+"jak w punkcie A i B i w innych sytuacjach, jeżeli zachodzi niebezpieczeństwo porażenia prądem np. przy pracach naprawczych"
 }
 ]
 },
@@ -5992,14 +4645,9 @@ text: "jak w punkcie A i B i w innych sytuacjach, jeżeli zachodzi niebezpiecze�
     questionID: 247,
     questionText: "W przypadku poparzenia elektrolitem należy:",
     questionAnswers: [
-        {
-            text: "sprawdzić czy nie oblane zostało ubranie i buty, jeśli tak to należy zdjąć takie ubranie lub buty"
-        },
-        {
-text: "spłukać wodą oparzone miejsce - kontakt z lekarzem nie jest konieczny"
-},
-{
-text: "zdjąć odzież z oparzonego miejsca, płukać wodą oparzone miejsce, zabezpieczyć sterylnym opatrunkiem i udać się do lekarza"
+        "sprawdzić czy nie oblane zostało ubranie i buty, jeśli tak to należy zdjąć takie ubranie lub buty"
+        "spłukać wodą oparzone miejsce - kontakt z lekarzem nie jest konieczny"
+"zdjąć odzież z oparzonego miejsca, płukać wodą oparzone miejsce, zabezpieczyć sterylnym opatrunkiem i udać się do lekarza"
 }
 ]
 },
@@ -6007,14 +4655,9 @@ text: "zdjąć odzież z oparzonego miejsca, płukać wodą oparzone miejsce, za
     questionID: 248,
     questionText: "W przypadku zaprószenia oka ciałem obcym należy:",
     questionAnswers: [
-        {
-            text: "odczekać aż ciało obce samo wypadnie"
-        },
-        {
-text: "usunąć ciało obce samodzielnie za pomocą pęsety"
-},
-{
-text: "spróbować usunąć obce ciało, przemywając oko wodą, a jeżeli się to nie uda skorzystać z pomocy lekarza"
+        "odczekać aż ciało obce samo wypadnie"
+        "usunąć ciało obce samodzielnie za pomocą pęsety"
+"spróbować usunąć obce ciało, przemywając oko wodą, a jeżeli się to nie uda skorzystać z pomocy lekarza"
 }
 ]
 },
@@ -6022,14 +4665,9 @@ text: "spróbować usunąć obce ciało, przemywając oko wodą, a jeżeli się 
     questionID: 249,
     questionText: "Podstawowe wyposażenie ochronne do prac z elektrolitem to:",
     questionAnswers: [
-        {
-            text: "ubranie ochronne, okulary, rękawice ochronne"
-        },
-        {
-text: "maska na twarz, nakrycie głowy, obuwie ochronne"
-},
-{
-text: "nie ma potrzeby stosować żadnego wyposażenia ochronnego"
+        "ubranie ochronne, okulary, rękawice ochronne"
+        "maska na twarz, nakrycie głowy, obuwie ochronne"
+"nie ma potrzeby stosować żadnego wyposażenia ochronnego"
 }
 ]
 },
@@ -6037,14 +4675,9 @@ text: "nie ma potrzeby stosować żadnego wyposażenia ochronnego"
     questionID: 250,
     questionText: "Mierząc miernikiem napięcie o niemożliwej do oszacowania wartości należy:",
     questionAnswers: [
-        {
-            text: "ustawić miernik na najwyższy zakres pomiarowy i stopniowo zmniejszać zakres"
-        },
-        {
-text: "ustawić miernik na najniższy zakres pomiarowy i stopniowo zwiększać zakres"
-},
-{
-text: "rozpocząć pomiary od środkowego zakresu miernika"
+        "ustawić miernik na najwyższy zakres pomiarowy i stopniowo zmniejszać zakres"
+        "ustawić miernik na najniższy zakres pomiarowy i stopniowo zwiększać zakres"
+"rozpocząć pomiary od środkowego zakresu miernika"
 }
 ]
 },
@@ -6052,14 +4685,9 @@ text: "rozpocząć pomiary od środkowego zakresu miernika"
     questionID: 251,
     questionText: "Przygotowując się do wykonania prac pod napięciem, oprócz przygotowania odpowiednich przyrządów należy:",
     questionAnswers: [
-        {
-            text: "sprawdzić czy zastosowano prawidłowe bezpieczniki w mierzonych obwodach"
-        },
-        {
-text: "przygotować schemat elektryczny urządzenia i zapoznać się z nim"
-},
-{
-text: "jak w punkcie A i B oraz zapewnić sobie obecność i ewentualną pomoc drugiej osoby"
+        "sprawdzić czy zastosowano prawidłowe bezpieczniki w mierzonych obwodach"
+        "przygotować schemat elektryczny urządzenia i zapoznać się z nim"
+"jak w punkcie A i B oraz zapewnić sobie obecność i ewentualną pomoc drugiej osoby"
 }
 ]
 },
@@ -6067,14 +4695,9 @@ text: "jak w punkcie A i B oraz zapewnić sobie obecność i ewentualną pomoc d
     questionID: 252,
     questionText: "Podczas pracy nadajnika KF na jednej z anten, w celu zabezpieczenia się przed przypadkowym porażeniem od innych anten należy:",
     questionAnswers: [
-        {
-            text: "ułożyć przewody zasilające pod stołem luźno, lecz tak, aby się nie stykały"
-        },
-        {
-text: "uziemić wszystkie nieużywane w danym momencie anteny, aby nie ulec porażeniu w wyniku ich przypadkowego dotknięcia"
-},
-{
-text: "nie jest konieczne stosowanie jakichkolwiek zabezpieczeń"
+        "ułożyć przewody zasilające pod stołem luźno, lecz tak, aby się nie stykały"
+        "uziemić wszystkie nieużywane w danym momencie anteny, aby nie ulec porażeniu w wyniku ich przypadkowego dotknięcia"
+"nie jest konieczne stosowanie jakichkolwiek zabezpieczeń"
 }
 ]
 },
@@ -6082,14 +4705,9 @@ text: "nie jest konieczne stosowanie jakichkolwiek zabezpieczeń"
     questionID: 253,
     questionText: "Przy podłączeniu zasilacza stacji przekrój sieci i wartość zabezpieczeń powinny być dobrany tak, aby zapewnić dostarczenie mocy:",
     questionAnswers: [
-        {
-            text: "wyższej niż moc określona w tabliczce znamionowej urządzenia"
-        },
-        {
-text: "równej mocy określonej w tabliczce znamionowej urządzenia"
-},
-{
-text: "niższej niż moc określona w tabliczce znamionowej urządzenia"
+        "wyższej niż moc określona w tabliczce znamionowej urządzenia"
+        "równej mocy określonej w tabliczce znamionowej urządzenia"
+"niższej niż moc określona w tabliczce znamionowej urządzenia"
 }
 ]
 },
@@ -6097,14 +4715,9 @@ text: "niższej niż moc określona w tabliczce znamionowej urządzenia"
     questionID: 254,
     questionText: "Odległość pomiędzy masztem antenowym budowanym na ziemi a pasem drogowym, chodnikiem i innymi przeszkodami:",
     questionAnswers: [
-        {
-            text: "powinna być równa połowie wysokości masztu"
-        },
-        {
-text: "nie ma żadnego znaczenia"
-},
-{
-text: "powinna być większa niż wysokość masztu"
+        "powinna być równa połowie wysokości masztu"
+        "nie ma żadnego znaczenia"
+"powinna być większa niż wysokość masztu"
 }
 ]
 },
@@ -6112,14 +4725,9 @@ text: "powinna być większa niż wysokość masztu"
     questionID: 255,
     questionText: "Maszt kratowy uziemiamy:",
     questionAnswers: [
-        {
-            text: "jednym zwodem odgromowym"
-        },
-        {
-text: "po przekątnej dwoma zwodami"
-},
-{
-text: "czterema zwodami, po jednym na każdej nodze"
+        "jednym zwodem odgromowym"
+        "po przekątnej dwoma zwodami"
+"czterema zwodami, po jednym na każdej nodze"
 }
 ]
 },
@@ -6127,14 +4735,9 @@ text: "czterema zwodami, po jednym na każdej nodze"
     questionID: 256,
     questionText: "Naprawa bezpieczników topikowych jest:",
     questionAnswers: [
-        {
-            text: "dopuszczalna dla bezpieczników stosowanych przy niskim napięciu"
-        },
-        {
-text: "bezwzględnie zabroniona"
-},
-{
-text: "dopuszczalna przy zastosowaniu drutu topikowego o odpowiedniej grubości"
+        "dopuszczalna dla bezpieczników stosowanych przy niskim napięciu"
+        "bezwzględnie zabroniona"
+"dopuszczalna przy zastosowaniu drutu topikowego o odpowiedniej grubości"
 }
 ]
 },
@@ -6142,14 +4745,9 @@ text: "dopuszczalna przy zastosowaniu drutu topikowego o odpowiedniej grubości"
     questionID: 257,
     questionText: "Jakie oznaczenia ochronne należy umieścić na maszcie anteny nadawczej?",
     questionAnswers: [
-        {
-            text: "promieniowanie elektromagnetyczne"
-        },
-        {
-text: "uwaga antena nadawcza"
-},
-{
-text: "zakaz dotykania masztu"
+        "promieniowanie elektromagnetyczne"
+        "uwaga antena nadawcza"
+"zakaz dotykania masztu"
 }
 ]
 },
@@ -6157,14 +4755,9 @@ text: "zakaz dotykania masztu"
     questionID: 258,
     questionText: "Czy radiotelefon UKF należy uziemiać w czasie pracy?",
     questionAnswers: [
-        {
-            text: "nie ma takiej potrzeby"
-        },
-        {
-text: "tak, obowiązkowo"
-},
-{
-text: "tylko jeśli posiada zacisk uziemiający"
+        "nie ma takiej potrzeby"
+        "tak, obowiązkowo"
+"tylko jeśli posiada zacisk uziemiający"
 }
 ]
 },
@@ -6172,14 +4765,9 @@ text: "tylko jeśli posiada zacisk uziemiający"
     questionID: 259,
     questionText: "Czy podczas pracy z wiertarką wymagane jest stosowanie rękawic ochronnych?",
     questionAnswers: [
-        {
-            text: "tak, obowiązkowo"
-        },
-        {
-text: "można stosować według uznania"
-},
-{
-text: "jest zabronione"
+        "tak, obowiązkowo"
+        "można stosować według uznania"
+"jest zabronione"
 }
 ]
 },
@@ -6187,14 +4775,9 @@ text: "jest zabronione"
     questionID: 260,
     questionText: "Przy wymianie lampy stopnia mocy nadajnika należy:",
     questionAnswers: [
-        {
-            text: "wyłączyć zasilanie i natychmiast przystąpić do wymiany"
-        },
-        {
-text: "wyłączyć zasilanie i poczekać aż rozładują się kondensatory zasilacza"
-},
-{
-text: "przy pracującym wzmacniaczu zdjąć osłonę lampy i przystąpić do jej wymiany"
+        "wyłączyć zasilanie i natychmiast przystąpić do wymiany"
+        "wyłączyć zasilanie i poczekać aż rozładują się kondensatory zasilacza"
+"przy pracującym wzmacniaczu zdjąć osłonę lampy i przystąpić do jej wymiany"
 }
 ]
 },
@@ -6202,14 +4785,9 @@ text: "przy pracującym wzmacniaczu zdjąć osłonę lampy i przystąpić do jej
     questionID: 261,
     questionText: "Kondensator sprzęgający obwód anodowy PA z Pi-filtrem powinien:",
     questionAnswers: [
-        {
-            text: "posiadać dużą pojemność"
-        },
-        {
-text: "posiadać małe wymiary"
-},
-{
-text: "być wytrzymały na duże napięcie"
+        "posiadać dużą pojemność"
+        "posiadać małe wymiary"
+"być wytrzymały na duże napięcie"
 }
 ]
 },
@@ -6217,14 +4795,9 @@ text: "być wytrzymały na duże napięcie"
     questionID: 262,
     questionText: "Najlepszą formą zabezpieczenia anteny krótkofalowej przed burzą jest:",
     questionAnswers: [
-        {
-            text: "odłączenie anteny od radiostacji i wystawienie kabla anteny za okno"
-        },
-        {
-text: "odłączenie anteny od radiostacji i połączenie anteny z uziemieniem"
-},
-{
-text: "nie są wymagane żadne działania"
+        "odłączenie anteny od radiostacji i wystawienie kabla anteny za okno"
+        "odłączenie anteny od radiostacji i połączenie anteny z uziemieniem"
+"nie są wymagane żadne działania"
 }
 ]
 },
@@ -6232,14 +4805,9 @@ text: "nie są wymagane żadne działania"
     questionID: 263,
     questionText: "Czy można umieścić kabel antenowy w kanale wywietrznika kominowego, jeżeli obok przebiega czynny komin?",
     questionAnswers: [
-        {
-            text: "można"
-        },
-        {
-text: "bezwzględnie nie można"
-},
-{
-text: "można, ale tylko w okresie poza sezonem grzewczym"
+        "można"
+        "bezwzględnie nie można"
+"można, ale tylko w okresie poza sezonem grzewczym"
 }
 ]
 },
@@ -6247,14 +4815,9 @@ text: "można, ale tylko w okresie poza sezonem grzewczym"
     questionID: 264,
     questionText: "Czy można używać kołków rozporowych do montażu anteny na kominie?",
     questionAnswers: [
-        {
-            text: "można"
-        },
-        {
-text: "można, po spełnieniu dodatkowych warunków"
-},
-{
-text: "nie wolno ? można stosować jedynie opaski wokół komina"
+        "można"
+        "można, po spełnieniu dodatkowych warunków"
+"nie wolno ? można stosować jedynie opaski wokół komina"
 }
 ]
 },
@@ -6262,14 +4825,9 @@ text: "nie wolno ? można stosować jedynie opaski wokół komina"
     questionID: 265,
     questionText: "Czy nasza radiostacja może wywołać zakłócenia poza granicami kraju?",
     questionAnswers: [
-        {
-            text: "nie może"
-        },
-        {
-text: "może, ale tylko podczas strojenia"
-},
-{
-text: "może"
+        "nie może"
+        "może, ale tylko podczas strojenia"
+"może"
 }
 ]
 },
@@ -6277,14 +4835,9 @@ text: "może"
     questionID: 266,
     questionText: "Czy osoba posiadająca rozrusznik serca może przebywać w pobliżu anten nadawczych dużej mocy?",
     questionAnswers: [
-        {
-            text: "może, nie ma żadnego zagrożenia"
-        },
-        {
-text: "może, pod pewnymi warunkami"
-},
-{
-text: "kategorycznie nie powinna"
+        "może, nie ma żadnego zagrożenia"
+        "może, pod pewnymi warunkami"
+"kategorycznie nie powinna"
 }
 ]
 },
@@ -6292,14 +4845,9 @@ text: "kategorycznie nie powinna"
     questionID: 267,
     questionText: "Podczas regulacji urządzeń pod napięciem (o ile jest to konieczne) pracę wykonujemy:",
     questionAnswers: [
-        {
-            text: "dwoma rękoma"
-        },
-        {
-text: "jedną ręką"
-},
-{
-text: "jedną ręką w asyście drugiej osoby, wskazane jest również stosowanie chodnika lub obuwia izolacyjnego"
+        "dwoma rękoma"
+        "jedną ręką"
+"jedną ręką w asyście drugiej osoby, wskazane jest również stosowanie chodnika lub obuwia izolacyjnego"
 }
 ]
 },
@@ -6307,14 +4855,9 @@ text: "jedną ręką w asyście drugiej osoby, wskazane jest również stosowani
     questionID: 268,
     questionText: "Jakim przewodem podłączysz nadajnik dużej mocy do źródła zasilania?",
     questionAnswers: [
-        {
-            text: "zwykłym przewodem dwużyłowym"
-        },
-        {
-text: "kablem w oplocie bawełnianym"
-},
-{
-text: "przewodem o przekroju żył, odpowiednim do pobieranej przez urządzenie mocy"
+        "zwykłym przewodem dwużyłowym"
+        "kablem w oplocie bawełnianym"
+"przewodem o przekroju żył, odpowiednim do pobieranej przez urządzenie mocy"
 }
 ]
 },
@@ -6322,14 +4865,9 @@ text: "przewodem o przekroju żył, odpowiednim do pobieranej przez urządzenie 
     questionID: 269,
     questionText: "Czy podczas naprawy oscyloskopu można go włączyć bez założonego na lampę cylindra ochronnego?",
     questionAnswers: [
-        {
-            text: "można bez żadnego ryzyka"
-        },
-        {
-text: "można, ale należy uważać na wysokie napięcie"
-},
-{
-text: "kategorycznie nie wolno"
+        "można bez żadnego ryzyka"
+        "można, ale należy uważać na wysokie napięcie"
+"kategorycznie nie wolno"
 }
 ]
 },
@@ -6337,14 +4875,9 @@ text: "kategorycznie nie wolno"
     questionID: 270,
     questionText: "Jaka lokalizacja będzie bezpieczniejsza (najbardziej właściwa pod kątem narażenia na działanie pola elektromagnetycznego) dla anteny emitującej moc 1 kW?",
     questionAnswers: [
-        {
-            text: "dach naszego budynku w środku miasta"
-        },
-        {
-text: "dach 12-piętrowego sąsiedniego wieżowca"
-},
-{
-text: "terenowe QTH ze specjalnie wybudowanym polem antenowym"
+        "dach naszego budynku w środku miasta"
+        "dach 12-piętrowego sąsiedniego wieżowca"
+"terenowe QTH ze specjalnie wybudowanym polem antenowym"
 }
 ]
 },
@@ -6352,14 +4885,9 @@ text: "terenowe QTH ze specjalnie wybudowanym polem antenowym"
     questionID: 271,
     questionText: "Czy fider antenowy radiostacji nadawczej może być prowadzony razem z kablem anteny odbiorczej TV?",
     questionAnswers: [
-        {
-            text: "może, gdy moc nadajnika nie jest zbyt duża"
-        },
-        {
-text: "nie, kable powinny być maksymalnie oddalone"
-},
-{
-text: "odległość miedzy kablami jest nieistotna"
+        "może, gdy moc nadajnika nie jest zbyt duża"
+        "nie, kable powinny być maksymalnie oddalone"
+"odległość miedzy kablami jest nieistotna"
 }
 ]
 },
@@ -6367,14 +4895,9 @@ text: "odległość miedzy kablami jest nieistotna"
     questionID: 272,
     questionText: "Czy świadectwo operatora urządzeń radiowych upoważnia do naprawy sieci elektrycznej w mieszkaniu?",
     questionAnswers: [
-        {
-            text: "tak, bez żadnych ograniczeń"
-        },
-        {
-text: "tak, ale wyłącznie sieci jednofazowej"
-},
-{
-text: "nie, do tego potrzebne jest posiadanie stosownych uprawnień"
+        "tak, bez żadnych ograniczeń"
+        "tak, ale wyłącznie sieci jednofazowej"
+"nie, do tego potrzebne jest posiadanie stosownych uprawnień"
 }
 ]
 },
@@ -6382,14 +4905,9 @@ text: "nie, do tego potrzebne jest posiadanie stosownych uprawnień"
     questionID: 273,
     questionText: "W którym miejscu należy podłączyć filtr przeciwzakłóceniowy (dolnoprzepustowy) przy pracy ze wzmacniaczem mocy?",
     questionAnswers: [
-        {
-            text: "po końcówce mocy na fider antenowy"
-        },
-        {
-text: "pomiędzy transceiver a wzmacniacz mocy"
-},
-{
-text: "miejsce podłączenia jest dowolne"
+        "po końcówce mocy na fider antenowy"
+        "pomiędzy transceiver a wzmacniacz mocy"
+"miejsce podłączenia jest dowolne"
 }
 ]
 },
@@ -6397,14 +4915,9 @@ text: "miejsce podłączenia jest dowolne"
     questionID: 274,
     questionText: "Jakie są skutki uszkodzenia ekranu fidera antenowego?",
     questionAnswers: [
-        {
-            text: "nie ma żadnych"
-        },
-        {
-text: "następuje wzrost zakłóceń, bez względu na pogodę"
-},
-{
-text: "następuje wzrost zakłóceń i zmiana impedancji kabla grożąca uszkodzeniem nadajnika"
+        "nie ma żadnych"
+        "następuje wzrost zakłóceń, bez względu na pogodę"
+"następuje wzrost zakłóceń i zmiana impedancji kabla grożąca uszkodzeniem nadajnika"
 }
 ]
 },
@@ -6412,14 +4925,9 @@ text: "następuje wzrost zakłóceń i zmiana impedancji kabla grożąca uszkodz
     questionID: 275,
     questionText: "Przed eksplozją kondensatorów elektrolitycznych w zasilaczu chroni nas:",
     questionAnswers: [
-        {
-            text: "stabilizator napięcia"
-        },
-        {
-text: "opornik upływowy tzw. bleder"
-},
-{
-text: "właściwe uziemienie zasilacza"
+        "stabilizator napięcia"
+        "opornik upływowy tzw. bleder"
+"właściwe uziemienie zasilacza"
 }
 ]
 },
@@ -6427,14 +4935,9 @@ text: "właściwe uziemienie zasilacza"
     questionID: 276,
     questionText: "Co oznacza wg kodu Q symbol QRG?",
     questionAnswers: [
-        {
-            text: "włączam większą moc nadajnika"
-        },
-        {
-text: "moja częstotliwość jest ..."
-},
-{
-text: "siła twoich sygnałów waha się"
+        "włączam większą moc nadajnika"
+        "moja częstotliwość jest ..."
+"siła twoich sygnałów waha się"
 }
 ]
 },
@@ -6442,14 +4945,9 @@ text: "siła twoich sygnałów waha się"
     questionID: 277,
     questionText: "Co oznacza wg kodu Q symbol QSY?",
     questionAnswers: [
-        {
-            text: "przejdź na częstotliwość, zmień częstotliwość"
-        },
-        {
-text: "do usłyszenia na innej częstotliwości"
-},
-{
-text: "mam uszkodzoną antenę"
+        "przejdź na częstotliwość, zmień częstotliwość"
+        "do usłyszenia na innej częstotliwości"
+"mam uszkodzoną antenę"
 }
 ]
 },
@@ -6457,14 +4955,9 @@ text: "mam uszkodzoną antenę"
     questionID: 278,
     questionText: "Co oznacza wg kodu Q symbol QRM?",
     questionAnswers: [
-        {
-            text: "jestem czynny w eterze od miesiąca"
-        },
-        {
-text: "odbieram twoje sygnały bardzo dobrze zmniejsz moc"
-},
-{
-text: "mam zakłócenia od innych stacji"
+        "jestem czynny w eterze od miesiąca"
+        "odbieram twoje sygnały bardzo dobrze zmniejsz moc"
+"mam zakłócenia od innych stacji"
 }
 ]
 },
@@ -6472,14 +4965,9 @@ text: "mam zakłócenia od innych stacji"
     questionID: 279,
     questionText: "Co oznacza wg kodu Q symbol QRN?",
     questionAnswers: [
-        {
-            text: "jestem czynny w eterze od niedawna"
-        },
-        {
-text: "mam zakłócenia atmosferyczne"
-},
-{
-text: "pracuję na radiostacji tylko w niedzielę"
+        "jestem czynny w eterze od niedawna"
+        "mam zakłócenia atmosferyczne"
+"pracuję na radiostacji tylko w niedzielę"
 }
 ]
 },
@@ -6487,14 +4975,9 @@ text: "pracuję na radiostacji tylko w niedzielę"
     questionID: 280,
     questionText: "Co oznacza wg kodu Q symbol QSB?",
     questionAnswers: [
-        {
-            text: "siła twoich sygnałów waha się"
-        },
-        {
-text: "w okolicy jest burza, wyłączam radiostację"
-},
-{
-text: "używam anteny dookolnej"
+        "siła twoich sygnałów waha się"
+        "w okolicy jest burza, wyłączam radiostację"
+"używam anteny dookolnej"
 }
 ]
 },
@@ -6502,14 +4985,9 @@ text: "używam anteny dookolnej"
     questionID: 281,
     questionText: "Co oznacza wg kodu Q symbol QRV?",
     questionAnswers: [
-        {
-            text: "o której godzinie rozpoczęliśmy łączność"
-        },
-        {
-text: "jestem gotów do pracy, jestem czynny w eterze"
-},
-{
-text: "proszę powtórzyć ostatnią relację"
+        "o której godzinie rozpoczęliśmy łączność"
+        "jestem gotów do pracy, jestem czynny w eterze"
+"proszę powtórzyć ostatnią relację"
 }
 ]
 },
@@ -6517,14 +4995,9 @@ text: "proszę powtórzyć ostatnią relację"
     questionID: 282,
     questionText: "Co oznacza wg kodu Q symbol QTH?",
     questionAnswers: [
-        {
-            text: "nie mam ochoty z tobą dalej rozmawiać"
-        },
-        {
-text: "przekazuję wiadomość od..."
-},
-{
-text: "moje położenie geograficzne jest..."
+        "nie mam ochoty z tobą dalej rozmawiać"
+        "przekazuję wiadomość od..."
+"moje położenie geograficzne jest..."
 }
 ]
 },
@@ -6532,14 +5005,9 @@ text: "moje położenie geograficzne jest..."
     questionID: 283,
     questionText: "Co oznacza wg kodu Q symbol QRP?",
     questionAnswers: [
-        {
-            text: "nadawaj powoli"
-        },
-        {
-text: "zmniejsz moc, zmniejszam moc"
-},
-{
-text: "powtórz swój znak wywoławczy"
+        "nadawaj powoli"
+        "zmniejsz moc, zmniejszam moc"
+"powtórz swój znak wywoławczy"
 }
 ]
 },
@@ -6547,14 +5015,9 @@ text: "powtórz swój znak wywoławczy"
     questionID: 284,
     questionText: "Co oznacza wg kodu Q symbol QTC?",
     questionAnswers: [
-        {
-            text: "wyłączam stację"
-        },
-        {
-text: "na jaką częstotliwość mam się przestroić"
-},
-{
-text: "mam dla ciebie pilną wiadomość"
+        "wyłączam stację"
+        "na jaką częstotliwość mam się przestroić"
+"mam dla ciebie pilną wiadomość"
 }
 ]
 },
@@ -6562,14 +5025,9 @@ text: "mam dla ciebie pilną wiadomość"
     questionID: 285,
     questionText: "Co oznacza wg kodu Q symbol QSO?",
     questionAnswers: [
-        {
-            text: "moje położenie geograficzne jest..."
-        },
-        {
-text: "łączność, mam łączność"
-},
-{
-text: "siła twoich sygnałów waha się"
+        "moje położenie geograficzne jest..."
+        "łączność, mam łączność"
+"siła twoich sygnałów waha się"
 }
 ]
 },
@@ -6577,14 +5035,9 @@ text: "siła twoich sygnałów waha się"
     questionID: 286,
     questionText: "Co oznacza wg kodu Q symbol QSL?",
     questionAnswers: [
-        {
-            text: "potwierdzam odbiór, przyślę kartę potwierdzającą łączność"
-        },
-        {
-text: "nadawaj szybciej"
-},
-{
-text: "słucham na częstotliwości"
+        "potwierdzam odbiór, przyślę kartę potwierdzającą łączność"
+        "nadawaj szybciej"
+"słucham na częstotliwości"
 }
 ]
 },
@@ -6592,14 +5045,9 @@ text: "słucham na częstotliwości"
     questionID: 287,
     questionText: "Co oznacza skrót slangu radioamatorskiego RX?",
     questionAnswers: [
-        {
-            text: "antena pionowa"
-        },
-        {
-text: "odbiornik"
-},
-{
-text: "klucz elektroniczny"
+        "antena pionowa"
+        "odbiornik"
+"klucz elektroniczny"
 }
 ]
 },
@@ -6607,14 +5055,9 @@ text: "klucz elektroniczny"
     questionID: 288,
     questionText: "Co oznacza skrót slangu radioamatorskiego Unlis?",
     questionAnswers: [
-        {
-            text: "nielicencjonowany nadawca"
-        },
-        {
-text: "zakłócenia w odbiorze telewizji"
-},
-{
-text: "zawody w łowach na lisa"
+        "nielicencjonowany nadawca"
+        "zakłócenia w odbiorze telewizji"
+"zawody w łowach na lisa"
 }
 ]
 },
@@ -6622,14 +5065,9 @@ text: "zawody w łowach na lisa"
     questionID: 289,
     questionText: "Co oznacza skrót slangu radioamatorskiego YL?",
     questionAnswers: [
-        {
-            text: "antena z linki miedzianej"
-        },
-        {
-text: "czas uniwersalny"
-},
-{
-text: "panna - młoda pani"
+        "antena z linki miedzianej"
+        "czas uniwersalny"
+"panna - młoda pani"
 }
 ]
 },
@@ -6637,14 +5075,9 @@ text: "panna - młoda pani"
     questionID: 290,
     questionText: "Co oznacza skrót slangu radioamatorskiego RPT?",
     questionAnswers: [
-        {
-            text: "proszę powtórzyć, powtórzę, powtarzam"
-        },
-        {
-text: "proszę"
-},
-{
-text: "przechodzę na inny kanał"
+        "proszę powtórzyć, powtórzę, powtarzam"
+        "proszę"
+"przechodzę na inny kanał"
 }
 ]
 },
@@ -6652,14 +5085,9 @@ text: "przechodzę na inny kanał"
     questionID: 291,
     questionText: "Kiedy należy podawać raport o słyszalności?",
     questionAnswers: [
-        {
-            text: "na początku łączności i na życzenie korespondenta"
-        },
-        {
-text: "w odstępach 5-10 minut"
-},
-{
-text: "po każdym przekazaniu mikrofonu"
+        "na początku łączności i na życzenie korespondenta"
+        "w odstępach 5-10 minut"
+"po każdym przekazaniu mikrofonu"
 }
 ]
 },
@@ -6667,14 +5095,9 @@ text: "po każdym przekazaniu mikrofonu"
     questionID: 292,
     questionText: "Czy po uzyskaniu świadectwa operatora urządzeń radiowych można samodzielnie obsługiwać stację amatorską?",
     questionAnswers: [
-        {
-            text: "można, ale tylko pod nadzorem radioamatora posiadającego pozwolenie radiowe"
-        },
-        {
-text: "można, w określonych przepisami zakresach częstotliwości"
-},
-{
-text: "nie można, ponieważ do obsługi stacji amatorskiej upoważnia jedynie pozwolenie radiowe"
+        "można, ale tylko pod nadzorem radioamatora posiadającego pozwolenie radiowe"
+        "można, w określonych przepisami zakresach częstotliwości"
+"nie można, ponieważ do obsługi stacji amatorskiej upoważnia jedynie pozwolenie radiowe"
 }
 ]
 },
@@ -6682,14 +5105,9 @@ text: "nie można, ponieważ do obsługi stacji amatorskiej upoważnia jedynie p
     questionID: 293,
     questionText: "Jakie należy spełnić warunki aby uzyskać pozwolenie radiowe na używanie radiostacji amatorskiej?",
     questionAnswers: [
-        {
-            text: "należy posiadać świadectwo operatora urządzeń radiowych i odbyć trzymiesięczną praktykę na stacji klubowej"
-        },
-        {
-text: "należy posiadać świadectwo operatora urządzeń radiowych i co najmniej średnie wykształcenie"
-},
-{
-text: "należy posiadać świadectwo operatora urządzeń radiowych"
+        "należy posiadać świadectwo operatora urządzeń radiowych i odbyć trzymiesięczną praktykę na stacji klubowej"
+        "należy posiadać świadectwo operatora urządzeń radiowych i co najmniej średnie wykształcenie"
+"należy posiadać świadectwo operatora urządzeń radiowych"
 }
 ]
 },
@@ -6697,14 +5115,9 @@ text: "należy posiadać świadectwo operatora urządzeń radiowych"
     questionID: 294,
     questionText: "Czy razem ze świadectwem operatora urządzeń radiowych przydzielany jest znak wywoławczy dla radiostacji amatorskiej?",
     questionAnswers: [
-        {
-            text: "tak"
-        },
-        {
-text: "nie, znak wywoławczy przydzielany jest w pozwoleniu radiowym"
-},
-{
-text: "tak, jeżeli dana osoba posiada radiostację"
+        "tak"
+        "nie, znak wywoławczy przydzielany jest w pozwoleniu radiowym"
+"tak, jeżeli dana osoba posiada radiostację"
 }
 ]
 },
@@ -6712,14 +5125,9 @@ text: "tak, jeżeli dana osoba posiada radiostację"
     questionID: 295,
     questionText: "Co to jest znak wywoławczy?",
     questionAnswers: [
-        {
-            text: "jest to symbol określający typ (model) radiostacji amatorskiej"
-        },
-        {
-text: "jest to hasło pozwalające wywołać konkretnego rozmówcę"
-},
-{
-text: "jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej identyfikator radiostacji amatorskiej"
+        "jest to symbol określający typ (model) radiostacji amatorskiej"
+        "jest to hasło pozwalające wywołać konkretnego rozmówcę"
+"jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej identyfikator radiostacji amatorskiej"
 }
 ]
 },
@@ -6727,14 +5135,9 @@ text: "jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej i
     questionID: 296,
     questionText: "Czy można radioamatorski znak wywoławczy używać podczas pracy w zakresach częstotliwości nieprzeznaczonych dla służby amatorskiej?",
     questionAnswers: [
-        {
-            text: "można, po uzyskaniu specjalnej zgody UKE"
-        },
-        {
-text: "absolutnie nie, znak radioamatorski można używać tylko w zakresach częstotliwości przeznaczonych dla radioamatorów"
-},
-{
-text: "nie jest to zabronione i zależy od decyzji radioamatora"
+        "można, po uzyskaniu specjalnej zgody UKE"
+        "absolutnie nie, znak radioamatorski można używać tylko w zakresach częstotliwości przeznaczonych dla radioamatorów"
+"nie jest to zabronione i zależy od decyzji radioamatora"
 }
 ]
 },
@@ -6742,14 +5145,9 @@ text: "nie jest to zabronione i zależy od decyzji radioamatora"
     questionID: 297,
     questionText: "Jak zbudowany jest znak wywoławczy w pozwoleniach kategorii 1, 3 i 5?",
     questionAnswers: [
-        {
-            text: "składa się z prefiksu, cyfry i kombinacji maksymalnie czterech liter i cyfr"
-        },
-        {
-text: "nie ma określonej budowy, składa się z liter i cyfr"
-},
-{
-text: "składa się z prefiksu i dwóch liter"
+        "składa się z prefiksu, cyfry i kombinacji maksymalnie czterech liter i cyfr"
+        "nie ma określonej budowy, składa się z liter i cyfr"
+"składa się z prefiksu i dwóch liter"
 }
 ]
 },
@@ -6757,14 +5155,9 @@ text: "składa się z prefiksu i dwóch liter"
     questionID: 298,
     questionText: "Jak zbudowany jest znak wywoławczy w pozwoleniu dodatkowym?",
     questionAnswers: [
-        {
-            text: "nie ma określonej budowy, składa się liter i cyfr"
-        },
-        {
-text: "składa się z prefiksu, cyfry i kombinacji maksymalnie siedmiu liter i cyfr"
-},
-{
-text: "składa się z prefiksu i pięciu liter"
+        "nie ma określonej budowy, składa się liter i cyfr"
+        "składa się z prefiksu, cyfry i kombinacji maksymalnie siedmiu liter i cyfr"
+"składa się z prefiksu i pięciu liter"
 }
 ]
 },
@@ -6772,14 +5165,9 @@ text: "składa się z prefiksu i pięciu liter"
     questionID: 299,
     questionText: "Co to jest dziennik łączności LOG?",
     questionAnswers: [
-        {
-            text: "jest to dokument radiostacji amatorskiej zawierający informacje o korespondencji z innymi radiostacjami amatorskimi, zawierający znak stacji, imię operatora, datę, godzinę, pasmo w jakim przeprowadzono QSO"
-        },
-        {
-text: "jest to informacja o procedurach obowiązujących podczas łączności z innymi stacjami"
-},
-{
-text: "jest to informacja o kontroli radiostacji przez inspektorów UKE"
+        "jest to dokument radiostacji amatorskiej zawierający informacje o korespondencji z innymi radiostacjami amatorskimi, zawierający znak stacji, imię operatora, datę, godzinę, pasmo w jakim przeprowadzono QSO"
+        "jest to informacja o procedurach obowiązujących podczas łączności z innymi stacjami"
+"jest to informacja o kontroli radiostacji przez inspektorów UKE"
 }
 ]
 },
@@ -6787,14 +5175,9 @@ text: "jest to informacja o kontroli radiostacji przez inspektorów UKE"
     questionID: 300,
     questionText: "Czy prowadzenie dziennika łączności LOG jest obowiązkowe?",
     questionAnswers: [
-        {
-            text: "jest to podstawowy obowiązek każdego radioamatora"
-        },
-        {
-text: "prowadzenie Logu nie jest obowiązkowe, lecz wskazane"
-},
-{
-text: "prowadzenie dziennika łączności może być nakazane jako zalecenie pokontrolne inspektorów ochrony środowiska"
+        "jest to podstawowy obowiązek każdego radioamatora"
+        "prowadzenie Logu nie jest obowiązkowe, lecz wskazane"
+"prowadzenie dziennika łączności może być nakazane jako zalecenie pokontrolne inspektorów ochrony środowiska"
 }
 ]
 },
@@ -6802,14 +5185,9 @@ text: "prowadzenie dziennika łączności może być nakazane jako zalecenie pok
     questionID: 301,
     questionText: "Co znaczy określenie czas uniwersalny UTC?",
     questionAnswers: [
-        {
-            text: "czas odpowiadający południkowi zerowemu (GMT), stosowany przez radioamatorów do odnotowania w Logu godz. łączności"
-        },
-        {
-text: "czas w którym nie należy nawiązywać QSO"
-},
-{
-text: "czas w którym można nawiązywać łączności z krajami europejskimi"
+        "czas odpowiadający południkowi zerowemu (GMT), stosowany przez radioamatorów do odnotowania w Logu godz. łączności"
+        "czas w którym nie należy nawiązywać QSO"
+"czas w którym można nawiązywać łączności z krajami europejskimi"
 }
 ]
 },
@@ -6817,14 +5195,9 @@ text: "czas w którym można nawiązywać łączności z krajami europejskimi"
     questionID: 302,
     questionText: "Okręg wywoławczy SP1 to obszar:",
     questionAnswers: [
-        {
-            text: "województwa zachodniopomorskiego"
-        },
-        {
-text: "województwa pomorskiego"
-},
-{
-text: "województwa mazowieckiego"
+        "województwa zachodniopomorskiego"
+        "województwa pomorskiego"
+"województwa mazowieckiego"
 }
 ]
 },
@@ -6832,14 +5205,9 @@ text: "województwa mazowieckiego"
     questionID: 303,
     questionText: "Okręg wywoławczy SP2 to obszar:",
     questionAnswers: [
-        {
-            text: "województwa zachodniopomorskiego"
-        },
-        {
-text: "województw kujawsko-pomorskiego i pomorskiego"
-},
-{
-text: "województwa mazowieckiego"
+        "województwa zachodniopomorskiego"
+        "województw kujawsko-pomorskiego i pomorskiego"
+"województwa mazowieckiego"
 }
 ]
 },
@@ -6847,14 +5215,9 @@ text: "województwa mazowieckiego"
     questionID: 304,
     questionText: "Okręg wywoławczy SP3 to obszar:",
     questionAnswers: [
-        {
-            text: "województwa mazowieckiego"
-        },
-        {
-text: "województw lubuskiego i wielkopolskiego"
-},
-{
-text: "województw kujawsko-pomorskie i pomorskie"
+        "województwa mazowieckiego"
+        "województw lubuskiego i wielkopolskiego"
+"województw kujawsko-pomorskie i pomorskie"
 }
 ]
 },
@@ -6862,14 +5225,9 @@ text: "województw kujawsko-pomorskie i pomorskie"
     questionID: 305,
     questionText: "Okręg wywoławczy SP4 to obszar:",
     questionAnswers: [
-        {
-            text: "województwa mazowieckiego"
-        },
-        {
-text: "województw lubuskiego i wielkopolskiego"
-},
-{
-text: "województw podlaskiego i warmińsko-mazurskiego"
+        "województwa mazowieckiego"
+        "województw lubuskiego i wielkopolskiego"
+"województw podlaskiego i warmińsko-mazurskiego"
 }
 ]
 },
@@ -6877,14 +5235,9 @@ text: "województw podlaskiego i warmińsko-mazurskiego"
     questionID: 306,
     questionText: "Okręg wywoławczy SP5 to obszar:",
     questionAnswers: [
-        {
-            text: "województwa mazowieckiego"
-        },
-        {
-text: "województw kujawsko-pomorskiego i pomorskiego"
-},
-{
-text: "województwa zachodnio-pomorskiego"
+        "województwa mazowieckiego"
+        "województw kujawsko-pomorskiego i pomorskiego"
+"województwa zachodnio-pomorskiego"
 }
 ]
 },
@@ -6892,14 +5245,9 @@ text: "województwa zachodnio-pomorskiego"
     questionID: 307,
     questionText: "Okręg wywoławczy SP6 to obszar:",
     questionAnswers: [
-        {
-            text: "województwa mazowieckiego"
-        },
-        {
-text: "województw dolnośląskiego i opolskiego"
-},
-{
-text: "województwa zachodniopomorskiego"
+        "województwa mazowieckiego"
+        "województw dolnośląskiego i opolskiego"
+"województwa zachodniopomorskiego"
 }
 ]
 },
@@ -6907,14 +5255,9 @@ text: "województwa zachodniopomorskiego"
     questionID: 308,
     questionText: "Okręg wywoławczy SP7 to obszar:",
     questionAnswers: [
-        {
-            text: "województwa mazowieckiego"
-        },
-        {
-text: "województw dolnośląskiego i opolskiego"
-},
-{
-text: "województw łódzkiego i świętokrzyskiego"
+        "województwa mazowieckiego"
+        "województw dolnośląskiego i opolskiego"
+"województw łódzkiego i świętokrzyskiego"
 }
 ]
 },
@@ -6922,14 +5265,9 @@ text: "województw łódzkiego i świętokrzyskiego"
     questionID: 309,
     questionText: "Okręg wywoławczy SP8 to obszar:",
     questionAnswers: [
-        {
-            text: "województw dolnośląskiego i opolskiego"
-        },
-        {
-text: "województw lubelskiego i podkarpackiego"
-},
-{
-text: "województwa zachodniopomorskiego"
+        "województw dolnośląskiego i opolskiego"
+        "województw lubelskiego i podkarpackiego"
+"województwa zachodniopomorskiego"
 }
 ]
 },
@@ -6937,14 +5275,9 @@ text: "województwa zachodniopomorskiego"
     questionID: 310,
     questionText: "Okręg wywoławczy SP9 to obszar:",
     questionAnswers: [
-        {
-            text: "województw małopolskiego i śląskiego"
-        },
-        {
-text: "województw lubelskiego i podkarpackiego"
-},
-{
-text: "województwa zachodniopomorskiego"
+        "województw małopolskiego i śląskiego"
+        "województw lubelskiego i podkarpackiego"
+"województwa zachodniopomorskiego"
 }
 ]
 },
@@ -6952,14 +5285,9 @@ text: "województwa zachodniopomorskiego"
     questionID: 311,
     questionText: "Poprawne literowanie w j. polskim litery A i R:",
     questionAnswers: [
-        {
-            text: "Adam, Roman"
-        },
-        {
-text: "Ala, Romuald"
-},
-{
-text: "Alfa, Romeo"
+        "Adam, Roman"
+        "Ala, Romuald"
+"Alfa, Romeo"
 }
 ]
 },
@@ -6967,14 +5295,9 @@ text: "Alfa, Romeo"
     questionID: 312,
     questionText: "Poprawne literowanie w j. polskim litery G i K:",
     questionAnswers: [
-        {
-            text: "Genowefa, Ksawer"
-        },
-        {
-text: "Grażyna, Karol"
-},
-{
-text: "Golf, Kazek"
+        "Genowefa, Ksawer"
+        "Grażyna, Karol"
+"Golf, Kazek"
 }
 ]
 },
@@ -6982,14 +5305,9 @@ text: "Golf, Kazek"
     questionID: 313,
     questionText: "Poprawne literowanie w j. polskim litery W i Z:",
     questionAnswers: [
-        {
-            text: "Wanda, Zygmunt"
-        },
-        {
-text: "Walery, Zosia"
-},
-{
-text: "Warta, Zamek"
+        "Wanda, Zygmunt"
+        "Walery, Zosia"
+"Warta, Zamek"
 }
 ]
 },
@@ -6997,14 +5315,9 @@ text: "Warta, Zamek"
     questionID: 314,
     questionText: "Poprawne literowanie w j. polskim litery X i C:",
     questionAnswers: [
-        {
-            text: "Iks, Centrum"
-        },
-        {
-text: "Xawery, Cezary"
-},
-{
-text: "Xymena, Czesław"
+        "Iks, Centrum"
+        "Xawery, Cezary"
+"Xymena, Czesław"
 }
 ]
 },
@@ -7012,14 +5325,9 @@ text: "Xymena, Czesław"
     questionID: 315,
     questionText: "Poprawne literowanie w j. polskim litery P i N:",
     questionAnswers: [
-        {
-            text: "Piotr, Niwa"
-        },
-        {
-text: "Przemek, Nina"
-},
-{
-text: "Paweł, Natalia"
+        "Piotr, Niwa"
+        "Przemek, Nina"
+"Paweł, Natalia"
 }
 ]
 },
@@ -7027,14 +5335,9 @@ text: "Paweł, Natalia"
     questionID: 316,
     questionText: "Poprawne literowanie wg alfabetu ITU litery B i F:",
     questionAnswers: [
-        {
-            text: "Bil, Fox"
-        },
-        {
-text: "Bravo, Foxtrot"
-},
-{
-text: "Box, Florida"
+        "Bil, Fox"
+        "Bravo, Foxtrot"
+"Box, Florida"
 }
 ]
 },
@@ -7042,14 +5345,9 @@ text: "Box, Florida"
     questionID: 317,
     questionText: "Poprawne literowanie wg alfabetu ITU litery C i G:",
     questionAnswers: [
-        {
-            text: "Charlie, Golf"
-        },
-        {
-text: "Canada, Gold"
-},
-{
-text: "Chile, Grenada"
+        "Charlie, Golf"
+        "Canada, Gold"
+"Chile, Grenada"
 }
 ]
 },
@@ -7057,14 +5355,9 @@ text: "Chile, Grenada"
     questionID: 318,
     questionText: "Poprawne literowanie wg alfabetu ITU litery I i K:",
     questionAnswers: [
-        {
-            text: "India, Kanada"
-        },
-        {
-text: "Italia, Kaz"
-},
-{
-text: "India, Kilo"
+        "India, Kanada"
+        "Italia, Kaz"
+"India, Kilo"
 }
 ]
 },
@@ -7072,14 +5365,9 @@ text: "India, Kilo"
     questionID: 319,
     questionText: "Poprawne literowanie wg alfabetu ITU litery R i V:",
     questionAnswers: [
-        {
-            text: "Ren, Viktor"
-        },
-        {
-text: "Romeo, Viktor"
-},
-{
-text: "Radio, Viola"
+        "Ren, Viktor"
+        "Romeo, Viktor"
+"Radio, Viola"
 }
 ]
 },
@@ -7087,14 +5375,9 @@ text: "Radio, Viola"
     questionID: 320,
     questionText: "Poprawne literowanie wg alfabetu ITU litery X i S:",
     questionAnswers: [
-        {
-            text: "X-Rey, Sierra"
-        },
-        {
-text: "Xsen, Santiago"
-},
-{
-text: "X-Rey, Syria"
+        "X-Rey, Sierra"
+        "Xsen, Santiago"
+"X-Rey, Syria"
 }
 ]
 },
@@ -7102,14 +5385,9 @@ text: "X-Rey, Syria"
     questionID: 321,
     questionText: "Co to jest międzynarodowy kod Q?",
     questionAnswers: [
-        {
-            text: "zbiór symboli składających się z 3 liter, zaczynających się zawsze na literę Q, którym przypisane są proste zdanie lub słowa"
-        },
-        {
-text: "symbole składające się z litery Q i 2-3 cyfr określających jakość odbieranego sygnału"
-},
-{
-text: "wykaz zawierający prefiksy znaków wywoławczych wg ITU"
+        "zbiór symboli składających się z 3 liter, zaczynających się zawsze na literę Q, którym przypisane są proste zdanie lub słowa"
+        "symbole składające się z litery Q i 2-3 cyfr określających jakość odbieranego sygnału"
+"wykaz zawierający prefiksy znaków wywoławczych wg ITU"
 }
 ]
 },
@@ -7117,14 +5395,9 @@ text: "wykaz zawierający prefiksy znaków wywoławczych wg ITU"
     questionID: 322,
     questionText: "Do czego służy międzynarodowy kod Q?",
     questionAnswers: [
-        {
-            text: "podania informacji o czasie rozpoczęcia łączności"
-        },
-        {
-text: "skrócenia czasu nadawania informacji"
-},
-{
-text: "informowania o sile odbieranego sygnału radiowego"
+        "podania informacji o czasie rozpoczęcia łączności"
+        "skrócenia czasu nadawania informacji"
+"informowania o sile odbieranego sygnału radiowego"
 }
 ]
 },
@@ -7132,14 +5405,9 @@ text: "informowania o sile odbieranego sygnału radiowego"
     questionID: 323,
     questionText: "Co oznacza wg kodu Q symbol QRL?",
     questionAnswers: [
-        {
-            text: "źle się czuję, odezwę się później"
-        },
-        {
-text: "jestem zajęty, proszę nie przeszkadzać"
-},
-{
-text: "do zobaczenia latem"
+        "źle się czuję, odezwę się później"
+        "jestem zajęty, proszę nie przeszkadzać"
+"do zobaczenia latem"
 }
 ]
 },
@@ -7147,14 +5415,9 @@ text: "do zobaczenia latem"
     questionID: 324,
     questionText: "Co oznacza wg kodu Q symbol QRT?",
     questionAnswers: [
-        {
-            text: "która jest godzina"
-        },
-        {
-text: "kończę nadawanie, wyłączam stację"
-},
-{
-text: "nadawaj wolniej"
+        "która jest godzina"
+        "kończę nadawanie, wyłączam stację"
+"nadawaj wolniej"
 }
 ]
 },
@@ -7162,14 +5425,9 @@ text: "nadawaj wolniej"
     questionID: 325,
     questionText: "Co oznacza wg kodu Q symbol QRZ?",
     questionAnswers: [
-        {
-            text: "zmień częstotliwość na zapasową"
-        },
-        {
-text: "kto mnie woła"
-},
-{
-text: "jestem zajęty, proszę nie przeszkadzać"
+        "zmień częstotliwość na zapasową"
+        "kto mnie woła"
+"jestem zajęty, proszę nie przeszkadzać"
 }
 ]
 },
@@ -7177,14 +5435,9 @@ text: "jestem zajęty, proszę nie przeszkadzać"
     questionID: 326,
     questionText: "Co oznacza wg kodu Q symbol QRX?",
     questionAnswers: [
-        {
-            text: "proszę czekać"
-        },
-        {
-text: "nadawaj wolniej"
-},
-{
-text: "mam zakłócenia od innych stacji"
+        "proszę czekać"
+        "nadawaj wolniej"
+"mam zakłócenia od innych stacji"
 }
 ]
 },
@@ -7192,14 +5445,9 @@ text: "mam zakłócenia od innych stacji"
     questionID: 327,
     questionText: "Co oznacza wg kodu Q symbol QRO?",
     questionAnswers: [
-        {
-            text: "nic dla ciebie nie mam"
-        },
-        {
-text: "zwiększ moc, zwiększam moc"
-},
-{
-text: "przerwij nadawanie, kończę pracę"
+        "nic dla ciebie nie mam"
+        "zwiększ moc, zwiększam moc"
+"przerwij nadawanie, kończę pracę"
 }
 ]
 },
@@ -7207,14 +5455,9 @@ text: "przerwij nadawanie, kończę pracę"
     questionID: 328,
     questionText: "Który z poniższych kodów Q oznacza: Moja częstotliwość jest ...?",
     questionAnswers: [
-        {
-            text: "QRJ"
-        },
-        {
-text: "QRG"
-},
-{
-text: "QRK"
+        "QRJ"
+        "QRG"
+"QRK"
 }
 ]
 },
@@ -7222,14 +5465,9 @@ text: "QRK"
     questionID: 329,
     questionText: "Który z poniższych kodów Q oznacza: Przejdź na częstotliwość, zmień częstotliwość?",
     questionAnswers: [
-        {
-            text: "QSY"
-        },
-        {
-text: "QTR"
-},
-{
-text: "QSA"
+        "QSY"
+        "QTR"
+"QSA"
 }
 ]
 },
@@ -7237,14 +5475,9 @@ text: "QSA"
     questionID: 330,
     questionText: "Który z poniższych kodów Q oznacza: Mam zakłócenia od innych stacji?",
     questionAnswers: [
-        {
-            text: "QWO"
-        },
-        {
-text: "QQQ"
-},
-{
-text: "QRM"
+        "QWO"
+        "QQQ"
+"QRM"
 }
 ]
 },
@@ -7252,14 +5485,9 @@ text: "QRM"
     questionID: 331,
     questionText: "Który z poniższych kodów Q oznacza: Siła twoich sygnałów waha się?",
     questionAnswers: [
-        {
-            text: "QSB"
-        },
-        {
-text: "QAZ"
-},
-{
-text: "QRY"
+        "QSB"
+        "QAZ"
+"QRY"
 }
 ]
 },
@@ -7267,14 +5495,9 @@ text: "QRY"
     questionID: 332,
     questionText: "Który z poniższych kodów Q oznacza: Jestem gotów do pracy, jestem czynny w eterze?",
     questionAnswers: [
-        {
-            text: "QWX"
-        },
-        {
-text: "QRV"
-},
-{
-text: "QRU"
+        "QWX"
+        "QRV"
+"QRU"
 }
 ]
 },
@@ -7282,14 +5505,9 @@ text: "QRU"
     questionID: 333,
     questionText: "Który z poniższych kodów Q oznacza: Moje położenie geograficzne jest ...?",
     questionAnswers: [
-        {
-            text: "QLP"
-        },
-        {
-text: "QRG"
-},
-{
-text: "QTH"
+        "QLP"
+        "QRG"
+"QTH"
 }
 ]
 },
@@ -7297,14 +5515,9 @@ text: "QTH"
     questionID: 334,
     questionText: "Który z poniższych kodów Q oznacza: Zmniejsz moc, zmniejszam moc?",
     questionAnswers: [
-        {
-            text: "QUB"
-        },
-        {
-text: "QRA"
-},
-{
-text: "QRP"
+        "QUB"
+        "QRA"
+"QRP"
 }
 ]
 },
@@ -7312,14 +5525,9 @@ text: "QRP"
     questionID: 335,
     questionText: "Który z poniższych kodów Q oznacza: Mam dla ciebie telegram, wiadomość?",
     questionAnswers: [
-        {
-            text: "QRT"
-        },
-        {
-text: "QTC"
-},
-{
-text: "QSV"
+        "QRT"
+        "QTC"
+"QSV"
 }
 ]
 },
@@ -7327,14 +5535,9 @@ text: "QSV"
     questionID: 336,
     questionText: "Który z poniższych kodów Q oznacza: Łączność, mam łączność?",
     questionAnswers: [
-        {
-            text: "QSL"
-        },
-        {
-text: "QSO"
-},
-{
-text: "QRS"
+        "QSL"
+        "QSO"
+"QRS"
 }
 ]
 },
@@ -7342,14 +5545,9 @@ text: "QRS"
     questionID: 337,
     questionText: "Który z poniższych kodów Q oznacza: Potwierdzam odbiór, przyślę kartę potwierdzającą łączność?",
     questionAnswers: [
-        {
-            text: "QSL"
-        },
-        {
-text: "QSA"
-},
-{
-text: "QRT"
+        "QSL"
+        "QSA"
+"QRT"
 }
 ]
 },
@@ -7357,14 +5555,9 @@ text: "QRT"
     questionID: 338,
     questionText: "Co oznaczają skróty slangu radioamatorskiego: BAND; CFM?",
     questionAnswers: [
-        {
-            text: "pasmo; potwierdzam"
-        },
-        {
-text: "zakres; godzina"
-},
-{
-text: "raport; popołudnie"
+        "pasmo; potwierdzam"
+        "zakres; godzina"
+"raport; popołudnie"
 }
 ]
 },
@@ -7372,14 +5565,9 @@ text: "raport; popołudnie"
     questionID: 339,
     questionText: "Co oznaczają skróty slangu radioamatorskiego: BK; CALL?",
     questionAnswers: [
-        {
-            text: "później; kalibrator"
-        },
-        {
-text: "przerwa; znak wywoławczy"
-},
-{
-text: "stop; odebrałem wszystko"
+        "później; kalibrator"
+        "przerwa; znak wywoławczy"
+"stop; odebrałem wszystko"
 }
 ]
 },
@@ -7387,14 +5575,9 @@ text: "stop; odebrałem wszystko"
     questionID: 340,
     questionText: "Co oznaczają skróty slangu radioamatorskiego: BEST; DX?",
     questionAnswers: [
-        {
-            text: "daleki; niezły"
-        },
-        {
-text: "najlepszy; daleka łączność"
-},
-{
-text: "dobry; szybki"
+        "daleki; niezły"
+        "najlepszy; daleka łączność"
+"dobry; szybki"
 }
 ]
 },
@@ -7402,14 +5585,9 @@ text: "dobry; szybki"
     questionID: 341,
     questionText: "Co oznaczają skróty slangu radioamatorskiego: BCI; BOX?",
     questionAnswers: [
-        {
-            text: "zakłócenia odbioru radiowego; skrytka pocztowa"
-        },
-        {
-text: "zakłócenia od sieciowe; radiolatarnia amatorska"
-},
-{
-text: "podaj dokładny czas; zmieniam kanał radiowy"
+        "zakłócenia odbioru radiowego; skrytka pocztowa"
+        "zakłócenia od sieciowe; radiolatarnia amatorska"
+"podaj dokładny czas; zmieniam kanał radiowy"
 }
 ]
 },
@@ -7417,14 +5595,9 @@ text: "podaj dokładny czas; zmieniam kanał radiowy"
     questionID: 342,
     questionText: "Co oznaczają skróty slangu radioamatorskiego: OK; NAME?",
     questionAnswers: [
-        {
-            text: "stary, nie przeszkadzaj; moje nazwisko jest"
-        },
-        {
-text: "wszystko w porządku; imię"
-},
-{
-text: "przestrajam się; podaj adres"
+        "stary, nie przeszkadzaj; moje nazwisko jest"
+        "wszystko w porządku; imię"
+"przestrajam się; podaj adres"
 }
 ]
 },
@@ -7432,14 +5605,9 @@ text: "przestrajam się; podaj adres"
     questionID: 343,
     questionText: "Co oznaczają skróty slangu radioamatorskiego: SWR; RX?",
     questionAnswers: [
-        {
-            text: "pasmo w metrach; antena pionowa"
-        },
-        {
-text: "współczynnik fali stojącej; odbiornik"
-},
-{
-text: "nasłuchowiec; klucz elektroniczny"
+        "pasmo w metrach; antena pionowa"
+        "współczynnik fali stojącej; odbiornik"
+"nasłuchowiec; klucz elektroniczny"
 }
 ]
 },
@@ -7447,14 +5615,9 @@ text: "nasłuchowiec; klucz elektroniczny"
     questionID: 344,
     questionText: "Które z poniższych skrótów slangu radioamatorskiego oznaczają: Zakłócenia w odbiorze telewizji; nielicencjonowany nadawca?",
     questionAnswers: [
-        {
-            text: "TRX; LIS"
-        },
-        {
-text: "TVI; UNLIS"
-},
-{
-text: "RBM; ICP"
+        "TRX; LIS"
+        "TVI; UNLIS"
+"RBM; ICP"
 }
 ]
 },
@@ -7462,14 +5625,9 @@ text: "RBM; ICP"
     questionID: 345,
     questionText: "Które z poniższych skrótów slangu radioamatorskiego oznaczają: Panna, młoda pani; czas uniwersalny?",
     questionAnswers: [
-        {
-            text: "YL; UTC"
-        },
-        {
-text: "XYL; UT"
-},
-{
-text: "LY; TRO"
+        "YL; UTC"
+        "XYL; UT"
+"LY; TRO"
 }
 ]
 },
@@ -7477,14 +5635,9 @@ text: "LY; TRO"
     questionID: 346,
     questionText: "Co oznaczają skróty slangu radioamatorskiego: PSE; RPT?",
     questionAnswers: [
-        {
-            text: "proszę; powtórzyć, powtórzę, powtarzam"
-        },
-        {
-text: "proszę; zmieniam pasmo o 10 kHz"
-},
-{
-text: "przechodzę na inny kanał; raport podam na koniec łączności"
+        "proszę; powtórzyć, powtórzę, powtarzam"
+        "proszę; zmieniam pasmo o 10 kHz"
+"przechodzę na inny kanał; raport podam na koniec łączności"
 }
 ]
 },
@@ -7492,14 +5645,9 @@ text: "przechodzę na inny kanał; raport podam na koniec łączności"
     questionID: 347,
     questionText: "Co oznaczają skróty slangu radioamatorskiego: 99; UTC?",
     questionAnswers: [
-        {
-            text: "pozdrawiam; czas ukraiński"
-        },
-        {
-text: "ściskam dłoń; mam pilną wiadomość"
-},
-{
-text: "idź precz, przepadnij; czas uniwersalny"
+        "pozdrawiam; czas ukraiński"
+        "ściskam dłoń; mam pilną wiadomość"
+"idź precz, przepadnij; czas uniwersalny"
 }
 ]
 },
@@ -7507,14 +5655,9 @@ text: "idź precz, przepadnij; czas uniwersalny"
     questionID: 348,
     questionText: "Co oznaczają skróty slangu radioamatorskiego: LOG; DIRECT?",
     questionAnswers: [
-        {
-            text: "długa antena; dyrektor"
-        },
-        {
-text: "dziennik pracy stacji; bezpośrednio"
-},
-{
-text: "długi; bezpośredni kontakt"
+        "długa antena; dyrektor"
+        "dziennik pracy stacji; bezpośrednio"
+"długi; bezpośredni kontakt"
 }
 ]
 },
@@ -7522,14 +5665,9 @@ text: "długi; bezpośredni kontakt"
     questionID: 349,
     questionText: "Co to jest raport R S stosowany podczas łączności fonicznych?",
     questionAnswers: [
-        {
-            text: "informacja o stanie technicznym radiostacji"
-        },
-        {
-text: "informacja o stanie pogody przekazana w postaci zakodowanej"
-},
-{
-text: "informacja o jakości odbieranego sygnału radiowego - czytelności i sił sygnału wyrażana w postaci cyfr"
+        "informacja o stanie technicznym radiostacji"
+        "informacja o stanie pogody przekazana w postaci zakodowanej"
+"informacja o jakości odbieranego sygnału radiowego - czytelności i sił sygnału wyrażana w postaci cyfr"
 }
 ]
 },
@@ -7537,14 +5675,9 @@ text: "informacja o jakości odbieranego sygnału radiowego - czytelności i si�
     questionID: 350,
     questionText: "Co to jest raport R S T stosowany podczas łączności telegraficznych?",
     questionAnswers: [
-        {
-            text: "informacja o stanie technicznym radiostacji"
-        },
-        {
-text: "informacja o jakości odbieranego sygnału radiowego ? czytelności, siły i tonu akustycznego sygnału"
-},
-{
-text: "informacja o stanie pogody"
+        "informacja o stanie technicznym radiostacji"
+        "informacja o jakości odbieranego sygnału radiowego ? czytelności, siły i tonu akustycznego sygnału"
+"informacja o stanie pogody"
 }
 ]
 },
@@ -7552,14 +5685,9 @@ text: "informacja o stanie pogody"
     questionID: 351,
     questionText: "Co oznaczają w raporcie o słyszalności i jakości sygnałów korespondenta litery R S?",
     questionAnswers: [
-        {
-            text: "R - jakość sygnału, S- słyszalność"
-        },
-        {
-text: "R - stabilność sygnału, S- siła sygnału"
-},
-{
-text: "R - czytelność, S - siła sygnału"
+        "R - jakość sygnału, S- słyszalność"
+        "R - stabilność sygnału, S- siła sygnału"
+"R - czytelność, S - siła sygnału"
 }
 ]
 },
@@ -7567,14 +5695,9 @@ text: "R - czytelność, S - siła sygnału"
     questionID: 352,
     questionText: "Co oznaczają w raporcie o słyszalności i jakości sygnałów korespondenta litery R S T?",
     questionAnswers: [
-        {
-            text: "R - czytelność, S - siła sygnału, T - ton sygnału"
-        },
-        {
-text: "R - jakość sygnału, S - słyszalność, T - częstotliwość"
-},
-{
-text: "R - stabilność sygnału, S - siła sygnału, T - ton sygnału"
+        "R - czytelność, S - siła sygnału, T - ton sygnału"
+        "R - jakość sygnału, S - słyszalność, T - częstotliwość"
+"R - stabilność sygnału, S - siła sygnału, T - ton sygnału"
 }
 ]
 },
@@ -7582,14 +5705,9 @@ text: "R - stabilność sygnału, S - siła sygnału, T - ton sygnału"
     questionID: 353,
     questionText: "Jaka jest skala czytelności i skala siły sygnału w raporcie R S?",
     questionAnswers: [
-        {
-            text: "skala czytelności 1-5 i skala siły sygnału 1-9"
-        },
-        {
-text: "skala czytelności 1-9 i skala siły sygnału 1-5"
-},
-{
-text: "skala czytelności 0-5 i skala siły sygnału 0-9"
+        "skala czytelności 1-5 i skala siły sygnału 1-9"
+        "skala czytelności 1-9 i skala siły sygnału 1-5"
+"skala czytelności 0-5 i skala siły sygnału 0-9"
 }
 ]
 },
@@ -7597,14 +5715,9 @@ text: "skala czytelności 0-5 i skala siły sygnału 0-9"
     questionID: 354,
     questionText: "Co oznacza w łączności fonicznej raport 59?",
     questionAnswers: [
-        {
-            text: "dobrze czytelny, bardzo silny sygnał"
-        },
-        {
-text: "czytelny, silny sygnał"
-},
-{
-text: "słaby, czytelny z trudnościami sygnał"
+        "dobrze czytelny, bardzo silny sygnał"
+        "czytelny, silny sygnał"
+"słaby, czytelny z trudnościami sygnał"
 }
 ]
 },
@@ -7612,14 +5725,9 @@ text: "słaby, czytelny z trudnościami sygnał"
     questionID: 355,
     questionText: "Co oznacza w łączności fonicznej raport 43?",
     questionAnswers: [
-        {
-            text: "dobrze czytelny, bardzo silny sygnał"
-        },
-        {
-text: "czytelny, słaby sygnał"
-},
-{
-text: "czytelny z trudnościami, słaby sygnał"
+        "dobrze czytelny, bardzo silny sygnał"
+        "czytelny, słaby sygnał"
+"czytelny z trudnościami, słaby sygnał"
 }
 ]
 },
@@ -7627,14 +5735,9 @@ text: "czytelny z trudnościami, słaby sygnał"
     questionID: 356,
     questionText: "Co oznacza w łączności telegraficznej raport 599?",
     questionAnswers: [
-        {
-            text: "czytelny, silny sygnał, dobry ton"
-        },
-        {
-text: "dobrze czytelny, bardzo silny sygnał, bardzo dobry ton"
-},
-{
-text: "czytelny z trudnościami, sygnał słaby, dobry ton"
+        "czytelny, silny sygnał, dobry ton"
+        "dobrze czytelny, bardzo silny sygnał, bardzo dobry ton"
+"czytelny z trudnościami, sygnał słaby, dobry ton"
 }
 ]
 },
@@ -7642,14 +5745,9 @@ text: "czytelny z trudnościami, sygnał słaby, dobry ton"
     questionID: 357,
     questionText: "Co oznacza w łączności telegraficznej raport 438?",
     questionAnswers: [
-        {
-            text: "dobrze czytelny, bardzo silny sygnał, dobry ton"
-        },
-        {
-text: "czytelny z trudnościami, słaby sygnał, bardzo dobry ton"
-},
-{
-text: "czytelny, słaby sygnał, dobry ton sygnału"
+        "dobrze czytelny, bardzo silny sygnał, dobry ton"
+        "czytelny z trudnościami, słaby sygnał, bardzo dobry ton"
+"czytelny, słaby sygnał, dobry ton sygnału"
 }
 ]
 },
@@ -7657,14 +5755,9 @@ text: "czytelny, słaby sygnał, dobry ton sygnału"
     questionID: 358,
     questionText: "Co to jest okręg wywoławczy?",
     questionAnswers: [
-        {
-            text: "obszar, na którym pracuje maksimum 1000 radiostacji amatorskich"
-        },
-        {
-text: "obszar odpowiadający podziałowi terytorialnemu Polski na województwa"
-},
-{
-text: "zwyczajowo przyjęty obszar w granicach jednego lub dwóch województw"
+        "obszar, na którym pracuje maksimum 1000 radiostacji amatorskich"
+        "obszar odpowiadający podziałowi terytorialnemu Polski na województwa"
+"zwyczajowo przyjęty obszar w granicach jednego lub dwóch województw"
 }
 ]
 },
@@ -7672,14 +5765,9 @@ text: "zwyczajowo przyjęty obszar w granicach jednego lub dwóch województw"
     questionID: 359,
     questionText: "Na ile okręgów wywoławczych podzielona jest Polska?",
     questionAnswers: [
-        {
-            text: "16"
-        },
-        {
-text: "10"
-},
-{
-text: "9"
+        "16"
+        "10"
+"9"
 }
 ]
 },
@@ -7687,14 +5775,9 @@ text: "9"
     questionID: 360,
     questionText: "Jak zbudowane są znaki wywoławcze radiostacji amatorskich?",
     questionAnswers: [
-        {
-            text: "dwie litery, cyfra, dwie do pięciu liter, np. SP3AB lub SP3ABCDE"
-        },
-        {
-text: "dwie litery, cyfra, dwie do trzech liter, np. SP3AB lub SP3ABC"
-},
-{
-text: "dwie litery lub cyfra i litera, cyfra, jeden do czterech znaków (liter lub cyfr), gdzie ostatni jest literą, np. SP3A lub SP3ABCD"
+        "dwie litery, cyfra, dwie do pięciu liter, np. SP3AB lub SP3ABCDE"
+        "dwie litery, cyfra, dwie do trzech liter, np. SP3AB lub SP3ABC"
+"dwie litery lub cyfra i litera, cyfra, jeden do czterech znaków (liter lub cyfr), gdzie ostatni jest literą, np. SP3A lub SP3ABCD"
 }
 ]
 },
@@ -7702,14 +5785,9 @@ text: "dwie litery lub cyfra i litera, cyfra, jeden do czterech znaków (liter l
     questionID: 361,
     questionText: "Które prefiksy znaków wywoławczych przeznaczone są dla Polski?",
     questionAnswers: [
-        {
-            text: "HF, SN, SO, SP, SQ, SR, 3Z"
-        },
-        {
-text: "HF, SN, SO, SP, SQ, 3Z, 3X"
-},
-{
-text: "HA, SM, SO, SP, SQ, SR, 3Z"
+        "HF, SN, SO, SP, SQ, SR, 3Z"
+        "HF, SN, SO, SP, SQ, 3Z, 3X"
+"HA, SM, SO, SP, SQ, SR, 3Z"
 }
 ]
 },
@@ -7717,14 +5795,9 @@ text: "HA, SM, SO, SP, SQ, SR, 3Z"
     questionID: 362,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 160 m to:",
     questionAnswers: [
-        {
-            text: "1810 kHz - 1950 kHz"
-        },
-        {
-text: "1810 kHz - 2000 kHz"
-},
-{
-text: "1810 kHz - 1980 kHz"
+        "1810 kHz - 1950 kHz"
+        "1810 kHz - 2000 kHz"
+"1810 kHz - 1980 kHz"
 }
 ]
 },
@@ -7732,14 +5805,9 @@ text: "1810 kHz - 1980 kHz"
     questionID: 363,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 80 m to:",
     questionAnswers: [
-        {
-            text: "3550 kHz - 3750 kHz"
-        },
-        {
-text: "3500 kHz - 3750 kHz"
-},
-{
-text: "3500 kHz - 3800 kHz"
+        "3550 kHz - 3750 kHz"
+        "3500 kHz - 3750 kHz"
+"3500 kHz - 3800 kHz"
 }
 ]
 },
@@ -7747,14 +5815,9 @@ text: "3500 kHz - 3800 kHz"
     questionID: 364,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 40 m to:",
     questionAnswers: [
-        {
-            text: "7000 kHz - 7200 kHz"
-        },
-        {
-text: "7100 kHz - 7300 kHz"
-},
-{
-text: "7050 kHz - 7200 kHz"
+        "7000 kHz - 7200 kHz"
+        "7100 kHz - 7300 kHz"
+"7050 kHz - 7200 kHz"
 }
 ]
 },
@@ -7762,14 +5825,9 @@ text: "7050 kHz - 7200 kHz"
     questionID: 365,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 30 m to:",
     questionAnswers: [
-        {
-            text: "10050 kHz - 10200 kHz"
-        },
-        {
-text: "10100 kHz - 10150 kHz"
-},
-{
-text: "10100 kHz - 10200 kHz"
+        "10050 kHz - 10200 kHz"
+        "10100 kHz - 10150 kHz"
+"10100 kHz - 10200 kHz"
 }
 ]
 },
@@ -7777,14 +5835,9 @@ text: "10100 kHz - 10200 kHz"
     questionID: 366,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 20 m to:",
     questionAnswers: [
-        {
-            text: "14000 kHz - 14350 kHz"
-        },
-        {
-text: "14000 kHz - 14450 kHz"
-},
-{
-text: "14100 kHz - 14350 kHz"
+        "14000 kHz - 14350 kHz"
+        "14000 kHz - 14450 kHz"
+"14100 kHz - 14350 kHz"
 }
 ]
 },
@@ -7792,14 +5845,9 @@ text: "14100 kHz - 14350 kHz"
     questionID: 367,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 17 m to:",
     questionAnswers: [
-        {
-            text: "18050 kHz - 18250 kHz"
-        },
-        {
-text: "18068 kHz - 18168 kHz"
-},
-{
-text: "18000 kHz - 18168 kHz"
+        "18050 kHz - 18250 kHz"
+        "18068 kHz - 18168 kHz"
+"18000 kHz - 18168 kHz"
 }
 ]
 },
@@ -7807,14 +5855,9 @@ text: "18000 kHz - 18168 kHz"
     questionID: 368,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 15 m to:",
     questionAnswers: [
-        {
-            text: "21000 kHz - 21500 kHz"
-        },
-        {
-text: "21100 kHz - 21450 kHz"
-},
-{
-text: "21000 kHz - 21450 kHz"
+        "21000 kHz - 21500 kHz"
+        "21100 kHz - 21450 kHz"
+"21000 kHz - 21450 kHz"
 }
 ]
 },
@@ -7822,14 +5865,9 @@ text: "21000 kHz - 21450 kHz"
     questionID: 369,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 12 m to:",
     questionAnswers: [
-        {
-            text: "24690 kHz - 24990 kHz"
-        },
-        {
-text: "24890 kHz - 24990 kHz"
-},
-{
-text: "24680 kHz - 24990 kHz"
+        "24690 kHz - 24990 kHz"
+        "24890 kHz - 24990 kHz"
+"24680 kHz - 24990 kHz"
 }
 ]
 },
@@ -7837,14 +5875,9 @@ text: "24680 kHz - 24990 kHz"
     questionID: 370,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 10 m to:",
     questionAnswers: [
-        {
-            text: "28500 kHz - 29800 kHz"
-        },
-        {
-text: "28000 kHz - 29500 kHz"
-},
-{
-text: "28000 kHz - 29700 kHz"
+        "28500 kHz - 29800 kHz"
+        "28000 kHz - 29500 kHz"
+"28000 kHz - 29700 kHz"
 }
 ]
 },
@@ -7852,14 +5885,9 @@ text: "28000 kHz - 29700 kHz"
     questionID: 371,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 6 m to:",
     questionAnswers: [
-        {
-            text: "50 MHz - 54 MHz"
-        },
-        {
-text: "50 MHz - 52 MHz"
-},
-{
-text: "50 MHz - 53,5 MHz"
+        "50 MHz - 54 MHz"
+        "50 MHz - 52 MHz"
+"50 MHz - 53,5 MHz"
 }
 ]
 },
@@ -7867,14 +5895,9 @@ text: "50 MHz - 53,5 MHz"
     questionID: 372,
     questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 2 m to:",
     questionAnswers: [
-        {
-            text: "144 MHz - 146 MHz"
-        },
-        {
-text: "144 MHz - 148 MHz"
-},
-{
-text: "143 MHz - 146 MHz"
+        "144 MHz - 146 MHz"
+        "144 MHz - 148 MHz"
+"143 MHz - 146 MHz"
 }
 ]
 },
@@ -7882,14 +5905,9 @@ text: "143 MHz - 146 MHz"
     questionID: 373,
     questionText: "Co jest bandpan IARU?",
     questionAnswers: [
-        {
-            text: "podział zakresów częstotliwości na segmenty przeznaczone dla poszczególnych rodzajów emisji lub kanały robocze"
-        },
-        {
-text: "podział częstotliwości osobno nadawczych i odbiorczych"
-},
-{
-text: "plan przydziału częstotliwości dla poszczególnych krajów"
+        "podział zakresów częstotliwości na segmenty przeznaczone dla poszczególnych rodzajów emisji lub kanały robocze"
+        "podział częstotliwości osobno nadawczych i odbiorczych"
+"plan przydziału częstotliwości dla poszczególnych krajów"
 }
 ]
 },
@@ -7897,14 +5915,9 @@ text: "plan przydziału częstotliwości dla poszczególnych krajów"
     questionID: 374,
     questionText: "Czy dopuszcza się w band planie IARU możliwość pracy emisją jednowstęgową (SSB) w zakresie częstotliwości 10100 kHz ? 10150 kHz (pasmo 30 m)?",
     questionAnswers: [
-        {
-            text: "nie ma żadnych ograniczeń co do stosowanych emisji"
-        },
-        {
-text: "jest całkowity zakaz używania emisji jednowstęgowej w tym zakresie"
-},
-{
-text: "dopuszcza się użycie SSB w sytuacjach bezpośredniego zagrożenia dla bezpieczeństwa życia i mienia i wyłącznie przez stacje uczestniczące w akcji ratunkowej"
+        "nie ma żadnych ograniczeń co do stosowanych emisji"
+        "jest całkowity zakaz używania emisji jednowstęgowej w tym zakresie"
+"dopuszcza się użycie SSB w sytuacjach bezpośredniego zagrożenia dla bezpieczeństwa życia i mienia i wyłącznie przez stacje uczestniczące w akcji ratunkowej"
 }
 ]
 },
@@ -7912,14 +5925,9 @@ text: "dopuszcza się użycie SSB w sytuacjach bezpośredniego zagrożenia dla b
     questionID: 375,
     questionText: "Jaki jest odstęp między częstotliwością nadawczą a odbiorczą przemienników pracujących w paśmie 2 m?",
     questionAnswers: [
-        {
-            text: "600 kHz"
-        },
-        {
-text: "650 kHz"
-},
-{
-text: "800 kHz"
+        "600 kHz"
+        "650 kHz"
+"800 kHz"
 }
 ]
 },
@@ -7927,14 +5935,9 @@ text: "800 kHz"
     questionID: 376,
     questionText: "Jak nazywa się organ międzynarodowy ustalający ogólnoświatowe zasady wykonywania działalności telekomunikacyjnej i radiokomunikacyjnej?",
     questionAnswers: [
-        {
-            text: "Organizacja Narodów Zjednoczonych (ONZ)"
-        },
-        {
-text: "Międzynarodowy Związek Telekomunikacyjny (ITU)"
-},
-{
-text: "Światowa Organizacja Handlu (WTO)"
+        "Organizacja Narodów Zjednoczonych (ONZ)"
+        "Międzynarodowy Związek Telekomunikacyjny (ITU)"
+"Światowa Organizacja Handlu (WTO)"
 }
 ]
 },
@@ -7942,14 +5945,9 @@ text: "Światowa Organizacja Handlu (WTO)"
     questionID: 377,
     questionText: "Gdzie mieści się siedziba Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
     questionAnswers: [
-        {
-            text: "w Nowym Jorku"
-        },
-        {
-text: "w Wiedniu"
-},
-{
-text: "w Genewie"
+        "w Nowym Jorku"
+        "w Wiedniu"
+"w Genewie"
 }
 ]
 },
@@ -7957,14 +5955,9 @@ text: "w Genewie"
     questionID: 378,
     questionText: "Ile krajów zrzesza Międzynarodowy Związek Telekomunikacyjny?",
     questionAnswers: [
-        {
-            text: "50-100"
-        },
-        {
-text: "100-150"
-},
-{
-text: "150-200"
+        "50-100"
+        "100-150"
+"150-200"
 }
 ]
 },
@@ -7972,14 +5965,9 @@ text: "150-200"
     questionID: 379,
     questionText: "Jaki organ Międzynarodowego Związku Telekomunikacyjnego (ITU) decyduje o przeznaczeniach poszczególnych zakresów częstotliwości dla różnych służb radiokomunikacyjnych?",
     questionAnswers: [
-        {
-            text: "Rada Międzynarodowego Związku Telekomunikacyjnego (ITU)"
-        },
-        {
-text: "Światowe Konferencje Radiokomunikacyjne"
-},
-{
-text: "Biuro Radiokomunikacji ITU"
+        "Rada Międzynarodowego Związku Telekomunikacyjnego (ITU)"
+        "Światowe Konferencje Radiokomunikacyjne"
+"Biuro Radiokomunikacji ITU"
 }
 ]
 },
@@ -7987,14 +5975,9 @@ text: "Biuro Radiokomunikacji ITU"
     questionID: 380,
     questionText: "Jaki dokument obowiązujący wszystkie kraje członkowskie Międzynarodowego Związku Telekomunikacyjnego (ITU) określa zasady wykonywania służby radiokomunikacyjnej amatorskiej i służby amatorskiej satelitarnej oraz wymienia przyznane tym służbom zakresy częstotliwości?",
     questionAnswers: [
-        {
-            text: "Konstytucja ITU"
-        },
-        {
-text: "Regulamin Radiokomunikacyjny (Radio Regulations) ITU"
-},
-{
-text: "Konwencja ITU"
+        "Konstytucja ITU"
+        "Regulamin Radiokomunikacyjny (Radio Regulations) ITU"
+"Konwencja ITU"
 }
 ]
 },
@@ -8002,14 +5985,9 @@ text: "Konwencja ITU"
     questionID: 381,
     questionText: "W którym roku Rzeczpospolita Polska przystąpiła do Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
     questionAnswers: [
-        {
-            text: "1921"
-        },
-        {
-text: "1935"
-},
-{
-text: "1956"
+        "1921"
+        "1935"
+"1956"
 }
 ]
 },
@@ -8017,14 +5995,9 @@ text: "1956"
     questionID: 382,
     questionText: "Jak brzmi definicja służby amatorskiej zamieszczona w Regulaminie Radiokomunikacyjnym Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
     questionAnswers: [
-        {
-            text: "służba radiokomunikacyjna wykonywana przez radioamatorów w celu nawiązywania wzajemnych znajomości i wymiany informacji technicznych"
-        },
-        {
-text: "służba radiokomunikacyjna mająca na celu samokształcenie, wzajemne komunikowanie się i eksperymenty techniczne prowadzone przez amatorów, to jest przez odpowiednio upoważnione osoby interesujące się techniką radiową wyłącznie z pobudek osobistych, bez celów zarobkowych"
-},
-{
-text: "służba radiokomunikacyjna mająca na celu badanie propagacji fal radiowych w zakresach krótkofalowym i ultrakrótkofalowym oraz warunków meteorologicznych"
+        "służba radiokomunikacyjna wykonywana przez radioamatorów w celu nawiązywania wzajemnych znajomości i wymiany informacji technicznych"
+        "służba radiokomunikacyjna mająca na celu samokształcenie, wzajemne komunikowanie się i eksperymenty techniczne prowadzone przez amatorów, to jest przez odpowiednio upoważnione osoby interesujące się techniką radiową wyłącznie z pobudek osobistych, bez celów zarobkowych"
+"służba radiokomunikacyjna mająca na celu badanie propagacji fal radiowych w zakresach krótkofalowym i ultrakrótkofalowym oraz warunków meteorologicznych"
 }
 ]
 },
@@ -8032,14 +6005,9 @@ text: "służba radiokomunikacyjna mająca na celu badanie propagacji fal radiow
     questionID: 383,
     questionText: "Regulamin Radiokomunikacyjny ITU dzieli świat na trzy regiony. W którym regionie radiokomunikacyjnym znajduje się Polska?",
     questionAnswers: [
-        {
-            text: "w trzecim"
-        },
-        {
-text: "w pierwszym"
-},
-{
-text: "w drugim"
+        "w trzecim"
+        "w pierwszym"
+"w drugim"
 }
 ]
 },
@@ -8047,14 +6015,9 @@ text: "w drugim"
     questionID: 384,
     questionText: "Czy Regulamin Radiokomunikacyjny ITU przewiduje wykorzystanie stacji amatorskich w akcjach humanitarnych, niesienia pomocy w przypadkach katastrof, klęsk żywiołowych i innych zagrożeń?",
     questionAnswers: [
-        {
-            text: "nie zezwala na takie wykorzystanie stacji amatorskich"
-        },
-        {
-text: "niezbędny jest specjalny wpis do pozwolenia radioamatorskiego"
-},
-{
-text: "usilnie zaleca się wykorzystywanie stacji amatorskich w powyższych przypadkach"
+        "nie zezwala na takie wykorzystanie stacji amatorskich"
+        "niezbędny jest specjalny wpis do pozwolenia radioamatorskiego"
+"usilnie zaleca się wykorzystywanie stacji amatorskich w powyższych przypadkach"
 }
 ]
 },
@@ -8062,14 +6025,9 @@ text: "usilnie zaleca się wykorzystywanie stacji amatorskich w powyższych przy
     questionID: 385,
     questionText: "Czy Regulamin Radiokomunikacyjny reguluje zasady przyznawania znaków wywoławczych stacjom amatorskim?",
     questionAnswers: [
-        {
-            text: "nie, regulują to przepisy krajowe"
-        },
-        {
-text: "tak, Regulamin Radiokomunikacyjny określa ściśle zasady przyznawania znaków"
-},
-{
-text: "nie, znak wywoławczy obiera sobie sam operator stacji"
+        "nie, regulują to przepisy krajowe"
+        "tak, Regulamin Radiokomunikacyjny określa ściśle zasady przyznawania znaków"
+"nie, znak wywoławczy obiera sobie sam operator stacji"
 }
 ]
 },
@@ -8077,14 +6035,9 @@ text: "nie, znak wywoławczy obiera sobie sam operator stacji"
     questionID: 386,
     questionText: "Czy postanowienia Regulaminu Radiokomunikacyjnego ITU dotyczące służby amatorskiej obowiązuj również w służbie amatorskiej satelitarnej?",
     questionAnswers: [
-        {
-            text: "tak, obowiązują"
-        },
-        {
-text: "nie, obowiązują odrębne przepisy"
-},
-{
-text: "nie obowiązują żadne przepisy"
+        "tak, obowiązują"
+        "nie, obowiązują odrębne przepisy"
+"nie obowiązują żadne przepisy"
 }
 ]
 },
@@ -8092,14 +6045,9 @@ text: "nie obowiązują żadne przepisy"
     questionID: 387,
     questionText: "Co zgodnie z Regulaminem Radiokomunikacyjnym ITU musi zapewnić operator amatorskiej orbitalnej stacji satelitarnej?",
     questionAnswers: [
-        {
-            text: "nadawanie przez amatorską stację satelitarną jej znaku wywoławczego"
-        },
-        {
-text: "niezwłoczne zdalne wyłączenie amatorskiej stacji satelitarnej w przypadku powodowania przez nią szkodliwych zakłóceń dla innych służb radiokomunikacyjnych"
-},
-{
-text: "nadawanie przez amatorską stację satelitarną komunikatów meteorologicznych"
+        "nadawanie przez amatorską stację satelitarną jej znaku wywoławczego"
+        "niezwłoczne zdalne wyłączenie amatorskiej stacji satelitarnej w przypadku powodowania przez nią szkodliwych zakłóceń dla innych służb radiokomunikacyjnych"
+"nadawanie przez amatorską stację satelitarną komunikatów meteorologicznych"
 }
 ]
 },
@@ -8107,14 +6055,9 @@ text: "nadawanie przez amatorską stację satelitarną komunikatów meteorologic
     questionID: 388,
     questionText: "Jak nazywa się organ międzynarodowy zrzeszający krajowe administracje łączności z terenu Europy?",
     questionAnswers: [
-        {
-            text: "Rada Europy (EC)"
-        },
-        {
-text: "Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT)"
-},
-{
-text: "Organizacja Bezpieczeństwa i Współpracy w Europie (OBWE)"
+        "Rada Europy (EC)"
+        "Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT)"
+"Organizacja Bezpieczeństwa i Współpracy w Europie (OBWE)"
 }
 ]
 },
@@ -8122,14 +6065,9 @@ text: "Organizacja Bezpieczeństwa i Współpracy w Europie (OBWE)"
     questionID: 389,
     questionText: "Gdzie mieści się siedziba Europejskiego Biura Radiokomunikacji (ERO)?",
     questionAnswers: [
-        {
-            text: "w Brukseli"
-        },
-        {
-text: "w Helsinkach"
-},
-{
-text: "w Kopenhadze"
+        "w Brukseli"
+        "w Helsinkach"
+"w Kopenhadze"
 }
 ]
 },
@@ -8137,14 +6075,9 @@ text: "w Kopenhadze"
     questionID: 390,
     questionText: "Jakiego rodzaju dokumenty regulujące działalność radiokomunikacyjną w Europie przyjmuje i wprowadza Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT) i publikuje Europejskie Biuro Radiokomunikacji (ERO)?",
     questionAnswers: [
-        {
-            text: "decyzje"
-        },
-        {
-text: "decyzje i zalecenia"
-},
-{
-text: "decyzje, zalecenia i raporty"
+        "decyzje"
+        "decyzje i zalecenia"
+"decyzje, zalecenia i raporty"
 }
 ]
 },
@@ -8152,14 +6085,9 @@ text: "decyzje, zalecenia i raporty"
     questionID: 391,
     questionText: "Jakie dokumenty Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) regulują sprawy międzynarodowego uznawania pozwoleń i międzynarodowych wymagań egzaminacyjnych w służbie amatorskiej?",
     questionAnswers: [
-        {
-            text: "Uchwały Komitetu Komunikacji Elektronicznej CEPT"
-        },
-        {
-text: "Zalecenia CEPT T/R 61-01 i T/R 61-02"
-},
-{
-text: "Zalecenia CEPT T/R 22-01 i T/R 22-02"
+        "Uchwały Komitetu Komunikacji Elektronicznej CEPT"
+        "Zalecenia CEPT T/R 61-01 i T/R 61-02"
+"Zalecenia CEPT T/R 22-01 i T/R 22-02"
 }
 ]
 },
@@ -8167,14 +6095,9 @@ text: "Zalecenia CEPT T/R 22-01 i T/R 22-02"
     questionID: 392,
     questionText: "Przez jaki okres czasu może posiadacz międzynarodowego pozwolenia amatorskiego zgodnego z zaleceniem CEPT T/R 61-01 pracować z terytorium innego kraju uznającego to zalecenie, bez konieczności uzyskiwania pozwolenia od miejscowej administracji łączności?",
     questionAnswers: [
-        {
-            text: "1 miesiąc"
-        },
-        {
-text: "3 miesiące"
-},
-{
-text: "1 rok"
+        "1 miesiąc"
+        "3 miesiące"
+"1 rok"
 }
 ]
 },
@@ -8182,14 +6105,9 @@ text: "1 rok"
     questionID: 393,
     questionText: "Czy przepisy Międzynarodowego Związku Telekomunikacyjnego (ITU) i Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) wprowadzają obowiązkowy wymóg umiejętności odbioru i nadawania znaków w kodzie Morse-a przy egzaminie na świadectwo radiooperatora w służbie amatorskiej?",
     questionAnswers: [
-        {
-            text: "wprowadzają wymóg jako obowiązkowy"
-        },
-        {
-text: "pozostawiaj powyższy wymóg do decyzji krajowych administracji łączności"
-},
-{
-text: "znoszą całkowicie powyższy wymóg"
+        "wprowadzają wymóg jako obowiązkowy"
+        "pozostawiaj powyższy wymóg do decyzji krajowych administracji łączności"
+"znoszą całkowicie powyższy wymóg"
 }
 ]
 },
@@ -8197,14 +6115,9 @@ text: "znoszą całkowicie powyższy wymóg"
     questionID: 394,
     questionText: "Kto określa maksymalną moc wyjściową radiostacji amatorskiej podawaną w pozwoleniu?",
     questionAnswers: [
-        {
-            text: "Międzynarodowy Związek Telekomunikacyjny (ITU)"
-        },
-        {
-text: "Europejskie Biuro Radiokomunikacji (ERO)"
-},
-{
-text: "krajowa administracja łączności"
+        "Międzynarodowy Związek Telekomunikacyjny (ITU)"
+        "Europejskie Biuro Radiokomunikacji (ERO)"
+"krajowa administracja łączności"
 }
 ]
 },
@@ -8212,14 +6125,9 @@ text: "krajowa administracja łączności"
     questionID: 395,
     questionText: "Jaka organizacja reprezentuje służbę amatorską na forum międzynarodowym?",
     questionAnswers: [
-        {
-            text: "Międzynarodowy Związek Telekomunikacyjny (ITU)"
-        },
-        {
-text: "Międzynarodowy Związek Radioamatorów (IARU)"
-},
-{
-text: "Europejskie Biuro Radiokomunikacji (ERO)"
+        "Międzynarodowy Związek Telekomunikacyjny (ITU)"
+        "Międzynarodowy Związek Radioamatorów (IARU)"
+"Europejskie Biuro Radiokomunikacji (ERO)"
 }
 ]
 },
@@ -8227,14 +6135,9 @@ text: "Europejskie Biuro Radiokomunikacji (ERO)"
     questionID: 396,
     questionText: "Ile organizacji regionalnych składa się na ogólnoświatowy Międzynarodowy Związek Radioamatorów (IARU ? the International Amateur Radio Union)?",
     questionAnswers: [
-        {
-            text: "trzy"
-        },
-        {
-text: "cztery"
-},
-{
-text: "pięć"
+        "trzy"
+        "cztery"
+"pięć"
 }
 ]
 },
@@ -8242,14 +6145,9 @@ text: "pięć"
     questionID: 397,
     questionText: "W którym roku i w jakim miejscu powstał Międzynarodowy Związek Radioamatorów (IARU)?",
     questionAnswers: [
-        {
-            text: "w roku 1930 w Genewie"
-        },
-        {
-text: "w roku 1925 w Paryżu"
-},
-{
-text: "w roku 1910 w Berlinie"
+        "w roku 1930 w Genewie"
+        "w roku 1925 w Paryżu"
+"w roku 1910 w Berlinie"
 }
 ]
 },
@@ -8257,14 +6155,9 @@ text: "w roku 1910 w Berlinie"
     questionID: 398,
     questionText: "W którym roku powstał Polski Związek Krótkofalowców (PZK)?",
     questionAnswers: [
-        {
-            text: "w roku 1924"
-        },
-        {
-text: "w roku 1930"
-},
-{
-text: "w roku 1946"
+        "w roku 1924"
+        "w roku 1930"
+"w roku 1946"
 }
 ]
 },
@@ -8272,14 +6165,9 @@ text: "w roku 1946"
     questionID: 399,
     questionText: "Jaki organ krajowy reguluje i kontroluje pracę stacji amatorskich, przeprowadza egzaminy na świadectwa operatora urządzeń radiowych i wydaje pozwolenia w służbie amatorskiej?",
     questionAnswers: [
-        {
-            text: "Minister właściwy do spraw łączności"
-        },
-        {
-text: "Prezes Urzędu Komunikacji Elektronicznej"
-},
-{
-text: "Minister właściwy do spraw wewnętrznych"
+        "Minister właściwy do spraw łączności"
+        "Prezes Urzędu Komunikacji Elektronicznej"
+"Minister właściwy do spraw wewnętrznych"
 }
 ]
 },
@@ -8287,14 +6175,9 @@ text: "Minister właściwy do spraw wewnętrznych"
     questionID: 400,
     questionText: "Jaki podstawowy akt prawny reguluje działalność telekomunikacyjną i radiokomunikacyjną w Polsce?",
     questionAnswers: [
-        {
-            text: "statut Urzędu Komunikacji Elektronicznej (UKE)"
-        },
-        {
-text: "ustawa Prawo ochrony środowiska"
-},
-{
-text: "ustawa Prawo telekomunikacyjne"
+        "statut Urzędu Komunikacji Elektronicznej (UKE)"
+        "ustawa Prawo ochrony środowiska"
+"ustawa Prawo telekomunikacyjne"
 }
 ]
 },
@@ -8302,14 +6185,9 @@ text: "ustawa Prawo telekomunikacyjne"
     questionID: 401,
     questionText: "W jakim dokumencie określone są zakresy częstotliwości przeznaczone w Polsce dla służby amatorskiej i służby amatorskiej satelitarnej?",
     questionAnswers: [
-        {
-            text: "w ustawie Prawo telekomunikacyjne"
-        },
-        {
-text: "w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń Częstotliwości"
-},
-{
-text: "w decyzjach Prezesa Urzędu Komunikacji Elektronicznej"
+        "w ustawie Prawo telekomunikacyjne"
+        "w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń Częstotliwości"
+"w decyzjach Prezesa Urzędu Komunikacji Elektronicznej"
 }
 ]
 },
@@ -8317,14 +6195,9 @@ text: "w decyzjach Prezesa Urzędu Komunikacji Elektronicznej"
     questionID: 402,
     questionText: "Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba pierwszej ważności oznacza, że:",
     questionAnswers: [
-        {
-            text: "służba taka jest chroniona przed szkodliwymi zakłóceniami ze strony służb drugiej ważności"
-        },
-        {
-text: "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie"
-},
-{
-text: "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie"
+        "służba taka jest chroniona przed szkodliwymi zakłóceniami ze strony służb drugiej ważności"
+        "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie"
+"służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie"
 }
 ]
 },
@@ -8332,14 +6205,9 @@ text: "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze 
     questionID: 403,
     questionText: "Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba drugiej ważności - oznacza, że:",
     questionAnswers: [
-        {
-            text: "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie"
-        },
-        {
-text: "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji służb pierwszej ważności; którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka może jednak żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie."
-},
-{
-text: "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie"
+        "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie"
+        "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji służb pierwszej ważności; którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka może jednak żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie."
+"służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie"
 }
 ]
 },
@@ -8347,14 +6215,9 @@ text: "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze 
     questionID: 404,
     questionText: "Jaki dokument określa kategorie pozwoleń w służbie amatorskiej i dozwolone moce wyjściowe radiostacji amatorskiej?",
     questionAnswers: [
-        {
-            text: "ustawa Prawo telekomunikacyjne"
-        },
-        {
-text: "rozporządzenie ministra właściwego do spraw łączności"
-},
-{
-text: "zarządzenie Prezesa Urzędu Komunikacji Elektronicznej"
+        "ustawa Prawo telekomunikacyjne"
+        "rozporządzenie ministra właściwego do spraw łączności"
+"zarządzenie Prezesa Urzędu Komunikacji Elektronicznej"
 }
 ]
 },
@@ -8362,14 +6225,9 @@ text: "zarządzenie Prezesa Urzędu Komunikacji Elektronicznej"
     questionID: 405,
     questionText: "Do czego upoważnia świadectwo operatora klasy A w służbie radiokomunikacyjnej amatorskiej?",
     questionAnswers: [
-        {
-            text: "do uzyskania pozwolenia amatorskiego kategorii 1"
-        },
-        {
-text: "do uzyskania pozwolenia amatorskiego kategorii 3"
-},
-{
-text: "wyłącznie do pracy na radiostacji klubowej"
+        "do uzyskania pozwolenia amatorskiego kategorii 1"
+        "do uzyskania pozwolenia amatorskiego kategorii 3"
+"wyłącznie do pracy na radiostacji klubowej"
 }
 ]
 },
@@ -8377,14 +6235,9 @@ text: "wyłącznie do pracy na radiostacji klubowej"
     questionID: 406,
     questionText: "Do czego upoważnia świadectwo operatora klasy C w służbie radiokomunikacyjnej amatorskiej?",
     questionAnswers: [
-        {
-            text: "do uzyskania pozwolenia amatorskiego kategorii 2"
-        },
-        {
-text: "do uzyskania pozwolenia amatorskiego kategorii 3"
-},
-{
-text: "do organizowania zawodów w amatorskiej radiolokacji sportowej"
+        "do uzyskania pozwolenia amatorskiego kategorii 2"
+        "do uzyskania pozwolenia amatorskiego kategorii 3"
+"do organizowania zawodów w amatorskiej radiolokacji sportowej"
 }
 ]
 },
@@ -8392,14 +6245,9 @@ text: "do organizowania zawodów w amatorskiej radiolokacji sportowej"
     questionID: 407,
     questionText: "Na jaki okres czasu wydawane są indywidualne pozwolenia amatorskie kategorii 1 i 3?",
     questionAnswers: [
-        {
-            text: "10 lat"
-        },
-        {
-text: "15 lat"
-},
-{
-text: "dożywotnio"
+        "10 lat"
+        "15 lat"
+"dożywotnio"
 }
 ]
 },
@@ -8407,14 +6255,9 @@ text: "dożywotnio"
     questionID: 408,
     questionText: "Na jaki okres czasu wydawane są pozwolenia amatorskie kategorii 5?",
     questionAnswers: [
-        {
-            text: "5 lat"
-        },
-        {
-text: "10 lat"
-},
-{
-text: "15 lat"
+        "5 lat"
+        "10 lat"
+"15 lat"
 }
 ]
 },
@@ -8422,14 +6265,9 @@ text: "15 lat"
     questionID: 409,
     questionText: "Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 1 uzyskanego po raz pierwszy?",
     questionAnswers: [
-        {
-            text: "50 watów"
-        },
-        {
-text: "500 watów"
-},
-{
-text: "250 watów"
+        "50 watów"
+        "500 watów"
+"250 watów"
 }
 ]
 },
@@ -8437,14 +6275,9 @@ text: "250 watów"
     questionID: 410,
     questionText: "Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 3?",
     questionAnswers: [
-        {
-            text: "15 watów"
-        },
-        {
-text: "100 watów"
-},
-{
-text: "150 watów"
+        "15 watów"
+        "100 watów"
+"150 watów"
 }
 ]
 },
@@ -8452,14 +6285,9 @@ text: "150 watów"
     questionID: 411,
     questionText: "Jaka jest moc maksymalna wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 5?",
     questionAnswers: [
-        {
-            text: "50 watów dla nadajnika poniżej 30MHz a 15 watów dla nadajnika powyżej 30MHz"
-        },
-        {
-text: "50 watów"
-},
-{
-text: "150 watów"
+        "50 watów dla nadajnika poniżej 30MHz a 15 watów dla nadajnika powyżej 30MHz"
+        "50 watów"
+"150 watów"
 }
 ]
 },
@@ -8467,14 +6295,9 @@ text: "150 watów"
     questionID: 412,
     questionText: "Jaka jest maksymalna moc wyjściowa radiostacji w przypadku pozwolenia dodatkowego?",
     questionAnswers: [
-        {
-            text: "500 watów"
-        },
-        {
-text: "1000 watów"
-},
-{
-text: "1500 watów"
+        "500 watów"
+        "1000 watów"
+"1500 watów"
 }
 ]
 },
@@ -8482,14 +6305,9 @@ text: "1500 watów"
     questionID: 413,
     questionText: "W jakich zakresach krótkofalowych może pracować operator posiadający pozwolenie kategorii 1?",
     questionAnswers: [
-        {
-            text: "3500 - 3800 kHz oraz 7000 - 7100 kHz"
-        },
-        {
-text: "7000 - 7100 kHz oraz 28000 - 29700 kHz"
-},
-{
-text: "we wszystkich zakresach częstotliwości przeznaczonych dla służby radiokomunikacyjnej amatorskiej na terytorium RP"
+        "3500 - 3800 kHz oraz 7000 - 7100 kHz"
+        "7000 - 7100 kHz oraz 28000 - 29700 kHz"
+"we wszystkich zakresach częstotliwości przeznaczonych dla służby radiokomunikacyjnej amatorskiej na terytorium RP"
 }
 ]
 },
@@ -8497,14 +6315,9 @@ text: "we wszystkich zakresach częstotliwości przeznaczonych dla służby radi
     questionID: 414,
     questionText: "W jakich zakresach częstotliwości może pracować operator posiadający pozwolenie kategorii 3?",
     questionAnswers: [
-        {
-            text: "28000-29700 kHz oraz 144-146 MHz"
-        },
-        {
-text: "1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz, 144-146 MHz; 430-440 MHz oraz 10-10,5 GHz."
-},
-{
-text: "28000-29700 kHz oraz 430-440 MHz"
+        "28000-29700 kHz oraz 144-146 MHz"
+        "1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz, 144-146 MHz; 430-440 MHz oraz 10-10,5 GHz."
+"28000-29700 kHz oraz 430-440 MHz"
 }
 ]
 },
@@ -8512,14 +6325,9 @@ text: "28000-29700 kHz oraz 430-440 MHz"
     questionID: 415,
     questionText: "Jaki jest minimalny wiek, w którym można przystąpić do egzaminu i uzyskać świadectwo operatora urządzeń radiowych w służbie amatorskiej oraz uzyskać pozwolenie dla służby radiokomunikacyjnej amatorskiej?",
     questionAnswers: [
-        {
-            text: "10 lat dla uzyskania świadectwa klasy C oraz 15 lat dla uzyskania świadectwa klasy A"
-        },
-        {
-text: "15 lat dla uzyskania świadectwa klasy A i C"
-},
-{
-text: "nie określono minimalnego wieku"
+        "10 lat dla uzyskania świadectwa klasy C oraz 15 lat dla uzyskania świadectwa klasy A"
+        "15 lat dla uzyskania świadectwa klasy A i C"
+"nie określono minimalnego wieku"
 }
 ]
 },
@@ -8527,14 +6335,9 @@ text: "nie określono minimalnego wieku"
     questionID: 416,
     questionText: "Jakimi rodzajami emisji radiowych wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 50-52 MHz?",
     questionAnswers: [
-        {
-            text: "wyłącznie emisją A1A (telegrafia)"
-        },
-        {
-text: "wyłącznie emisją F3E (telefonia z modulacją częstotliwości)"
-},
-{
-text: "wszystkimi rodzajami emisji z wyjątkiem F3E"
+        "wyłącznie emisją A1A (telegrafia)"
+        "wyłącznie emisją F3E (telefonia z modulacją częstotliwości)"
+"wszystkimi rodzajami emisji z wyjątkiem F3E"
 }
 ]
 },
@@ -8542,14 +6345,9 @@ text: "wszystkimi rodzajami emisji z wyjątkiem F3E"
     questionID: 417,
     questionText: "Jakimi rodzajami emisji radiowych i z jaką mocą wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 135,7-137,8 kHz?",
     questionAnswers: [
-        {
-            text: "wyłącznie emisją A1A (telegrafia) z mocą wyjściową 150 watów"
-        },
-        {
-text: "wszystkimi rodzajami emisji z mocą wyjściową 250 watów"
-},
-{
-text: "wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc promieniowana izotropowo)"
+        "wyłącznie emisją A1A (telegrafia) z mocą wyjściową 150 watów"
+        "wszystkimi rodzajami emisji z mocą wyjściową 250 watów"
+"wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc promieniowana izotropowo)"
 }
 ]
 },
@@ -8557,60 +6355,36 @@ text: "wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna
     questionID: 418,
     questionText: "Jaki dokument określa klasy świadectw operatora radiowego w służbie amatorskiej i wymagania egzaminacyjne na poszczególne klasy świadectw?",
     questionAnswers: [
-        {
-            text: "rozporządzenie ministra właściwego do spraw łączności"
-        },
-        {
-text: "ustawa Prawo telekomunikacyjne"
-},
-{
-text: "Krajowa Tablica Przeznaczeń Częstotliwości"
-}
+        "rozporządzenie ministra właściwego do spraw łączności"
+        "ustawa Prawo telekomunikacyjne"
+"Krajowa Tablica Przeznaczeń Częstotliwości"
 ]
 },
 {
     questionID: 419,
     questionText: "Jak powinien postąpić operator stacji amatorskiej w razie przypadkowego odebrania wiadomości nie przeznaczonej dla służby amatorskiej?",
     questionAnswers: [
-        {
-            text: "rozpowszechnić odebraną wiadomość w internecie"
-        },
-        {
-text: "zachować treść wiadomości w ścisłej tajemnicy"
-},
-{
-text: "zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana wiadomość zawiera istotne dla funkcjonowania Pastwa lub porządku publicznego informacje - powiadomić najbliższą jednostkę Urzędu Komunikacji Elektronicznej"
-}
+        "rozpowszechnić odebraną wiadomość w internecie"
+        "zachować treść wiadomości w ścisłej tajemnicy"
+"zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana wiadomość zawiera istotne dla funkcjonowania Pastwa lub porządku publicznego informacje - powiadomić najbliższą jednostkę Urzędu Komunikacji Elektronicznej"
 ]
 },
 {
     questionID: 420,
     questionText: "Czy operator stacji amatorskiej może przekazywać przy pomocy swej radiostacji wiadomości pochodzące od osób trzecich i przeznaczone dla osób trzecich?",
     questionAnswers: [
-        {
-            text: "jest to dopuszczalne"
-        },
-        {
-text: "jest to surowo zabronione"
-},
-{
-text: "jest to dopuszczalne, jeśli stacja amatorska za wiedzą Urzędu Komunikacji Elektronicznej bierze udział w akcji niesienia pomocy lub likwidacji skutków klęsk żywiołowych i katastrof"
-}
+        "jest to dopuszczalne"
+        "jest to surowo zabronione"
+"jest to dopuszczalne, jeśli stacja amatorska za wiedzą Urzędu Komunikacji Elektronicznej bierze udział w akcji niesienia pomocy lub likwidacji skutków klęsk żywiołowych i katastrof"
 ]
 },
 {
     questionID: 421,
     questionText: "Jak często operator radiostacji amatorskiej powinien podawać podczas łączności znak wywoławczy swej stacji?",
     questionAnswers: [
-        {
-            text: "co pół godziny"
-        },
-        {
-text: "tak często, jak jest to w praktyce możliwe, przynajmniej na początku i na kocu każdego nadawania"
-},
-{
-text: "nie musi podawać znaku wywoławczego"
-}
+        "co pół godziny"
+        "tak często, jak jest to w praktyce możliwe, przynajmniej na początku i na kocu każdego nadawania"
+"nie musi podawać znaku wywoławczego"
 ]
 }
     ]
