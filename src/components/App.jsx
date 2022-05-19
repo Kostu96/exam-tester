@@ -84,7 +84,7 @@ class App extends Component {
                     </Route>
                     <Route path="/changelog">
                         <ChangeLog>
-                            19-05-2022
+                            20-05-2022
                             <ul>
                                 <li>Dodano egzamin krótkofalarski UKE</li>
                                 <li>Dodano losowanie kolejności odpowiedzi - uproszczono format bazy z pytaniami</li>
