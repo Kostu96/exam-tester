@@ -55,17 +55,21 @@ class App extends Component {
                     <Route exact path="/">
                         <h4>Politechnika Gdańska:</h4>
                         <ExamLinkContainer>
-                            <ExamLink to="/cybersecurity">Wprowadzenie do Cyberbezpieczeństwa </ExamLink><br />
-                            <ExamLink to="/modern_physics">Fizyka Współczesna </ExamLink><br />
-                            <ExamLink to="/graphics">Grafika Komputerowa </ExamLink><br />
-                            <ExamLink to="/mii">Multimedia i Interfejsy </ExamLink><br />
+                            <ExamLink to="/swim">Systemy Wbudowane i Mikroprocesory</ExamLink><br />
+                            <ExamLink to="/cybersecurity">Wprowadzenie do Cyberbezpieczeństwa</ExamLink><br />
+                            <ExamLink to="/modern_physics">Fizyka Współczesna</ExamLink><br />
+                            <ExamLink to="/graphics">Grafika Komputerowa</ExamLink><br />
+                            <ExamLink to="/mii">Multimedia i Interfejsy</ExamLink><br />
                         </ExamLinkContainer>
                         <br />
                         <hr />
                         <h4>Pozostałe:</h4>
                         <ExamLinkContainer>
-                            <ExamLink to="/ham">Egzamin krótkofalarski UKE </ExamLink>
+                            <ExamLink to="/ham">Egzamin krótkofalarski UKE</ExamLink>
                         </ExamLinkContainer>
+                    </Route>
+                    <Route path="/swim">
+                        <Exam questionDB={ questionDataBase.swim } />
                     </Route>
                     <Route path="/cybersecurity">
                         <Exam questionDB={ questionDataBase.cybersecurity } />
@@ -84,19 +88,21 @@ class App extends Component {
                     </Route>
                     <Route path="/changelog">
                         <ChangeLog>
-                            20-05-2022
+                            23-05-2022
                             <ul>
+                                <li>Dodano egzamin z przedmiotu Systemy Wbudowane i Mikroprocesory</li>
                                 <li>Dodano egzamin krótkofalarski UKE</li>
-                                <li>Dodano losowanie kolejności odpowiedzi - uproszczono format bazy z pytaniami</li>
+                                <li>Dodano losowanie kolejności odpowiedzi</li>
                                 <li>Dodano changelog</li>
                                 <li>Zmieniono stopkę strony</li>
-                                <li>Usunięto niekompletny test z fizyki</li>
+                                <li>Zmieniono format bazy z pytaniami</li>
+                                <li>Usunięto niekompletny egzamin z fizyki</li>
                                 <li>Naprawionio wyświetlanie grafiki w pytaniach</li>
                                 <li>Naprawionio drobne błędy</li>
                             </ul>
                             17-04-2022
                             <ul>
-                                <li>Dodano egzamin z Wprowadzenia do Cyberbezpieczeństwa</li>
+                                <li>Dodano egzamin z przedmiotu Wprowadzenie do Cyberbezpieczeństwa</li>
                                 <li>Usunięto nieaktywne linki</li>
                             </ul>
                         </ChangeLog>

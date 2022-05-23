@@ -90,10 +90,7 @@ class QuestionWrapper extends Component {
         return(
             <div onClick={ this.props.onClick }>
                 <hr />
-                <QuestionText>
-                    { this.props.question.questionID + ". " }
-                    { this.props.question.questionText }
-                </QuestionText>
+                <QuestionText>{ this.props.question.questionText }</QuestionText>
                 { image }
                 <AnswersWrapper>
                     { this.state.answersView.map(

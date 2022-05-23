@@ -1,11 +1,362 @@
 //NOTE: correct answer has to be first in aswers array
-//TODO: is questionID needed? Maybe it can be replaced by the array index.
 
 const questionDataBase = {
+    swim: [
+        {
+            questionText: "1. Do usypiania mikrokontrolerów AVR służy instrukcja SLEEP.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "2. Interfejs szeregowy, który zawsze wymaga wymiany danych, to SPI.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "3. Do realizacji transmisji za pomocą interfejsu I2C wykorzystywane są linia danych, linia zegarowa oraz przewód masy (GND).",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "4. Obsługa pinów wej/wyj na poziomie sprzętowym w mikrokontrolerze AVR realizowana jest za pomocą 1 dedykowanego rejestru.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "5. Do usypiania mikrokontrolerów PIC służy instrukcja SLEEP.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "6. Źródłem sygnału RESET w mikrokontrolerze AVR może być układ kontroli zasilania.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "7. W interfejsie 1-wire transmisja odbywa się za pomocą tzw. slotów (szczelin czasowych) , w których najważniejsze jest określenie rozmiaru i kierunku przesyłanych danych na etapie inicjalizacji.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "8. Po wybudzeniu mikrokontrolera PIC ze stanu uśpienia wykonywanie programu zawsze rozpoczyna się od początku (dla dowolnego mikrokontrolera).",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "9.W interfejsie 1-wire transmisja odbywa się za pomocą tzw. slotów (szczelin czasowych) , w których najważniejsze jest zachowanie reżimu czasowego dla stanów logicznych na linii danych.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "10. W architekturze von Neumana mikroprocesor nie może jednocześnie pobrać rozkazu i danej z pamięci.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "11. Licznik mikrokontrolera AVR w trybie CTC zlicza od 0 do wartości zadanej. Po doliczeniu do niej liczy od 0.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "12. Obsługa pinów wej/wyj na poziomie sprzętowym w mikrokontrolerze PIC realizowana jest za pomocą 1 dedykowanego rejestru.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "13. W interfejsie SPI wykorzystywane są 2 linie danych, linia zegarowe oraz linie wyboru urządzenia SLAVE.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "14. Obsługa pinów wej/wyj na poziomie sprzętowym w mikrokontrolerze PIC realizowana jest za pomocą 3 dedykowanych rejestrów.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "15. Dla interfejsu USB transfer masowy danych ma charakter asynchroniczny. W tego typu transmisji powtórne przesłanie uszkodzonych pakietów danych jest zabronione.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "16. Pamięć EEPROM jest rodzajem pamięci nieulotnej o ograniczonej liczbie zapisów i kasowań.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "17. Mikrokontrolery PIC mają zestaw instrukcji CISC.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "18. Obsługa pinów wej/wyj na poziomie sprzętowym w mikrokontrolerze AVR realizowana jest za pomocą 3 dedykowanych rejestrów.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "19. W architekturze Harwardzkiej mikroprocesor nie może jednocześnie pobrać rozkazu i danej z pamięci.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "20. Architektura von Neumana charakteryzuje się wspólną szyną danych i programu.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "21. Licznik mikrokontrolera AVR w trybie CTC zlicza od 0 do wartości zadanej. Po doliczeniu do niej liczy w dół.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "22. Źródłem sygnału RESET w mikrokontrolerze AVR może być zewnętrzny sygnał podany do pinu o nazwie RESET.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "23. W architekturze Harwardzkiej program może się sam modyfikować.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "24. W interfejsie I2C transmisja jest typu half-duplex.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "25. Pamięć EEPROM jest rodzajem pamięci ulotnej o ograniczonej liczbie zapisów i kasowań.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "26. W interfejsie SPI transmisja jest typu half-duplex.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "27. Interfejs szeregowy synchroniczny nie wymagający zwiększenia ilości linii przy dołączeniu dodatkowych urządzeń, to SPI.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "28. Interfejs USB ma możliwość zagwarantowania stałej prędkości przesyłu danych dla urządzeń tego wymagających.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "29. W mikrokontrolerze PIC szerokość szyny danych i rozkazów nie musi być taka sama.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "30. W architekturze von Neumana pamięć danych i programu może różnić się długością słowa.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "31. Źródłem sygnału RESET w mikrokontrolerze AVR może być układ startu po włączeniu zasilania.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "32. Interfejs szeregowy, który zawsze wymaga wymiany danych, to RS232.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "33. W interfejsie USB mamy możliwość podłączenia do hosta do 7 urządzeń ze względu liczbę bitów (3) przewidzianych na ich adresowanie.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "34. Mikrokontrolery AVR mają zestaw instrukcji CISC.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "35. Źródłem sygnału RESET w mikrokontrolerze AVR może być sygnał generowany przez układ WATCHDOG.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "36. Mikrokontroler bywa zwany komputerem wieloukładowym.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "37. Po wybudzeniu mikrokontrolera AVR program jest kontynuowany od kolejnej instrukcji po instrukcji usypiania.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "38. Dla 10-bitowego przetwornika analogowo-cyfrowego mikrokontrolera AVR, jako źródło napięcia referencyjnego wybrano napięcie zasilania (Vcc). Maksymalna wartość napięcia zmierzonego przez ten przetwornik wynosi 1024V.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "39. Interfejs USB umożliwia automatycznego instalowania sterowników urządzeń dzięki identyfikatorom VID i PID.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "40. Do realizacji najprostszej transmisji szeregowej za pomocą interfejsu RS232 wymagane są linia danych, linia zegarowa oraz przewód masy (GND).",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "41. W mikrokontrolerze AVR procedury (wektory) obsługi przerwań domyślnie znajdują się w pamięci FLASH począwszy od adresu 0xF000.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "42. Architektura Harwardzka charakteryzuje się wspólną szyną danych i programu.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "43. W interfejsie I2C transmisja jest typu peer-2-peer.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "44. Mikrokontroler bywa zwany komputerem jednoukładowym.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "45. Dla 10-bitowego przetwornika analogowo-cyfrowego mikrokontrolera AVR, jako źródło napięcia referencyjnego wybrano napięcie zasilania (Vcc). Maksymalna wartość napięcia zmierzonego przez ten przetwornik wynosi Vcc.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "46. Interfejs SPI jest interfejsem szeregowym synchronicznym.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "47. Interfejs I2C jest interfejsem szeregowym, asynchronicznym.",
+            questionAnswers: [
+                "Fałsz",
+                "Prawda"
+            ]
+        },
+        {
+            questionText: "48. W architekturze Harwardzkiej pamięć danych i programu może różnić się długością słowa.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "49. Po wybudzeniu mikrokontrolera PIC ze stanu uśpienia wykonywanie programu może rozpocząć się od początku, lub być kontynuowane, zależnie od danego mikrokontrolera.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        },
+        {
+            questionText: "50. W architekturze von Neumana program może się sam modyfikować.",
+            questionAnswers: [
+                "Prawda",
+                "Fałsz"
+            ]
+        }
+    ],
+    
     cybersecurity: [
         {
-            questionID: 1,
-            questionText: "Do ataków na integralność należy:",
+            questionText: "1. Do ataków na integralność należy:",
             questionAnswers: [
                 "manipulacja informacją",
                 "odtajnienie informacji",
@@ -14,8 +365,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 2,
-            questionText: "Zagwarantowanie, że informacja nie zostanie zmodyfikowana w sposób nieuprawniony, a wszelkie modyfikacje zostaną wykryte to:",
+            questionText: "2. Zagwarantowanie, że informacja nie zostanie zmodyfikowana w sposób nieuprawniony, a wszelkie modyfikacje zostaną wykryte to:",
             questionAnswers: [
                 "integralność",
                 "poufność",
@@ -24,8 +374,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 3,
-            questionText: "Krytyczne rozszerzenia certyfikatu X.509:",
+            questionText: "3. Krytyczne rozszerzenia certyfikatu X.509:",
             questionAnswers: [
                 "muszą zostać zinterpretowane i przetworzone przez aplikacją, aby dany certyfikat mógł zostać wykorzystany.",
                 "są dodatkowo chronione dedykowanymi mechanizmami kryptograficznymi.",
@@ -34,8 +383,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 4,
-            questionText: "Który z poniższych protokołów pozwala na uzgodnienie wspólnego klucza pomiędzy komunikującymi się stronami:",
+            questionText: "4. Który z poniższych protokołów pozwala na uzgodnienie wspólnego klucza pomiędzy komunikującymi się stronami:",
             questionAnswers: [
                 "protokół Diffiego-Hellmana",
                 "Digital Signature Algorithm",
@@ -44,8 +392,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 5,
-            questionText: 'W sieciach bezprzewodowych tryb "WPA2 Enterprise" oznacza, że certyfikaty są wykorzystywane w procesie:',
+            questionText: "5. W sieciach bezprzewodowych tryb \"WPA2 Enterprise\" oznacza, że certyfikaty są wykorzystywane w procesie:",
             questionAnswers: [
                 "uwierzytelniania",
                 "szyfrowania hasła współdzielonego użytkownika",
@@ -54,8 +401,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 6,
-            questionText: "Podkradanie szyfrogramu (Ciphertext stealing) to:",
+            questionText: "6. Podkradanie szyfrogramu (Ciphertext stealing) to:",
             questionAnswers: [
                 "metoda pozwalająca na szyfrowanie wiadomości o długości mniejszej niż wielokrotność bloku algorytmu szyfrującego (padding)",
                 "metoda realizacji kryptograficznej funkcji skrótu",
@@ -64,8 +410,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 7,
-            questionText: "Podatność SQLI (SQL Injection) należy do kategorii:",
+            questionText: "7. Podatność SQLI (SQL Injection) należy do kategorii:",
             questionAnswers: [
                 "błędów implementacji",
                 "odmowy świadczenia usług",
@@ -74,8 +419,7 @@ const questionDataBase = {
             ]
         },
         //{
-        //    questionID: 8, TODO: multiple choice
-        //    questionText: "Dostęp o charakterze zamkniętym ma następującą cechę:",
+        //    questionText: " 8. Dostęp o charakterze zamkniętym ma następującą cechę:", TODO: multiple choice
         //    questionAnswers: [
         //        "wykorzystywany jest dla ruchu wychodzącego do sieci Internet"
         //        "jest bardziej restrykcyjny niż dostęp o charakterze otwartym", dobra
@@ -84,8 +428,7 @@ const questionDataBase = {
         //    ]
         //},
         {
-            questionID: 9,
-            questionText: "W procesie żądania certyfikatu, klient:",
+            questionText: "9. W procesie żądania certyfikatu, klient:",
             questionAnswers: [
                 "generuje klucz publiczny i prywatny, a następnie przesyła ten pierwszy urzędowu certyfikacji (CA) jako część żądania CSR.",
                 "generuje klucz publiczny i prywatny, a następnie przesyła ten drugi urzędowu certyfikacji (CA) jako część żądania CSR.",
@@ -94,8 +437,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 10,
-            questionText: "W którym trybie pracy szyfrowania z wykorzystaniem algorytmów symetrycznyh zaobserwować mżna takie same bloki szyfrogramu dla takich samych bloków tekstu jawnego:",
+            questionText: "10. W którym trybie pracy szyfrowania z wykorzystaniem algorytmów symetrycznyh zaobserwować mżna takie same bloki szyfrogramu dla takich samych bloków tekstu jawnego:",
             questionAnswers: [
                 "ECB",
                 "CFB",
@@ -104,8 +446,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 11,
-            questionText: "Zaznacz zdanie prawdziwe dla systemu anonimizującego TOR (The Onion Router):",
+            questionText: "11. Zaznacz zdanie prawdziwe dla systemu anonimizującego TOR (The Onion Router):",
             questionAnswers: [
                 "wykorzystuje trzy wartstwy węzłów pośredniczących",
                 "wykorzystuje dwie wartstwy węzłów pośredniczących",
@@ -114,8 +455,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 12,
-            questionText: "Rozwiązanie Pretty Good Privacy (PGP) wykorzystuje:",
+            questionText: "12. Rozwiązanie Pretty Good Privacy (PGP) wykorzystuje:",
             questionAnswers: [
                 "model zaufania typu user-centric",
                 "certyfikaty w formacie X.509.",
@@ -124,8 +464,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 13,
-            questionText: "Klasyfikacja zagrożeń ze względu na naturę podatności obejmuje kategorię:",
+            questionText: "13. Klasyfikacja zagrożeń ze względu na naturę podatności obejmuje kategorię:",
             questionAnswers: [
                 "ataków wykorzystujących sposób implementacji",
                 "ataków wewnątrz sieci lokalnej",
@@ -134,8 +473,7 @@ const questionDataBase = {
             ]
         },
         //{
-        //    questionID: 14, TODO: multiple choice
-        //    questionText: "Zaznacz, w których rozwiązaniach wykorzystywane są typowe certyfikaty X.509:",
+        //    questionText: "14. Zaznacz, w których rozwiązaniach wykorzystywane są typowe certyfikaty X.509:", TODO: multiple choice
         //    questionAnswers: [
         //        "rozwiązanie SecureBoot"
         //        "podpisywanie sterowników w systemie Windows", dobra
@@ -144,8 +482,7 @@ const questionDataBase = {
         //    ]
         //},
         {
-            questionID: 15,
-            questionText: "Wersja 3 standardu X.509 różni się od wersji 2 wprowadzeniem:",
+            questionText: "15. Wersja 3 standardu X.509 różni się od wersji 2 wprowadzeniem:",
             questionAnswers: [
                 "mechanizmu rozszerzeń (extensions) certyfikatu.",
                 "nowych pól: Issuer Unique ID i Subject Unique ID.",
@@ -154,8 +491,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 16,
-            questionText: "Do ataków na autentyczność należy:",
+            questionText: "16. Do ataków na autentyczność należy:",
             questionAnswers: [
                 "podszywanie",
                 "manipulacja informacją",
@@ -164,8 +500,7 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 17,
-            questionText: "Silna odporność na kolizję kryptograficznej funkcji skrótu polega na:",
+            questionText: "17. Silna odporność na kolizję kryptograficznej funkcji skrótu polega na:",
             questionAnswers: [
                 "trudności w znalezieniu dwóch wiadomości, dla któych wynik kryptograficznej funkcji skrótu byłby taki sam",
                 "trudności w znalezieniu wiadomości o zadanej wartości funkcji skrótu",
@@ -174,8 +509,7 @@ const questionDataBase = {
             ]
         },
         //{
-        //    questionID: 18, TODO: multiple choice
-        //    questionText: "W atakach DDoS tzw. agencji (boty) są wykorzystywane do:",
+        //    questionText: "18. W atakach DDoS tzw. agencji (boty) są wykorzystywane do:", TODO: multiple choice
         //    questionAnswers: [
         //        "odpatcia ataku poprzez zmianę adresu IP serwisu"
         //        "odnalezienia źródła ataku"
@@ -1388,7 +1722,7 @@ const questionDataBase = {
         },
         {
             questionID: 40,
-            questionText: "Aby poprawnie wyjaśnić zjawisko Comptona, należy",
+            questionText: "Aby  wyjaśnić zjawisko Comptona, należy",
             questionAnswers: [
                 "założyć, że światło wykazuje naturę cząsteczkową i zastosować zasady zachowania energii i pędu",
                 "założyć, że światło jest falą i dokonać bilansu energii w układzie",

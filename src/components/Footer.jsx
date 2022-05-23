@@ -17,7 +17,7 @@ class Footer extends Component {
     render() {
         return(
             <PageFooter>
-                <i>Ostatnia aktualizacja: 20-05-2022</i>
+                <i>Ostatnia aktualizacja: 23-05-2022</i>
                 <br />
                 <b>Konstanty Misiak &copy; 2019 - 2022</b>
             </PageFooter>
