@@ -3,19 +3,24 @@ import styled from 'styled-components';
 
 const PageFooter = styled.footer`
     padding: 5px;
-    margin-top: 30px;
+    margin-top: 80px;
     background-color: #202426;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 150%
 
     @media (max-width: 600px) {
-        font-size: 13px;
+        font-size: 12px;
     }
 `;
 
 class Footer extends Component {
     render() {
         return(
-            <PageFooter>v2.4 Konstanty Misiak &copy; 2019 - 2022</PageFooter>
+            <PageFooter>
+                <i>Ostatnia aktualizacja: 23-05-2022</i>
+                <br />
+                <b>Konstanty Misiak &copy; 2019 - 2022</b>
+            </PageFooter>
         );
     }
 }

@@ -50,6 +50,7 @@ class NavBar extends Component {
                 >
                     GitHub
                 </ExternalLink>
+                <InternalLink to="/changelog">Changelog</InternalLink>
                 <hr />
             </CustomNav>
         );
