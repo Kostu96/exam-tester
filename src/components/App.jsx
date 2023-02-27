@@ -53,41 +53,53 @@ class App extends Component {
                 <NavBar />
                 <Switch>
                     <Route exact path="/">
-                        <h4>Politechnika Gdańska:</h4>
                         <ExamLinkContainer>
-                            <ExamLink to="/swim">Systemy Wbudowane i Mikroprocesory</ExamLink><br />
-                            <ExamLink to="/cybersecurity">Wprowadzenie do Cyberbezpieczeństwa</ExamLink><br />
+                            <ExamLink to="/databus"> 😮➡️ Symulator Szyny Danych ⬅️😮</ExamLink>
+                        </ExamLinkContainer>
+                        <h3>Politechnika Gdańska:</h3>
+                        <ExamLinkContainer>
                             <ExamLink to="/modern_physics">Fizyka Współczesna</ExamLink><br />
                             <ExamLink to="/graphics">Grafika Komputerowa</ExamLink><br />
                             <ExamLink to="/mii">Multimedia i Interfejsy</ExamLink><br />
+                            <ExamLink to="/swim">Systemy Wbudowane i Mikroprocesory</ExamLink><br />
+                            <ExamLink to="/cybersecurity">Wprowadzenie do Cyberbezpieczeństwa</ExamLink><br />
+                            <ExamLink to="/pr">Przetwarzanie Rozproszone</ExamLink><br />
                         </ExamLinkContainer>
                         <br />
                         <hr />
-                        <h4>Pozostałe:</h4>
+                        <h3>Pozostałe:</h3>
                         <ExamLinkContainer>
                             <ExamLink to="/ham">Egzamin krótkofalarski UKE</ExamLink>
                         </ExamLinkContainer>
                     </Route>
-                    <Route path="/swim">
-                        <Exam questionDB={ questionDataBase.swim } />
+                    <Route path="/databus">
+                        <p>
+                            Nudzi mi się i nie mam życia więc zakodzę to tu ale nie mam już dostępu do potrzebnych materiałów.<br />
+                            Jeśli chcesz pomóc potrzebne mi są instrukcje i co tam jeszcze jest do tego zadania<br />
+                            i schemat widoku przedniego panelu, albo najlepiej zdjęcie tej rozpadającej się skrzynki.<br />
+                            <br />
+                            Wszystko słać na <u>kostu96@gmail.com</u> z tytułem "Szyna Danych".<br />
+                            <br />
+                            Dawno temu zmieściłem tą wiadomość i myślisz sobie, że już nie ma sensu?<br />
+                            Jak mi się odechce to usunę ją stąd, więc nie czekaj aż przyjdzie Twoja kolej na labach i przyłóż palec do tego charytatywnego przedsięwzięcia.<br />
+                            Będziesz cool 😎 czy co to tam teraz się mówi...
+                        </p>
                     </Route>
-                    <Route path="/cybersecurity">
-                        <Exam questionDB={ questionDataBase.cybersecurity } />
-                    </Route>
-                    <Route path="/modern_physics">
-                        <Exam questionDB={ questionDataBase.modernPhysics } />
-                    </Route>
-                    <Route path="/graphics">
-                        <Exam questionDB={ questionDataBase.graphics } />
-                    </Route>
-                    <Route path="/mii">
-                        <Exam questionDB={ questionDataBase.multimediaAndInterfaces } />
-                    </Route>
-                    <Route path="/ham">
-                        <Exam questionDB={ questionDataBase.ham } />
-                    </Route>
+                    <Route path="/modern_physics"> <Exam questionDB={ questionDataBase.modernPhysics } /> </Route>
+                    <Route path="/graphics"> <Exam questionDB={ questionDataBase.graphics } /> </Route>
+                    <Route path="/mii"> <Exam questionDB={ questionDataBase.multimediaAndInterfaces } /> </Route>
+                    <Route path="/swim"> <Exam questionDB={ questionDataBase.swim } /> </Route>
+                    <Route path="/cybersecurity"> <Exam questionDB={ questionDataBase.cybersecurity } /> </Route>
+                    <Route path="/pr"> <Exam questionDB={ questionDataBase.pr } /> </Route>
+                    <Route path="/ham"> <Exam questionDB={ questionDataBase.ham } /> </Route>
                     <Route path="/changelog">
                         <ChangeLog>
+                            27-02-2023
+                            <ul>
+                                <li>Dodano egzamin z przedmiotu Przetwarzanie Rozproszone</li>
+                                <li>Dodano podstronę Symulator Szyny Danych?</li>
+                                <li>Drobne zmiany kosmetyczne</li>
+                            </ul>
                             23-05-2022
                             <ul>
                                 <li>Dodano egzamin z przedmiotu Systemy Wbudowane i Mikroprocesory</li>
