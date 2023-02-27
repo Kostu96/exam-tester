@@ -521,7 +521,6 @@ const questionDataBase = {
 
     graphics: [
         {
-            questionID: 1,
             questionText: "Widzenie skotopowe zapewniają:",
             questionAnswers: [
                 "pręciki",
@@ -529,7 +528,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 2,
             questionText: "Widzenie fotopowe zapewniają:",
             questionAnswers: [
                 "czopki",
@@ -537,7 +535,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 3,
             questionText: "Dwa krzyżujące się odcinki mogą mieć:",
             questionAnswers: [
                 "dowolną liczbę pktów wspólnych (0, 1, 2...)",
@@ -546,7 +543,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 4,
             questionText: "Algorytm Bresenhama jest algorytmem:",
             questionAnswers: [
                 "warunkowym",
@@ -556,7 +552,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 5,
             questionText: "Do modeli cieniowania nie należy:",
             questionAnswers: [
                 "model Macha",
@@ -565,7 +560,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 6,
             questionText: "W grafice wektorowej:",
             questionAnswers: [
                 "obraz składa się z odcinków i tworzenie obrazu polega na rysowaniu poszczególnych odcinków",
@@ -575,7 +569,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 7,
             questionText: "W modelu CMYK składowymi są:",
             questionAnswers: [
                 "kolory: cyjan, magenta i żółty.",
@@ -585,7 +578,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 8,
             questionText: "Co nazywamy szkieletem zbioru:",
             questionAnswers: [
                 "zbiór pixeli otrzymany w wyniku cyklicznego odrzucania pixeli konturu nie będących pixelami powtarzalnymi",
@@ -593,7 +585,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 9,
             questionText: "Który filtr cyfrowy rozmazuje obraz:",
             questionAnswers: [
                 "filtr dolnoprzepustowy",
@@ -603,7 +594,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 10,
             questionText: "Który algorytm umożliwia rysowanie wygładzonego odcinka:",
             questionAnswers: [
                 "antialiasing",
@@ -611,7 +601,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 11,
             questionText: "światło odbite składa się z trzech składowych. Jaka składowa tam nie występuje?",
             questionAnswers: [
                 "składowa emisyjna",
@@ -620,7 +609,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 12,
             questionText: "Filtr wygładzający (zwłaszcza krawędzie) to:",
             questionAnswers: [
                 "dolnoprzepustowy",
@@ -630,7 +618,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 13,
             questionText: "Teoria postrzegania trzema barwami to:",
             questionAnswers: [
                 "Helmhotza-Younga",
@@ -640,7 +627,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 14,
             questionText: "Algorytm poprzez spójność (sianie) to algorytm:",
             questionAnswers: [
                 "wypełniania konturu",
@@ -650,7 +636,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 15,
             questionText: "CMYK powstał na bazie CMY poprzez dodanie koloru:",
             questionAnswers: [
                 "czarnego",
@@ -660,7 +645,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 16,
             questionText: "Zjawisko zębatości to:",
             questionAnswers: [
                 "aliasing",
@@ -669,7 +653,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 17,
             questionText: "Algorytm midpoint jest algorytmem:",
             questionAnswers: [
                 "warunkowym",
@@ -678,7 +661,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 18,
             questionText: "Krzywa Beziera przechodzi w ogólności:",
             questionAnswers: [
                 "przez dwa punkty kontrolne",
@@ -687,7 +669,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 19,
             questionText: "Co nie jest cechą fontu?",
             questionAnswers: [
                 "format zapisu",
@@ -697,7 +678,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 20,
             questionText: "Który z algorytmów stosuje metodę kompresji stratnej:",
             questionAnswers: [
                 "falkowy",
@@ -707,7 +687,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 21,
             questionText: "Jak nazywa się znak stanowiący połączenie dwóch liter?",
             questionAnswers: [
                 "Ligatura",
@@ -716,7 +695,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 22,
             questionText: "Co to metameryzm?",
             questionAnswers: [
                 "zjawisko, w/g którego promieniowanie o różnym składzie widmowym, może dawać identyczne wrażenie barwy",
@@ -725,7 +703,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 23,
             questionText: "Model barw TekHVC:",
             questionAnswers: [
                 "to model w którym odległości między są proporcjonalne do wrażeń barwnych",
@@ -734,7 +711,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 24,
             questionText: "Metody fraktalne należą do metod kompresji:",
             questionAnswers: [
                 "stratnej",
@@ -742,7 +718,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 25,
             questionText: "W wyniku kwantowania obrazu mogą pojawić się niepożądane krawędzie. Przeciwdziała temu:",
             questionAnswers: [
                 "dithering",
@@ -751,7 +726,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 26,
             questionText: "Krzywą dyskretną nazywamy:",
             questionAnswers: [
                 "każdy zbiór spójny pikseli nie zawierający czwórki pikseli tworzących kwadrat",
@@ -761,7 +735,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 27,
             questionText: "Czym różni się B-kontur od konturu:",
             questionAnswers: [
                 "B-kontur musi mieć jednego sąsiada nienależącego do zbioru, kontur musi mieć jednego B-sąsiada nienależącego do zbioru",
@@ -771,7 +744,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 28,
             questionText: "Przykładem strukturalnej metody rysowania odcinka jest:",
             questionAnswers: [
                 "Metzgera-Bronsa",
@@ -781,7 +753,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 29,
             questionText: "Który filtr cyfrowy redukuje szumy:",
             questionAnswers: [
                 "filtr medianowy",
@@ -791,7 +762,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 30,
             questionText: "Algorytm rysowania łuków Honga jest algorytmem:",
             questionAnswers: [
                 "parametrycznym",
@@ -801,7 +771,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 31,
             questionText: "Punkt P przesłania odcinek l wtedy gdy:",
             questionAnswers: [
                 "półprosta poziomej, wychodzącej z P w lewą stronę przecina się z l",
@@ -811,7 +780,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 32,
             questionText: "Przykładem konstruktywnej reprezentacji obiektów graficznych jest:",
             questionAnswers: [
                 "przeskalowany o 2 sześcian jednostkowy",
@@ -820,7 +788,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 33,
             questionText: "Przesłanianie ścian jest relacją:",
             questionAnswers: [
                 "żadną z wymienionych",
@@ -830,7 +797,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 34,
             questionText: "Do algorytmow warunkowych rysujacych odcinki nie zaliczamy:",
             questionAnswers: [
                 "Metzgera-Bronsa",
@@ -840,7 +806,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 35,
             questionText: "Probkowanie powierzchni przy jej wygladzaniu może być:",
             questionAnswers: [
                 "Wagowe i bezwagowe",
@@ -850,7 +815,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 36,
             questionText: "Za pomocą ktorego algorytmu nie narysujesz elipsy:",
             questionAnswers: [
                 "decyzyjnego Jordana",
@@ -860,7 +824,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 37,
             questionText: "Konturem danego zbioru pikseli nazywamy:",
             questionAnswers: [
                 "Zbiór pikseli należących do tego zbioru i mających co najmniej jednego b-sąsiada nie należącego do tego zbioru.",
@@ -870,7 +833,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 38,
             questionText: "Chcesz wyostrzyć obraz, w super programie od Daciuka użyjesz do tego:",
             questionAnswers: [
                 "Laplasjana albo maski Sobela",
@@ -880,7 +842,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 39,
             questionText: "Ludzkie oko jest w stanie przechowywać wrażenie wzrokowe w czasie",
             questionAnswers: [
                 "0.1 s",
@@ -890,7 +851,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 40,
             questionText: "Do modeli teoretycznych kolorów należy",
             questionAnswers: [
                 "TekHVC",
@@ -900,7 +860,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 41,
             questionText: "Mówiąc o HSV, które zdanie jest falszywe:",
             questionAnswers: [
                 "Jest rozwinięciem modelu HLS",
@@ -910,7 +869,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 42,
             questionText: "Rendering to:",
             questionAnswers: [
                 "Proces generacji obrazu na podstawie modelu",
@@ -920,7 +878,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 43,
             questionText: "Wskaz zdanie wybitnie nieprawdziwe:",
             questionAnswers: [
                 "Bufor Z służy do zapisywania tektur.",
@@ -930,7 +887,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 44,
             questionText: "Co nie ma wpływu na wyznaczanie cieni",
             questionAnswers: [
                 "Lustro przy którym siedzi Lena",
@@ -940,7 +896,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 45,
             questionText: "Co nie jest przeksztalceniem morfologicznym obrazu:",
             questionAnswers: [
                 "odszumienie",
@@ -950,7 +905,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 46,
             questionText: "Metoda oswietlenia globalnego zależna od położenia obserwatora to:",
             questionAnswers: [
                 "raytracing",
@@ -960,7 +914,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 47,
             questionText: "Metoda oswietlenia globalnego niezależna od położenia obserwatora to:",
             questionAnswers: [
                 "radiosity",
@@ -970,7 +923,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 48,
             questionText: "Radiosity to metoda oświetlenia (rodzaj oswietlenia, nazwa metody):",
             questionAnswers: [
                 "globalnego, energetyczna",
@@ -980,7 +932,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 49,
             questionText: "Czcionką nie jest:",
             questionAnswers: [
                 "Żadno z wymienionych",
@@ -990,7 +941,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 50,
             questionText: "Antykwy nie są:",
             questionAnswers: [
                 "Poprzeczne",
@@ -1000,7 +950,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 51,
             questionText: "Cyfry nautyczne to:",
             questionAnswers: [
                 "Niejednolita linia pisma, różna wysokość",
@@ -1010,7 +959,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 52,
             questionText: "Język polski nie wyksztalcił:",
             questionAnswers: [
                 "Abrewiatur",
@@ -1018,7 +966,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 53,
             questionText: "Format fontów Type 1 opracowano w:",
             questionAnswers: [
                 "Adobe",
@@ -1028,7 +975,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 54,
             questionText: "Format fontów TrueType opracowano w:",
             questionAnswers: [
                 "Apple",
@@ -1038,7 +984,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 55,
             questionText: "Format fontów OpenType opracowano w:",
             questionAnswers: [
                 "Microsoft i Adobe",
@@ -1048,7 +993,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 56,
             questionText: "Skladowymi liter w Type 1 są:",
             questionAnswers: [
                 "Kubiczne krzywe Beziera",
@@ -1058,7 +1002,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 57,
             questionText: "Składowymi liter w TrueType są:",
             questionAnswers: [
                 "Krzywe Beziera paraboliczne i drugiego stopnia",
@@ -1068,7 +1011,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 58,
             questionText: "Który z Windowsów jako pierwszy w pełni obsługiwał format TrueType?",
             questionAnswers: [
                 "95",
@@ -1078,7 +1020,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 59,
             questionText: "który symbol oznacza ułożenie w algorytmie Gilla bitow 0010?",
             questionAnswers: [
                 "_ _ - -",
@@ -1088,7 +1029,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 60,
             questionText: "Algorytm cienowania wielokątów wykorzystujący interpolacje wektorów normalnych to:",
             questionAnswers: [
                 "Algorytm Phonga",
@@ -1098,7 +1038,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 61,
             questionText: "Jakiemu fraktalowi odpowiada część wspólna dywanu Sierpińskiego i prostej poprowadzonej przez środek niego:",
             questionAnswers: [
                 "zbiorowi Cantora",
@@ -1108,7 +1047,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 62,
             questionText: "Który z shaderów został wprowadzony w DirectX 11:",
             questionAnswers: [
                 "Domain shader",
@@ -1118,7 +1056,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 63,
             questionText: "Co nie jest wykonywane podczas postprocessingu?",
             questionAnswers: [
                 "odbicia lustrzane",
@@ -1128,7 +1065,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 64,
             questionText: "Model barw RGB jest:",
             questionAnswers: [
                 "addytywny",
@@ -1136,7 +1072,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 65,
             questionText: "Który z poniższych to język programowania shaderów?",
             questionAnswers: [
                 "HLSL",
@@ -1146,7 +1081,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 66,
             questionText: "Który z poniższych to język programowania shaderów?",
             questionAnswers: [
                 "GLSL",
@@ -1156,7 +1090,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 67,
             questionText: "Ile punktow kontrolnych ma krzywa beziera n-tego stopnia?",
             questionAnswers: [
                 "n + 1",
@@ -1166,7 +1099,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 68,
             questionText: "Który shader został dodany w DX10?",
             questionAnswers: [
                 "Geometry Shader",
@@ -1176,7 +1108,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 69,
             questionText: "Kiedy wprowadzono teselację?",
             questionAnswers: [
                 "DX11",
@@ -1185,7 +1116,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 70,
             questionText: "Cienowanie wielokątów wykorzystujące interpolacje wartosci obliczonych dla poszczególnych wierzchołków to:",
             questionAnswers: [
                 "Algorytm Gourauda",
@@ -1195,7 +1125,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 71,
             questionText: "Co to jest glif (ang. glyph)?",
             questionAnswers: [
                 "pisemna/graficzna reprezentacja znaku",
@@ -1205,7 +1134,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 72,
             questionText: "O czopkach można powiedzieć, że:",
             questionAnswers: [
                 "działają w dobrym świetle i umożliwiają postrzeganie barw",
@@ -1215,7 +1143,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 73,
             questionText: "Składowe YUV to:",
             questionAnswers: [
                 "Luminancja i dwie chrominancje",
@@ -1225,7 +1152,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 74,
             questionText: "Jaki shader nie należy do pipeline'u renderującego DX11?",
             questionAnswers: [
                 "Compute Shader",
@@ -1235,7 +1161,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 75,
             questionText: "Co oznacza skrót SIMD?",
             questionAnswers: [
                 "Single Instruction Multiple Data",
@@ -1244,7 +1169,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 76,
             questionText: "Co odpowiada za odbicia światła od matowych powierzchni?",
             questionAnswers: [
                 "diffuse",
@@ -1254,7 +1178,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 77,
             questionText: "Który z podanych algorytmów nie jest liniowy?",
             questionAnswers: [
                 "medianowy",
@@ -1264,7 +1187,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 78,
             questionText: "Jaki shader odpowiada za cieniowanie pikseli w DirectX?",
             questionAnswers: [
                 "Pixel Shader",
@@ -1274,7 +1196,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 79,
             questionText: "Jaki shader odpowiada za cieniowanie pikseli w OpenGL?",
             questionAnswers: [
                 "Fragment Shader",
@@ -1284,7 +1205,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 80,
             questionText: "Jakie jest rozwinięcie skrótu VBS narzędzia służącego do przeprowadzania symulacji (np. pociągów)?",
             questionAnswers: [
                 "Virtual Battlespace",
@@ -1294,7 +1214,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 81,
             questionText: "Czym jest antialiasing?",
             questionAnswers: [
                 "Metodą wygładzania obrazu",
@@ -1304,7 +1223,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 82,
             questionText: "Które biblioteki graficzne są wysokopoziomowe?",
             questionAnswers: [
                 "OpenGL i Direct3D",
@@ -1314,7 +1232,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 83,
             questionText: "Na czym operuje shader teselacji?",
             questionAnswers: [
                 "Na łatach (patches)",
@@ -1327,7 +1244,6 @@ const questionDataBase = {
 
     modernPhysics: [
         {
-            questionID: 1,
             questionText: "Według prawa Gaussa (dla pola elektryczengo) strumień wektora natężenia pola elektrycznego przez dowolną powierzchnię zamkniętą S...",
             questionAnswers: [
                 "zależy tylko od ładunków zawartych w obszarze ograniczonym powierzchnią S",
@@ -1337,7 +1253,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 2,
             questionText: "Energia potencjalna ładnuku q znajdującego się w odległości r od ładunku punktowego Q wynosi:",
             questionAnswers: [
                 "kQq/r",
@@ -1347,7 +1262,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 3,
             questionText: "Strumień jednorodnego pola elektrycznego o wartości E przez ustawioną prostopadle do linii pola prostokątną powierzchnię o polu S wynosi:",
             questionAnswers: [
                 "ES",
@@ -1357,7 +1271,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 4,
             questionText: "Pracę siły pola elektrycznego przy przemieszczaniu ładunku q z punktu 1 do punktu 2 można obliczyć na podstawie wyrażenia:",
             questionAnswers: [
                 "Wszystkie odpowiedzi są poprawne",
@@ -1367,7 +1280,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 5,
             questionText: "Natężenie pola elektrycznego w próżni wynosi E[wektor]. Jeśli w polu tym umieścimy dielektryk o względnej przenikalności elektrycznej εᵣ, to wektor indukcji pola elektrycznego w tym materiale wyniesie:",
             questionAnswers: [
                 "D[wektor] = ε₀εᵣE[wektor]",
@@ -1377,7 +1289,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 6,
             questionText: "Energia potencjalna ładunku q poruszającego się polu ładunku punktu Q wynosi:",
             questionAnswers: [
                 "Eₚ = kqQ/r",
@@ -1387,7 +1298,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 7,
             questionText: "Według prawa Gaussa strumień wektora natężenia pola elektrycznego przez zamkniętą powierzchnię S jest równy (czyli ∮E[wektor]*dS[wektor] = ...)",
             questionAnswers: [
                 "sumie ładunków w obszarze zamkniętym powierzchnią S podzielonej przez ε₀",
@@ -1397,7 +1307,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 8,
             questionText: "W pewnym punkcie umieszczony jest ładunek dodatni o wartości 2C. W odległości 0,4 m od tego ładunku umieszczony jest ładunek ujemny -2C. Ładunki te tworzą dipol. Jaka jest wartość elektrycznego momentu dipolowego tego dipola?",
             questionAnswers: [
                 "0,8 Cm",
@@ -1407,7 +1316,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 9,
             questionText: "Jeśli dipol znajduje się w jednorodnym polu elektrycznym, działają na niego siły które...",
             questionAnswers: [
                 "dążą do ustawienia wektora momentu dipolowego tak, aby jego zwrot był równoległy do wektora natężenia pola elektrycznego",
@@ -1417,7 +1325,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 10,
             questionText: "Siły działające na dipol elektryczny umieszczony w niejednorodnym polu elektrycznym mogą...",
             questionAnswers: [
                 "mogą zarówno obracać jak i przesuwać dipol",
@@ -1427,7 +1334,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 11,
             questionText: "Jak zależy moduł wektora natężenia pola elektrycznego, wytwarzanego przez nieskończoną płaszczyznę naładowaną ładunkiem o gęstości σ, od odległości od tej płaszczyzny:",
             questionAnswers: [
                 "nie zależy od odległości, jest stały i wynosi σ/(2ε₀)",
@@ -1437,7 +1343,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 12,
             questionText: "Gęstość energii pola elektrycznego jest proporcjonalna do:",
             questionAnswers: [
                 "wszystkie odpowiedzi są poprawne",
@@ -1447,7 +1352,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 13,
             questionText: "Cyrkulacja wektora natężenia pola elektrycznego wzdłuż zamkniętego konturu L (czyli ∮E[wektor]*dl[wektor]) w przypadku braku zmiennego pola magnetycznego wynosi",
             questionAnswers: [
                 "0",
@@ -1457,7 +1361,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 14,
             questionText: "Rotacja wektora natężenia pola elektrycznego (czyli ∇[wektor]xE[wektor]) w przypadku braku zmiennego pola magnetycznego wynosi:",
             questionAnswers: [
                 "0",
@@ -1467,7 +1370,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 15,
             questionText: "Elektron porusza się z pewną prędkością v w polu magnetycznym o indukcji B (rysunek). Jak będzie skierowana siła Lorentza?",
             imageSrc: "/img/modern_physics/15.JPG",
             questionAnswers: [
@@ -1478,7 +1380,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 16,
             questionText: "Czy pole magnetyczne, działając na poruszający się ładunek, zmienia jego energię kinetyczną?",
             questionAnswers: [
                 "nie, niezaleznie od kąta pomiędzy wektorami B i v",
@@ -1488,7 +1389,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 17,
             questionText: "Zgodnie z prawem Biota-Savarta, pole magnetyczne wytwarzane przez odcinek przednika ds, przez który płynie prąd o natężeniu I (zwrot jest zgodny z kierunkiem prądu), w punkcie, którego połozenie względem odcinka opisuje wektor r, wynosi:",
             questionAnswers: [
                 "dB[wektor] = (μ₀μᵣI)/(4π)*(ds[wektor] x r[wektor])/r³",
@@ -1498,7 +1398,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 18,
             questionText: "Przez przewód s płynie prąd o natężeniu I. Jaki będzie kierunek i zwrot wektora indukcji pola magnetycznego pochodzącego od tego przewodnika w punkcie wskazywanym wektorem r?",
             imageSrc: "/img/modern_physics/18.JPG",
             questionAnswers: [
@@ -1509,7 +1408,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 19,
             questionText: "Które z poniższych stwierdzeń jest prawdą?",
             questionAnswers: [
                 "linie pola magnetycznego są krzywymi zamkniętymi",
@@ -1519,7 +1417,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 20,
             questionText: "Zgodnie z prawem Gaussa dla magnetyzmu, dywergencja wektora indukcji pola magnetycznego, czyli ∇[wektor]*B[wektor], jest ...",
             questionAnswers: [
                 "zawsze równa zeru",
@@ -1529,7 +1426,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 21,
             questionText: "Przez fragment przewodu o długości ds, umieszczony w polu o indukcji B, płynie prąd o natężeniu I. Siła działająca na ten przewód wynosi:",
             questionAnswers: [
                 "Ids[wektor]xB[wektor]",
@@ -1539,7 +1435,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 22,
             questionText: "Przez fragment przewodu o długości ds, umieszczony w polu o indukcji B, płynie prąd o natężeniu I. Siła działająca na ten przeówd jest skierowana:",
             imageSrc: "/img/modern_physics/22.JPG",
             questionAnswers: [
@@ -1550,7 +1445,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 23,
             questionText: "W próżni mamy wybrany pewnien zamknięty kontur L, powierzchnia ograniczona tym konturem to S. Cyrkulacja wektora indukcji pola magnetycznego wzdłuż konturu L, czyli ∮B ⃗ ⋅​d ⃗ l wynosi:",
             questionAnswers: [
                 "suma prądów przecinających powierzchnię S, z uwzględnieniem ich kierunków (znaków), przemnożona przez μ₀",
@@ -1560,7 +1454,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 24,
             questionText: "Magnes oddala się od metalowej obręczy wzdłuż jej osi (rysunek). W obręczy tej...",
             imageSrc: "/img/modern_physics/24.JPG",
             questionAnswers: [
@@ -1571,7 +1464,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 25,
             questionText: "Zgodnie z regułą Lenza...",
             questionAnswers: [
                 "prąd indukowany w przewodniku w wyniku zmian pola magnetycznego przeciwdziała zmianom tego pola",
@@ -1581,7 +1473,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 26,
             questionText: "Określając zależność między współczynnikiem samoindukcji L solenoidu a koncentracją zwojów n można powiedzieć, że L jest proporcjonalne do",
             questionAnswers: [
                 "n²",
@@ -1591,7 +1482,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 27,
             questionText: "Gęstość energii pola magnetycznego jest proporcjonalna do",
             questionAnswers: [
                 "wszystkie z odpowiedzi są poprawne",
@@ -1601,7 +1491,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 28,
             questionText: "Zgodnie z prawem Faradaya źródłem wirowego pola elektrycznego może być",
             questionAnswers: [
                 "tylko zmienne pole magnetyczne",
@@ -1611,7 +1500,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 29,
             questionText: "Astronauta twierdzi, że rakieta, którą leci, ma długość 100m (chodzi o długość mierzoną w kierunku ruchu). Jaką długość będzie miała ta rakieta dla obserwatora, od którego rakieta oddala się prędkością 0,8c?",
             questionAnswers: [
                 "60m",
@@ -1621,7 +1509,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 30,
             questionText: "Astronauta leci rakietą z prędkością 0,6c względem obserwatora na Ziemi. Jakiemu przedziałowi czasu dla obserwatora na Ziemi odpowiada rok dla astronauty?",
             questionAnswers: [
                 "1,25 roku",
@@ -1631,7 +1518,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 31,
             questionText: "Z rakiety oddalającej się od Ziemi z prędkością 0,8c wystrzelono do przodu pocisk z prędkością 0,625c względem rakiety. Jaka jest prędkość pocisku względem Ziemi?",
             questionAnswers: [
                 "0,95c",
@@ -1641,7 +1527,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 32,
             questionText: "Mamy układ współrzędnych K (w którym mierzymy położenie x i czas t) oraz poruszający się względem niego wzdłuż osi x z prędkością v0 układ K' (w którym mierzymy położenie x' i czas t'). W chwili t = t' = 0 początki układów pokrywały się. Zgodnie z przekształceniami odwrotnymi Lorentza zapiszemy",
             questionAnswers: [
                 "x' = (x - v0t)/sqrt(1 - v0^2/c^2)",
@@ -1651,7 +1536,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 33,
             questionText: "Mamy układ współrzędnych K (w którym mierzymy położenie x i czas t) oraz poruszający się względem niego wzdłuż osi x z prędkością v0 układ K' (w którym mierzymy położenie x' i czas t'). W chwili t = t' = 0 początki układów pokrywały się. Zgodnie z przekształceniami Lorentza zapiszemy",
             questionAnswers: [
                 "t = (t' + x'*v0/c^2)/sqrt(1 - v0^2/c^2)",
@@ -1661,7 +1545,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 34,
             questionText: "Każda powierzchnia o temperaturze T wyższej niż 0K wypromieniowuje energię. Ilość energii wypromieniowywanej z jednostkowej powierzchni w jednostce czasu jest proporcjonalna do...",
             questionAnswers: [
                 "T⁴",
@@ -1671,7 +1554,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 35,
             questionText: "Długość fali przy której widmowa zdolność emisyjna ciała doskonale czarnego ma maksimum, ...",
             questionAnswers: [
                 "jest odwrotnie proporcjonalna do temperatury",
@@ -1681,7 +1563,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 36,
             questionText: "Podczas obserwacji zjawiska fotoelektrycznego przyłożenie napięcia hamującego pozwala na",
             questionAnswers: [
                 "ocenę maksymalnej energii kinetycznej uzyskiwanej przez elektrony",
@@ -1691,7 +1572,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 37,
             questionText: "Na materiał pada światło. Aby z materiału mógł wydostać się elektron (zjawisko fotoelektryczne) niezbędne jest...",
             questionAnswers: [
                 "aby do powierzchni materiału dotarł foton, którego energia będzie większa lub równa pracy wyjścia",
@@ -1701,7 +1581,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 38,
             questionText: "Jak zależy maksymalna energia kinetyczna Ek od częstotliwości fali elektromagnetycznej padającej na materiał (zakładamy, że energia fotonów jest większa od pracy wyjścia)?",
             questionAnswers: [
                 "Ek rośnie liniowo ze wzrostem częstotliwości fali",
@@ -1711,7 +1590,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 39,
             questionText: "Przesunięcie comptonowskie przy rozpraszaniu promieniowania X na elektronach zależy",
             questionAnswers: [
                 "tylko od kąta rozproszenia",
@@ -1721,7 +1599,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 40,
             questionText: "Aby  wyjaśnić zjawisko Comptona, należy",
             questionAnswers: [
                 "założyć, że światło wykazuje naturę cząsteczkową i zastosować zasady zachowania energii i pędu",
@@ -1731,7 +1608,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 41,
             questionText: "Pierwszy postulat Bohra zakłada skwantowanie",
             questionAnswers: [
                 "orbitalnego momentu pędu elektronu",
@@ -1741,7 +1617,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 42,
             questionText: "Drugi postulat Bohra zakłada, że",
             questionAnswers: [
                 "przejściu elektronu pomiędzy dwoma poziomami odpowiada emisja lub absorpcja fotonu o energii odpowiadającej różnicy energii między poziomami",
@@ -1751,7 +1626,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 43,
             questionText: "Pierwszemu poziomowi energetycznemu w atomie wodoru odpowiada energia E₁. Energia n-tego poziomu wynosi:",
             questionAnswers: [
                 "Rₙ = E₁/n²",
@@ -1761,7 +1635,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 44,
             questionText: "Eksperyment Davissona i Germera polega na...",
             questionAnswers: [
                 "obserwacji falowej natury elektronów (zgodność z warunkiem na konstruktywną interferencję)",
@@ -1771,7 +1644,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 45,
             questionText: "W precyzyjnie wykonanym eksperymencie badającym falową naturę materii wiązka elektronów pada prostopadle na płytę zawierającą dwie szczeliny. Obraz powstający na ekranie za płytą będzie zawierał:",
             questionAnswers: [
                 "co najmniej kilka wyraźnych maksimów",
@@ -1781,7 +1653,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 46,
             questionText: "Ciało o masie 1 kg porusza się z prędkością 1 m/s. Jaka długość fali materii odpowiada temu ciału (wartość stałej Plancka: h =6,6*10^-34 Js)?",
             questionAnswers: [
                 "6,6*10^-34 m",
@@ -1791,7 +1662,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 47,
             questionText: "Które stwierdzenie jest prawdziwe?",
             questionAnswers: [
                 "Funkcja falowa może zależeć od czasu",
@@ -1801,7 +1671,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 48,
             questionText: "Zgodnie z zasadą odpowiedniości Bohra, gdy rozpatruje się np. energię cząstki,...",
             questionAnswers: [
                 "Wyniki kwantowe uzyskane dla bardzo wysokich poziomów zgadzają się z klasycznymi",
@@ -1811,7 +1680,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 49,
             questionText: "Absorpcja wymuszona to",
             questionAnswers: [
                 "Przejście atomu z niższego do wyższego stanu energetycznego związane z pochłonięciem fotonu o energii równej różnicy energii tych dwóch stanów",
@@ -1821,7 +1689,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 50,
             questionText: "Inwersja obsadzeń to",
             questionAnswers: [
                 "sytuacja, w której w ośrodku czynnym atomów w stanie wzbudzonym jest więcej niż w stanie podstawowym",
@@ -1834,7 +1701,6 @@ const questionDataBase = {
 
     multimediaAndInterfaces: [
         {
-            questionID: 1,
             questionText: "Multimedia to:",
             questionAnswers: [
                 "wszystkie odpowiedzi są poprawne",
@@ -1845,7 +1711,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 2,
             questionText: "Który czynnik utrudnia człowiekowi słyszenie przestrzenne:",
             questionAnswers: [
                 "odbicie dźwięków",
@@ -1855,7 +1720,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 3,
             questionText: "Mechanizm animacji w VRML",
             questionAnswers: [
                 "nie ma wpływu na parametry odtwarzanego dźwięku",
@@ -1865,7 +1729,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 4,
             questionText: "Spójność i używanie standardów nie oznacza, że:",
             questionAnswers: [
                 "system dostarcza skrótów",
@@ -1875,7 +1738,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 5,
             questionText: "Wskaż zdanie fałszywe:",
             questionAnswers: [
                 "za widzenie koloru odpowiedzialne są pręciki",
@@ -1885,7 +1747,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 6,
             questionText: "Histogram obrazu:",
             questionAnswers: [
                 "pozwala na redukcję liczby barw występujących w obrazie",
@@ -1895,7 +1756,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 7,
             questionText: "Prostota dialogu nie oznacza, że:",
             questionAnswers: [
                 "elementy multimedialne są oszczędnie wykorzystywane w szczególności filmy",
@@ -1905,7 +1765,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 8,
             questionText: "Wskaż zdanie fałszywe: kompresja stratna ...",
             questionAnswers: [
                 "zawsze obniża jakość sygnału",
@@ -1915,7 +1774,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 9,
             questionText: "Efektem działania filtru uśredniającego o masce poziomej o wymiarze 3x1 dla wiersza obrazu o jasnościach pikseli 1 2 3 4 0 4 3 2 1 może być następujący wiersz:",
             questionAnswers: [
                 "1 2 3 2 3 2 3 2 1",
@@ -1925,7 +1783,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 10,
             questionText: "Zapobieganie błędom oznacza, że:",
             questionAnswers: [
                 "zamiast dostarczac komunikat o błędzie po wyjściu poza dozwolony zakres czyni się niedostępnymi odpowiedni klawisz lub opcję w menu",
@@ -1935,7 +1792,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 11,
             questionText: "Widoczny stan interfejsu oznacza, że:",
             questionAnswers: [
                 "użytkownik zna bieżący tryb interfejsu",
@@ -1945,7 +1801,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 12,
             questionText: "Oblicz rozmiar kolorowej bitmapy w formacie TrueColor RGB powstałej w wyniku skanowania w rozdzielczości 300dpi obrazu o wymiarach 1 na 5 cali:",
             questionAnswers: [
                 "1 350 000",
@@ -1955,7 +1810,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 13,
             questionText: "Używanie języka użytkownika oznacza, że:",
             questionAnswers: [
                 "komunikaty o błędach sa dobrze opisane",
@@ -1965,7 +1819,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 14,
             questionText: "Które z podanych miar oceny sa obiektywne:",
             questionAnswers: [
                 "zachowanie niewerbalne",
@@ -1975,7 +1828,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 15,
             questionText: "Jaka jest częstotliwość próbkowania muzyki jakości CD i z czego ona wynika?",
             questionAnswers: [
                 "44100 Hz. Ponad 2 razy większa od górnej granicy słyszalności człowieka.",
@@ -1985,7 +1837,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 16,
             questionText: "W pozyskiwaniu wiedzy stategia:",
             questionAnswers: [
                 "określa krok po kroku jakie działania realizują dany cel",
@@ -1995,7 +1846,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 17,
             questionText: "W pozyskiwaniu wiedzy plan nie:",
             questionAnswers: [
                 "umożliwia wyznaczenie najkrótszego czasu realizacji zadania",
@@ -2005,7 +1855,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 18,
             questionText: "W wyniku wykonania algorytmu RLE(run length encoding) dla ciągu 1111222334 nie można uzyskać następującego kodu:",
             questionAnswers: [
                 "11 11 11 11 10 10 10 01 01 00",
@@ -2015,7 +1864,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 19,
             questionText: "Efektem działania filtru wartości środkowej (medianowego) o masce poziomej w wymiarze 3 x 1 dla wiersza obrazu o jasnościach pixeli 1 2 3 4 0 4 3 2 1 może być następujący wiersz:",
             questionAnswers: [
                 "1 2 3 3 4 3 3 2 1",
@@ -2025,7 +1873,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 20,
             questionText: "W ocenie heurystycznej widoczny stan interfejsu nie oznacza, że:",
             questionAnswers: [
                 "zawsze można się wycofać z błędnych działań",
@@ -2035,7 +1882,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 21,
             questionText: " W ocenie heurystycznej minimalizowanie obciążania pamięci oznacza, że:",
             questionAnswers: [
                 "użytkownik nie musi pamiętać nazw poleceń",
@@ -2045,7 +1891,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 22,
             questionText: "Oblicz rozmiar kolorowej bitmapy (w formacie TrueColorRGB) powstałej w wyniku skanowania o rozdzielczości 200 dpi obrazu o wymiarach 3 na 5 cale(i).",
             questionAnswers: [
                 "1 800 000",
@@ -2055,7 +1900,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 23,
             questionText: "Wskaż zdanie fałszywe. Format MIDI:",
             questionAnswers: [
                 "służy do zapisu muzyki, która zawsze brzmi identycznie niezależnie od komputera",
@@ -2065,7 +1909,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 24,
             questionText: "Wskaż zdanie fałszywe:",
             questionAnswers: [
                 "za widzenie koloru odpowiedzialne są pręciki",
@@ -2075,7 +1918,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 25,
             questionText: "W ocenie heurystycznej dobre diagnozowanie błędów oznacza, że:",
             questionAnswers: [
                 "komunikat o błędzie umożliwia usunięcie przyczyny błędu",
@@ -2085,7 +1927,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 26,
             questionText: "Celami kompresji MPEG 1 i 2 nie są:",
             questionAnswers: [
                 "skuteczna korekcja błędów",
@@ -2095,7 +1936,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 27,
             questionText: "W ocenie heurystycznej elastyczność i wydajność nie oznacza, że:",
             questionAnswers: [
                 "interfejs jest prosty w obsłudze",
@@ -2105,7 +1945,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 28,
             questionText: "Wskaż zdanie fałszywe. Płyty DVD...",
             questionAnswers: [
                 "są trwalsze od analogicznych ( tłoczonych lub nagrywanych ) płyt CD",
@@ -2115,7 +1954,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 29,
             questionText: "Wskaż zdanie fałszywe. Częstotliwość próbkowania DVDaudio...",
             questionAnswers: [
                 "wynosi 48 lub 96 kHz",
@@ -2125,7 +1963,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 30,
             questionText: "Jeżeli trzy barwy tworzą układ niezależnych liniowo barw to są to:",
             questionAnswers: [
                 "barwy podstawowe",
@@ -2134,7 +1971,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 31,
             questionText: "Barwa prosta to nie barwa:",
             questionAnswers: [
                 "achromatyczna",
@@ -2144,7 +1980,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 32,
             questionText: "Addytywne mieszanie kolorów nie jest wykorzystywane przez:",
             questionAnswers: [
                 "plotery",
@@ -2154,7 +1989,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 33,
             questionText: "Substraktywne uzyskiwanie kolorów jest wykorzystywane przez:",
             questionAnswers: [
                 "drukarki",
@@ -2164,7 +1998,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 34,
             questionText: "Model CMY(K) jest wykorzystywany przez:",
             questionAnswers: [
                 "maszyny offsetowe",
@@ -2174,7 +2007,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 35,
             questionText: "Modelu RGB nie wykorzystuje:",
             questionAnswers: [
                 "skaner",
@@ -2184,7 +2016,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 36,
             questionText: "Modelu CMY(K) nie wykorzystuje:",
             questionAnswers: [
                 "rzutnik",
@@ -2193,7 +2024,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 37,
             questionText: " W model CMY(K) kolor K jest potrzebny ze względu na:",
             questionAnswers: [
                 "oszczędność",
@@ -2202,7 +2032,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 38,
             questionText: "Fala akustyczna(wskaż nieprawidłową odpowiedź):",
             questionAnswers: [
                 "w cieczach może być falą poprzeczną",
@@ -2213,7 +2042,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 39,
             questionText: "Co pasuje do szumu:",
             questionAnswers: [
                 "dźwięk o ciągłym widmie",
@@ -2223,7 +2051,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 40,
             questionText: "Wybierz prawidłowe:",
             questionAnswers: [
                 "pręcików jest więcej niż czopków",
@@ -2232,7 +2059,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 41,
             questionText: "Jaka liczba klatek na sekundę wystarcza, żeby uznać, że jest płynny?",
             questionAnswers: [
                 "15fps",
@@ -2242,7 +2068,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 42,
             questionText: "Która metoda nie dotyczy bezpośrednio kompresji stratnej?",
             questionAnswers: [
                 "np. grupowanie pikseli o tej samej barwie",
@@ -2253,7 +2078,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 43,
             questionText: "Spójność interfejsu oznacza:",
             questionAnswers: [
                 "zgodność z powszechnie przyjętymi zasadami",
@@ -2263,7 +2087,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 44,
             questionText: "Granice slyszalnosci człowieka",
             questionAnswers: [
                 "20Hz-20kHz",
@@ -2273,7 +2096,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 45,
             questionText: "ITD to:",
             questionAnswers: [
                 "różnica czasu w jakim dociera dźwięk",
@@ -2283,7 +2105,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 46,
             questionText: "IID to:",
             questionAnswers: [
                 "różnica intensywności dźwięku odbierana miedzy uszami",
@@ -2293,7 +2114,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 47,
             questionText: "HRTF to:",
             questionAnswers: [
                 "efekt tlumienia/wzmacniania dźwięku przez malzowine uszna i głowę",
@@ -2303,7 +2123,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 48,
             questionText: "Formy pomocy jakie należy zapewnić w programie, to:",
             questionAnswers: [
                 "podpowiedzi, jako wyświetlane dymki po najechaniu na przycisk",
@@ -2313,7 +2132,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 49,
             questionText: "W metodzie heurystycznej oceny interfejsu:",
             questionAnswers: [
                 "grupa specjalistów ocenia takie elementy jak zapobieganie błędów, prostota dialogu, szybkość uczenia się, widoczny stan systemu, używanie języka użytkownika",
@@ -2323,7 +2141,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 50,
             questionText: "Który model barw nie jest ukierunkowany na sprzęt:",
             questionAnswers: [
                 "HSV",
@@ -2333,7 +2150,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 51,
             questionText: " Wada metody projektowania interfejsu WIMP jest:",
             questionAnswers: [
                 "zawodzenie w przypadku użytkowników z wada wzroku",
@@ -2343,7 +2159,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 52,
             questionText: "Opisową metodą oceny interfejsu nie jest:",
             questionAnswers: [
                 "GOMS",
@@ -2353,7 +2168,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 53,
             questionText: "Do czego nie wykorzystuje się histogramu?",
             questionAnswers: [
                 "odszumianie obrazów",
@@ -2363,7 +2177,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 54,
             questionText: "Jakie są wady metod roznicowych stratnej kompresji dźwięku?",
             questionAnswers: [
                 "nawarstwianie się błędów",
@@ -2373,7 +2186,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 55,
             questionText: "Domowy odtwarzacz wideo nie potrzebuje:",
             questionAnswers: [
                 "kompresji w czasie rzeczywistym",
@@ -2383,7 +2195,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 56,
             questionText: "Nowością w MPEG-2 w stosunku do poprzednika jest:",
             questionAnswers: [
                 "obsługa trybu z przeplotem",
@@ -2393,7 +2204,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 57,
             questionText: "Do artystycznego przetwarzania obrazu nie zaliczamy",
             questionAnswers: [
                 "wszystkie odpowiedzi są błędne",
@@ -2403,7 +2213,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 58,
             questionText: "Metodą zabezpieczenia obrazu nie jest",
             questionAnswers: [
                 "zapisanie sygnatury autora na najbardziej znaczących bitach pikseli",
@@ -2413,7 +2222,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 59,
             questionText: "Rozpoznawanie obrazów to:",
             questionAnswers: [
                 "OMR",
@@ -2423,7 +2231,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 60,
             questionText: "Rozpoznawanie tekstu to:",
             questionAnswers: [
                 "OCR",
@@ -2433,7 +2240,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 61,
             questionText: "Jakiej platformy nigdy nie obsługiwał Unreal Engine 3?",
             questionAnswers: [
                 "Windows (directx 8)",
@@ -2443,7 +2249,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 62,
             questionText: "SCUMM to:",
             questionAnswers: [
                 "język skryptowy wspomagający programowanie gier typu point&click",
@@ -2453,7 +2258,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 63,
             questionText: "Rolą interfejsu jest:",
             questionAnswers: [
                 "żadna z odpowiedzi nie jest prawidlowa",
@@ -2463,7 +2267,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 64,
             questionText: "Za co odpowiadają w postrzeganiu preciki oczne?",
             questionAnswers: [
                 "za postrzeganie jasności",
@@ -2473,7 +2276,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 65,
             questionText: "Za co odpowiadają w postrzeganiu czopki oczne?",
             questionAnswers: [
                 "za postrzeganie barwy",
@@ -2483,7 +2285,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 66,
             questionText: "Ktore zdania są prawdziwe? W postrzeganiu czopki oczne odpowiadają za:",
             questionAnswers: [
                 "postrzeganie barwy oraz widzenie dzienne",
@@ -2493,7 +2294,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 67,
             questionText: "Ktore zdania są prawdziwe? W postrzeganiu preciki oczne odpowiadają za:",
             questionAnswers: [
                 "wszystkie zdania są prawdziwe",
@@ -2503,7 +2303,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 68,
             questionText: "Mowiac o VRML prawda jest, że",
             questionAnswers: [
                 "wspiera lightmapy",
@@ -2513,7 +2312,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 69,
             questionText: "Czym nie są spowodowane złudzenia optyczne ",
             questionAnswers: [
                 "wertykalnym rozpoznawaniem obrazów",
@@ -2523,7 +2321,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 70,
             questionText: " OGRE i JMonkey są przykładami ",
             questionAnswers: [
                 "silników gier",
@@ -2533,7 +2330,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 71,
             questionText: "VRML to: ",
             questionAnswers: [
                 "język modelowania rzeczywistości wirtualnej",
@@ -2543,7 +2339,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 72,
             questionText: "Do metod opisowych interfejsu możemy zaliczyć",
             questionAnswers: [
                 "UAN",
@@ -2553,7 +2348,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 73,
             questionText: "W dobrze zaprojektowanym interfejsie:",
             questionAnswers: [
                 "w stronach internetowych powinna być oddzielona forma od treści",
@@ -2563,7 +2357,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 74,
             questionText: "Twierdzenie Shannona mówi, że częstotliwość próbkowania powinna być ... którą chcemy potem odtworzyć.",
             questionAnswers: [
                 "dwa razy wyższa od najwyższej częstotliwości w próbkowanym sygnale",
@@ -2572,7 +2365,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 75,
             questionText: "Dynamika sygnału to:",
             questionAnswers: [
                 "odstęp pomiędzy najniższym i najwyższym poziomem przenoszonego dźwięku",
@@ -2581,7 +2373,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 76,
             questionText: "Jaki rozmiar ma minuta nagrania stereo o częstotliwości 44.1kHz (próbka = 16bit)",
             questionAnswers: [
                 "10336 kB",
@@ -2591,7 +2382,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 77,
             questionText: "Wskaż fałszywe zdanie:",
             questionAnswers: [
                 "format mp3 stosuje kodowanie stratne (niska jakość) i bezstratne (wysoka jakość)",
@@ -2601,7 +2391,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 78,
             questionText: "Którego z założeń nie spełnia VRML:",
             questionAnswers: [
                 "rozbudowa w oparciu o XML",
@@ -2612,9 +2401,329 @@ const questionDataBase = {
         }
     ],
 
+    pr: [
+        {
+            questionText: "1. Lokalny brak żywotności:",
+            questionAnswers: [
+                "Nie można tego definitywnie stwierdzić przy obserwacji (testowaniu) aplikacji",
+                "Ma miejsce, gdy kilka procesów wchodzi jednocześnie do sekcji krytycznej",
+                "Polega na całkowitym zatrzymaniu pracy części aplikacji współbieżnej",
+                "To sytuacja gdy jeden lub kilka procesów jest wykluczony, ale nie wiadomo który"
+            ]
+        },
+        {
+            questionText: "2. Lokalny brak żywotności:",
+            questionAnswers: [
+                "Jeżeli aplikacja jest niepoprawna, to może wystąpić lub nie",
+                "Powoduje całkowite zatrzymanie całości (lub części) aplikacji",
+                "Występuje wtedy gdy 2 lub więcej procesów wejdzie do sekcji krytycznej jednocześnie",
+                "Polega na głodzeniu części procesów, może być to stwierdzone poprzez testowanie"
+            ]
+        },
+        {
+            questionText: "3. Globalny brak żywotności:",
+            questionAnswers: [
+                "Powoduje całkowite zatrzymanie całości (lub części) aplikacji",
+                "Występuje wtedy gdy 2 lub więcej procesów wejdzie do sekcji krytycznej jednocześnie",
+                "Polega na głodzeniu części procesów",
+                "Jest mniej groźny w skutkach niz. lokalny brak żywotności"
+            ]
+        },
+        {
+            questionText: "3. Globalny brak żywotności (deadlock):",
+            questionAnswers: [
+                "Można to jednoznacznie stwierdzić przy obserwacji zachowania procesów",
+                "Ma miejsce, gdy kilka procesów wchodzi jednocześnie do sekcji krytycznej",
+                "Polega na zaobserwowaniu chwilowego zatrzymania pracy części procesów aplikacji współbieżnej",
+                "To sytuacja, gdy kilka procesów jest czasowo wykluczonych"
+            ]
+        },
+        {
+            questionText: "4. Instrukcje atomowe w przetwarzaniu współbieżnym:",
+            questionAnswers: [
+                "Zakłada się ich atomowość na poziomie abstrakcji programowania",
+                "Nie istnieją na żadnym poziomie abstrakcji",
+                "Polega na współbieżnej realizacji wykonania procedur krytycznych",
+                "Ich implementacja na poziomie systemowym (niższym) jest niepodzielna"
+            ]
+        },
+        {
+            questionText: "5. Instrukcje atomowe w przetwarzaniu współbieżnym:",
+            questionAnswers: [
+                "Żadna z odpowiedzi nie jest poprawna",
+                "Nie istnieją na żadnym poziomie abstrakcji",
+                "Polegają na współbieżnej realizacji wykonania procedur krytycznych",
+                "Ich implementacja na poziomie systemowym (niższym) jest niepodzielna"
+            ]
+        },
+        {
+            questionText: "6. Program współbieżny jest poprawny:",
+            questionAnswers: [
+                "Żadna z odpowiedzi nie jest poprawna",
+                "Gdy realizuje w sposób właściwy zadane operacje dla zadanych scenariuszy",
+                "Posiada poprawne mechanizmy synchronizacji przy wejściu do sekcji krytycznej",
+                "Wszystkie procesy działają zgodnie ze specyfikacjami"
+            ]
+        },
+        {
+            questionText: "7. Program współbieżny jest poprawny:",
+            questionAnswers: [
+                "Wszystkie odpowiedzi są błędne",
+                "gdy realizuje w sposób właściwy zadane operacje dla zadanych scenariuszy", 
+                "gdy posiada poprawne mechanizmy synchronizacji przy wejściu do sekcji krytycznej",
+                "gdy wszystkie procesy działają zgodnie ze specyfikacjami"
+            ]
+        },
+        {
+            questionText: "8. Semafor binarny:",
+            questionAnswers: [
+                "Operacje podnoszenia i opuszczania są dla niego atomowe",
+                "Nie można go podnosić, gdy jest podniesiony",
+                "Przyjmuje wartości dodatnie oraz zero gdy jest opuszczony",
+                "Nie można go wykorzystywać do kontroli dostępu wyjścia do sekcji krytycznej"
+            ]
+        },
+        {
+            questionText: "9. Semafor uogólniony",
+            questionAnswers: [
+                "Można go wykorzystać do kontroli dostępu wyjścia do sekcji krytycznej",
+                "Operacje podnoszenia i opuszczania nie są dla niego atomowe",
+                "Przyjmuje wartości dodatnie oraz 0, a gdy opuszczony to ujemne",
+                "Na podstawie jego wartości aplikacja określa jego stan"
+            ]
+        },
+        {
+            questionText: "10. Monitory:",
+            questionAnswers: [
+                "Mogą posiadać stan (zmienne) oraz dostarczają współdzielonych procedur",
+                "To obiekty aktywne mogą realizować operacje współbieżne",
+                "Proces jeżeli rozpocznie wykonywanie procedury monitora to na pewno ją zakończy",
+                "Dwa procesy mogą być w monitorze, jeden wykonuje procedurę \"wait\", drugi \"signal\""
+            ]
+        },
+        {
+            questionText: "11. Monitory:",
+            questionAnswers: [
+                "Wykonując procedurę wait proces zawsze zatrzymuje się",
+                "To obiekty pasywne, mogą realizować procedury współbieżne",
+                "Nie mogą posiadać stanu (zmiennych), dostarczają tylko współdzielonych procedur",
+                "Proces jeżeli rozpocznie procedurę monitora to ją zakończy w określonym czasie"
+            ]
+        },
+        {
+            questionText: "12. Operacje na zmiennej typu condition:",
+            questionAnswers: [
+                "Żadna z odpowiedzi nie jest poprawna",
+                "Implementują koncepcje semafora w procedurach monitorowych",
+                "Po sprawdzeniu warunku condition proces jest wstrzymywany lub nie",
+                "Są zmienne do operacji semaforowych w programowaniu współbieżnym"
+            ]
+        },
+        {
+            questionText: "13. Operacje na zmiennej typu condition:",
+            questionAnswers: [
+                "Wykonywane są w sposób wykluczający",
+                "Implementują koncepcję współbieżności w wielowejściowych procedurach monitorowych",
+                "Po sprawdzeniu warunku condition proces może zostać wstrzymany",
+                "Są zamienne do operacji semaforowych w programowaniu współbieżnym"
+            ]
+        },
+        {
+            questionText: "14. Monitory w zestawieniu z semaforami ...",
+            questionAnswers: [
+                "nie występują w klasycznym (czystym) języku C",
+                "są bardziej efektywne i powodują lepszy stopień faktycznej współbieżności",
+                "są wygodne ze względu na systemową implementację sekcji krytycznej",
+                "są dostarczane z poziomu systemowego"
+            ]
+        },
+        {
+            questionText: "15. Monitory w zestawieniu z semaforami ...",
+            questionAnswers: [
+                "żadna odpowiedź nie jest prawdziwa",
+                "są efektywniejsze i powodują wyższy stopień faktycznej współbieżności",
+                "występują w klasycznym (czystym) języku C",
+                "są niepraktyczne ze względu na skomplikowaną implementację operacji wykluczających"
+            ]
+        },
+        {
+            questionText: "16. Wątek w odróżnieniu od procesu:",
+            questionAnswers: [
+                "Może powodować niespójność stanu dla zmiennych w programie",
+                "Nie posiada własnego wskaźnika stosu",
+                "Może wywoływać wszystkie procedury dostępne w programie",
+                "Ma dostęp do wartości dostępnych zmiennych w programie"
+            ]
+        },
+        {
+            questionText: "17. Wątek w odróżnieniu od procesu:",
+            questionAnswers: [
+                "Żadna odpowiedź nie jest poprawna",
+                "Nie posiada własnego wskaźnika stosu",
+                "Może wywoływać wszystkie procedury dostępne w programie",
+                "Ma dostęp do wartości dostępnych zmiennych w programie"
+            ]
+        },
+        {
+            questionText: "18. Procesy w środowisku LINDA synchronizują się:",
+            questionAnswers: [
+                "Poprzez przestrzeń krotek: proces wystawia krotkę, którą inny może ew. pobrać",
+                "Poprzez przestrzeń krotek: bezpośrednio nadawca-adresat",
+                "Nie mogą się synchronizować z natury stosowanych mechanizmów",
+                "Procesy są całkowicie niezależne, mogą być synchronizowane przez proces zarządcy"
+            ]
+        },
+        {
+            questionText: "19. Globalny brak żywotności (deadlock):",
+            questionAnswers: [
+                "Jest nie do wykrycia przez procesy będące częścią aplikacji rozproszonej",         
+                "Ma miejsce, gdy proces zatrzymuje się wewnątrz sekcji krytycznej",
+                "Polega na zaobserwowaniu zatrzymania pracy części procesów w aplikacji rozproszonej",
+                "To sytuacja, gdy procesy błędnie realizują swoje specyfikacje",
+                "Nie wystąpi, o ile procesy poprawnie komunikują się pomiędzy sobą"
+            ]
+        },
+        {
+            questionText: "20. Lokalny brak żywotności:",
+            questionAnswers: [
+                "Może być zidentyfikowany jedynie na drodze rozważań teoretycznych",
+                "Powoduje czasowe zatrzymanie określonej części aplikacji",
+                "Występuje wtedy gdy 2 lub więcej procesów wejdzie do sekcji krytycznej jednocześnie",
+                "Polega na głodzeniu części procesów, może być stwierdzony poprzez testowanie",
+                "Jeżeli aplikacja jest niepoprawna, to wystąpi w skończonym czasie"
+            ]
+        },
+        {
+            questionText: "21. Instrukcje atomowe w przetwarzaniu współbieżnym:",
+            questionAnswers: [
+                "Żadna z odpowiedzi nie jest poprawna",
+                "Zakłada się ich istnienie na każdym poziomie abstrakcji",
+                "Polegają na jednoczesnej realizacji wykonania procedur krytycznych",
+                "Ich realizacja na poziomie niższym (np. systemowym) jest niepodzielna",
+                "Wszystkie wywołania procedur z poziomu niższego są atomowe"
+            ]
+        },
+        {
+            questionText: "22. Program rozproszony jest poprawny:",
+            questionAnswers: [
+                "Wszystkie odpowiedzi są niepoprawne",
+                "gdy realizuje w sposób właściwy zadane operacje dla zadanych scenariuszy",
+                "gdy posiada poprawne mechanizmy synchronizacji przy wejściu do sekcji krytycznej",
+                "gdy wszystkie procesy działają zgodnie ze specyfikacjami",
+                "gdy nie można w praktyce pokazać żadnego błędnego scenariusza wykonania"
+            ]
+        },
+        {
+            questionText: "23. Które zdanie dotyczy semafora uogólnionego i jest prawdziwe?",
+            questionAnswers: [
+                "Można go wykorzystywać do kontroli dostępu do sekcji krytycznej",
+                "Operacje podnoszenia i opuszczania nie są dla niego atomowe",
+                "W założeniu przyjmuje wartości dodatnie oraz zero gdy jest opuszczony",
+                "Na podstawie jego wartości aplikacja określa jego stan i zatrzymuje się lub nie",
+                "Wszystkie odpowiedzi są błędne"
+            ]
+        },
+        {
+            questionText: "24. Co jest prawdą jeżeli mówimy o \"monitorach\"?",
+            questionAnswers: [
+                "Są mniej efektywne wydajnościowo w implementacji w porównaniu z semaforami",
+                "To obiekty pasywne, eksportują procedury, które mogą być wykonywane jednocześnie",
+                "Nie posiadają stanu (zmiennych), dostarczają tylko współdzielonych procedur",
+                "Proces jeżeli rozpocznie procedurę monitora to ją zakończy w określonym czasie",
+                "Procedura wait wykonywana może być tylko po sprawdzeniu określonego warunku stanu"
+            ]
+        },
+        {
+            questionText: "25. Operacje na zmiennej typu condition w monitorze:",
+            questionAnswers: [
+                "Wykonywane są w sposób wykluczający",
+                "Implementują koncepcję atomowości w procedurach monitorowych",
+                "Po sprawdzeniu warunku condition proces może zostać wstrzymany",
+                "Są zamienne do operacji semaforowych w programowaniu współbieżnym",
+                "Wszystkie odpowiedzi są błędne"
+            ]
+        },
+        {
+            questionText: "26. Monitory w zestawieniu z semaforami:",
+            questionAnswers: [
+                "Mogą powodować wstrzymywanie procesów z powodów niezwiązanych ze specyfikacjami",
+                "Są wygodniejsze w zastosowaniu i zapewniają wyższą efektywność aplikacji",
+                "Występują w klasycznym (czystym) języku C",
+                "Są niepraktyczne ze względu na skomplikowaną implementację operacji wykluczających",
+                "Żadna z odpowiedzi nie jest prawdziwa"
+            ]
+        },
+        {
+            questionText: "27. Wątek w odróżnieniu od procesu:",
+            questionAnswers: [
+                "Żadna z odpowiedzi nie jest poprawna",
+                "Nie posiada własnego stosu",
+                "Jego wykonanie może powodować głodzenie innych wątków (procesów)",
+                "Może wywoływać wszystkie procedury dostępne w programie",
+                "Ma dostęp do wartości dostępnych zmiennych w programie"
+            ]
+        },
+        /*{
+            questionText: "28. Globalny brak żywotności (2 odpowiedzi poprawne):",
+            questionAnswers: [
+                "Powoduje całkowite zatrzymanie całości (lub części) aplikacji",
+                "Jest łatwy do zaobserwowania, gdy zaistnieje",
+                "Występuje wtedy gdy 2 lub więcej procesów wejdzie do sekcji krytycznej jednocześnie",
+                "Polega na głodzeniu części procesów",
+                "Jest mniej groźny w skutkach niż lokalny brak żywotności",
+        ab]
+                },
+        {
+            questionText: "29. Instrukcje atomowe w przetwarzaniu współbieżnym (2 odpowiedzi poprawne):
+                "Nie istnieją na żadnym poziomie abstrakcji",
+                "Polegają na współbieżnej realizacji wykonania procedur krytycznych",
+                "Zakłada się ich atomowość na poziomie abstrakcji programowania",
+                "Są realizowane na pewnym poziomie abstrakcji programowania",
+                "Ich implementacja na poziomie systemowym (niższym) jest niepodzielna",
+        cd]
+                },*/
+        {
+            questionText: "30. Program współbieżny jest poprawny:",
+            questionAnswers: [
+                "Przeprowadzono (formalny) dowód poprawności (dla wszystkich scenariuszy)",
+                "Gdy realizuje w sposób właściwy zadane operacje dla zadanych scenariuszy",
+                "Posiada poprawne mechanizmy synchronizacji przy wejściu do sekcji krytycznej",
+                "Wszystkie procesy działają zgodnie ze specyfikacjami",
+                "Żadna z odpowiedzi nie jest poprawna"
+            ]
+        },
+        /*{
+            questionText: "31. Semafor binarny (2 odpowiedzi poprawne):,
+            questionAnswers: [
+                "Nie można go podnosić, gdy jest podniesiony",
+                "Operacje podnoszenia i opuszczania są dla niego atomowe",
+                "Nie pamięta ilości operacji podnoszenia",
+                "Przyjmuje wartości dodatnie oraz zero gdy jest opuszczony",
+                "Nie można go wykorzystywać do kontroli dostępu wyjścia do sekcji krytycznej",
+        bc]
+                },*/
+        {
+            questionText: "32. Problemy: czytelników - pisarzy oraz producentów - konsumentów:",
+            questionAnswers: [
+                "Mogą być zrealizowane poprawnie przy pomocy semaforów lub monitorów",
+                "Są tym samym problemem, różnica jest jedynie w nazwie",
+                "Nie mogą być zrealizowane poprawnie w środowisku LINDU",
+                "Problemy te nie dotyczą zagadnień związanych z omawianą tematyką"
+            ]
+        },
+        {
+            questionText: "33. Jako przykład miary obciążenia procesora w stacji roboczej mogącej być podstawą do równoważenia tego obciążenia może być:",
+            questionAnswers: [
+                "Ważona liczba procesów w kolejce procesów aktywnych",
+                "Systemowy miernik obciążenia podający obciążenie procesora w %",
+                "Ważona liczba procesów oczekujących w kolejce do zasobów" ,
+                "Ilość otwartych połączeń internetowych"
+            ]
+        }
+    ],
+
     ham: [
         {
-            questionID: 1,
             questionText: "Czy opór elektryczny przewodu zależy od materiału z którego jest wykonany?",
             questionAnswers: [
                 "zależy",
@@ -2623,7 +2732,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 2,
             questionText: "Izolatorami nazywamy materiały które:",
             questionAnswers: [
                 "nie przewodzą prądu elektrycznego",
@@ -2632,7 +2740,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 3,
             questionText: "Który przewód o tej samej długości i przekroju będzie miał największą oporność?",
             questionAnswers: [
                 "wykonany z żelaza",
@@ -2641,7 +2748,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 4,
             questionText: "Który z materiałów ma własności półprzewodnikowe?",
             questionAnswers: [
                 "german",
@@ -2650,7 +2756,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 5,
             questionText: "Żarówka 12 V pobiera z baterii 0,1 A. Jaką oporność ma żarówka?",
             questionAnswers: [
                 "oporność 120 om",
@@ -2659,7 +2764,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 6,
             questionText: "Żarówka ma moc 24 W i pobiera z akumulatora 2 A. Jakie jest napięcie akumulatora?",
             questionAnswers: [
                 "napięcie wynosi 12 V",
@@ -2668,7 +2772,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 7,
             questionText: "Źródła chemiczne prądu dają prąd:",
             questionAnswers: [
                 "stały",
@@ -2677,7 +2780,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 8,
             questionText: "Akumulator ma pojemność 20 Ah. Jak długo będzie świecić z niego żarówka pobierająca 4 A?",
             questionAnswers: [
                 "5 godzin",
@@ -2686,7 +2788,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 9,
             questionText: "Ile bateryjek 4,5 V potrzebujemy połączyć w szereg, by uzyskać baterię anodową o napięciu 90 V?",
             questionAnswers: [
                 "20 szt.",
@@ -2695,7 +2796,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 10,
             questionText: "Ładunki elektryczne w przestrzeni przyciągają się, jeżeli:",
             questionAnswers: [
                 "są różnoimienne",
@@ -2704,7 +2804,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 11,
             questionText: "Materiały ferromagnetyczne to materiały, które przewodzą pole magnetyczne:",
             questionAnswers: [
                 "lepiej niż powietrze",
@@ -2713,7 +2812,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 12,
             questionText: "Jaki kierunek przyjmuje pole magnetyczne wokół przewodnika z prądem?",
             questionAnswers: [
                 "jest prostopadłe do przewodu",
@@ -2722,7 +2820,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 13,
             questionText: "Jeżeli składowa elektryczna fali jest prostopadła do ziemi to fala ma polaryzację?",
             questionAnswers: [
                 "pionową",
@@ -2731,7 +2828,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 14,
             questionText: "Czy prędkość fali elektromagnetycznej zależy od ośrodka, w którym się rozchodzi?",
             questionAnswers: [
                 "tak",
@@ -2740,7 +2836,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 15,
             questionText: "Długość fali wynosi 1500 metrów. Jaka jest częstotliwość tej fali?",
             questionAnswers: [
                 "200 kHz",
@@ -2749,7 +2844,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 16,
             questionText: "Jaki zakres częstotliwości dźwięków wystarcza dla zrozumiałego nadawania mowy?",
             questionAnswers: [
                 "od 300 Hz do 3,2 kHz",
@@ -2758,7 +2852,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 17,
             questionText: "Nadajnik UKF ma kwarc kanałowy 12 MHz. Ile razy musi być powielony by uzyskać 144 MHz?",
             questionAnswers: [
                 "12 razy",
@@ -2767,7 +2860,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 18,
             questionText: "Modulacja telegraficzna CW polega na:",
             questionAnswers: [
                 "przerywaniu fali nośnej",
@@ -2776,7 +2868,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 19,
             questionText: "Kanał radiowy nadajnika telegraficznego CW jest:",
             questionAnswers: [
                 "bardzo wąski",
@@ -2785,7 +2876,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 20,
             questionText: "Przy modulacji częstotliwości FM szerokość kanału radiowego dla nadajników amatorskich UKF wynosi:",
             questionAnswers: [
                 "12,5 kHz",
@@ -2794,7 +2884,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 21,
             questionText: "Jaka jest szerokość kanału radiowego przy emisji SSB?",
             questionAnswers: [
                 "3,5 kHz",
@@ -2803,7 +2892,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 22,
             questionText: "Amatorska telewizja z powolnym analizowaniem SSTV może być stosowana do łączności prowadzonych:",
             questionAnswers: [
                 "na duże odległości na falach krótkich",
@@ -2812,7 +2900,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 23,
             questionText: "Która z podanych mocy PEP odpowiada napiciu maksymalnemu U max = 100 V, zmierzonemu oscyloskopem na wyjściu nadajnika, na obciążeniu 50 om?",
             questionAnswers: [
                 "100 W",
@@ -2821,7 +2908,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 24,
             questionText: "Opornik warstwowy metalizowany jest wykonany jako:",
             questionAnswers: [
                 "metalowa warstwa oporowa na wałku ceramicznym",
@@ -2830,7 +2916,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 25,
             questionText: "Do cewki powietrznej 100 uH wkładamy rdzeń ferrytowy o względnej przenikalności u = 10. Ile wyniesie indukcyjność cewki?",
             questionAnswers: [
                 "wzrośnie do 1000 uH",
@@ -2839,7 +2924,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 26,
             questionText: "Są dwie cewki powietrzne. Przy tej samej średnicy i ilości zwojów, L1 jest nawinięta drutem dwa razy grubszym niż L2. Która z nich ma większą dobroć Q?",
             questionAnswers: [
                 "cewka L1",
@@ -2848,7 +2932,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 27,
             questionText: "Przekładnia transformatora wynosi 20 do 1. Strona pierwotna włączona jest na napicie sieci 240 V. Jakie napicie będzie po stronie wtórnej?",
             questionAnswers: [
                 "12 V",
@@ -2857,7 +2940,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 28,
             questionText: "Diody prostownicze zasilające są stosowane do:",
             questionAnswers: [
                 "do prostowania prądu w zasilaczach",
@@ -2866,7 +2948,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 29,
             questionText: "Diody Zenera to diody do:",
             questionAnswers: [
                 "stabilizacji napięć",
@@ -2875,7 +2956,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 30,
             questionText: "Warikap to dioda:",
             questionAnswers: [
                 "dioda pojemnościowa",
@@ -2884,7 +2964,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 31,
             questionText: "Z jakich pierwiastków wykonywane są tranzystory i obwody scalone?",
             questionAnswers: [
                 "z czystego krzemu i germanu z domieszkami boru i arsenu",
@@ -2893,7 +2972,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 32,
             questionText: "Do jakiego typu układów scalonych należy scalony wzmacniacz akustyczny?",
             questionAnswers: [
                 "do układów scalonych analogowych",
@@ -2902,7 +2980,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 33,
             questionText: "Kalkulator zawiera jeden układ scalony, wyświetlacz i klawiaturę. Do jakiej grupy zaliczymy układ scalony?",
             questionAnswers: [
                 "wielkiej skali integracji",
@@ -2911,7 +2988,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 34,
             questionText: "Lampa elektronowa pentoda posiada:",
             questionAnswers: [
                 "pięć elektrod",
@@ -2920,7 +2996,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 35,
             questionText: "Cztery oporniki o wartościach 5 om zostały połączone szeregowo. Ile wynosi oporność zastępcza tych oporów?",
             questionAnswers: [
                 "20 om",
@@ -2929,7 +3004,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 36,
             questionText: "Ile oporników o wartości 200 om należy połączyć równolegle by uzyska sztuczne obciążenie antenowe 50 om?",
             questionAnswers: [
                 "4 szt.",
@@ -2938,7 +3012,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 37,
             questionText: "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
             questionAnswers: [
                 "prostownik jednopołówkowy",
@@ -2947,7 +3020,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 38,
             questionText: "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
             questionAnswers: [
                 "prostownik dwupołówkowy",
@@ -2956,7 +3028,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 39,
             questionText: "Wzmacniacz wzmacnia sygnały w zakresie od 100Hz do 10 kHz. Wzmacniacz ten nazywamy wzmacniaczem:",
             questionAnswers: [
                 "niskiej częstotliwości",
@@ -2965,7 +3036,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 40,
             questionText: "Kiedy wzmacniacz jest przesterowany?",
             questionAnswers: [
                 "jak ma za duże napięcie wejściowe",
@@ -2974,7 +3044,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 41,
             questionText: "W jakiej klasie ma pracować wzmacniacz rezonansowy w.cz. do wzmacniania sygnału SSB?",
             questionAnswers: [
                 "w klasie AB",
@@ -2983,7 +3052,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 42,
             questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych, ale nieopisanych bloków. Blok 1 to:",
             questionAnswers: [
                 "generator stabilizowany",
@@ -2992,7 +3060,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 43,
             questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych, ale nieopisanych bloków. Blok 4 to:",
             questionAnswers: [
                 "generator wzorca",
@@ -3001,7 +3068,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 44,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 3 to:",
             questionAnswers: [
                 "wzmacniacz akustyczny",
@@ -3010,7 +3076,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 45,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 1 to:",
             questionAnswers: [
                 "filtr wejściowy",
@@ -3019,7 +3084,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 46,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 5 to:",
             questionAnswers: [
                 "wzmacniacz akustyczny",
@@ -3028,7 +3092,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 47,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 1 to:",
             questionAnswers: [
                 "wzmacniacz w.cz.",
@@ -3037,7 +3100,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 48,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 9 to:",
             questionAnswers: [
                 "wzmacniacz akustyczny",
@@ -3046,7 +3108,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 49,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 1 to:",
             questionAnswers: [
                 "filtr wejściowy",
@@ -3055,7 +3116,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 50,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 2 to:",
             questionAnswers: [
                 "I mieszacz",
@@ -3064,7 +3124,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 51,
             questionText: "Jaka powinna być stabilność heterodyny w odbiorniku komunikacyjnym ? Częstotliwość heterodyny na najwyższym zakresie po włączeniu odbiornika powinna zmieniać się nie więcej jak:",
             questionAnswers: [
                 "o 200 Hz",
@@ -3073,7 +3132,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 52,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 4 to:",
             questionAnswers: [
                 "filtr wyjściowy",
@@ -3082,7 +3140,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 53,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 1 to:",
             questionAnswers: [
                 "oscylator (VFO)",
@@ -3091,7 +3148,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 54,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 1 to:",
             questionAnswers: [
                 "wzbudnica SSB 9 MHz",
@@ -3100,7 +3156,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 55,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnic 9 MHz. Blok 2 to:",
             questionAnswers: [
                 "mieszacz",
@@ -3109,7 +3164,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 56,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 1 to:",
             questionAnswers: [
                 "modulator",
@@ -3118,7 +3172,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 57,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 7 to:",
             questionAnswers: [
                 "filtr wyjściowy",
@@ -3128,7 +3181,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 58,
             questionText: "Jaka jest horyzontalna charakterystyka promieniowania dipola półfalowego zawieszonego poziomo?",
             questionAnswers: [
                 "ósemkowa",
@@ -3137,7 +3189,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 59,
             questionText: "Jaka jest horyzontalna charakterystyka promieniowania pionowej anteny ćwierćfalowej?",
             questionAnswers: [
                 "dookólna",
@@ -3146,7 +3197,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 60,
             questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 1 to:",
             questionAnswers: [
                 "reflektor",
@@ -3155,7 +3205,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 61,
             questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 2 to:",
             questionAnswers: [
                 "radiator",
@@ -3164,7 +3213,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 62,
             questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 3 to:",
             questionAnswers: [
                 "I direktor",
@@ -3173,7 +3221,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 63,
             questionText: "Na rysunku przedstawiona jest antena typu Yagi. Element 4 to:",
             questionAnswers: [
                 "II direktor",
@@ -3182,7 +3229,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 64,
             questionText: "Dlaczego kable koncentryczne nadawcze wykonywane są z opornością falową 50 om?",
             questionAnswers: [
                 "bo jest ona zbliżona do oporności dipola półfalowego",
@@ -3191,7 +3237,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 65,
             questionText: "W jakim przypadku powstaje w linii przesyłowej w.cz. fala stojąca?",
             questionAnswers: [
                 "kiedy oporność obciążenia nie jest zgodna z opornością falową kabla",
@@ -3200,7 +3245,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 66,
             questionText: "Jak nazywa się przyrząd do mierzenia fali stojącej w kablu koncentrycznym?",
             questionAnswers: [
                 "reflektometr",
@@ -3209,7 +3253,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 67,
             questionText: "Reflektometr wskazuje, że fala padająca jest równa fali odbitej. WFS równy jest nieskończoności. Co może być przyczyną takiego stanu?",
             questionAnswers: [
                 "zwarcie lub przerwa w kablu",
@@ -3218,7 +3261,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 68,
             questionText: "Połączenie niesymetrycznego kabla koncentrycznego 50 om do symetrycznej anteny o oporności falowej 50 om wymaga zastosowania:",
             questionAnswers: [
                 "symetryzatora 1 do 1",
@@ -3227,7 +3269,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 69,
             questionText: "Czy stan jonosfery ma wpływ na rozchodzenie się fal krótkich?",
             questionAnswers: [
                 "ma bardzo duży wpływ",
@@ -3236,7 +3277,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 70,
             questionText: "Co jaki okres czasu następują bardzo dobre warunki propagacyjne i z czym to jest związane?",
             questionAnswers: [
                 "regularnie co 11 lat przy maksymalnej aktywności słonecznej",
@@ -3245,7 +3285,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 71,
             questionText: "Co to jest zasięg horyzontalny na UKF?",
             questionAnswers: [
                 "zasięg wyznaczony linią horyzontu przy prostoliniowym rozchodzeniu się fal",
@@ -3254,7 +3293,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 72,
             questionText: "Dalekie rozchodzenie się fal UKF podczas inwersji temperaturowej w troposferze polega na:",
             questionAnswers: [
                 "prowadzeniu fal przez dukty powstałe z warstw ciepłego i zimnego powietrza",
@@ -3263,7 +3301,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 73,
             questionText: "Skrót EME oznacza łączności na UKF:",
             questionAnswers: [
                 "z wykorzystaniem odbicia sygnału od Księżyca",
@@ -3272,7 +3309,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 74,
             questionText: "Jak nazywa się przyrząd do pomiaru napięcia?",
             questionAnswers: [
                 "woltomierz",
@@ -3281,7 +3317,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 75,
             questionText: "Jakim przyrządem możemy zmierzyć wartość opornika?",
             questionAnswers: [
                 "omomierzem",
@@ -3290,7 +3325,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 76,
             questionText: "Co to jest przyrząd uniwersalny wielozakresowy?",
             questionAnswers: [
                 "przyrząd do pomiarów, napięć, prądów, oporności, w wielu zakresach",
@@ -3299,7 +3333,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 77,
             questionText: "Jak zmierzyć moc prądu stałego?",
             questionAnswers: [
                 "zmierzyć prąd i napięcie w obwodzie i obliczyć",
@@ -3308,7 +3341,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 78,
             questionText: "Jak w warunkach amatorskich zmierzyć moc wyjściową nadajnika?",
             questionAnswers: [
                 "poprzez pomiar napięcia skutecznego na oporze sztucznej anteny 50 om i obliczenie",
@@ -3317,7 +3349,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 79,
             questionText: "Jakim przyrządem mierzymy dopasowanie obciążenia do kabla koncentrycznego?",
             questionAnswers: [
                 "za pomocą reflektometru przelotowego",
@@ -3326,7 +3357,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 80,
             questionText: "Jak zwalczamy zakłócenia rozprowadzane siecią energetyczną?",
             questionAnswers: [
                 "przez stosowanie filtrów sieciowych i ekranowanie urządzeń, odpowiednią konstrukcję",
@@ -3335,7 +3365,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 81,
             questionText: "Co to jest kompatybilność elektromagnetyczna (EMC)?",
             questionAnswers: [
                 "taka konstrukcja sprzętu, by urządzenia nie wpływały na siebie i mogły pracować bez powodowania wzajemnych zakłóceń",
@@ -3344,7 +3373,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 82,
             questionText: "Jeżeli nadajnik amatorski powoduje zakłócenia, to jakie elementy sprawdzamy w pierwszej kolejności?",
             questionAnswers: [
                 "liniowość stopnia mocy (PA) i filtr wyjściowy",
@@ -3353,7 +3381,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 83,
             questionText: "Dlaczego w zabudowie miejskiej stosujemy do anten kable koncentryczne?",
             questionAnswers: [
                 "bo przy dopasowaniu nie promieniują energii i mogą przechodzić obok innych anten i urządzeń",
@@ -3362,7 +3389,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 84,
             questionText: "Jeżeli nadajnik promieniuje energię w.cz. poprzez sieć zasilającą to stosujemy:",
             questionAnswers: [
                 "uziemiamy obudowę i włączamy filtr sieciowy w zasilanie",
@@ -3371,7 +3397,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 85,
             questionText: "Jaka instytucja zajmuje się lokalizowaniem zakłóceń radiowych i radioelektrycznych oraz badaniem sprzętu radionadawczego?",
             questionAnswers: [
                 "Urząd Komunikacji Elektronicznej",
@@ -3380,7 +3405,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 86,
             questionText: "Prąd elektryczny w przewodzie metalowym płynie dzięki obecności w nim:",
             questionAnswers: [
                 "wolnych elektronów",
@@ -3389,7 +3413,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 87,
             questionText: "Jak zmienia się opór przewodu miedzianego podczas wzrostu temperatury?",
             questionAnswers: [
                 "opór rośnie",
@@ -3398,7 +3421,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 88,
             questionText: "Jaki ładunek ma elektron?",
             questionAnswers: [
                 "ujemny",
@@ -3407,7 +3429,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 89,
             questionText: "W obwodach elektrycznych przyjmujemy, że kierunek przepływu prądu odbywa się od:",
             questionAnswers: [
                 "od wyższego potencjału (+) do niższego (-)",
@@ -3416,7 +3437,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 90,
             questionText: "W obwodzie prądu stałego przez opornik 1000 om płynie prąd 2 mA. Jaki jest spadek napięcia na oporze?",
             questionAnswers: [
                 "spadek wynosi 2 V",
@@ -3425,7 +3445,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 91,
             questionText: "Akumulator ma napięcie 6.5 V. Do akumulatora chcemy podłączyć żarówkę 3,5 V 0,3 A. Jaki opornik należy włączyć w szereg by ograniczyć prąd?",
             questionAnswers: [
                 "opornik 10 om",
@@ -3434,7 +3453,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 92,
             questionText: "Opornik ma 200 om. Płynie przez niego prąd 300 mA. Jaka jest moc tracona w oporze?",
             questionAnswers: [
                 "18 W",
@@ -3443,7 +3461,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 93,
             questionText: "Jakie napięcie występuje na oporze 50 om przy dostarczeniu do niego mocy 200 W?",
             questionAnswers: [
                 "100 V",
@@ -3452,7 +3469,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 94,
             questionText: "Mamy opornik 100 om dołączony do napięcia 3 V. Z jakiej grupy mocy wybierzemy opornik?",
             questionAnswers: [
                 "grupa 0,125 W",
@@ -3461,7 +3477,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 95,
             questionText: "Jaka jest częstotliwość prądu zmiennego, którego okres wynosi 0,02 sek.?",
             questionAnswers: [
                 "50 Hz",
@@ -3470,7 +3485,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 96,
             questionText: "Wartość amplitudy napięcia sinusoidalnego wynosi 200 V. Jaka jest wartość skuteczna napięcia?",
             questionAnswers: [
                 "141,8 V",
@@ -3479,7 +3493,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 97,
             questionText: "Napięcie międzyszczytowe sinusoidalnego napięcia zmiennego wynosi 678 V. Ile wynosi wartość skuteczna tego napięcia?",
             questionAnswers: [
                 "240 V",
@@ -3488,7 +3501,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 98,
             questionText: "Siła elektromotoryczna ogniwa wynosi 1,5 V. Oporność wewnętrzna ogniwa wynosi 0,1 oma. Z ogniwa pobieramy prąd 1 A. Jakie będzie napięcie na zaciskach ogniwa?",
             questionAnswers: [
                 "1,4 V",
@@ -3497,7 +3509,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 99,
             questionText: "Pole elektryczne nazywamy jednorodnym jeżeli:",
             questionAnswers: [
                 "linie sił są równoległe",
@@ -3506,7 +3517,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 100,
             questionText: "Pole elektryczne może być ekranowane za pomocą:",
             questionAnswers: [
                 "ekranów z blach metalowych",
@@ -3515,7 +3525,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 101,
             questionText: "Do jakich materiałów magnetycznych należą magnesy stałe?",
             questionAnswers: [
                 "materiałów magnetycznie twardych",
@@ -3524,7 +3533,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 102,
             questionText: "Dlaczego rdzenie transformatorów wykonywane są z blaszek a nie z litego materiału?",
             questionAnswers: [
                 "ze względu na mniejsze straty przy prądach wirowych",
@@ -3533,7 +3541,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 103,
             questionText: "Ekranowanie pól magnetycznych wykonujemy z materiałów:",
             questionAnswers: [
                 "z materiałów o wysokiej przenikalności magnetycznej",
@@ -3542,7 +3549,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 104,
             questionText: "Fala elektromagnetyczna ma dwie składowe. Zaznacz która kombinacja jest poprawna:",
             questionAnswers: [
                 "składowa elektryczna i magnetyczna",
@@ -3551,7 +3557,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 105,
             questionText: "Częstotliwość pracy nadajnika amatorskiego wynosi 3,5714 MHz. Jaka jest dokładna długość fali tego nadajnika?",
             questionAnswers: [
                 "84 m",
@@ -3560,7 +3565,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 106,
             questionText: "Czy czysty sygnał sinusoidalny 1000 Hz, zawiera harmoniczne 2000 Hz i 3000 Hz?",
             questionAnswers: [
                 "nie zawiera w ogóle harmonicznych",
@@ -3569,7 +3573,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 107,
             questionText: "Czy można prowadzić powielanie częstotliwości w stopniu mocy nadajnika?",
             questionAnswers: [
                 "nie",
@@ -3578,7 +3581,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 108,
             questionText: "Przy modulacji amplitudy AM szerokość kanału radiowego zależy od:",
             questionAnswers: [
                 "najwyższych częstotliwości modulujących",
@@ -3587,7 +3589,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 109,
             questionText: "Modulacja cyfrowa FSK oznacza przesyłanie sygnału telegrafii maszynowej RTTY za pomocą:",
             questionAnswers: [
                 "modulacji z przesuwem częstotliwości",
@@ -3596,7 +3597,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 110,
             questionText: "Moc wyjściową nadajnika FM podano w dBW i wynosi ona 13 dBW. Ile to jest w watach? (dla ułatwienia podajemy, że 10 dBW odpowiada 10 W",
             questionAnswers: [
                 "20 W",
@@ -3605,7 +3605,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 111,
             questionText: "Napięcie na wejściu odbiornika na oporności 50 om wynosi 10 uV. Napięcie to wzrosło do 100 uV. O ile wzrosło napięcie wyrażone w dB?",
             questionAnswers: [
                 "o 20 dB",
@@ -3614,7 +3613,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 112,
             questionText: "Zasilacz nadajnika dostarcza do stopnia końcowego nadajnika napięcie 500 V i prąd 200 mA. Jaka jest sprawność energetyczna stopnia końcowego w % jeżeli na wyjściu zmierzyliśmy moc PEP = 40 W?",
             questionAnswers: [
                 "40 %",
@@ -3623,7 +3621,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 113,
             questionText: "Tolerancja wykonania opornika 1 kom wynosi 5 %. W jakich granicach zawiera się jego oporność?",
             questionAnswers: [
                 "od 950 om do 1050 om",
@@ -3632,7 +3629,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 114,
             questionText: "Spadek napięcia na oporniku wynosi 100 V, przy prądzie 10 mA. Opornik jakiej mocy zastosujemy w tym miejscu?",
             questionAnswers: [
                 "1 W",
@@ -3641,7 +3637,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 115,
             questionText: "Kondensator mikowy ma pojemność 6800 pF, i napięcie pracy 500V. Czy można go zastosować w miejsce kondensatora 6,8 nF o napięciu pracy 250 V?",
             questionAnswers: [
                 "tak można",
@@ -3650,7 +3645,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 116,
             questionText: "W obwodzie prądu zmiennego przy tej samej częstotliwości zmieniono kondensator 2200 pF na 22 nF. Ile razy zmniejszyła się zawada Xc?",
             questionAnswers: [
                 "10 razy",
@@ -3659,7 +3653,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 117,
             questionText: "Prąd zmienny płynący przez kondensator C:",
             questionAnswers: [
                 "wyprzedza napięcie na kondensatorze o 90 stopni",
@@ -3668,7 +3661,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 118,
             questionText: "Tranzystor krzemowy ma wzmocnienie prądowe B = 100. Napięcie zasilania wynosi 5 V. Przez kolektor tego tranzystora płynie prąd 100 mA. Jaki jest prąd bazy tego tranzystora?",
             questionAnswers: [
                 "1 mA",
@@ -3677,7 +3669,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 119,
             questionText: "Przy jakich napięciach anodowych pracują amatorskie lampowe wzmacniacze mocy?",
             questionAnswers: [
                 "od 1,5 kV do 3 kV",
@@ -3686,7 +3677,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 120,
             questionText: "W jakiej klasie wzmacniacza pracuje lampowy stopień mocy nadajnika telegraficznego?",
             questionAnswers: [
                 "w klasie C",
@@ -3695,7 +3685,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 121,
             questionText: "Mamy dwa kondensatory o pojemności jeden 4,7 nF a drugi 300 pF. Jak należy je połączyć by uzyskać pojemność 5000 pF?",
             questionAnswers: [
                 "równolegle",
@@ -3704,7 +3693,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 122,
             questionText: "W układzie były trzy kondensatory po 30 uF połączone szeregowo . Każdy z nich ma napięcie pracy 100V. Czy możemy je zastąpić jednym kondensatorem 10 uF i o jakim napięciu pracy?",
             questionAnswers: [
                 "możemy, stosując kondensator na napięcie 300V",
@@ -3713,7 +3701,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 123,
             questionText: "Dwie indukcyjności nie sprzężone mają 30 uH i 60 uH. Ile wynosi indukcyjność zastępcza przy połączeniu szeregowym tych indukcyjności?",
             questionAnswers: [
                 "90 uH",
@@ -3722,7 +3709,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 124,
             questionText: "Dwa oporniki 1 kom połączone są w szereg i dołączone do napięcia 200 V. Jaki jest spadek napięcia na każdym z tych oporników?",
             questionAnswers: [
                 "100 V",
@@ -3731,7 +3717,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 125,
             questionText: "Obwód rezonansowy równoległy LC, w punkcie rezonansu przedstawia oporność:",
             questionAnswers: [
                 "rzeczywistą omową",
@@ -3740,7 +3725,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 126,
             questionText: "Mamy obwód rezonansowy o częstotliwości 3,5 MHz. W jego skład wchodzi pojemność C = 400 pF. Jaką pojemność należy dołączyć zamiast C, by przestroić obwód na 7 MHz?",
             questionAnswers: [
                 "100 pF",
@@ -3749,7 +3733,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 127,
             questionText: "Pasmo obwodu rezonansowego zależy od dobroci Q obwodu. Jeżeli Q = 100 to ile wynosi pasmo przy częstotliwości obwodu 14 MHz?",
             questionAnswers: [
                 "280 kHz",
@@ -3758,7 +3741,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 128,
             questionText: "Jakie pasmo musi posiadać filtr pasmowy dla poprawnego odbioru stacji radiofonicznej AM?",
             questionAnswers: [
                 "9 kHz",
@@ -3767,7 +3749,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 129,
             questionText: "Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
             questionAnswers: [
                 "prostownik mostkowy dwupołówkowy",
@@ -3776,7 +3757,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 130,
             questionText: "Transformator zasilacza ma napięcie Usk = 300 V. Czy w prostowniku jednopołówkowym można użyć diody wytrzymującej wstecznie 400 V?",
             questionAnswers: [
                 "nie",
@@ -3785,7 +3765,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 131,
             questionText: "Napięcie na wyjściu zasilacza nieobciążonego z filtrem pojemnościowym, wynosi 25 V. Jakie jest napięcie Usk transformatora zasilającego diody?",
             questionAnswers: [
                 "17,7 V",
@@ -3794,7 +3773,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 132,
             questionText: "Wzmacniacz posiada wzmocnienie napięciowe 10 razy. Wyraź to wzmocnienie w decybelach (dB)",
             questionAnswers: [
                 "20 dB",
@@ -3803,7 +3781,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 133,
             questionText: "Wzmacniacz wysokiej częstotliwości obciążony obwodem rezonansowym jest:",
             questionAnswers: [
                 "wzmacniaczem selektywnym",
@@ -3812,7 +3789,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 134,
             questionText: "Czy w wzmacniaczu mocy pracującym idealnie liniowo, powstają harmoniczne?",
             questionAnswers: [
                 "nie",
@@ -3821,7 +3797,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 135,
             questionText: "Na rysunku przedstawiono schemat detektora diodowego. Jaką rolę spełnia w nim kondensator C1?",
             questionAnswers: [
                 "jest kondensatorem filtrującym prądy w.cz.",
@@ -3830,7 +3805,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 136,
             questionText: "Dlaczego do detekcji sygnałów telegrafii CW używamy produkt detektora i pomocniczego generatora BFO?",
             questionAnswers: [
                 "musimy wytworzyć słyszalne dudnienia z niemodulowanym sygnałem CW",
@@ -3839,7 +3813,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 137,
             questionText: "Aby czytelnie odebrać sygnał SSB, to przy odbiorze dolnej wstęgi (LSB) sygnał odtwarzający falę nośną powinien być:",
             questionAnswers: [
                 "powyżej wstęgi LSB",
@@ -3848,7 +3821,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 138,
             questionText: "Czy dyskryminator sygnału FM powinien reagować na modulację amplitudy sygnału FM?",
             questionAnswers: [
                 "nie",
@@ -3857,7 +3829,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 139,
             questionText: "Warunkiem wzbudzenia się generatora z obwodem rezonansowym jest:",
             questionAnswers: [
                 "spełnienie warunku amplitudy i fazy",
@@ -3866,7 +3837,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 140,
             questionText: "Na rysunku przedstawiono kilka układów generatorów. Są one ponumerowane od 1 do 4. Wybierz pod którą literą znajdują się poprawne nazwy generatorów zgodne z kolejnością ich narysowania.",
             questionAnswers: [
                 "Meissner , Hartley, Colpitts, Clapp",
@@ -3875,7 +3845,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 141,
             questionText: "Oscylator kwarcowy ma wysoką stabilność częstotliwości. Zawdzięcza ją:",
             questionAnswers: [
                 "zastosowaniu rezonatora kwarcowego",
@@ -3884,7 +3853,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 142,
             questionText: "Kwarce owertonowe to rezonatory kwarcowe pracujące na:",
             questionAnswers: [
                 "częstotliwościach harmonicznych",
@@ -3893,7 +3861,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 143,
             questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 2 to:",
             questionAnswers: [
                 "dzielnik nastawny",
@@ -3902,7 +3869,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 144,
             questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 3 to:",
             questionAnswers: [
                 "komparator",
@@ -3911,7 +3877,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 145,
             questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 5 to:",
             questionAnswers: [
                 "dzielnik wzorca",
@@ -3920,7 +3885,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 146,
             questionText: "Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 6 to:",
             questionAnswers: [
                 "wzmacniacz błędu",
@@ -3929,7 +3893,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 147,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 1 to:",
             questionAnswers: [
                 "wzmacniacz w. cz",
@@ -3938,7 +3901,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 148,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika bezpośredniego wzmocnienia z reakcją. Blok 2 to:",
             questionAnswers: [
                 "detektor z reakcją",
@@ -3947,7 +3909,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 149,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 2 to:",
             questionAnswers: [
                 "mieszacz",
@@ -3956,7 +3917,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 150,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 3 to:",
             questionAnswers: [
                 "wzmacniacz pośredniej cz.",
@@ -3965,7 +3925,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 151,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 4 to:",
             questionAnswers: [
                 "detektor AM",
@@ -3974,7 +3933,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 152,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 6 to:",
             questionAnswers: [
                 "heterodyna",
@@ -3983,7 +3941,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 153,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 2 to:",
             questionAnswers: [
                 "I mieszacz",
@@ -3992,7 +3949,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 154,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 3 to:",
             questionAnswers: [
                 "wzmacniacz I pośredniej cz.",
@@ -4001,7 +3957,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 155,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 4 to:",
             questionAnswers: [
                 "II mieszacz",
@@ -4010,7 +3965,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 156,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 5 to:",
             questionAnswers: [
                 "II heterodyna stała",
@@ -4019,7 +3973,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 157,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 6 to:",
             questionAnswers: [
                 "filtr przełączany II p.cz.",
@@ -4028,7 +3981,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 158,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 7 to:",
             questionAnswers: [
                 "wzmacniacz II pośredniej cz.",
@@ -4037,7 +3989,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 159,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 8 to:",
             questionAnswers: [
                 "detektor AM, CW, SSB",
@@ -4046,7 +3997,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 160,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 10 to:",
             questionAnswers: [
                 "BFO",
@@ -4055,7 +4005,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 161,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 11 to:",
             questionAnswers: [
                 "I heterodyna strojona",
@@ -4064,7 +4013,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 162,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 2 to:",
             questionAnswers: [
                 "mieszacz zrównoważony",
@@ -4073,7 +4021,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 163,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 3 to:",
             questionAnswers: [
                 "wzmacniacz akustyczny",
@@ -4082,7 +4029,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 164,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 4 to:",
             questionAnswers: [
                 "heterodyna",
@@ -4091,7 +4037,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 165,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 1 to:",
             questionAnswers: [
                 "wzmacniacz w.cz.",
@@ -4100,7 +4045,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 166,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 3 to:",
             questionAnswers: [
                 "wzmacniacz I pośredniej cz. 10,7 MHz",
@@ -4109,7 +4053,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 167,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 4 to:",
             questionAnswers: [
                 "II mieszacz",
@@ -4118,7 +4061,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 168,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 5 to:",
             questionAnswers: [
                 "wzmacniacz II p.cz. 455 kHz",
@@ -4127,7 +4069,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 169,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 6 to:",
             questionAnswers: [
                 "detektor FM",
@@ -4136,7 +4077,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 170,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 7 to:",
             questionAnswers: [
                 "wzmacniacz akustyczny",
@@ -4145,7 +4085,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 171,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 8 to:",
             questionAnswers: [
                 "blokada szumów",
@@ -4154,7 +4093,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 172,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 9 to:",
             questionAnswers: [
                 "II heterodyna stała",
@@ -4163,7 +4101,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 173,
             questionText: "Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 10 to:",
             questionAnswers: [
                 "I heterodyna kwarcowa",
@@ -4172,7 +4109,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 174,
             questionText: "Miarą selektywności odbiornika jest szerokość pasma odbieranego przez odbiornik. Przy jakim poziomie od poziomu maksymalnego mierzymy selektywność?",
             questionAnswers: [
                 "przy -6dB",
@@ -4181,7 +4117,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 175,
             questionText: "Przy jakim stosunku sygnału do szumu mierzymy czułość odbiornika?",
             questionAnswers: [
                 "przy 10 dB",
@@ -4190,7 +4125,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 176,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 1 to:",
             questionAnswers: [
                 "oscylator (VFO)",
@@ -4199,7 +4133,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 177,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 2 to:",
             questionAnswers: [
                 "separator",
@@ -4208,7 +4141,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 178,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 3 to:",
             questionAnswers: [
                 "wzmacniacz mocy (PA)",
@@ -4217,7 +4149,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 179,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 2 to:",
             questionAnswers: [
                 "separator",
@@ -4226,7 +4157,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 180,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 3 to:",
             questionAnswers: [
                 "I powielacz x2",
@@ -4235,7 +4165,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 181,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 4 to:",
             questionAnswers: [
                 "II powielacz x2",
@@ -4244,7 +4173,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 182,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 5 to:",
             questionAnswers: [
                 "wzmacniacz sterujący",
@@ -4253,7 +4181,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 183,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 6 to:",
             questionAnswers: [
                 "wzmacniacz mocy (PA)",
@@ -4262,7 +4189,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 184,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 7 to:",
             questionAnswers: [
                 "filtr wyjściowy",
@@ -4271,7 +4197,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 185,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 3 to:",
             questionAnswers: [
                 "filtr pasmowy 3.5 - 14 MHz",
@@ -4280,7 +4205,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 186,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 4 to:",
             questionAnswers: [
                 "wzmacniacz sterujący",
@@ -4289,7 +4213,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 187,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 5 to:",
             questionAnswers: [
                 "wzmacniacz mocy (PA)",
@@ -4298,7 +4221,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 188,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 6 to:",
             questionAnswers: [
                 "filtr wyjściowy",
@@ -4307,7 +4229,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 189,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 7 to:",
             questionAnswers: [
                 "oscylator (VFO) 5-5.5 MHz",
@@ -4316,7 +4237,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 190,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 2 to:",
             questionAnswers: [
                 "generator kwarcowy modulowany",
@@ -4325,7 +4245,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 191,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 3 to:",
             questionAnswers: [
                 "I powielacz x3",
@@ -4334,7 +4253,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 192,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 4 to:",
             questionAnswers: [
                 "II powielacz x3",
@@ -4343,7 +4261,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 193,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 5 to:",
             questionAnswers: [
                 "III powielacz x2",
@@ -4352,7 +4269,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 194,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144MHz z powielaniem częstotliwości kanałowego generatora kwarcowego 8 MHz. Blok 6 to:",
             questionAnswers: [
                 "wzmacniacz mocy (PA)",
@@ -4361,7 +4277,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 195,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 1 to:",
             questionAnswers: [
                 "modulator",
@@ -4370,7 +4285,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 196,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 2 to:",
             questionAnswers: [
                 "generator PLL",
@@ -4379,7 +4293,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 197,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 3 to:",
             questionAnswers: [
                 "wzmacniacz sterujący",
@@ -4388,7 +4301,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 198,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 4 to:",
             questionAnswers: [
                 "wzmacniacz mocy (PA)",
@@ -4397,7 +4309,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 199,
             questionText: "Na rysunku przedstawiono schemat blokowy nadajnika UKF na pasmo 144 MHz z generatorem PLL. Blok 5 to:",
             questionAnswers: [
                 "filtr wyjściowy",
@@ -4406,7 +4317,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 200,
             questionText: "Jak zmienia się oporność dipola półfalowego przy niskim zawieszeniu nad ziemią?",
             questionAnswers: [
                 "maleje",
@@ -4415,7 +4325,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 201,
             questionText: "W antenie dipolowej W3DZZ na pasma 80, 40, 20 metrów zastosowano trapy. Na jaką częstotliwość muszą być nastrojone?",
             questionAnswers: [
                 "7,05 MHz",
@@ -4424,7 +4333,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 202,
             questionText: "Zysk anteny kierunkowej wyrażony jest w dBi. Względem jakiego źródła jest określony?",
             questionAnswers: [
                 "źródła izotropowego",
@@ -4433,7 +4341,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 203,
             questionText: "Jaka jest różnica pomiędzy efektywną mocą promieniowaną e.r.p. a efektywną mocą promieniowaną izotropowo e.i.r.p?",
             questionAnswers: [
                 "e.i.r.p. jest większe o 2,16 dB od e.r.p.",
@@ -4442,7 +4349,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 204,
             questionText: "Antena kierunkowa na UKF w miejscu odbioru daje napięcie 4 razy większe jak dipol półfalowy. Jaki ma zysk dBd?",
             questionAnswers: [
                 "12 dBd",
@@ -4451,7 +4357,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 205,
             questionText: "Kabel koncentryczny wprowadza straty sygnału. Kabel przy częstotliwości 150 MHz ma straty 12 dB na 100 m. Długość kabla między anteną a odbiornikiem wynosi 50 m. Ile razy napięcie na wejściu odbiornika będzie mniejsze niż w antenie?",
             questionAnswers: [
                 "2 razy",
@@ -4460,7 +4365,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 206,
             questionText: "Jakie długości fal zaliczamy do zakresu fal krótkich?",
             questionAnswers: [
                 "od 100 m do 10 m",
@@ -4469,7 +4373,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 207,
             questionText: "Do jakiej wysokości sięgają najwyższe warstwy jonosfery w lecie w dzień?",
             questionAnswers: [
                 "450 km",
@@ -4478,7 +4381,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 208,
             questionText: "O czym mówi podawana w prognozach propagacji częstotliwość MUF?",
             questionAnswers: [
                 "o maksymalnej częstotliwości do łączności na danej trasie",
@@ -4487,7 +4389,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 209,
             questionText: "Co to jest strefa martwa na falach krótkich?",
             questionAnswers: [
                 "strefa bez odbioru leżąca pomiędzy końcem fali przyziemnej a powrotem fali przestrzennej",
@@ -4496,7 +4397,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 210,
             questionText: "Jakim przyrządem możemy sprawdzić kształt napięcia zmiennego w.cz. i wykryć zniekształcenia sygnału?",
             questionAnswers: [
                 "oscyloskopem",
@@ -4505,7 +4405,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 211,
             questionText: "Jakie dodatkowe zabezpieczenie, oprócz umieszczenia jej na bezpiecznej wysokości, są zalecane dla anteny na terenowym QTH?",
             questionAnswers: [
                 "wykonanie anteny z drutu miedzianego w igielicie",
@@ -4514,7 +4413,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 212,
             questionText: "Czy można wykorzystać sieć wodociągową jako uziemienie?",
             questionAnswers: [
                 "jedynie po zbocznikowaniu wodomierza i upewnieniu się, że jest ona uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć",
@@ -4523,7 +4421,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 213,
             questionText: "Resuscytację krążeniowo-oddechową u osoby dorosłej, bez widocznych obrażeń ciała, wykonujemy w stosunku:",
             questionAnswers: [
                 "30 uciśnięć klatki piersiowej na dwa wdechy",
@@ -4532,7 +4429,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 214,
             questionText: "Podczas pracy z monitorem komputerowym minimalne zalecane przerwy wynoszą:",
             questionAnswers: [
                 "co godzinę pięć minut",
@@ -4541,7 +4437,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 215,
             questionText: "Jakie oznaczenie na rękojeści narzędzia ma istotne znaczenie przy pracach elektrycznych?",
             questionAnswers: [
                 "dopuszczalne napięcie pracy",
@@ -4550,7 +4445,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 216,
             questionText: "Dlaczego stosuje się ograniczenia w przebywaniu (zamieszkaniu) w bezpośrednim sąsiedztwie dużych obiektów nadawczych radiowych i telewizyjnych?",
             questionAnswers: [
                 "ze względu na duże natężenie pola elektromagnetycznego mogące mieć negatywny wpływ na zdrowie",
@@ -4559,7 +4453,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 217,
             questionText: "Czy wolno wykonywać prace antenowe przy włączonym nadajniku?",
             questionAnswers: [
                 "kategorycznie nie wolno",
@@ -4568,7 +4461,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 218,
             questionText: "Na polu antenowym mamy kilka anten na różne pasma. Czy można regulować nieczynne anteny, jeżeli obok pracuje na podobnej antenie nadajnik KF?",
             questionAnswers: [
                 "nie wolno",
@@ -4577,7 +4469,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 219,
             questionText: "Spełnienie jakich warunków konstrukcyjnych ogranicza przedostawanie się energii w.cz. niepożądanymi drogami?",
             questionAnswers: [
                 "dobre uziemienie i szczelność ekranowania",
@@ -4586,7 +4477,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 220,
             questionText: "Czy źle wykonany uziom może być przyczyną szkodliwego promieniowania w.cz.?",
             questionAnswers: [
                 "tak",
@@ -4595,7 +4485,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 221,
             questionText: "Jakie niebezpieczeństwo grozi, gdy trzymamy w rękach naładowany kondensator elektrolityczny?",
             questionAnswers: [
                 "porażenie prądem elektrycznym",
@@ -4604,7 +4493,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 222,
             questionText: "Czy zwarcie drutem biegunów źródła prądu (bateria, akumulator) może być niebezpieczne?",
             questionAnswers: [
                 "tak, może spowodować pożar",
@@ -4613,7 +4501,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 223,
             questionText: "Czy kondensator elektrolityczny musi mieć napięcie pracy równe lub większe niż napięcie występujące w układzie w jakim pracuje?",
             questionAnswers: [
                 "koniecznie, gdyż może ulec zniszczeniu",
@@ -4622,7 +4509,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 224,
             questionText: "Czy brak filtru przeciw zakłóceniowego na obwodzie zasilania sieciowego może być przyczyną zakłóceń w pracy urządzenia?",
             questionAnswers: [
                 "zawsze, bez względu na moc",
@@ -4631,7 +4517,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 225,
             questionText: "Czy promieniowanie elektromagnetyczne w.cz. może mieć wpływ na zdrowie człowieka?",
             questionAnswers: [
                 "tak",
@@ -4640,7 +4525,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 226,
             questionText: "Czy sztuczne obciążenie w postaci opornika bezindukcyjnego powinno być ekranowane?",
             questionAnswers: [
                 "tak, zawsze powinno być ekranowane i uziemione w tym samym punkcie co radiostacja",
@@ -4649,7 +4533,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 227,
             questionText: "Czy można uruchomić urządzenie po przeniesieniu z zimnego pomieszczenia do ciepłego?",
             questionAnswers: [
                 "można, ale po odczekaniu pewnego czasu",
@@ -4658,7 +4541,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 228,
             questionText: "Czy plastikowa obudowa urządzenia nadawczego stanowi odpowiednie zabezpieczenie przed oddziaływaniem energii w.cz.?",
             questionAnswers: [
                 "nie stanowi żadnego zabezpieczenia przed energią w.cz.",
@@ -4667,7 +4549,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 229,
             questionText: "Czy dopuszczalne jest użycie sieci CO (np. kaloryfera) do uziemienia radiostacji?",
             questionAnswers: [
                 "tylko po upewnieniu się, że jest ona właściwie uziemiona oraz po uzyskaniu zgody jednostki eksploatującej tę sieć",
@@ -4676,7 +4557,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 230,
             questionText: "Jaki zapas mocy powinien mieć zasilacz urządzeń AM i FM przewidziany do ciągłej bezawaryjnej pracy?",
             questionAnswers: [
                 "50% więcej",
@@ -4685,7 +4565,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 231,
             questionText: "Czy można wykorzystać jako uziemienie rurę instalacji gazowej?",
             questionAnswers: [
                 "bezwzględnie nie wolno",
@@ -4694,7 +4573,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 232,
             questionText: "Jakie działania należy podjąć, aby udzielić pomocy porażonemu prądem elektrycznym?",
             questionAnswers: [
                 "zadbać o własne bezpieczeństwo, odłączyć porażonego od prądy, sprawdzić funkcje życiowe, wezwać lekarza, w razie konieczności przeprowadzać resuscytację krążeniowo-oddechową",
@@ -4703,7 +4581,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 233,
             questionText: "Pomieszczenie, w którym znajduje się indywidualna stacja amatorska, powinno być wyposażone w następujące środki ochrony p-poż:",
             questionAnswers: [
                 "gaśnicę do gaszenia urządzeń pod napięciem",
@@ -4712,7 +4589,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 234,
             questionText: "Przewody zasilające prądu stałego oznaczone są kolorami:",
             questionAnswers: [
                 "czerwony i czarny",
@@ -4721,7 +4597,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 235,
             questionText: "Uszkodzonych tranzystorów nie powinno się otwierać, gdyż:",
             questionAnswers: [
                 "zawierają szkodliwe substancje, mogące spowodować ciężkie zatrucie",
@@ -4730,7 +4605,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 236,
             questionText: "Narzędzia do prac elektrycznych powinny:",
             questionAnswers: [
                 "posiadać izolowane uchwyty z nadrukowaną informacją o dopuszczalnym napięciu pracy np. 500 V",
@@ -4739,7 +4613,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 237,
             questionText: "Na terenowym QTH uziemienie można wykonać:",
             questionAnswers: [
                 "wbijając uziom do ziemi jako osobne uziemienie dla swojej stacji",
@@ -4748,7 +4621,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 238,
             questionText: "Uruchomienie nieznanego urządzenia rozpoczyna się od:",
             questionAnswers: [
                 "sprawdzenia, czy ustawione jest właściwe napięcie sieci oraz zainstalowany jest właściwy bezpiecznik",
@@ -4757,7 +4629,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 239,
             questionText: "Czy radiostację i urządzenia pomocnicze można podłączać do gniazd zasilanych z dwóch różnych faz?",
             questionAnswers: [
                 "kategorycznie nie można, grozi to zniszczeniem sprzętu i porażeniem operatora",
@@ -4766,7 +4637,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 240,
             questionText: "Po zakończeniu pracy radiostacji należy:",
             questionAnswers: [
                 "wyłączyć zasilanie, uziemić anteny i odłączyć uziemienie od radia",
@@ -4775,7 +4645,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 241,
             questionText: "Podczas wieszania anteny na wysokościach należy:",
             questionAnswers: [
                 "zapewnić sobie pomoc innej osoby, stosować sprzęt ochronny, starać się maksymalnie zabezpieczyć osoby na dole przez ogrodzenie miejsc zagrożonych linką i zawieszenie tablic: Na górze pracują, oraz zapewnić łączność za pomocą radiotelefonów przenośnych, aby prace wykonać na komendę pomagającej nam osoby kiedy nie ma zagrożenia dla innych ludzi",
@@ -4784,7 +4653,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 242,
             questionText: "Środki ochrony osobistej przy pracy na wysokości to:",
             questionAnswers: [
                 "szelki bezpieczeństwa z podwójną linką plus lina asekuracyjna, kask i rękawice",
@@ -4793,7 +4661,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 243,
             questionText: "Jaka powinna być rezystancja uziemienia radiostacji?",
             questionAnswers: [
                 "pomiędzy 10 a 1 Om, im mniejsza tym lepsza",
@@ -4802,7 +4669,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 244,
             questionText: "W momencie stwierdzenia pożaru urządzenia należy:",
             questionAnswers: [
                 "odłączyć urządzenie od zasilania i przystąpić do gaszenia, w razie potrzeby wezwać straż pożarną",
@@ -4811,7 +4677,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 245,
             questionText: "Zwody (połączenia) uziemiające od radiostacji należy poprowadzić następująco:",
             questionAnswers: [
                 "skrzynka antenowa jako pierwsza do uziemienia, następnie radiostacja osobnym zwodem do skrzynki i zasilacz osobnym zwodem do tejże skrzynki",
@@ -4820,7 +4685,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 246,
             questionText: "Transformator ochronny stosujemy, gdy:",
             questionAnswers: [
                 "jak w pozostałych odpowiedziach i w innych sytuacjach, jeżeli zachodzi niebezpieczeństwo porażenia prądem np. przy pracach naprawczych",
@@ -4829,7 +4693,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 247,
             questionText: "W przypadku poparzenia elektrolitem należy:",
             questionAnswers: [
                 "zdjąć odzież z oparzonego miejsca, płukać wodą oparzone miejsce, zabezpieczyć sterylnym opatrunkiem i udać się do lekarza",
@@ -4838,7 +4701,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 248,
             questionText: "W przypadku zaprószenia oka ciałem obcym należy:",
             questionAnswers: [
                 "spróbować usunąć obce ciało, przemywając oko wodą, a jeżeli się to nie uda skorzystać z pomocy lekarza",
@@ -4847,7 +4709,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 249,
             questionText: "Podstawowe wyposażenie ochronne do prac z elektrolitem to:",
             questionAnswers: [
                 "ubranie ochronne, okulary, rękawice ochronne",
@@ -4856,7 +4717,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 250,
             questionText: "Mierząc miernikiem napięcie o niemożliwej do oszacowania wartości należy:",
             questionAnswers: [
                 "ustawić miernik na najwyższy zakres pomiarowy i stopniowo zmniejszać zakres",
@@ -4865,7 +4725,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 251,
             questionText: "Przygotowując się do wykonania prac pod napięciem, oprócz przygotowania odpowiednich przyrządów należy:",
             questionAnswers: [
                 "jak w pozostałych odpowiedziach oraz zapewnić sobie obecność i ewentualną pomoc drugiej osoby",
@@ -4874,7 +4733,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 252,
             questionText: "Podczas pracy nadajnika KF na jednej z anten, w celu zabezpieczenia się przed przypadkowym porażeniem od innych anten należy:",
             questionAnswers: [
                 "uziemić wszystkie nieużywane w danym momencie anteny, aby nie ulec porażeniu w wyniku ich przypadkowego dotknięcia",
@@ -4883,7 +4741,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 253,
             questionText: "Przy podłączeniu zasilacza stacji przekrój sieci i wartość zabezpieczeń powinny być dobrany tak, aby zapewnić dostarczenie mocy:",
             questionAnswers: [
                 "wyższej niż moc określona w tabliczce znamionowej urządzenia",
@@ -4892,7 +4749,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 254,
             questionText: "Odległość pomiędzy masztem antenowym budowanym na ziemi a pasem drogowym, chodnikiem i innymi przeszkodami:",
             questionAnswers: [
                 "powinna być większa niż wysokość masztu",
@@ -4901,7 +4757,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 255,
             questionText: "Maszt kratowy uziemiamy:",
             questionAnswers: [
                 "czterema zwodami, po jednym na każdej nodze",
@@ -4910,7 +4765,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 256,
             questionText: "Naprawa bezpieczników topikowych jest:",
             questionAnswers: [
                 "bezwzględnie zabroniona",
@@ -4919,7 +4773,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 257,
             questionText: "Jakie oznaczenia ochronne należy umieścić na maszcie anteny nadawczej?",
             questionAnswers: [
                 "promieniowanie elektromagnetyczne",
@@ -4928,7 +4781,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 258,
             questionText: "Czy radiotelefon UKF należy uziemiać w czasie pracy?",
             questionAnswers: [
                 "tylko jeśli posiada zacisk uziemiający",
@@ -4937,7 +4789,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 259,
             questionText: "Czy podczas pracy z wiertarką wymagane jest stosowanie rękawic ochronnych?",
             questionAnswers: [
                 "jest zabronione",
@@ -4946,7 +4797,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 260,
             questionText: "Przy wymianie lampy stopnia mocy nadajnika należy:",
             questionAnswers: [
                 "wyłączyć zasilanie i poczekać aż rozładują się kondensatory zasilacza",
@@ -4955,7 +4805,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 261,
             questionText: "Kondensator sprzęgający obwód anodowy PA z Pi-filtrem powinien:",
             questionAnswers: [
                 "być wytrzymały na duże napięcie",
@@ -4964,7 +4813,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 262,
             questionText: "Najlepszą formą zabezpieczenia anteny krótkofalowej przed burzą jest:",
             questionAnswers: [
                 "odłączenie anteny od radiostacji i połączenie anteny z uziemieniem",
@@ -4973,7 +4821,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 263,
             questionText: "Czy można umieścić kabel antenowy w kanale wywietrznika kominowego, jeżeli obok przebiega czynny komin?",
             questionAnswers: [
                 "bezwzględnie nie można",
@@ -4982,7 +4829,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 264,
             questionText: "Czy można używać kołków rozporowych do montażu anteny na kominie?",
             questionAnswers: [
                 "nie wolno, można stosować jedynie opaski wokół komina",
@@ -4991,7 +4837,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 265,
             questionText: "Czy nasza radiostacja może wywołać zakłócenia poza granicami kraju?",
             questionAnswers: [
                 "może",
@@ -5000,7 +4845,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 266,
             questionText: "Czy osoba posiadająca rozrusznik serca może przebywać w pobliżu anten nadawczych dużej mocy?",
             questionAnswers: [
                 "kategorycznie nie powinna",
@@ -5009,7 +4853,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 267,
             questionText: "Podczas regulacji urządzeń pod napięciem (o ile jest to konieczne) pracę wykonujemy:",
             questionAnswers: [
                 "jedną ręką w asyście drugiej osoby, wskazane jest również stosowanie chodnika lub obuwia izolacyjnego",
@@ -5018,7 +4861,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 268,
             questionText: "Jakim przewodem podłączysz nadajnik dużej mocy do źródła zasilania?",
             questionAnswers: [
                 "przewodem o przekroju żył, odpowiednim do pobieranej przez urządzenie mocy",
@@ -5027,7 +4869,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 269,
             questionText: "Czy podczas naprawy oscyloskopu można go włączyć bez założonego na lampę cylindra ochronnego?",
             questionAnswers: [
                 "kategorycznie nie wolno",
@@ -5036,7 +4877,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 270,
             questionText: "Jaka lokalizacja będzie bezpieczniejsza (najbardziej właściwa pod kątem narażenia na działanie pola elektromagnetycznego) dla anteny emitującej moc 1 kW?",
             questionAnswers: [
                 "terenowe QTH ze specjalnie wybudowanym polem antenowym",
@@ -5045,7 +4885,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 271,
             questionText: "Czy fider antenowy radiostacji nadawczej może być prowadzony razem z kablem anteny odbiorczej TV?",
             questionAnswers: [
                 "nie, kable powinny być maksymalnie oddalone",
@@ -5054,7 +4893,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 272,
             questionText: "Czy świadectwo operatora urządzeń radiowych upoważnia do naprawy sieci elektrycznej w mieszkaniu?",
             questionAnswers: [
                 "nie, do tego potrzebne jest posiadanie stosownych uprawnień",
@@ -5063,7 +4901,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 273,
             questionText: "W którym miejscu należy podłączyć filtr przeciwzakłóceniowy (dolnoprzepustowy) przy pracy ze wzmacniaczem mocy?",
             questionAnswers: [
                 "pomiędzy transceiver a wzmacniacz mocy",
@@ -5072,7 +4909,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 274,
             questionText: "Jakie są skutki uszkodzenia ekranu fidera antenowego?",
             questionAnswers: [
                 "następuje wzrost zakłóceń i zmiana impedancji kabla grożąca uszkodzeniem nadajnika",
@@ -5081,7 +4917,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 275,
             questionText: "Przed eksplozją kondensatorów elektrolitycznych w zasilaczu chroni nas:",
             questionAnswers: [
                 "opornik upływowy tzw. bleder",
@@ -5090,7 +4925,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 276,
             questionText: "Co oznacza wg kodu Q symbol QRG?",
             questionAnswers: [
                 "moja częstotliwość jest ...",
@@ -5099,7 +4933,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 277,
             questionText: "Co oznacza wg kodu Q symbol QSY?",
             questionAnswers: [
                 "przejdź na częstotliwość, zmień częstotliwość",
@@ -5108,7 +4941,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 278,
             questionText: "Co oznacza wg kodu Q symbol QRM?",
             questionAnswers: [
                 "mam zakłócenia od innych stacji",
@@ -5117,7 +4949,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 279,
             questionText: "Co oznacza wg kodu Q symbol QRN?",
             questionAnswers: [
                 "mam zakłócenia atmosferyczne",
@@ -5126,7 +4957,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 280,
             questionText: "Co oznacza wg kodu Q symbol QSB?",
             questionAnswers: [
                 "siła twoich sygnałów waha się",
@@ -5135,7 +4965,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 281,
             questionText: "Co oznacza wg kodu Q symbol QRV?",
             questionAnswers: [
                 "jestem gotów do pracy, jestem czynny w eterze",
@@ -5144,7 +4973,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 282,
             questionText: "Co oznacza wg kodu Q symbol QTH?",
             questionAnswers: [
                 "moje położenie geograficzne jest...",
@@ -5153,7 +4981,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 283,
             questionText: "Co oznacza wg kodu Q symbol QRP?",
             questionAnswers: [
                 "zmniejsz moc, zmniejszam moc",
@@ -5162,7 +4989,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 284,
             questionText: "Co oznacza wg kodu Q symbol QTC?",
             questionAnswers: [
                 "mam dla ciebie pilną wiadomość",
@@ -5171,7 +4997,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 285,
             questionText: "Co oznacza wg kodu Q symbol QSO?",
             questionAnswers: [
                 "łączność, mam łączność",
@@ -5180,7 +5005,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 286,
             questionText: "Co oznacza wg kodu Q symbol QSL?",
             questionAnswers: [
                 "potwierdzam odbiór, przyślę kartę potwierdzającą łączność",
@@ -5189,7 +5013,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 287,
             questionText: "Co oznacza skrót slangu radioamatorskiego RX?",
             questionAnswers: [
                 "odbiornik",
@@ -5198,7 +5021,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 288,
             questionText: "Co oznacza skrót slangu radioamatorskiego Unlis?",
             questionAnswers: [
                 "nielicencjonowany nadawca",
@@ -5207,7 +5029,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 289,
             questionText: "Co oznacza skrót slangu radioamatorskiego YL?",
             questionAnswers: [
                 "panna - młoda pani",
@@ -5216,7 +5037,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 290,
             questionText: "Co oznacza skrót slangu radioamatorskiego RPT?",
             questionAnswers: [
                 "proszę powtórzyć, powtórzę, powtarzam",
@@ -5225,7 +5045,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 291,
             questionText: "Kiedy należy podawać raport o słyszalności?",
             questionAnswers: [
                 "na początku łączności i na życzenie korespondenta",
@@ -5234,7 +5053,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 292,
             questionText: "Czy po uzyskaniu świadectwa operatora urządzeń radiowych można samodzielnie obsługiwać stację amatorską?",
             questionAnswers: [
                 "można, w określonych przepisami zakresach częstotliwości",
@@ -5243,7 +5061,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 293,
             questionText: "Jakie należy spełnić warunki aby uzyskać pozwolenie radiowe na używanie radiostacji amatorskiej?",
             questionAnswers: [
                 "należy posiadać świadectwo operatora urządzeń radiowych",
@@ -5252,7 +5069,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 294,
             questionText: "Czy razem ze świadectwem operatora urządzeń radiowych przydzielany jest znak wywoławczy dla radiostacji amatorskiej?",
             questionAnswers: [
                 "nie, znak wywoławczy przydzielany jest w pozwoleniu radiowym",
@@ -5261,7 +5077,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 295,
             questionText: "Co to jest znak wywoławczy?",
             questionAnswers: [
                 "jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej identyfikator radiostacji amatorskiej",
@@ -5270,7 +5085,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 296,
             questionText: "Czy można radioamatorski znak wywoławczy używać podczas pracy w zakresach częstotliwości nieprzeznaczonych dla służby amatorskiej?",
             questionAnswers: [
                 "absolutnie nie, znak radioamatorski można używać tylko w zakresach częstotliwości przeznaczonych dla radioamatorów",
@@ -5279,7 +5093,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 297,
             questionText: "Jak zbudowany jest znak wywoławczy w pozwoleniach kategorii 1, 3 i 5?",
             questionAnswers: [
                 "składa się z prefiksu, cyfry i kombinacji maksymalnie czterech liter i cyfr",
@@ -5288,7 +5101,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 298,
             questionText: "Jak zbudowany jest znak wywoławczy w pozwoleniu dodatkowym?",
             questionAnswers: [
                 "składa się z prefiksu, cyfry i kombinacji maksymalnie siedmiu liter i cyfr",
@@ -5297,7 +5109,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 299,
             questionText: "Co to jest dziennik łączności LOG?",
             questionAnswers: [
                 "jest to dokument radiostacji amatorskiej zawierający informacje o korespondencji z innymi radiostacjami amatorskimi, zawierający znak stacji, imię operatora, datę, godzinę, pasmo w jakim przeprowadzono QSO",
@@ -5306,7 +5117,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 300,
             questionText: "Czy prowadzenie dziennika łączności LOG jest obowiązkowe?",
             questionAnswers: [
                 "jest to podstawowy obowiązek każdego radioamatora",
@@ -5315,7 +5125,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 301,
             questionText: "Co znaczy określenie czas uniwersalny UTC?",
             questionAnswers: [
                 "czas odpowiadający południkowi zerowemu (GMT), stosowany przez radioamatorów do odnotowania w Logu godz. łączności",
@@ -5324,7 +5133,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 302,
             questionText: "Okręg wywoławczy SP1 to obszar:",
             questionAnswers: [
                 "województwa zachodniopomorskiego",
@@ -5333,7 +5141,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 303,
             questionText: "Okręg wywoławczy SP2 to obszar:",
             questionAnswers: [
                 "województw kujawsko-pomorskiego i pomorskiego",
@@ -5342,7 +5149,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 304,
             questionText: "Okręg wywoławczy SP3 to obszar:",
             questionAnswers: [
                 "województw lubuskiego i wielkopolskiego",
@@ -5351,7 +5157,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 305,
             questionText: "Okręg wywoławczy SP4 to obszar:",
             questionAnswers: [
                 "województw podlaskiego i warmińsko-mazurskiego",
@@ -5360,7 +5165,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 306,
             questionText: "Okręg wywoławczy SP5 to obszar:",
             questionAnswers: [
                 "województwa mazowieckiego",
@@ -5369,7 +5173,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 307,
             questionText: "Okręg wywoławczy SP6 to obszar:",
             questionAnswers: [
                 "województw dolnośląskiego i opolskiego",
@@ -5378,7 +5181,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 308,
             questionText: "Okręg wywoławczy SP7 to obszar:",
             questionAnswers: [
                 "województw łódzkiego i świętokrzyskiego",
@@ -5387,7 +5189,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 309,
             questionText: "Okręg wywoławczy SP8 to obszar:",
             questionAnswers: [
                 "województw lubelskiego i podkarpackiego",
@@ -5396,7 +5197,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 310,
             questionText: "Okręg wywoławczy SP9 to obszar:",
             questionAnswers: [
                 "województw małopolskiego i śląskiego",
@@ -5405,7 +5205,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 311,
             questionText: "Poprawne literowanie w j. polskim litery A i R:",
             questionAnswers: [
                 "Adam, Roman",
@@ -5414,7 +5213,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 312,
             questionText: "Poprawne literowanie w j. polskim litery G i K:",
             questionAnswers: [
                 "Grażyna, Karol",
@@ -5423,7 +5221,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 313,
             questionText: "Poprawne literowanie w j. polskim litery W i Z:",
             questionAnswers: [
                 "Wanda, Zygmunt",
@@ -5432,7 +5229,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 314,
             questionText: "Poprawne literowanie w j. polskim litery X i C:",
             questionAnswers: [
                 "Xawery, Cezary",
@@ -5441,7 +5237,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 315,
             questionText: "Poprawne literowanie w j. polskim litery P i N:",
             questionAnswers: [
                 "Paweł, Natalia",
@@ -5450,7 +5245,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 316,
             questionText: "Poprawne literowanie wg alfabetu ITU litery B i F:",
             questionAnswers: [
                 "Bravo, Foxtrot",
@@ -5459,7 +5253,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 317,
             questionText: "Poprawne literowanie wg alfabetu ITU litery C i G:",
             questionAnswers: [
                 "Charlie, Golf",
@@ -5468,7 +5261,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 318,
             questionText: "Poprawne literowanie wg alfabetu ITU litery I i K:",
             questionAnswers: [
                 "India, Kilo",
@@ -5477,7 +5269,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 319,
             questionText: "Poprawne literowanie wg alfabetu ITU litery R i V:",
             questionAnswers: [
                 "Romeo, Viktor",
@@ -5486,7 +5277,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 320,
             questionText: "Poprawne literowanie wg alfabetu ITU litery X i S:",
             questionAnswers: [
                 "X-Rey, Sierra",
@@ -5495,7 +5285,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 321,
             questionText: "Co to jest międzynarodowy kod Q?",
             questionAnswers: [
                 "zbiór symboli składających się z 3 liter, zaczynających się zawsze na literę Q, którym przypisane są proste zdanie lub słowa",
@@ -5504,7 +5293,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 322,
             questionText: "Do czego służy międzynarodowy kod Q?",
             questionAnswers: [
                 "skrócenia czasu nadawania informacji",
@@ -5513,7 +5301,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 323,
             questionText: "Co oznacza wg kodu Q symbol QRL?",
             questionAnswers: [
                 "jestem zajęty, proszę nie przeszkadzać",
@@ -5522,7 +5309,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 324,
             questionText: "Co oznacza wg kodu Q symbol QRT?",
             questionAnswers: [
                 "kończę nadawanie, wyłączam stację",
@@ -5531,7 +5317,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 325,
             questionText: "Co oznacza wg kodu Q symbol QRZ?",
             questionAnswers: [
                 "kto mnie woła",
@@ -5540,7 +5325,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 326,
             questionText: "Co oznacza wg kodu Q symbol QRX?",
             questionAnswers: [
                 "proszę czekać",
@@ -5549,7 +5333,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 327,
             questionText: "Co oznacza wg kodu Q symbol QRO?",
             questionAnswers: [
                 "zwiększ moc, zwiększam moc",
@@ -5558,7 +5341,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 328,
             questionText: "Który z poniższych kodów Q oznacza: Moja częstotliwość jest ...?",
             questionAnswers: [
                 "QRG",
@@ -5567,7 +5349,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 329,
             questionText: "Który z poniższych kodów Q oznacza: Przejdź na częstotliwość, zmień częstotliwość?",
             questionAnswers: [
                 "QSY",
@@ -5576,7 +5357,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 330,
             questionText: "Który z poniższych kodów Q oznacza: Mam zakłócenia od innych stacji?",
             questionAnswers: [
                 "QRM",
@@ -5585,7 +5365,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 331,
             questionText: "Który z poniższych kodów Q oznacza: Siła twoich sygnałów waha się?",
             questionAnswers: [
                 "QSB",
@@ -5594,7 +5373,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 332,
             questionText: "Który z poniższych kodów Q oznacza: Jestem gotów do pracy, jestem czynny w eterze?",
             questionAnswers: [
                 "QRV",
@@ -5603,7 +5381,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 333,
             questionText: "Który z poniższych kodów Q oznacza: Moje położenie geograficzne jest ...?",
             questionAnswers: [
                 "QTH",
@@ -5612,7 +5389,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 334,
             questionText: "Który z poniższych kodów Q oznacza: Zmniejsz moc, zmniejszam moc?",
             questionAnswers: [
                 "QRP",
@@ -5621,7 +5397,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 335,
             questionText: "Który z poniższych kodów Q oznacza: Mam dla ciebie telegram, wiadomość?",
             questionAnswers: [
                 "QTC",
@@ -5630,7 +5405,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 336,
             questionText: "Który z poniższych kodów Q oznacza: Łączność, mam łączność?",
             questionAnswers: [
                 "QSO",
@@ -5639,7 +5413,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 337,
             questionText: "Który z poniższych kodów Q oznacza: Potwierdzam odbiór, przyślę kartę potwierdzającą łączność?",
             questionAnswers: [
                 "QSL",
@@ -5648,7 +5421,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 338,
             questionText: "Co oznaczają skróty slangu radioamatorskiego: BAND; CFM?",
             questionAnswers: [
                 "pasmo; potwierdzam",
@@ -5657,7 +5429,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 339,
             questionText: "Co oznaczają skróty slangu radioamatorskiego: BK; CALL?",
             questionAnswers: [
                 "przerwa; znak wywoławczy",
@@ -5666,7 +5437,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 340,
             questionText: "Co oznaczają skróty slangu radioamatorskiego: BEST; DX?",
             questionAnswers: [
                 "najlepszy; daleka łączność",
@@ -5675,7 +5445,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 341,
             questionText: "Co oznaczają skróty slangu radioamatorskiego: BCI; BOX?",
             questionAnswers: [
                 "zakłócenia odbioru radiowego; skrytka pocztowa",
@@ -5684,7 +5453,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 342,
             questionText: "Co oznaczają skróty slangu radioamatorskiego: OK; NAME?",
             questionAnswers: [
                 "wszystko w porządku; imię",
@@ -5693,7 +5461,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 343,
             questionText: "Co oznaczają skróty slangu radioamatorskiego: SWR; RX?",
             questionAnswers: [
                 "współczynnik fali stojącej; odbiornik",
@@ -5702,7 +5469,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 344,
             questionText: "Które z poniższych skrótów slangu radioamatorskiego oznaczają: Zakłócenia w odbiorze telewizji; nielicencjonowany nadawca?",
             questionAnswers: [
                 "TVI; UNLIS",
@@ -5711,7 +5477,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 345,
             questionText: "Które z poniższych skrótów slangu radioamatorskiego oznaczają: Panna, młoda pani; czas uniwersalny?",
             questionAnswers: [
                 "YL; UTC",
@@ -5720,7 +5485,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 346,
             questionText: "Co oznaczają skróty slangu radioamatorskiego: PSE; RPT?",
             questionAnswers: [
                 "proszę; powtórzyć, powtórzę, powtarzam",
@@ -5729,7 +5493,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 347,
             questionText: "Co oznaczają skróty slangu radioamatorskiego: 99; UTC?",
             questionAnswers: [
                 "idź precz, przepadnij; czas uniwersalny",
@@ -5738,7 +5501,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 348,
             questionText: "Co oznaczają skróty slangu radioamatorskiego: LOG; DIRECT?",
             questionAnswers: [
                 "dziennik pracy stacji; bezpośrednio",
@@ -5747,7 +5509,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 349,
             questionText: "Co to jest raport R S stosowany podczas łączności fonicznych?",
             questionAnswers: [
                 "informacja o jakości odbieranego sygnału radiowego - czytelności i sił sygnału wyrażana w postaci cyfr",
@@ -5756,7 +5517,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 350,
             questionText: "Co to jest raport R S T stosowany podczas łączności telegraficznych?",
             questionAnswers: [
                 "informacja o jakości odbieranego sygnału radiowego ? czytelności, siły i tonu akustycznego sygnału",
@@ -5765,7 +5525,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 351,
             questionText: "Co oznaczają w raporcie o słyszalności i jakości sygnałów korespondenta litery R S?",
             questionAnswers: [
                 "R - czytelność, S - siła sygnału",
@@ -5774,7 +5533,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 352,
             questionText: "Co oznaczają w raporcie o słyszalności i jakości sygnałów korespondenta litery R S T?",
             questionAnswers: [
                 "R - czytelność, S - siła sygnału, T - ton sygnału",
@@ -5783,7 +5541,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 353,
             questionText: "Jaka jest skala czytelności i skala siły sygnału w raporcie R S?",
             questionAnswers: [
                 "skala czytelności 1-5 i skala siły sygnału 1-9",
@@ -5792,7 +5549,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 354,
             questionText: "Co oznacza w łączności fonicznej raport 59?",
             questionAnswers: [
                 "dobrze czytelny, bardzo silny sygnał",
@@ -5801,7 +5557,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 355,
             questionText: "Co oznacza w łączności fonicznej raport 43?",
             questionAnswers: [
                 "czytelny, słaby sygnał",
@@ -5810,7 +5565,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 356,
             questionText: "Co oznacza w łączności telegraficznej raport 599?",
             questionAnswers: [
                 "dobrze czytelny, bardzo silny sygnał, bardzo dobry ton",
@@ -5819,7 +5573,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 357,
             questionText: "Co oznacza w łączności telegraficznej raport 438?",
             questionAnswers: [
                 "czytelny, słaby sygnał, dobry ton sygnału",
@@ -5828,7 +5581,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 358,
             questionText: "Co to jest okręg wywoławczy?",
             questionAnswers: [
                 "zwyczajowo przyjęty obszar w granicach jednego lub dwóch województw",
@@ -5837,7 +5589,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 359,
             questionText: "Na ile okręgów wywoławczych podzielona jest Polska?",
             questionAnswers: [
                 "9",
@@ -5846,7 +5597,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 360,
             questionText: "Jak zbudowane są znaki wywoławcze radiostacji amatorskich?",
             questionAnswers: [
                 "dwie litery lub cyfra i litera, cyfra, jeden do czterech znaków (liter lub cyfr), gdzie ostatni jest literą, np. SP3A lub SP3ABCD",
@@ -5855,7 +5605,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 361,
             questionText: "Które prefiksy znaków wywoławczych przeznaczone są dla Polski?",
             questionAnswers: [
                 "HF, SN, SO, SP, SQ, SR, 3Z",
@@ -5864,7 +5613,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 362,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 160 m to:",
             questionAnswers: [
                 "1810 kHz - 2000 kHz",
@@ -5873,7 +5621,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 363,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 80 m to:",
             questionAnswers: [
                 "3500 kHz - 3800 kHz",
@@ -5882,7 +5629,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 364,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 40 m to:",
             questionAnswers: [
                 "7000 kHz - 7200 kHz",
@@ -5891,7 +5637,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 365,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 30 m to:",
             questionAnswers: [
                 "10100 kHz - 10150 kHz",
@@ -5900,7 +5645,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 366,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 20 m to:",
             questionAnswers: [
                 "14000 kHz - 14350 kHz",
@@ -5909,7 +5653,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 367,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 17 m to:",
             questionAnswers: [
                 "18068 kHz - 18168 kHz",
@@ -5918,7 +5661,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 368,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 15 m to:",
             questionAnswers: [
                 "21000 kHz - 21450 kHz",
@@ -5927,7 +5669,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 369,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 12 m to:",
             questionAnswers: [
                 "24890 kHz - 24990 kHz",
@@ -5936,7 +5677,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 370,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 10 m to:",
             questionAnswers: [
                 "28000 kHz - 29700 kHz",
@@ -5945,7 +5685,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 371,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 6 m to:",
             questionAnswers: [
                 "50 MHz - 52 MHz",
@@ -5954,7 +5693,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 372,
             questionText: "Zakres częstotliwości przeznaczony dla służby amatorskiej w paśmie 2 m to:",
             questionAnswers: [
                 "144 MHz - 146 MHz",
@@ -5963,7 +5701,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 373,
             questionText: "Co jest bandpan IARU?",
             questionAnswers: [
                 "podział zakresów częstotliwości na segmenty przeznaczone dla poszczególnych rodzajów emisji lub kanały robocze",
@@ -5972,7 +5709,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 374,
             questionText: "Czy dopuszcza się w band planie IARU możliwość pracy emisją jednowstęgową (SSB) w zakresie częstotliwości 10100 kHz ? 10150 kHz (pasmo 30 m)?",
             questionAnswers: [
                 "dopuszcza się użycie SSB w sytuacjach bezpośredniego zagrożenia dla bezpieczeństwa życia i mienia i wyłącznie przez stacje uczestniczące w akcji ratunkowej",
@@ -5981,7 +5717,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 375,
             questionText: "Jaki jest odstęp między częstotliwością nadawczą a odbiorczą przemienników pracujących w paśmie 2 m?",
             questionAnswers: [
                 "600 kHz",
@@ -5990,7 +5725,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 376,
             questionText: "Jak nazywa się organ międzynarodowy ustalający ogólnoświatowe zasady wykonywania działalności telekomunikacyjnej i radiokomunikacyjnej?",
             questionAnswers: [
                 "Międzynarodowy Związek Telekomunikacyjny (ITU)",
@@ -5999,7 +5733,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 377,
             questionText: "Gdzie mieści się siedziba Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
             questionAnswers: [
                 "w Genewie",
@@ -6008,7 +5741,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 378,
             questionText: "Ile krajów zrzesza Międzynarodowy Związek Telekomunikacyjny?",
             questionAnswers: [
                 "150-200",
@@ -6017,7 +5749,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 379,
             questionText: "Jaki organ Międzynarodowego Związku Telekomunikacyjnego (ITU) decyduje o przeznaczeniach poszczególnych zakresów częstotliwości dla różnych służb radiokomunikacyjnych?",
             questionAnswers: [
                 "Światowe Konferencje Radiokomunikacyjne",
@@ -6026,7 +5757,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 380,
             questionText: "Jaki dokument obowiązujący wszystkie kraje członkowskie Międzynarodowego Związku Telekomunikacyjnego (ITU) określa zasady wykonywania służby radiokomunikacyjnej amatorskiej i służby amatorskiej satelitarnej oraz wymienia przyznane tym służbom zakresy częstotliwości?",
             questionAnswers: [
                 "Regulamin Radiokomunikacyjny (Radio Regulations) ITU",
@@ -6035,7 +5765,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 381,
             questionText: "W którym roku Rzeczpospolita Polska przystąpiła do Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
             questionAnswers: [
                 "1921",
@@ -6044,7 +5773,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 382,
             questionText: "Jak brzmi definicja służby amatorskiej zamieszczona w Regulaminie Radiokomunikacyjnym Międzynarodowego Związku Telekomunikacyjnego (ITU)?",
             questionAnswers: [
                 "służba radiokomunikacyjna mająca na celu samokształcenie, wzajemne komunikowanie się i eksperymenty techniczne prowadzone przez amatorów, to jest przez odpowiednio upoważnione osoby interesujące się techniką radiową wyłącznie z pobudek osobistych, bez celów zarobkowych",
@@ -6053,7 +5781,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 383,
             questionText: "Regulamin Radiokomunikacyjny ITU dzieli świat na trzy regiony. W którym regionie radiokomunikacyjnym znajduje się Polska?",
             questionAnswers: [
                 "w pierwszym",
@@ -6062,7 +5789,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 384,
             questionText: "Czy Regulamin Radiokomunikacyjny ITU przewiduje wykorzystanie stacji amatorskich w akcjach humanitarnych, niesienia pomocy w przypadkach katastrof, klęsk żywiołowych i innych zagrożeń?",
             questionAnswers: [
                 "usilnie zaleca się wykorzystywanie stacji amatorskich w powyższych przypadkach",
@@ -6071,7 +5797,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 385,
             questionText: "Czy Regulamin Radiokomunikacyjny reguluje zasady przyznawania znaków wywoławczych stacjom amatorskim?",
             questionAnswers: [
                 "tak, Regulamin Radiokomunikacyjny określa ściśle zasady przyznawania znaków",
@@ -6080,7 +5805,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 386,
             questionText: "Czy postanowienia Regulaminu Radiokomunikacyjnego ITU dotyczące służby amatorskiej obowiązuj również w służbie amatorskiej satelitarnej?",
             questionAnswers: [
                 "tak, obowiązują",
@@ -6089,7 +5813,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 387,
             questionText: "Co zgodnie z Regulaminem Radiokomunikacyjnym ITU musi zapewnić operator amatorskiej orbitalnej stacji satelitarnej?",
             questionAnswers: [
                 "niezwłoczne zdalne wyłączenie amatorskiej stacji satelitarnej w przypadku powodowania przez nią szkodliwych zakłóceń dla innych służb radiokomunikacyjnych",
@@ -6098,7 +5821,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 388,
             questionText: "Jak nazywa się organ międzynarodowy zrzeszający krajowe administracje łączności z terenu Europy?",
             questionAnswers: [
                 "Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT)",
@@ -6107,7 +5829,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 389,
             questionText: "Gdzie mieści się siedziba Europejskiego Biura Radiokomunikacji (ERO)?",
             questionAnswers: [
                 "w Kopenhadze",
@@ -6116,7 +5837,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 390,
             questionText: "Jakiego rodzaju dokumenty regulujące działalność radiokomunikacyjną w Europie przyjmuje i wprowadza Europejska Konferencja Administracji Pocztowych i Telekomunikacyjnych (CEPT) i publikuje Europejskie Biuro Radiokomunikacji (ERO)?",
             questionAnswers: [
                 "decyzje, zalecenia i raporty",
@@ -6125,7 +5845,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 391,
             questionText: "Jakie dokumenty Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) regulują sprawy międzynarodowego uznawania pozwoleń i międzynarodowych wymagań egzaminacyjnych w służbie amatorskiej?",
             questionAnswers: [
                 "Zalecenia CEPT T/R 61-01 i T/R 61-02",
@@ -6134,7 +5853,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 392,
             questionText: "Przez jaki okres czasu może posiadacz międzynarodowego pozwolenia amatorskiego zgodnego z zaleceniem CEPT T/R 61-01 pracować z terytorium innego kraju uznającego to zalecenie, bez konieczności uzyskiwania pozwolenia od miejscowej administracji łączności?",
             questionAnswers: [
                 "3 miesiące",
@@ -6143,7 +5861,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 393,
             questionText: "Czy przepisy Międzynarodowego Związku Telekomunikacyjnego (ITU) i Europejskiej Konferencji Administracji Pocztowych i Telekomunikacyjnych (CEPT) wprowadzają obowiązkowy wymóg umiejętności odbioru i nadawania znaków w kodzie Morse-a przy egzaminie na świadectwo radiooperatora w służbie amatorskiej?",
             questionAnswers: [
                 "pozostawiaj powyższy wymóg do decyzji krajowych administracji łączności",
@@ -6152,7 +5869,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 394,
             questionText: "Kto określa maksymalną moc wyjściową radiostacji amatorskiej podawaną w pozwoleniu?",
             questionAnswers: [
                 "krajowa administracja łączności",
@@ -6161,7 +5877,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 395,
             questionText: "Jaka organizacja reprezentuje służbę amatorską na forum międzynarodowym?",
             questionAnswers: [
                 "Międzynarodowy Związek Radioamatorów (IARU)",
@@ -6170,7 +5885,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 396,
             questionText: "Ile organizacji regionalnych składa się na ogólnoświatowy Międzynarodowy Związek Radioamatorów (IARU ? the International Amateur Radio Union)?",
             questionAnswers: [
                 "trzy",
@@ -6179,7 +5893,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 397,
             questionText: "W którym roku i w jakim miejscu powstał Międzynarodowy Związek Radioamatorów (IARU)?",
             questionAnswers: [
                 "w roku 1925 w Paryżu",
@@ -6188,7 +5901,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 398,
             questionText: "W którym roku powstał Polski Związek Krótkofalowców (PZK)?",
             questionAnswers: [
                 "w roku 1930",
@@ -6197,7 +5909,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 399,
             questionText: "Jaki organ krajowy reguluje i kontroluje pracę stacji amatorskich, przeprowadza egzaminy na świadectwa operatora urządzeń radiowych i wydaje pozwolenia w służbie amatorskiej?",
             questionAnswers: [
                 "Prezes Urzędu Komunikacji Elektronicznej",
@@ -6206,7 +5917,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 400,
             questionText: "Jaki podstawowy akt prawny reguluje działalność telekomunikacyjną i radiokomunikacyjną w Polsce?",
             questionAnswers: [
                 "ustawa Prawo telekomunikacyjne",
@@ -6215,7 +5925,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 401,
             questionText: "W jakim dokumencie określone są zakresy częstotliwości przeznaczone w Polsce dla służby amatorskiej i służby amatorskiej satelitarnej?",
             questionAnswers: [
                 "w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń Częstotliwości",
@@ -6224,7 +5933,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 402,
             questionText: "Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba pierwszej ważności oznacza, że:",
             questionAnswers: [
                 "służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie",
@@ -6233,7 +5941,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 403,
             questionText: "Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba drugiej ważności - oznacza, że:",
             questionAnswers: [
                 "służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka nie może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji służb pierwszej ważności; którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie; służba taka może jednak żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb drugiej ważności, którym częstotliwości mogą być przydzielone w późniejszym terminie.",
@@ -6242,7 +5949,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 404,
             questionText: "Jaki dokument określa kategorie pozwoleń w służbie amatorskiej i dozwolone moce wyjściowe radiostacji amatorskiej?",
             questionAnswers: [
                 "rozporządzenie ministra właściwego do spraw łączności",
@@ -6251,7 +5957,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 405,
             questionText: "Do czego upoważnia świadectwo operatora klasy A w służbie radiokomunikacyjnej amatorskiej?",
             questionAnswers: [
                 "do uzyskania pozwolenia amatorskiego kategorii 1",
@@ -6260,7 +5965,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 406,
             questionText: "Do czego upoważnia świadectwo operatora klasy C w służbie radiokomunikacyjnej amatorskiej?",
             questionAnswers: [
                 "do uzyskania pozwolenia amatorskiego kategorii 3",
@@ -6269,7 +5973,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 407,
             questionText: "Na jaki okres czasu wydawane są indywidualne pozwolenia amatorskie kategorii 1 i 3?",
             questionAnswers: [
                 "10 lat",
@@ -6278,7 +5981,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 408,
             questionText: "Na jaki okres czasu wydawane są pozwolenia amatorskie kategorii 5?",
             questionAnswers: [
                 "5 lat",
@@ -6287,7 +5989,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 409,
             questionText: "Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 1 uzyskanego po raz pierwszy?",
             questionAnswers: [
                 "500 watów",
@@ -6296,7 +5997,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 410,
             questionText: "Jaka jest maksymalna moc wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 3?",
             questionAnswers: [
                 "100 watów",
@@ -6305,7 +6005,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 411,
             questionText: "Jaka jest moc maksymalna wyjściowa radiostacji amatorskiej w przypadku pozwolenia kategorii 5?",
             questionAnswers: [
                 "50 watów dla nadajnika poniżej 30MHz a 15 watów dla nadajnika powyżej 30MHz",
@@ -6314,7 +6013,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 412,
             questionText: "Jaka jest maksymalna moc wyjściowa radiostacji w przypadku pozwolenia dodatkowego?",
             questionAnswers: [
                 "1500 watów",
@@ -6323,7 +6021,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 413,
             questionText: "W jakich zakresach krótkofalowych może pracować operator posiadający pozwolenie kategorii 1?",
             questionAnswers: [
                 "we wszystkich zakresach częstotliwości przeznaczonych dla służby radiokomunikacyjnej amatorskiej na terytorium RP",
@@ -6332,7 +6029,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 414,
             questionText: "W jakich zakresach częstotliwości może pracować operator posiadający pozwolenie kategorii 3?",
             questionAnswers: [
                 "1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz, 144-146 MHz; 430-440 MHz oraz 10-10,5 GHz.",
@@ -6341,7 +6037,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 415,
             questionText: "Jaki jest minimalny wiek, w którym można przystąpić do egzaminu i uzyskać świadectwo operatora urządzeń radiowych w służbie amatorskiej oraz uzyskać pozwolenie dla służby radiokomunikacyjnej amatorskiej?",
             questionAnswers: [
                 "10 lat dla uzyskania świadectwa klasy C oraz 15 lat dla uzyskania świadectwa klasy A",
@@ -6350,7 +6045,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 416,
             questionText: "Jakimi rodzajami emisji radiowych wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 50-52 MHz?",
             questionAnswers: [
                 "wszystkimi rodzajami emisji z wyjątkiem F3E",
@@ -6359,7 +6053,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 417,
             questionText: "Jakimi rodzajami emisji radiowych i z jaką mocą wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 135,7-137,8 kHz?",
             questionAnswers: [
                 "wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc promieniowana izotropowo)",
@@ -6368,7 +6061,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 418,
             questionText: "Jaki dokument określa klasy świadectw operatora radiowego w służbie amatorskiej i wymagania egzaminacyjne na poszczególne klasy świadectw?",
             questionAnswers: [
                 "rozporządzenie ministra właściwego do spraw łączności",
@@ -6377,7 +6069,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 419,
             questionText: "Jak powinien postąpić operator stacji amatorskiej w razie przypadkowego odebrania wiadomości nie przeznaczonej dla służby amatorskiej?",
             questionAnswers: [
                 "zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana wiadomość zawiera istotne dla funkcjonowania Pastwa lub porządku publicznego informacje - powiadomić najbliższą jednostkę Urzędu Komunikacji Elektronicznej",
@@ -6386,7 +6077,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 420,
             questionText: "Czy operator stacji amatorskiej może przekazywać przy pomocy swej radiostacji wiadomości pochodzące od osób trzecich i przeznaczone dla osób trzecich?",
             questionAnswers: [
                 "jest to dopuszczalne, jeśli stacja amatorska za wiedzą Urzędu Komunikacji Elektronicznej bierze udział w akcji niesienia pomocy lub likwidacji skutków klęsk żywiołowych i katastrof",
@@ -6395,7 +6085,6 @@ const questionDataBase = {
             ]
         },
         {
-            questionID: 421,
             questionText: "Jak często operator radiostacji amatorskiej powinien podawać podczas łączności znak wywoławczy swej stacji?",
             questionAnswers: [
                 "tak często, jak jest to w praktyce możliwe, przynajmniej na początku i na kocu każdego nadawania",
